@@ -1,0 +1,1915 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "CMS API Subset 15",
+    "version": "1.0.0",
+    "description": "Subset 15 of CMS API endpoints"
+  },
+  "servers": [
+    {
+      "url": "https://data.cms.gov"
+    }
+  ],
+  "paths": {
+    "/proxy/endpoint1401": {
+      "get": {
+        "summary": "Revalidation Reassignment List : 2023-12-01",
+        "description": "The Revalidation Reassignment List dataset provides information on reassignments of providers who are due for revalidation.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/fa6b0e04-685a-4f9e-bc4d-89a9da3ed47e/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1402": {
+      "get": {
+        "summary": "Revalidation Reassignment List : 2023-11-01",
+        "description": "The Revalidation Reassignment List dataset provides information on reassignments of providers who are due for revalidation.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/bf072b16-acfc-4276-8513-bbf362af77a8/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1403": {
+      "get": {
+        "summary": "Revalidation Reassignment List : 2023-10-01",
+        "description": "The Revalidation Reassignment List dataset provides information on reassignments of providers who are due for revalidation.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/353d718b-d676-4dc6-988a-2c01423d97f3/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1404": {
+      "get": {
+        "summary": "Revalidation Reassignment List : 2023-09-01",
+        "description": "The Revalidation Reassignment List dataset provides information on reassignments of providers who are due for revalidation.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/7e571259-cae5-4453-808c-4fd729222863/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1405": {
+      "get": {
+        "summary": "Revalidation Reassignment List : 2023-08-01",
+        "description": "The Revalidation Reassignment List dataset provides information on reassignments of providers who are due for revalidation.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/05b3e677-5abe-4f4f-9a91-a1bdc7c20d13/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1406": {
+      "get": {
+        "summary": "Revalidation Reassignment List : 2023-07-01",
+        "description": "The Revalidation Reassignment List dataset provides information on reassignments of providers who are due for revalidation.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f6c275b5-c11f-4a9e-a3d6-575abe083773/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1407": {
+      "get": {
+        "summary": "Revalidation Reassignment List : 2023-06-01",
+        "description": "The Revalidation Reassignment List dataset provides information on reassignments of providers who are due for revalidation.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/b98fc565-a0dd-4812-912e-997b23cb18d0/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1408": {
+      "get": {
+        "summary": "Revalidation Reassignment List : 2023-05-01",
+        "description": "The Revalidation Reassignment List dataset provides information on reassignments of providers who are due for revalidation.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/3e645a5d-cf7e-4d6c-bcd9-b0398947e4f4/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1409": {
+      "get": {
+        "summary": "Revalidation Reassignment List : 2023-03-01",
+        "description": "The Revalidation Reassignment List dataset provides information on reassignments of providers who are due for revalidation.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/974dba8f-5345-4f4e-b1ba-dd55a8782389/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1410": {
+      "get": {
+        "summary": "Revalidation Reassignment List : 2022-12-01",
+        "description": "The Revalidation Reassignment List dataset provides information on reassignments of providers who are due for revalidation.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/ff893063-7d95-4970-8024-65bdd9d000f1/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1411": {
+      "get": {
+        "summary": "Revalidation Reassignment List : 2022-11-01",
+        "description": "The Revalidation Reassignment List dataset provides information on reassignments of providers who are due for revalidation.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/ee93d955-39d5-4f8a-902d-8754373bf89a/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1412": {
+      "get": {
+        "summary": "Revalidation Reassignment List : 2022-10-01",
+        "description": "The Revalidation Reassignment List dataset provides information on reassignments of providers who are due for revalidation.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/455b5698-bd49-4a23-b114-ce58514abf90/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1413": {
+      "get": {
+        "summary": "Revalidation Reassignment List : 2022-09-01",
+        "description": "The Revalidation Reassignment List dataset provides information on reassignments of providers who are due for revalidation.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/290d532e-db33-4d92-844a-402ad8d2c466/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1414": {
+      "get": {
+        "summary": "Revalidation Reassignment List : 2022-08-01",
+        "description": "The Revalidation Reassignment List dataset provides information on reassignments of providers who are due for revalidation.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/831e09fe-634b-44c3-b934-31fee577e59b/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1415": {
+      "get": {
+        "summary": "Revalidation Reassignment List : 2022-07-01",
+        "description": "The Revalidation Reassignment List dataset provides information on reassignments of providers who are due for revalidation.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/244d678f-be10-4a87-ba8b-8e509604c597/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1416": {
+      "get": {
+        "summary": "Revalidation Reassignment List : 2022-06-01",
+        "description": "The Revalidation Reassignment List dataset provides information on reassignments of providers who are due for revalidation.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/e433f043-39b5-4c1a-bf06-e8c0a4b50b3a/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1417": {
+      "get": {
+        "summary": "Revalidation Reassignment List : 2022-04-29",
+        "description": "The Revalidation Reassignment List dataset provides information on reassignments of providers who are due for revalidation.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/09e7d601-a1c4-4d19-b6aa-25dd30332e8a/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1418": {
+      "get": {
+        "summary": "Revalidation Reassignment List : 2022-02-28",
+        "description": "The Revalidation Reassignment List dataset provides information on reassignments of providers who are due for revalidation.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/e8916717-c807-4e09-b90d-0b1c242c1dcc/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1419": {
+      "get": {
+        "summary": "Rural Health Clinic All Owners : 2025-01-01",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/ab03c9bc-0c22-4ca4-b032-21dd3408210d/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1420": {
+      "get": {
+        "summary": "Rural Health Clinic All Owners : 2025-01-01",
+        "description": "The Rural Health Clinic (RHC) All Owners dataset provides ownership information on all \u00a0RHCs currently enrolled in Medicare. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/306ac410-bb28-49f1-90fe-e29683c3e3ca/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1421": {
+      "get": {
+        "summary": "Rural Health Clinic All Owners : 2024-10-01",
+        "description": "The Rural Health Clinic (RHC) All Owners dataset provides ownership information on all \u00a0RHCs currently enrolled in Medicare. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f6713a64-c67c-44d9-945c-e25a7fd7221f/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1422": {
+      "get": {
+        "summary": "Rural Health Clinic All Owners : 2024-07-01",
+        "description": "The Rural Health Clinic (RHC) All Owners dataset provides ownership information on all \u00a0RHCs currently enrolled in Medicare. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/36e9a0d3-c6d1-4744-89cf-bf4642ac1da4/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1423": {
+      "get": {
+        "summary": "Rural Health Clinic All Owners : 2024-04-01",
+        "description": "The Rural Health Clinic (RHC) All Owners dataset provides ownership information on all \u00a0RHCs currently enrolled in Medicare. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/4722ffde-a137-4a0c-a7c7-8b283f4399e1/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1424": {
+      "get": {
+        "summary": "Rural Health Clinic All Owners : 2024-01-05",
+        "description": "The Rural Health Clinic (RHC) All Owners dataset provides ownership information on all \u00a0RHCs currently enrolled in Medicare. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/7fecc27a-465f-4f39-a289-082b316c789b/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1425": {
+      "get": {
+        "summary": "Rural Health Clinic All Owners : 2023-10-29",
+        "description": "The Rural Health Clinic (RHC) All Owners dataset provides ownership information on all \u00a0RHCs currently enrolled in Medicare. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/1625cf5c-7b90-4555-ab2d-13abc4cc533b/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1426": {
+      "get": {
+        "summary": "Rural Health Clinic Enrollments : 2025-01-01",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/3b7e7659-067e-41ea-8e36-f9ee2036e1f6/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1427": {
+      "get": {
+        "summary": "Rural Health Clinic Enrollments : 2025-01-01",
+        "description": "The Rural Health Clinic (RHC) Enrollments dataset provides enrollment information on all RHCs currently enrolled in Medicare. This data includes information on the RHC's legal business name, doing business as name, organization type and address.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/7463bb3b-982b-4bb1-bdc6-08a1b36ebef2/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1428": {
+      "get": {
+        "summary": "Rural Health Clinic Enrollments : 2024-10-01",
+        "description": "The Rural Health Clinic (RHC) Enrollments dataset provides enrollment information on all RHCs currently enrolled in Medicare. This data includes information on the RHC's legal business name, doing business as name, organization type and address.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/aeb0958f-bbcb-4bce-8a20-76cb391dc28d/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1429": {
+      "get": {
+        "summary": "Rural Health Clinic Enrollments : 2024-07-01",
+        "description": "The Rural Health Clinic (RHC) Enrollments dataset provides enrollment information on all RHCs currently enrolled in Medicare. This data includes information on the RHC's legal business name, doing business as name, organization type and address.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/2d494295-420b-4f87-834e-58581e6e450a/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1430": {
+      "get": {
+        "summary": "Rural Health Clinic Enrollments : 2024-04-01",
+        "description": "The Rural Health Clinic (RHC) Enrollments dataset provides enrollment information on all RHCs currently enrolled in Medicare. This data includes information on the RHC's legal business name, doing business as name, organization type and address.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/14466fc0-d153-4c7b-9093-ba5a24f7cced/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1431": {
+      "get": {
+        "summary": "Rural Health Clinic Enrollments : 2024-01-05",
+        "description": "The Rural Health Clinic (RHC) Enrollments dataset provides enrollment information on all RHCs currently enrolled in Medicare. This data includes information on the RHC's legal business name, doing business as name, organization type and address.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/e6a724bc-b95d-45e4-b50e-06ed1946d4f9/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1432": {
+      "get": {
+        "summary": "Rural Health Clinic Enrollments : 2023-10-29",
+        "description": "The Rural Health Clinic (RHC) Enrollments dataset provides enrollment information on all RHCs currently enrolled in Medicare. This data includes information on the RHC's legal business name, doing business as name, organization type and address.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/aa3b55ce-363b-461b-adda-9023797512ed/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1433": {
+      "get": {
+        "summary": "Skilled Nursing Facility All Owners : 2025-03-01",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/afe44b85-cc6d-40d7-b5df-00ae8910d1d2/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1434": {
+      "get": {
+        "summary": "Skilled Nursing Facility All Owners : 2025-03-01",
+        "description": "The Skilled Nursing Facility (SNF) All Owners dataset provides information on all owners of SNFs currently enrolled in Medicare. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\n\u00a0\n\nOn November 17, 2023, CMS published in the Federal Register a final rule titled, \u201cMedicare and Medicaid Programs; Disclosures of Ownership and Additional Disclosable Parties Information for Skilled Nursing Facilities and Nursing Facilities; Medicare Providers\u2019 and Suppliers\u2019 Disclosure of Private Equity Companies and Real Estate Investment Trusts\u201d (88 FR 80141). This final rule implements parts of section 1124(c) of the Act which requires SNFs to disclose detailed information about their ownership and management as well as additional data regarding: (1) other parties with which the SNF is associated; and (2) the ownership structures of these other parties.\u00a0 Refer to Medicare Enrollment for Providers & Suppliers for more information on the Skilled Nursing Facility disclosure requirements. \n\n\u00a0Section 6101(b) of the Affordable Care Act states that no later than 1 year after final regulations promulgated under section 1124(c) of the Act are published in the\u00a0Federal Register, the Secretary shall make the information reported available to the public.\n\n\u00a0On November 21, 2024 CMS updated this dataset to include this reported information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/a9854828-9e17-4a22-9779-837ca429277f/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1435": {
+      "get": {
+        "summary": "Skilled Nursing Facility All Owners : 2025-02-01",
+        "description": "The Skilled Nursing Facility (SNF) All Owners dataset provides information on all owners of SNFs currently enrolled in Medicare. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\n\u00a0\n\nOn November 17, 2023, CMS published in the Federal Register a final rule titled, \u201cMedicare and Medicaid Programs; Disclosures of Ownership and Additional Disclosable Parties Information for Skilled Nursing Facilities and Nursing Facilities; Medicare Providers\u2019 and Suppliers\u2019 Disclosure of Private Equity Companies and Real Estate Investment Trusts\u201d (88 FR 80141). This final rule implements parts of section 1124(c) of the Act which requires SNFs to disclose detailed information about their ownership and management as well as additional data regarding: (1) other parties with which the SNF is associated; and (2) the ownership structures of these other parties.\u00a0 Refer to Medicare Enrollment for Providers & Suppliers for more information on the Skilled Nursing Facility disclosure requirements. \n\n\u00a0Section 6101(b) of the Affordable Care Act states that no later than 1 year after final regulations promulgated under section 1124(c) of the Act are published in the\u00a0Federal Register, the Secretary shall make the information reported available to the public.\n\n\u00a0On November 21, 2024 CMS updated this dataset to include this reported information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/1018aab3-aad7-4ed5-9664-2a870a457aff/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1436": {
+      "get": {
+        "summary": "Skilled Nursing Facility All Owners : 2025-01-01",
+        "description": "The Skilled Nursing Facility (SNF) All Owners dataset provides information on all owners of SNFs currently enrolled in Medicare. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\n\u00a0\n\nOn November 17, 2023, CMS published in the Federal Register a final rule titled, \u201cMedicare and Medicaid Programs; Disclosures of Ownership and Additional Disclosable Parties Information for Skilled Nursing Facilities and Nursing Facilities; Medicare Providers\u2019 and Suppliers\u2019 Disclosure of Private Equity Companies and Real Estate Investment Trusts\u201d (88 FR 80141). This final rule implements parts of section 1124(c) of the Act which requires SNFs to disclose detailed information about their ownership and management as well as additional data regarding: (1) other parties with which the SNF is associated; and (2) the ownership structures of these other parties.\u00a0 Refer to Medicare Enrollment for Providers & Suppliers for more information on the Skilled Nursing Facility disclosure requirements. \n\n\u00a0Section 6101(b) of the Affordable Care Act states that no later than 1 year after final regulations promulgated under section 1124(c) of the Act are published in the\u00a0Federal Register, the Secretary shall make the information reported available to the public.\n\n\u00a0On November 21, 2024 CMS updated this dataset to include this reported information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/d23f8436-edd8-4ad5-8549-9ef7ee1f7cac/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1437": {
+      "get": {
+        "summary": "Skilled Nursing Facility All Owners : 2024-12-01",
+        "description": "The Skilled Nursing Facility (SNF) All Owners dataset provides information on all owners of SNFs currently enrolled in Medicare. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\n\u00a0\n\nOn November 17, 2023, CMS published in the Federal Register a final rule titled, \u201cMedicare and Medicaid Programs; Disclosures of Ownership and Additional Disclosable Parties Information for Skilled Nursing Facilities and Nursing Facilities; Medicare Providers\u2019 and Suppliers\u2019 Disclosure of Private Equity Companies and Real Estate Investment Trusts\u201d (88 FR 80141). This final rule implements parts of section 1124(c) of the Act which requires SNFs to disclose detailed information about their ownership and management as well as additional data regarding: (1) other parties with which the SNF is associated; and (2) the ownership structures of these other parties.\u00a0 Refer to Medicare Enrollment for Providers & Suppliers for more information on the Skilled Nursing Facility disclosure requirements. \n\n\u00a0Section 6101(b) of the Affordable Care Act states that no later than 1 year after final regulations promulgated under section 1124(c) of the Act are published in the\u00a0Federal Register, the Secretary shall make the information reported available to the public.\n\n\u00a0On November 21, 2024 CMS updated this dataset to include this reported information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f70b2c98-f3cc-4857-9b5b-943f94e46bc1/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1438": {
+      "get": {
+        "summary": "Skilled Nursing Facility All Owners : 2024-11-01",
+        "description": "The Skilled Nursing Facility (SNF) All Owners dataset provides information on all owners of SNFs currently enrolled in Medicare. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\n\u00a0\n\nOn November 17, 2023, CMS published in the Federal Register a final rule titled, \u201cMedicare and Medicaid Programs; Disclosures of Ownership and Additional Disclosable Parties Information for Skilled Nursing Facilities and Nursing Facilities; Medicare Providers\u2019 and Suppliers\u2019 Disclosure of Private Equity Companies and Real Estate Investment Trusts\u201d (88 FR 80141). This final rule implements parts of section 1124(c) of the Act which requires SNFs to disclose detailed information about their ownership and management as well as additional data regarding: (1) other parties with which the SNF is associated; and (2) the ownership structures of these other parties.\u00a0 Refer to Medicare Enrollment for Providers & Suppliers for more information on the Skilled Nursing Facility disclosure requirements. \n\n\u00a0Section 6101(b) of the Affordable Care Act states that no later than 1 year after final regulations promulgated under section 1124(c) of the Act are published in the\u00a0Federal Register, the Secretary shall make the information reported available to the public.\n\n\u00a0On November 21, 2024 CMS updated this dataset to include this reported information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/74b76f73-1065-40db-b295-34799925e30c/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1439": {
+      "get": {
+        "summary": "Skilled Nursing Facility All Owners : 2024-10-01",
+        "description": "The Skilled Nursing Facility (SNF) All Owners dataset provides information on all owners of SNFs currently enrolled in Medicare. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\n\u00a0\n\nOn November 17, 2023, CMS published in the Federal Register a final rule titled, \u201cMedicare and Medicaid Programs; Disclosures of Ownership and Additional Disclosable Parties Information for Skilled Nursing Facilities and Nursing Facilities; Medicare Providers\u2019 and Suppliers\u2019 Disclosure of Private Equity Companies and Real Estate Investment Trusts\u201d (88 FR 80141). This final rule implements parts of section 1124(c) of the Act which requires SNFs to disclose detailed information about their ownership and management as well as additional data regarding: (1) other parties with which the SNF is associated; and (2) the ownership structures of these other parties.\u00a0 Refer to Medicare Enrollment for Providers & Suppliers for more information on the Skilled Nursing Facility disclosure requirements. \n\n\u00a0Section 6101(b) of the Affordable Care Act states that no later than 1 year after final regulations promulgated under section 1124(c) of the Act are published in the\u00a0Federal Register, the Secretary shall make the information reported available to the public.\n\n\u00a0On November 21, 2024 CMS updated this dataset to include this reported information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/25c3f516-7249-4a9f-924d-b5b26741df52/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1440": {
+      "get": {
+        "summary": "Skilled Nursing Facility All Owners : 2024-09-01",
+        "description": "The Skilled Nursing Facility (SNF) All Owners dataset provides information on all owners of SNFs currently enrolled in Medicare. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\n\u00a0\n\nOn November 17, 2023, CMS published in the Federal Register a final rule titled, \u201cMedicare and Medicaid Programs; Disclosures of Ownership and Additional Disclosable Parties Information for Skilled Nursing Facilities and Nursing Facilities; Medicare Providers\u2019 and Suppliers\u2019 Disclosure of Private Equity Companies and Real Estate Investment Trusts\u201d (88 FR 80141). This final rule implements parts of section 1124(c) of the Act which requires SNFs to disclose detailed information about their ownership and management as well as additional data regarding: (1) other parties with which the SNF is associated; and (2) the ownership structures of these other parties.\u00a0 Refer to Medicare Enrollment for Providers & Suppliers for more information on the Skilled Nursing Facility disclosure requirements. \n\n\u00a0Section 6101(b) of the Affordable Care Act states that no later than 1 year after final regulations promulgated under section 1124(c) of the Act are published in the\u00a0Federal Register, the Secretary shall make the information reported available to the public.\n\n\u00a0On November 21, 2024 CMS updated this dataset to include this reported information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/ef69229e-2bfc-416e-aba6-c1e1690dc2b7/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1441": {
+      "get": {
+        "summary": "Skilled Nursing Facility All Owners : 2024-08-01",
+        "description": "The Skilled Nursing Facility (SNF) All Owners dataset provides information on all owners of SNFs currently enrolled in Medicare. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\n\u00a0\n\nOn November 17, 2023, CMS published in the Federal Register a final rule titled, \u201cMedicare and Medicaid Programs; Disclosures of Ownership and Additional Disclosable Parties Information for Skilled Nursing Facilities and Nursing Facilities; Medicare Providers\u2019 and Suppliers\u2019 Disclosure of Private Equity Companies and Real Estate Investment Trusts\u201d (88 FR 80141). This final rule implements parts of section 1124(c) of the Act which requires SNFs to disclose detailed information about their ownership and management as well as additional data regarding: (1) other parties with which the SNF is associated; and (2) the ownership structures of these other parties.\u00a0 Refer to Medicare Enrollment for Providers & Suppliers for more information on the Skilled Nursing Facility disclosure requirements. \n\n\u00a0Section 6101(b) of the Affordable Care Act states that no later than 1 year after final regulations promulgated under section 1124(c) of the Act are published in the\u00a0Federal Register, the Secretary shall make the information reported available to the public.\n\n\u00a0On November 21, 2024 CMS updated this dataset to include this reported information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/cfc631a5-3edc-456f-9703-20230a1f98a2/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1442": {
+      "get": {
+        "summary": "Skilled Nursing Facility All Owners : 2024-07-01",
+        "description": "The Skilled Nursing Facility (SNF) All Owners dataset provides information on all owners of SNFs currently enrolled in Medicare. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\n\u00a0\n\nOn November 17, 2023, CMS published in the Federal Register a final rule titled, \u201cMedicare and Medicaid Programs; Disclosures of Ownership and Additional Disclosable Parties Information for Skilled Nursing Facilities and Nursing Facilities; Medicare Providers\u2019 and Suppliers\u2019 Disclosure of Private Equity Companies and Real Estate Investment Trusts\u201d (88 FR 80141). This final rule implements parts of section 1124(c) of the Act which requires SNFs to disclose detailed information about their ownership and management as well as additional data regarding: (1) other parties with which the SNF is associated; and (2) the ownership structures of these other parties.\u00a0 Refer to Medicare Enrollment for Providers & Suppliers for more information on the Skilled Nursing Facility disclosure requirements. \n\n\u00a0Section 6101(b) of the Affordable Care Act states that no later than 1 year after final regulations promulgated under section 1124(c) of the Act are published in the\u00a0Federal Register, the Secretary shall make the information reported available to the public.\n\n\u00a0On November 21, 2024 CMS updated this dataset to include this reported information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/13cfc527-1761-43d3-9e1f-76db68db837d/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1443": {
+      "get": {
+        "summary": "Skilled Nursing Facility All Owners : 2024-06-03",
+        "description": "The Skilled Nursing Facility (SNF) All Owners dataset provides information on all owners of SNFs currently enrolled in Medicare. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\n\u00a0\n\nOn November 17, 2023, CMS published in the Federal Register a final rule titled, \u201cMedicare and Medicaid Programs; Disclosures of Ownership and Additional Disclosable Parties Information for Skilled Nursing Facilities and Nursing Facilities; Medicare Providers\u2019 and Suppliers\u2019 Disclosure of Private Equity Companies and Real Estate Investment Trusts\u201d (88 FR 80141). This final rule implements parts of section 1124(c) of the Act which requires SNFs to disclose detailed information about their ownership and management as well as additional data regarding: (1) other parties with which the SNF is associated; and (2) the ownership structures of these other parties.\u00a0 Refer to Medicare Enrollment for Providers & Suppliers for more information on the Skilled Nursing Facility disclosure requirements. \n\n\u00a0Section 6101(b) of the Affordable Care Act states that no later than 1 year after final regulations promulgated under section 1124(c) of the Act are published in the\u00a0Federal Register, the Secretary shall make the information reported available to the public.\n\n\u00a0On November 21, 2024 CMS updated this dataset to include this reported information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/aee67233-a307-4cd4-a705-48eff70d33ce/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1444": {
+      "get": {
+        "summary": "Skilled Nursing Facility All Owners : 2024-05-01",
+        "description": "The Skilled Nursing Facility (SNF) All Owners dataset provides information on all owners of SNFs currently enrolled in Medicare. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\n\u00a0\n\nOn November 17, 2023, CMS published in the Federal Register a final rule titled, \u201cMedicare and Medicaid Programs; Disclosures of Ownership and Additional Disclosable Parties Information for Skilled Nursing Facilities and Nursing Facilities; Medicare Providers\u2019 and Suppliers\u2019 Disclosure of Private Equity Companies and Real Estate Investment Trusts\u201d (88 FR 80141). This final rule implements parts of section 1124(c) of the Act which requires SNFs to disclose detailed information about their ownership and management as well as additional data regarding: (1) other parties with which the SNF is associated; and (2) the ownership structures of these other parties.\u00a0 Refer to Medicare Enrollment for Providers & Suppliers for more information on the Skilled Nursing Facility disclosure requirements. \n\n\u00a0Section 6101(b) of the Affordable Care Act states that no later than 1 year after final regulations promulgated under section 1124(c) of the Act are published in the\u00a0Federal Register, the Secretary shall make the information reported available to the public.\n\n\u00a0On November 21, 2024 CMS updated this dataset to include this reported information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/3a0638bf-a9e2-4261-827c-d601e1efc20b/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1445": {
+      "get": {
+        "summary": "Skilled Nursing Facility All Owners : 2024-04-01",
+        "description": "The Skilled Nursing Facility (SNF) All Owners dataset provides information on all owners of SNFs currently enrolled in Medicare. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\n\u00a0\n\nOn November 17, 2023, CMS published in the Federal Register a final rule titled, \u201cMedicare and Medicaid Programs; Disclosures of Ownership and Additional Disclosable Parties Information for Skilled Nursing Facilities and Nursing Facilities; Medicare Providers\u2019 and Suppliers\u2019 Disclosure of Private Equity Companies and Real Estate Investment Trusts\u201d (88 FR 80141). This final rule implements parts of section 1124(c) of the Act which requires SNFs to disclose detailed information about their ownership and management as well as additional data regarding: (1) other parties with which the SNF is associated; and (2) the ownership structures of these other parties.\u00a0 Refer to Medicare Enrollment for Providers & Suppliers for more information on the Skilled Nursing Facility disclosure requirements. \n\n\u00a0Section 6101(b) of the Affordable Care Act states that no later than 1 year after final regulations promulgated under section 1124(c) of the Act are published in the\u00a0Federal Register, the Secretary shall make the information reported available to the public.\n\n\u00a0On November 21, 2024 CMS updated this dataset to include this reported information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/512bc7e3-d87b-4fe1-b18c-7d5a48ea11cd/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1446": {
+      "get": {
+        "summary": "Skilled Nursing Facility All Owners : 2024-03-01",
+        "description": "The Skilled Nursing Facility (SNF) All Owners dataset provides information on all owners of SNFs currently enrolled in Medicare. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\n\u00a0\n\nOn November 17, 2023, CMS published in the Federal Register a final rule titled, \u201cMedicare and Medicaid Programs; Disclosures of Ownership and Additional Disclosable Parties Information for Skilled Nursing Facilities and Nursing Facilities; Medicare Providers\u2019 and Suppliers\u2019 Disclosure of Private Equity Companies and Real Estate Investment Trusts\u201d (88 FR 80141). This final rule implements parts of section 1124(c) of the Act which requires SNFs to disclose detailed information about their ownership and management as well as additional data regarding: (1) other parties with which the SNF is associated; and (2) the ownership structures of these other parties.\u00a0 Refer to Medicare Enrollment for Providers & Suppliers for more information on the Skilled Nursing Facility disclosure requirements. \n\n\u00a0Section 6101(b) of the Affordable Care Act states that no later than 1 year after final regulations promulgated under section 1124(c) of the Act are published in the\u00a0Federal Register, the Secretary shall make the information reported available to the public.\n\n\u00a0On November 21, 2024 CMS updated this dataset to include this reported information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/699bb63e-baeb-40e7-b014-60e886414fb4/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1447": {
+      "get": {
+        "summary": "Skilled Nursing Facility All Owners : 2024-02-01",
+        "description": "The Skilled Nursing Facility (SNF) All Owners dataset provides information on all owners of SNFs currently enrolled in Medicare. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\n\u00a0\n\nOn November 17, 2023, CMS published in the Federal Register a final rule titled, \u201cMedicare and Medicaid Programs; Disclosures of Ownership and Additional Disclosable Parties Information for Skilled Nursing Facilities and Nursing Facilities; Medicare Providers\u2019 and Suppliers\u2019 Disclosure of Private Equity Companies and Real Estate Investment Trusts\u201d (88 FR 80141). This final rule implements parts of section 1124(c) of the Act which requires SNFs to disclose detailed information about their ownership and management as well as additional data regarding: (1) other parties with which the SNF is associated; and (2) the ownership structures of these other parties.\u00a0 Refer to Medicare Enrollment for Providers & Suppliers for more information on the Skilled Nursing Facility disclosure requirements. \n\n\u00a0Section 6101(b) of the Affordable Care Act states that no later than 1 year after final regulations promulgated under section 1124(c) of the Act are published in the\u00a0Federal Register, the Secretary shall make the information reported available to the public.\n\n\u00a0On November 21, 2024 CMS updated this dataset to include this reported information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/3b8a2737-c107-4190-b252-e1077bc590f6/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1448": {
+      "get": {
+        "summary": "Skilled Nursing Facility All Owners : 2024-01-05",
+        "description": "The Skilled Nursing Facility (SNF) All Owners dataset provides information on all owners of SNFs currently enrolled in Medicare. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\n\u00a0\n\nOn November 17, 2023, CMS published in the Federal Register a final rule titled, \u201cMedicare and Medicaid Programs; Disclosures of Ownership and Additional Disclosable Parties Information for Skilled Nursing Facilities and Nursing Facilities; Medicare Providers\u2019 and Suppliers\u2019 Disclosure of Private Equity Companies and Real Estate Investment Trusts\u201d (88 FR 80141). This final rule implements parts of section 1124(c) of the Act which requires SNFs to disclose detailed information about their ownership and management as well as additional data regarding: (1) other parties with which the SNF is associated; and (2) the ownership structures of these other parties.\u00a0 Refer to Medicare Enrollment for Providers & Suppliers for more information on the Skilled Nursing Facility disclosure requirements. \n\n\u00a0Section 6101(b) of the Affordable Care Act states that no later than 1 year after final regulations promulgated under section 1124(c) of the Act are published in the\u00a0Federal Register, the Secretary shall make the information reported available to the public.\n\n\u00a0On November 21, 2024 CMS updated this dataset to include this reported information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/30e1422e-ab3f-4e25-8f98-65386f311554/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1449": {
+      "get": {
+        "summary": "Skilled Nursing Facility All Owners : 2023-12-01",
+        "description": "The Skilled Nursing Facility (SNF) All Owners dataset provides information on all owners of SNFs currently enrolled in Medicare. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\n\u00a0\n\nOn November 17, 2023, CMS published in the Federal Register a final rule titled, \u201cMedicare and Medicaid Programs; Disclosures of Ownership and Additional Disclosable Parties Information for Skilled Nursing Facilities and Nursing Facilities; Medicare Providers\u2019 and Suppliers\u2019 Disclosure of Private Equity Companies and Real Estate Investment Trusts\u201d (88 FR 80141). This final rule implements parts of section 1124(c) of the Act which requires SNFs to disclose detailed information about their ownership and management as well as additional data regarding: (1) other parties with which the SNF is associated; and (2) the ownership structures of these other parties.\u00a0 Refer to Medicare Enrollment for Providers & Suppliers for more information on the Skilled Nursing Facility disclosure requirements. \n\n\u00a0Section 6101(b) of the Affordable Care Act states that no later than 1 year after final regulations promulgated under section 1124(c) of the Act are published in the\u00a0Federal Register, the Secretary shall make the information reported available to the public.\n\n\u00a0On November 21, 2024 CMS updated this dataset to include this reported information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/cd39a6c7-602c-495f-8d73-b72007931cd7/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1450": {
+      "get": {
+        "summary": "Skilled Nursing Facility All Owners : 2023-11-01",
+        "description": "The Skilled Nursing Facility (SNF) All Owners dataset provides information on all owners of SNFs currently enrolled in Medicare. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\n\u00a0\n\nOn November 17, 2023, CMS published in the Federal Register a final rule titled, \u201cMedicare and Medicaid Programs; Disclosures of Ownership and Additional Disclosable Parties Information for Skilled Nursing Facilities and Nursing Facilities; Medicare Providers\u2019 and Suppliers\u2019 Disclosure of Private Equity Companies and Real Estate Investment Trusts\u201d (88 FR 80141). This final rule implements parts of section 1124(c) of the Act which requires SNFs to disclose detailed information about their ownership and management as well as additional data regarding: (1) other parties with which the SNF is associated; and (2) the ownership structures of these other parties.\u00a0 Refer to Medicare Enrollment for Providers & Suppliers for more information on the Skilled Nursing Facility disclosure requirements. \n\n\u00a0Section 6101(b) of the Affordable Care Act states that no later than 1 year after final regulations promulgated under section 1124(c) of the Act are published in the\u00a0Federal Register, the Secretary shall make the information reported available to the public.\n\n\u00a0On November 21, 2024 CMS updated this dataset to include this reported information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/e55ed2cb-2649-457d-8142-c3f78182799c/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1451": {
+      "get": {
+        "summary": "Skilled Nursing Facility All Owners : 2023-10-02",
+        "description": "The Skilled Nursing Facility (SNF) All Owners dataset provides information on all owners of SNFs currently enrolled in Medicare. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\n\u00a0\n\nOn November 17, 2023, CMS published in the Federal Register a final rule titled, \u201cMedicare and Medicaid Programs; Disclosures of Ownership and Additional Disclosable Parties Information for Skilled Nursing Facilities and Nursing Facilities; Medicare Providers\u2019 and Suppliers\u2019 Disclosure of Private Equity Companies and Real Estate Investment Trusts\u201d (88 FR 80141). This final rule implements parts of section 1124(c) of the Act which requires SNFs to disclose detailed information about their ownership and management as well as additional data regarding: (1) other parties with which the SNF is associated; and (2) the ownership structures of these other parties.\u00a0 Refer to Medicare Enrollment for Providers & Suppliers for more information on the Skilled Nursing Facility disclosure requirements. \n\n\u00a0Section 6101(b) of the Affordable Care Act states that no later than 1 year after final regulations promulgated under section 1124(c) of the Act are published in the\u00a0Federal Register, the Secretary shall make the information reported available to the public.\n\n\u00a0On November 21, 2024 CMS updated this dataset to include this reported information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/73a337da-1bcc-4343-9b28-0d7f0d73e17b/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1452": {
+      "get": {
+        "summary": "Skilled Nursing Facility All Owners : 2023-09-15",
+        "description": "The Skilled Nursing Facility (SNF) All Owners dataset provides information on all owners of SNFs currently enrolled in Medicare. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\n\u00a0\n\nOn November 17, 2023, CMS published in the Federal Register a final rule titled, \u201cMedicare and Medicaid Programs; Disclosures of Ownership and Additional Disclosable Parties Information for Skilled Nursing Facilities and Nursing Facilities; Medicare Providers\u2019 and Suppliers\u2019 Disclosure of Private Equity Companies and Real Estate Investment Trusts\u201d (88 FR 80141). This final rule implements parts of section 1124(c) of the Act which requires SNFs to disclose detailed information about their ownership and management as well as additional data regarding: (1) other parties with which the SNF is associated; and (2) the ownership structures of these other parties.\u00a0 Refer to Medicare Enrollment for Providers & Suppliers for more information on the Skilled Nursing Facility disclosure requirements. \n\n\u00a0Section 6101(b) of the Affordable Care Act states that no later than 1 year after final regulations promulgated under section 1124(c) of the Act are published in the\u00a0Federal Register, the Secretary shall make the information reported available to the public.\n\n\u00a0On November 21, 2024 CMS updated this dataset to include this reported information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/2b12c71e-d25b-472b-a2b8-ba784328f4dc/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1453": {
+      "get": {
+        "summary": "Skilled Nursing Facility All Owners : 2023-08-01",
+        "description": "The Skilled Nursing Facility (SNF) All Owners dataset provides information on all owners of SNFs currently enrolled in Medicare. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\n\u00a0\n\nOn November 17, 2023, CMS published in the Federal Register a final rule titled, \u201cMedicare and Medicaid Programs; Disclosures of Ownership and Additional Disclosable Parties Information for Skilled Nursing Facilities and Nursing Facilities; Medicare Providers\u2019 and Suppliers\u2019 Disclosure of Private Equity Companies and Real Estate Investment Trusts\u201d (88 FR 80141). This final rule implements parts of section 1124(c) of the Act which requires SNFs to disclose detailed information about their ownership and management as well as additional data regarding: (1) other parties with which the SNF is associated; and (2) the ownership structures of these other parties.\u00a0 Refer to Medicare Enrollment for Providers & Suppliers for more information on the Skilled Nursing Facility disclosure requirements. \n\n\u00a0Section 6101(b) of the Affordable Care Act states that no later than 1 year after final regulations promulgated under section 1124(c) of the Act are published in the\u00a0Federal Register, the Secretary shall make the information reported available to the public.\n\n\u00a0On November 21, 2024 CMS updated this dataset to include this reported information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/0d9001b4-2100-4e0e-8ba2-b3b8c3585ce8/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1454": {
+      "get": {
+        "summary": "Skilled Nursing Facility All Owners : 2023-07-17",
+        "description": "The Skilled Nursing Facility (SNF) All Owners dataset provides information on all owners of SNFs currently enrolled in Medicare. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\n\u00a0\n\nOn November 17, 2023, CMS published in the Federal Register a final rule titled, \u201cMedicare and Medicaid Programs; Disclosures of Ownership and Additional Disclosable Parties Information for Skilled Nursing Facilities and Nursing Facilities; Medicare Providers\u2019 and Suppliers\u2019 Disclosure of Private Equity Companies and Real Estate Investment Trusts\u201d (88 FR 80141). This final rule implements parts of section 1124(c) of the Act which requires SNFs to disclose detailed information about their ownership and management as well as additional data regarding: (1) other parties with which the SNF is associated; and (2) the ownership structures of these other parties.\u00a0 Refer to Medicare Enrollment for Providers & Suppliers for more information on the Skilled Nursing Facility disclosure requirements. \n\n\u00a0Section 6101(b) of the Affordable Care Act states that no later than 1 year after final regulations promulgated under section 1124(c) of the Act are published in the\u00a0Federal Register, the Secretary shall make the information reported available to the public.\n\n\u00a0On November 21, 2024 CMS updated this dataset to include this reported information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/81038f4d-445b-448b-96ef-7a6c5db98a75/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1455": {
+      "get": {
+        "summary": "Skilled Nursing Facility All Owners : 2023-06-15",
+        "description": "The Skilled Nursing Facility (SNF) All Owners dataset provides information on all owners of SNFs currently enrolled in Medicare. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\n\u00a0\n\nOn November 17, 2023, CMS published in the Federal Register a final rule titled, \u201cMedicare and Medicaid Programs; Disclosures of Ownership and Additional Disclosable Parties Information for Skilled Nursing Facilities and Nursing Facilities; Medicare Providers\u2019 and Suppliers\u2019 Disclosure of Private Equity Companies and Real Estate Investment Trusts\u201d (88 FR 80141). This final rule implements parts of section 1124(c) of the Act which requires SNFs to disclose detailed information about their ownership and management as well as additional data regarding: (1) other parties with which the SNF is associated; and (2) the ownership structures of these other parties.\u00a0 Refer to Medicare Enrollment for Providers & Suppliers for more information on the Skilled Nursing Facility disclosure requirements. \n\n\u00a0Section 6101(b) of the Affordable Care Act states that no later than 1 year after final regulations promulgated under section 1124(c) of the Act are published in the\u00a0Federal Register, the Secretary shall make the information reported available to the public.\n\n\u00a0On November 21, 2024 CMS updated this dataset to include this reported information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/362d2f97-03ee-4efa-b043-795019f39b89/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1456": {
+      "get": {
+        "summary": "Skilled Nursing Facility All Owners : 2023-05-15",
+        "description": "The Skilled Nursing Facility (SNF) All Owners dataset provides information on all owners of SNFs currently enrolled in Medicare. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\n\u00a0\n\nOn November 17, 2023, CMS published in the Federal Register a final rule titled, \u201cMedicare and Medicaid Programs; Disclosures of Ownership and Additional Disclosable Parties Information for Skilled Nursing Facilities and Nursing Facilities; Medicare Providers\u2019 and Suppliers\u2019 Disclosure of Private Equity Companies and Real Estate Investment Trusts\u201d (88 FR 80141). This final rule implements parts of section 1124(c) of the Act which requires SNFs to disclose detailed information about their ownership and management as well as additional data regarding: (1) other parties with which the SNF is associated; and (2) the ownership structures of these other parties.\u00a0 Refer to Medicare Enrollment for Providers & Suppliers for more information on the Skilled Nursing Facility disclosure requirements. \n\n\u00a0Section 6101(b) of the Affordable Care Act states that no later than 1 year after final regulations promulgated under section 1124(c) of the Act are published in the\u00a0Federal Register, the Secretary shall make the information reported available to the public.\n\n\u00a0On November 21, 2024 CMS updated this dataset to include this reported information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/e294d48b-deaf-4829-a144-434c9fe4760d/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1457": {
+      "get": {
+        "summary": "Skilled Nursing Facility All Owners : 2023-04-14",
+        "description": "The Skilled Nursing Facility (SNF) All Owners dataset provides information on all owners of SNFs currently enrolled in Medicare. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\n\u00a0\n\nOn November 17, 2023, CMS published in the Federal Register a final rule titled, \u201cMedicare and Medicaid Programs; Disclosures of Ownership and Additional Disclosable Parties Information for Skilled Nursing Facilities and Nursing Facilities; Medicare Providers\u2019 and Suppliers\u2019 Disclosure of Private Equity Companies and Real Estate Investment Trusts\u201d (88 FR 80141). This final rule implements parts of section 1124(c) of the Act which requires SNFs to disclose detailed information about their ownership and management as well as additional data regarding: (1) other parties with which the SNF is associated; and (2) the ownership structures of these other parties.\u00a0 Refer to Medicare Enrollment for Providers & Suppliers for more information on the Skilled Nursing Facility disclosure requirements. \n\n\u00a0Section 6101(b) of the Affordable Care Act states that no later than 1 year after final regulations promulgated under section 1124(c) of the Act are published in the\u00a0Federal Register, the Secretary shall make the information reported available to the public.\n\n\u00a0On November 21, 2024 CMS updated this dataset to include this reported information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/b061dfec-77cd-4b97-982a-44521e53e829/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1458": {
+      "get": {
+        "summary": "Skilled Nursing Facility All Owners : 2023-03-15",
+        "description": "The Skilled Nursing Facility (SNF) All Owners dataset provides information on all owners of SNFs currently enrolled in Medicare. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\n\u00a0\n\nOn November 17, 2023, CMS published in the Federal Register a final rule titled, \u201cMedicare and Medicaid Programs; Disclosures of Ownership and Additional Disclosable Parties Information for Skilled Nursing Facilities and Nursing Facilities; Medicare Providers\u2019 and Suppliers\u2019 Disclosure of Private Equity Companies and Real Estate Investment Trusts\u201d (88 FR 80141). This final rule implements parts of section 1124(c) of the Act which requires SNFs to disclose detailed information about their ownership and management as well as additional data regarding: (1) other parties with which the SNF is associated; and (2) the ownership structures of these other parties.\u00a0 Refer to Medicare Enrollment for Providers & Suppliers for more information on the Skilled Nursing Facility disclosure requirements. \n\n\u00a0Section 6101(b) of the Affordable Care Act states that no later than 1 year after final regulations promulgated under section 1124(c) of the Act are published in the\u00a0Federal Register, the Secretary shall make the information reported available to the public.\n\n\u00a0On November 21, 2024 CMS updated this dataset to include this reported information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/9d5da9a8-9065-4ee6-b7b6-6cc8ce5d0fb2/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1459": {
+      "get": {
+        "summary": "Skilled Nursing Facility All Owners : 2023-02-15",
+        "description": "The Skilled Nursing Facility (SNF) All Owners dataset provides information on all owners of SNFs currently enrolled in Medicare. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\n\u00a0\n\nOn November 17, 2023, CMS published in the Federal Register a final rule titled, \u201cMedicare and Medicaid Programs; Disclosures of Ownership and Additional Disclosable Parties Information for Skilled Nursing Facilities and Nursing Facilities; Medicare Providers\u2019 and Suppliers\u2019 Disclosure of Private Equity Companies and Real Estate Investment Trusts\u201d (88 FR 80141). This final rule implements parts of section 1124(c) of the Act which requires SNFs to disclose detailed information about their ownership and management as well as additional data regarding: (1) other parties with which the SNF is associated; and (2) the ownership structures of these other parties.\u00a0 Refer to Medicare Enrollment for Providers & Suppliers for more information on the Skilled Nursing Facility disclosure requirements. \n\n\u00a0Section 6101(b) of the Affordable Care Act states that no later than 1 year after final regulations promulgated under section 1124(c) of the Act are published in the\u00a0Federal Register, the Secretary shall make the information reported available to the public.\n\n\u00a0On November 21, 2024 CMS updated this dataset to include this reported information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/436becf9-6314-4e52-a90b-c7a559d90ad0/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1460": {
+      "get": {
+        "summary": "Skilled Nursing Facility All Owners : 2023-01-01",
+        "description": "The Skilled Nursing Facility (SNF) All Owners dataset provides information on all owners of SNFs currently enrolled in Medicare. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\n\u00a0\n\nOn November 17, 2023, CMS published in the Federal Register a final rule titled, \u201cMedicare and Medicaid Programs; Disclosures of Ownership and Additional Disclosable Parties Information for Skilled Nursing Facilities and Nursing Facilities; Medicare Providers\u2019 and Suppliers\u2019 Disclosure of Private Equity Companies and Real Estate Investment Trusts\u201d (88 FR 80141). This final rule implements parts of section 1124(c) of the Act which requires SNFs to disclose detailed information about their ownership and management as well as additional data regarding: (1) other parties with which the SNF is associated; and (2) the ownership structures of these other parties.\u00a0 Refer to Medicare Enrollment for Providers & Suppliers for more information on the Skilled Nursing Facility disclosure requirements. \n\n\u00a0Section 6101(b) of the Affordable Care Act states that no later than 1 year after final regulations promulgated under section 1124(c) of the Act are published in the\u00a0Federal Register, the Secretary shall make the information reported available to the public.\n\n\u00a0On November 21, 2024 CMS updated this dataset to include this reported information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/04a6d376-a601-497e-9684-324b18abe131/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1461": {
+      "get": {
+        "summary": "Skilled Nursing Facility All Owners : 2022-11-30",
+        "description": "The Skilled Nursing Facility (SNF) All Owners dataset provides information on all owners of SNFs currently enrolled in Medicare. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\n\u00a0\n\nOn November 17, 2023, CMS published in the Federal Register a final rule titled, \u201cMedicare and Medicaid Programs; Disclosures of Ownership and Additional Disclosable Parties Information for Skilled Nursing Facilities and Nursing Facilities; Medicare Providers\u2019 and Suppliers\u2019 Disclosure of Private Equity Companies and Real Estate Investment Trusts\u201d (88 FR 80141). This final rule implements parts of section 1124(c) of the Act which requires SNFs to disclose detailed information about their ownership and management as well as additional data regarding: (1) other parties with which the SNF is associated; and (2) the ownership structures of these other parties.\u00a0 Refer to Medicare Enrollment for Providers & Suppliers for more information on the Skilled Nursing Facility disclosure requirements. \n\n\u00a0Section 6101(b) of the Affordable Care Act states that no later than 1 year after final regulations promulgated under section 1124(c) of the Act are published in the\u00a0Federal Register, the Secretary shall make the information reported available to the public.\n\n\u00a0On November 21, 2024 CMS updated this dataset to include this reported information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/11501ff3-5523-4a75-99aa-11a6f7c94065/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1462": {
+      "get": {
+        "summary": "Skilled Nursing Facility All Owners : 2022-10-31",
+        "description": "The Skilled Nursing Facility (SNF) All Owners dataset provides information on all owners of SNFs currently enrolled in Medicare. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\n\u00a0\n\nOn November 17, 2023, CMS published in the Federal Register a final rule titled, \u201cMedicare and Medicaid Programs; Disclosures of Ownership and Additional Disclosable Parties Information for Skilled Nursing Facilities and Nursing Facilities; Medicare Providers\u2019 and Suppliers\u2019 Disclosure of Private Equity Companies and Real Estate Investment Trusts\u201d (88 FR 80141). This final rule implements parts of section 1124(c) of the Act which requires SNFs to disclose detailed information about their ownership and management as well as additional data regarding: (1) other parties with which the SNF is associated; and (2) the ownership structures of these other parties.\u00a0 Refer to Medicare Enrollment for Providers & Suppliers for more information on the Skilled Nursing Facility disclosure requirements. \n\n\u00a0Section 6101(b) of the Affordable Care Act states that no later than 1 year after final regulations promulgated under section 1124(c) of the Act are published in the\u00a0Federal Register, the Secretary shall make the information reported available to the public.\n\n\u00a0On November 21, 2024 CMS updated this dataset to include this reported information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/51d15f84-501c-4557-84c8-0582e1cb2b57/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1463": {
+      "get": {
+        "summary": "Skilled Nursing Facility All Owners : 2022-09-20",
+        "description": "The Skilled Nursing Facility (SNF) All Owners dataset provides information on all owners of SNFs currently enrolled in Medicare. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\n\u00a0\n\nOn November 17, 2023, CMS published in the Federal Register a final rule titled, \u201cMedicare and Medicaid Programs; Disclosures of Ownership and Additional Disclosable Parties Information for Skilled Nursing Facilities and Nursing Facilities; Medicare Providers\u2019 and Suppliers\u2019 Disclosure of Private Equity Companies and Real Estate Investment Trusts\u201d (88 FR 80141). This final rule implements parts of section 1124(c) of the Act which requires SNFs to disclose detailed information about their ownership and management as well as additional data regarding: (1) other parties with which the SNF is associated; and (2) the ownership structures of these other parties.\u00a0 Refer to Medicare Enrollment for Providers & Suppliers for more information on the Skilled Nursing Facility disclosure requirements. \n\n\u00a0Section 6101(b) of the Affordable Care Act states that no later than 1 year after final regulations promulgated under section 1124(c) of the Act are published in the\u00a0Federal Register, the Secretary shall make the information reported available to the public.\n\n\u00a0On November 21, 2024 CMS updated this dataset to include this reported information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/428cd355-4287-4a3a-9cee-2f932ecfda12/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1464": {
+      "get": {
+        "summary": "Skilled Nursing Facility Change of Ownership : 2024-12-01",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f557a6ed-95b3-4a22-8433-4175db2dec1c/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1465": {
+      "get": {
+        "summary": "Skilled Nursing Facility Change of Ownership : 2024-12-01",
+        "description": "The Skilled Nursing Facility (SNF) Change of Ownership (CHOW) dataset provides information on the SNF ownership changes that occurred on or after January 1, 2016. This data includes information on the buyer and seller organization\u2019s legal business name, provider type, change of ownership type (CHOW, Acquisition/Merger, or Consolidation) and the effective date of the change.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/45f290f4-93e0-4d4e-aee8-745100f8cc08/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1466": {
+      "get": {
+        "summary": "Skilled Nursing Facility Change of Ownership : 2024-09-01",
+        "description": "The Skilled Nursing Facility (SNF) Change of Ownership (CHOW) dataset provides information on the SNF ownership changes that occurred on or after January 1, 2016. This data includes information on the buyer and seller organization\u2019s legal business name, provider type, change of ownership type (CHOW, Acquisition/Merger, or Consolidation) and the effective date of the change.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/db2f03b4-0ef4-40b9-a231-8d9b98a88ef9/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1467": {
+      "get": {
+        "summary": "Skilled Nursing Facility Change of Ownership : 2024-06-01",
+        "description": "The Skilled Nursing Facility (SNF) Change of Ownership (CHOW) dataset provides information on the SNF ownership changes that occurred on or after January 1, 2016. This data includes information on the buyer and seller organization\u2019s legal business name, provider type, change of ownership type (CHOW, Acquisition/Merger, or Consolidation) and the effective date of the change.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/601ce9ee-8b64-4b8f-86b9-1ab006a417ec/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1468": {
+      "get": {
+        "summary": "Skilled Nursing Facility Change of Ownership : 2024-03-31",
+        "description": "The Skilled Nursing Facility (SNF) Change of Ownership (CHOW) dataset provides information on the SNF ownership changes that occurred on or after January 1, 2016. This data includes information on the buyer and seller organization\u2019s legal business name, provider type, change of ownership type (CHOW, Acquisition/Merger, or Consolidation) and the effective date of the change.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/383eccc4-6573-4c32-bc40-52b98dce96f6/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1469": {
+      "get": {
+        "summary": "Skilled Nursing Facility Change of Ownership : 2023-12-31",
+        "description": "The Skilled Nursing Facility (SNF) Change of Ownership (CHOW) dataset provides information on the SNF ownership changes that occurred on or after January 1, 2016. This data includes information on the buyer and seller organization\u2019s legal business name, provider type, change of ownership type (CHOW, Acquisition/Merger, or Consolidation) and the effective date of the change.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/46dc01e3-bac2-4e5d-9a05-90b968e98574/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1470": {
+      "get": {
+        "summary": "Skilled Nursing Facility Change of Ownership : 2023-09-30",
+        "description": "The Skilled Nursing Facility (SNF) Change of Ownership (CHOW) dataset provides information on the SNF ownership changes that occurred on or after January 1, 2016. This data includes information on the buyer and seller organization\u2019s legal business name, provider type, change of ownership type (CHOW, Acquisition/Merger, or Consolidation) and the effective date of the change.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/8a5d1ac1-4f12-41c3-b86c-27d0953fd1b4/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1471": {
+      "get": {
+        "summary": "Skilled Nursing Facility Change of Ownership : 2023-06-30",
+        "description": "The Skilled Nursing Facility (SNF) Change of Ownership (CHOW) dataset provides information on the SNF ownership changes that occurred on or after January 1, 2016. This data includes information on the buyer and seller organization\u2019s legal business name, provider type, change of ownership type (CHOW, Acquisition/Merger, or Consolidation) and the effective date of the change.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/349c6c79-b3c9-42df-be5d-3ff2658dbd39/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1472": {
+      "get": {
+        "summary": "Skilled Nursing Facility Change of Ownership : 2023-03-31",
+        "description": "The Skilled Nursing Facility (SNF) Change of Ownership (CHOW) dataset provides information on the SNF ownership changes that occurred on or after January 1, 2016. This data includes information on the buyer and seller organization\u2019s legal business name, provider type, change of ownership type (CHOW, Acquisition/Merger, or Consolidation) and the effective date of the change.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/2a3ed35c-0ea6-4894-a349-30d954778281/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1473": {
+      "get": {
+        "summary": "Skilled Nursing Facility Change of Ownership : 2022-12-30",
+        "description": "The Skilled Nursing Facility (SNF) Change of Ownership (CHOW) dataset provides information on the SNF ownership changes that occurred on or after January 1, 2016. This data includes information on the buyer and seller organization\u2019s legal business name, provider type, change of ownership type (CHOW, Acquisition/Merger, or Consolidation) and the effective date of the change.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/d63c6f86-14e1-45ce-8c61-75ca33d0043f/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1474": {
+      "get": {
+        "summary": "Skilled Nursing Facility Change of Ownership : 2022-09-30",
+        "description": "The Skilled Nursing Facility (SNF) Change of Ownership (CHOW) dataset provides information on the SNF ownership changes that occurred on or after January 1, 2016. This data includes information on the buyer and seller organization\u2019s legal business name, provider type, change of ownership type (CHOW, Acquisition/Merger, or Consolidation) and the effective date of the change.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f8528a9c-1400-479d-be11-34c6ab4ce0cf/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1475": {
+      "get": {
+        "summary": "Skilled Nursing Facility Change of Ownership : 2022-06-30",
+        "description": "The Skilled Nursing Facility (SNF) Change of Ownership (CHOW) dataset provides information on the SNF ownership changes that occurred on or after January 1, 2016. This data includes information on the buyer and seller organization\u2019s legal business name, provider type, change of ownership type (CHOW, Acquisition/Merger, or Consolidation) and the effective date of the change.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/7572cea7-07ef-4fd5-ab06-ccf4e3a39440/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1476": {
+      "get": {
+        "summary": "Skilled Nursing Facility Change of Ownership : 2022-03-31",
+        "description": "The Skilled Nursing Facility (SNF) Change of Ownership (CHOW) dataset provides information on the SNF ownership changes that occurred on or after January 1, 2016. This data includes information on the buyer and seller organization\u2019s legal business name, provider type, change of ownership type (CHOW, Acquisition/Merger, or Consolidation) and the effective date of the change.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/2c8e3f17-d8b8-4a3f-8ed6-d270813798cc/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1477": {
+      "get": {
+        "summary": "Skilled Nursing Facility Change of Ownership - Owner Information : 2024-12-01",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/a4358712-e910-4eaf-8f24-5e90ba3cf8d0/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1478": {
+      "get": {
+        "summary": "Skilled Nursing Facility Change of Ownership - Owner Information : 2024-12-01",
+        "description": "The Skilled Nursing Facility (SNF) Change of Ownership (CHOW) - Owner Information dataset provides information on individual and organizational ownership interest and managerial control associated with the buyer and seller organizations, role of the owner, association date, address of the organizational owner and other ownership details.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/79e884c7-5be0-4059-9fa9-c778d34c44e0/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1479": {
+      "get": {
+        "summary": "Skilled Nursing Facility Change of Ownership - Owner Information : 2024-09-01",
+        "description": "The Skilled Nursing Facility (SNF) Change of Ownership (CHOW) - Owner Information dataset provides information on individual and organizational ownership interest and managerial control associated with the buyer and seller organizations, role of the owner, association date, address of the organizational owner and other ownership details.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/4edc8f10-17c4-4b70-95d3-755f6bb15cd0/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1480": {
+      "get": {
+        "summary": "Skilled Nursing Facility Change of Ownership - Owner Information : 2024-06-01",
+        "description": "The Skilled Nursing Facility (SNF) Change of Ownership (CHOW) - Owner Information dataset provides information on individual and organizational ownership interest and managerial control associated with the buyer and seller organizations, role of the owner, association date, address of the organizational owner and other ownership details.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f33b46ed-2036-47e3-8344-9dc64ddcbbd1/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1481": {
+      "get": {
+        "summary": "Skilled Nursing Facility Change of Ownership - Owner Information : 2024-03-31",
+        "description": "The Skilled Nursing Facility (SNF) Change of Ownership (CHOW) - Owner Information dataset provides information on individual and organizational ownership interest and managerial control associated with the buyer and seller organizations, role of the owner, association date, address of the organizational owner and other ownership details.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f6c042b5-006b-4262-b227-5c50d45fa816/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1482": {
+      "get": {
+        "summary": "Skilled Nursing Facility Change of Ownership - Owner Information : 2023-12-31",
+        "description": "The Skilled Nursing Facility (SNF) Change of Ownership (CHOW) - Owner Information dataset provides information on individual and organizational ownership interest and managerial control associated with the buyer and seller organizations, role of the owner, association date, address of the organizational owner and other ownership details.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/e7bbb52e-f3da-4757-b85c-c6f71abe0173/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1483": {
+      "get": {
+        "summary": "Skilled Nursing Facility Change of Ownership - Owner Information : 2023-09-30",
+        "description": "The Skilled Nursing Facility (SNF) Change of Ownership (CHOW) - Owner Information dataset provides information on individual and organizational ownership interest and managerial control associated with the buyer and seller organizations, role of the owner, association date, address of the organizational owner and other ownership details.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/77a52242-f510-4ff4-b61f-c511b771e8da/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1484": {
+      "get": {
+        "summary": "Skilled Nursing Facility Change of Ownership - Owner Information : 2023-06-30",
+        "description": "The Skilled Nursing Facility (SNF) Change of Ownership (CHOW) - Owner Information dataset provides information on individual and organizational ownership interest and managerial control associated with the buyer and seller organizations, role of the owner, association date, address of the organizational owner and other ownership details.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/a1a1e421-d4ff-4a70-9330-f56cb237be45/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1485": {
+      "get": {
+        "summary": "Skilled Nursing Facility Change of Ownership - Owner Information : 2023-03-31",
+        "description": "The Skilled Nursing Facility (SNF) Change of Ownership (CHOW) - Owner Information dataset provides information on individual and organizational ownership interest and managerial control associated with the buyer and seller organizations, role of the owner, association date, address of the organizational owner and other ownership details.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/c1e36fcf-2d2d-41d4-8e38-1cac3e19cd6f/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1486": {
+      "get": {
+        "summary": "Skilled Nursing Facility Change of Ownership - Owner Information : 2022-12-30",
+        "description": "The Skilled Nursing Facility (SNF) Change of Ownership (CHOW) - Owner Information dataset provides information on individual and organizational ownership interest and managerial control associated with the buyer and seller organizations, role of the owner, association date, address of the organizational owner and other ownership details.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/b13761c2-e721-4458-b6aa-e10b3b1ff403/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1487": {
+      "get": {
+        "summary": "Skilled Nursing Facility Change of Ownership - Owner Information : 2022-09-30",
+        "description": "The Skilled Nursing Facility (SNF) Change of Ownership (CHOW) - Owner Information dataset provides information on individual and organizational ownership interest and managerial control associated with the buyer and seller organizations, role of the owner, association date, address of the organizational owner and other ownership details.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/436bd59f-f19a-4141-bffc-5fb3f6a147b4/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1488": {
+      "get": {
+        "summary": "Skilled Nursing Facility Change of Ownership - Owner Information : 2022-06-30",
+        "description": "The Skilled Nursing Facility (SNF) Change of Ownership (CHOW) - Owner Information dataset provides information on individual and organizational ownership interest and managerial control associated with the buyer and seller organizations, role of the owner, association date, address of the organizational owner and other ownership details.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/0abd00a5-bfad-4975-a5a9-ccbfa5001422/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1489": {
+      "get": {
+        "summary": "Skilled Nursing Facility Change of Ownership - Owner Information : 2022-03-31",
+        "description": "The Skilled Nursing Facility (SNF) Change of Ownership (CHOW) - Owner Information dataset provides information on individual and organizational ownership interest and managerial control associated with the buyer and seller organizations, role of the owner, association date, address of the organizational owner and other ownership details.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/b972eccc-46ac-4727-9b0e-13a04aef80eb/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1490": {
+      "get": {
+        "summary": "Skilled Nursing Facility Cost Report : 2022-12-02",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/a69d3df7-3f66-4a0d-b5b8-0d66049bd565/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1491": {
+      "get": {
+        "summary": "Skilled Nursing Facility Cost Report : 2022-12-02",
+        "description": "The Skilled Nursing Facility (SNF) Cost Report dataset is a public use file that provides select measures from the skilled nursing facility\u00a0annual cost report. This data includes provider information such as facility characteristics, utilization data, cost and charges by cost center (in total and for Medicare), Medicare settlement data, and financial statement data organized by CMS Certification Number.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/8d2fb665-b944-48cc-b0d7-97a6e5a90bf3/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1492": {
+      "get": {
+        "summary": "Skilled Nursing Facility Cost Report : 2021-12-02",
+        "description": "The Skilled Nursing Facility (SNF) Cost Report dataset is a public use file that provides select measures from the skilled nursing facility\u00a0annual cost report. This data includes provider information such as facility characteristics, utilization data, cost and charges by cost center (in total and for Medicare), Medicare settlement data, and financial statement data organized by CMS Certification Number.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/633d1011-94cc-47d0-ae14-0fee1932f32c/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1493": {
+      "get": {
+        "summary": "Skilled Nursing Facility Cost Report : 2020-12-02",
+        "description": "The Skilled Nursing Facility (SNF) Cost Report dataset is a public use file that provides select measures from the skilled nursing facility\u00a0annual cost report. This data includes provider information such as facility characteristics, utilization data, cost and charges by cost center (in total and for Medicare), Medicare settlement data, and financial statement data organized by CMS Certification Number.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/e0544322-7c25-44f4-b6c4-7f5f8a79819c/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1494": {
+      "get": {
+        "summary": "Skilled Nursing Facility Cost Report : 2019-12-02",
+        "description": "The Skilled Nursing Facility (SNF) Cost Report dataset is a public use file that provides select measures from the skilled nursing facility\u00a0annual cost report. This data includes provider information such as facility characteristics, utilization data, cost and charges by cost center (in total and for Medicare), Medicare settlement data, and financial statement data organized by CMS Certification Number.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/dda9576c-adbc-4a89-aa0c-0e8df7f0f74f/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1495": {
+      "get": {
+        "summary": "Skilled Nursing Facility Cost Report : 2018-12-02",
+        "description": "The Skilled Nursing Facility (SNF) Cost Report dataset is a public use file that provides select measures from the skilled nursing facility\u00a0annual cost report. This data includes provider information such as facility characteristics, utilization data, cost and charges by cost center (in total and for Medicare), Medicare settlement data, and financial statement data organized by CMS Certification Number.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/10333ed8-ca79-455c-9d2e-60cfed4a4c0e/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1496": {
+      "get": {
+        "summary": "Skilled Nursing Facility Cost Report : 2017-12-02",
+        "description": "The Skilled Nursing Facility (SNF) Cost Report dataset is a public use file that provides select measures from the skilled nursing facility\u00a0annual cost report. This data includes provider information such as facility characteristics, utilization data, cost and charges by cost center (in total and for Medicare), Medicare settlement data, and financial statement data organized by CMS Certification Number.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/922f6a06-974c-45e5-8828-b5a61979f4af/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1497": {
+      "get": {
+        "summary": "Skilled Nursing Facility Cost Report : 2016-12-02",
+        "description": "The Skilled Nursing Facility (SNF) Cost Report dataset is a public use file that provides select measures from the skilled nursing facility\u00a0annual cost report. This data includes provider information such as facility characteristics, utilization data, cost and charges by cost center (in total and for Medicare), Medicare settlement data, and financial statement data organized by CMS Certification Number.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/6a674cd7-d96e-4d5a-9d0a-c587decf2fef/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1498": {
+      "get": {
+        "summary": "Skilled Nursing Facility Cost Report : 2015-12-02",
+        "description": "The Skilled Nursing Facility (SNF) Cost Report dataset is a public use file that provides select measures from the skilled nursing facility\u00a0annual cost report. This data includes provider information such as facility characteristics, utilization data, cost and charges by cost center (in total and for Medicare), Medicare settlement data, and financial statement data organized by CMS Certification Number.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/9fce1ff4-ab0a-4cd1-885b-9dd4f121972f/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1499": {
+      "get": {
+        "summary": "Skilled Nursing Facility Cost Report : 2014-12-02",
+        "description": "The Skilled Nursing Facility (SNF) Cost Report dataset is a public use file that provides select measures from the skilled nursing facility\u00a0annual cost report. This data includes provider information such as facility characteristics, utilization data, cost and charges by cost center (in total and for Medicare), Medicare settlement data, and financial statement data organized by CMS Certification Number.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/ad033e02-cbc5-45d1-89d3-ba41018d5680/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1500": {
+      "get": {
+        "summary": "Skilled Nursing Facility Cost Report : 2013-12-02",
+        "description": "The Skilled Nursing Facility (SNF) Cost Report dataset is a public use file that provides select measures from the skilled nursing facility\u00a0annual cost report. This data includes provider information such as facility characteristics, utilization data, cost and charges by cost center (in total and for Medicare), Medicare settlement data, and financial statement data organized by CMS Certification Number.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/3e296343-8cd3-42cf-888b-04f36a53e631/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

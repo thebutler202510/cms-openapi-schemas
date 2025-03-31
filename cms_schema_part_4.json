@@ -1,0 +1,1915 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "CMS API Subset 4",
+    "version": "1.0.0",
+    "description": "Subset 4 of CMS API endpoints"
+  },
+  "servers": [
+    {
+      "url": "https://data.cms.gov"
+    }
+  ],
+  "paths": {
+    "/proxy/endpoint301": {
+      "get": {
+        "summary": "Home Infusion Therapy Providers : 2024-08-20",
+        "description": "The Home Infusion Therapy Providers dataset provides information on the Providers in Medicare who specialize in Home Infusion Therapy.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/a89247df-5f9f-4b56-bdf3-14530b30de2c/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint302": {
+      "get": {
+        "summary": "Home Infusion Therapy Providers : 2024-08-06",
+        "description": "The Home Infusion Therapy Providers dataset provides information on the Providers in Medicare who specialize in Home Infusion Therapy.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/18d04805-5e3a-4645-9b64-6a62d08ae5ee/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint303": {
+      "get": {
+        "summary": "Home Infusion Therapy Providers : 2024-07-23",
+        "description": "The Home Infusion Therapy Providers dataset provides information on the Providers in Medicare who specialize in Home Infusion Therapy.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/8451233d-0bc1-4ae5-a422-1ecfbd4414c5/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint304": {
+      "get": {
+        "summary": "Home Infusion Therapy Providers : 2024-07-09",
+        "description": "The Home Infusion Therapy Providers dataset provides information on the Providers in Medicare who specialize in Home Infusion Therapy.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/34b4d0d9-6127-44bc-9ba8-13006bcff99e/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint305": {
+      "get": {
+        "summary": "Home Infusion Therapy Providers : 2024-06-25",
+        "description": "The Home Infusion Therapy Providers dataset provides information on the Providers in Medicare who specialize in Home Infusion Therapy.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/49ba4df7-1f31-4b68-979d-37a08440d65c/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint306": {
+      "get": {
+        "summary": "Home Infusion Therapy Providers : 2024-06-11",
+        "description": "The Home Infusion Therapy Providers dataset provides information on the Providers in Medicare who specialize in Home Infusion Therapy.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f984f522-3a5d-4fe0-ab1e-c42f8aa0107e/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint307": {
+      "get": {
+        "summary": "Home Infusion Therapy Providers : 2024-05-28",
+        "description": "The Home Infusion Therapy Providers dataset provides information on the Providers in Medicare who specialize in Home Infusion Therapy.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/5fc05909-1f6c-4926-8002-61a0623351df/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint308": {
+      "get": {
+        "summary": "Home Infusion Therapy Providers : 2024-05-17",
+        "description": "The Home Infusion Therapy Providers dataset provides information on the Providers in Medicare who specialize in Home Infusion Therapy.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/71887189-9d27-48bd-a4a8-5864d667baf5/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint309": {
+      "get": {
+        "summary": "Home Infusion Therapy Providers : 2024-05-07",
+        "description": "The Home Infusion Therapy Providers dataset provides information on the Providers in Medicare who specialize in Home Infusion Therapy.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/b65b680d-aac2-4aea-bc51-fc5a3bdd0396/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint310": {
+      "get": {
+        "summary": "Home Infusion Therapy Providers : 2024-04-22",
+        "description": "The Home Infusion Therapy Providers dataset provides information on the Providers in Medicare who specialize in Home Infusion Therapy.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/cd4db424-23ca-40fd-87e0-a8dfceb1b94e/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint311": {
+      "get": {
+        "summary": "Home Infusion Therapy Providers : 2024-04-09",
+        "description": "The Home Infusion Therapy Providers dataset provides information on the Providers in Medicare who specialize in Home Infusion Therapy.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/b22ad616-c507-4774-b2fb-77ae14b30ed3/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint312": {
+      "get": {
+        "summary": "Home Infusion Therapy Providers : 2024-03-26",
+        "description": "The Home Infusion Therapy Providers dataset provides information on the Providers in Medicare who specialize in Home Infusion Therapy.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/1dba13c6-07b3-4687-9aca-78ffda9ffd9c/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint313": {
+      "get": {
+        "summary": "Home Infusion Therapy Providers : 2024-03-11",
+        "description": "The Home Infusion Therapy Providers dataset provides information on the Providers in Medicare who specialize in Home Infusion Therapy.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/9116e170-6df0-4e14-a8dd-26acae6486eb/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint314": {
+      "get": {
+        "summary": "Home Infusion Therapy Providers : 2024-02-26",
+        "description": "The Home Infusion Therapy Providers dataset provides information on the Providers in Medicare who specialize in Home Infusion Therapy.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/20d8dfe6-a7bf-4e95-901b-12db792b8998/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint315": {
+      "get": {
+        "summary": "Home Infusion Therapy Providers : 2024-02-13",
+        "description": "The Home Infusion Therapy Providers dataset provides information on the Providers in Medicare who specialize in Home Infusion Therapy.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/db54201d-9c1e-4b05-bad4-766d5f1e2150/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint316": {
+      "get": {
+        "summary": "Home Infusion Therapy Providers : 2024-01-30",
+        "description": "The Home Infusion Therapy Providers dataset provides information on the Providers in Medicare who specialize in Home Infusion Therapy.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/e0fc2c94-d507-48a0-9023-a2b329587f26/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint317": {
+      "get": {
+        "summary": "Home Infusion Therapy Providers : 2024-01-16",
+        "description": "The Home Infusion Therapy Providers dataset provides information on the Providers in Medicare who specialize in Home Infusion Therapy.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/ffc5c501-5afc-475a-a3b9-e92434021129/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint318": {
+      "get": {
+        "summary": "Home Infusion Therapy Providers : 2024-01-02",
+        "description": "The Home Infusion Therapy Providers dataset provides information on the Providers in Medicare who specialize in Home Infusion Therapy.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/c3665883-a1a6-4079-b776-db16825fa9de/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint319": {
+      "get": {
+        "summary": "Home Infusion Therapy Providers : 2023-12-20",
+        "description": "The Home Infusion Therapy Providers dataset provides information on the Providers in Medicare who specialize in Home Infusion Therapy.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/ee0b3463-6a97-444d-b81f-e59a8f067c16/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint320": {
+      "get": {
+        "summary": "Home Infusion Therapy Providers : 2023-11-22",
+        "description": "The Home Infusion Therapy Providers dataset provides information on the Providers in Medicare who specialize in Home Infusion Therapy.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/44c9c855-3308-42d2-882e-969f7d0168d3/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint321": {
+      "get": {
+        "summary": "Home Infusion Therapy Providers : 2023-10-27",
+        "description": "The Home Infusion Therapy Providers dataset provides information on the Providers in Medicare who specialize in Home Infusion Therapy.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/e1b91378-0377-4deb-a3cf-663eb9544673/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint322": {
+      "get": {
+        "summary": "Home Infusion Therapy Providers : 2023-10-12",
+        "description": "The Home Infusion Therapy Providers dataset provides information on the Providers in Medicare who specialize in Home Infusion Therapy.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/c3aab410-1c04-42d5-ad97-a9fe9b916a73/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint323": {
+      "get": {
+        "summary": "Home Infusion Therapy Providers : 2023-09-29",
+        "description": "The Home Infusion Therapy Providers dataset provides information on the Providers in Medicare who specialize in Home Infusion Therapy.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/ddfb7fb3-86ba-40e1-979f-ddcbd9149677/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint324": {
+      "get": {
+        "summary": "Home Infusion Therapy Providers : 2023-09-14",
+        "description": "The Home Infusion Therapy Providers dataset provides information on the Providers in Medicare who specialize in Home Infusion Therapy.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/d6e25ad2-598c-4ad9-9430-8eb596b1eeb3/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint325": {
+      "get": {
+        "summary": "Home Infusion Therapy Providers : 2023-08-31",
+        "description": "The Home Infusion Therapy Providers dataset provides information on the Providers in Medicare who specialize in Home Infusion Therapy.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/991a98b9-64d7-4a33-ac26-7c1a1471f435/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint326": {
+      "get": {
+        "summary": "Home Infusion Therapy Providers : 2023-08-18",
+        "description": "The Home Infusion Therapy Providers dataset provides information on the Providers in Medicare who specialize in Home Infusion Therapy.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/277b8532-670e-4f2b-bd7d-7a3921c296df/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint327": {
+      "get": {
+        "summary": "Home Infusion Therapy Providers : 2023-08-04",
+        "description": "The Home Infusion Therapy Providers dataset provides information on the Providers in Medicare who specialize in Home Infusion Therapy.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/e8ee2dbb-d135-45ba-8feb-03cddb0b0bf4/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint328": {
+      "get": {
+        "summary": "Home Infusion Therapy Providers : 2023-07-21",
+        "description": "The Home Infusion Therapy Providers dataset provides information on the Providers in Medicare who specialize in Home Infusion Therapy.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/09ae777f-10cf-4790-acee-5b513482f801/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint329": {
+      "get": {
+        "summary": "Home Infusion Therapy Providers : 2023-07-07",
+        "description": "The Home Infusion Therapy Providers dataset provides information on the Providers in Medicare who specialize in Home Infusion Therapy.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/3eb706ec-7494-4608-9b03-6dc374ce3ae8/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint330": {
+      "get": {
+        "summary": "Home Infusion Therapy Providers : 2023-06-22",
+        "description": "The Home Infusion Therapy Providers dataset provides information on the Providers in Medicare who specialize in Home Infusion Therapy.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f424a96b-1288-4089-ac11-de6a8d2a46af/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint331": {
+      "get": {
+        "summary": "Home Infusion Therapy Providers : 2023-06-08",
+        "description": "The Home Infusion Therapy Providers dataset provides information on the Providers in Medicare who specialize in Home Infusion Therapy.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/e1f868a9-a28f-4bd8-ac70-cfa1616039e8/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint332": {
+      "get": {
+        "summary": "Home Infusion Therapy Providers : 2023-05-25",
+        "description": "The Home Infusion Therapy Providers dataset provides information on the Providers in Medicare who specialize in Home Infusion Therapy.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/4c81d8d9-b534-45d3-91e8-c72c90595152/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint333": {
+      "get": {
+        "summary": "Hospice All Owners : 2025-01-01",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/e983965e-1603-4cb8-82b5-c40090e380d1/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint334": {
+      "get": {
+        "summary": "Hospice All Owners : 2025-01-01",
+        "description": "The \u00a0Hospice All Owners dataset provides ownership information on all hospices currently enrolled in Medicare. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/31bebe15-6de5-496c-af31-65da426d03d2/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint335": {
+      "get": {
+        "summary": "Hospice All Owners : 2024-10-01",
+        "description": "The \u00a0Hospice All Owners dataset provides ownership information on all hospices currently enrolled in Medicare. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/0d8d3a8b-21c0-4967-8df0-ad4032ad3d3d/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint336": {
+      "get": {
+        "summary": "Hospice All Owners : 2024-07-01",
+        "description": "The \u00a0Hospice All Owners dataset provides ownership information on all hospices currently enrolled in Medicare. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f5f4be6a-49fb-43e4-bb02-b260f1011985/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint337": {
+      "get": {
+        "summary": "Hospice All Owners : 2024-04-01",
+        "description": "The \u00a0Hospice All Owners dataset provides ownership information on all hospices currently enrolled in Medicare. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/5d27cc83-31fc-41ba-a97c-c0302e93081e/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint338": {
+      "get": {
+        "summary": "Hospice All Owners : 2024-01-05",
+        "description": "The \u00a0Hospice All Owners dataset provides ownership information on all hospices currently enrolled in Medicare. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/a53bdaf9-7650-4ec4-ad43-1cf9676afffb/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint339": {
+      "get": {
+        "summary": "Hospice All Owners : 2023-10-02",
+        "description": "The \u00a0Hospice All Owners dataset provides ownership information on all hospices currently enrolled in Medicare. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/12e0cedf-6c91-4edc-bf85-85a249658f38/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint340": {
+      "get": {
+        "summary": "Hospice All Owners : 2023-07-17",
+        "description": "The \u00a0Hospice All Owners dataset provides ownership information on all hospices currently enrolled in Medicare. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/0445304f-7d1d-47f3-a438-da084816a3ce/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint341": {
+      "get": {
+        "summary": "Hospice All Owners : 2023-04-01",
+        "description": "The \u00a0Hospice All Owners dataset provides ownership information on all hospices currently enrolled in Medicare. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f200545a-cd96-4806-91d6-6212b485e0f0/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint342": {
+      "get": {
+        "summary": "Hospice Enrollments : 2025-01-01",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/25704213-e833-4b8b-9dbc-58dd17149209/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint343": {
+      "get": {
+        "summary": "Hospice Enrollments : 2025-01-01",
+        "description": "The Hospice Enrollments dataset provides enrollment information of all hospices currently enrolled in Medicare. This data includes information on the hospice's legal business name, doing business as name, organization type and address.\u00a0\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/44a82a38-fdad-4b7b-b0cc-68fe22fb76b0/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint344": {
+      "get": {
+        "summary": "Hospice Enrollments : 2024-10-01",
+        "description": "The Hospice Enrollments dataset provides enrollment information of all hospices currently enrolled in Medicare. This data includes information on the hospice's legal business name, doing business as name, organization type and address.\u00a0\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/a6a063c5-3d7c-463c-b914-07b8409ca8fd/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint345": {
+      "get": {
+        "summary": "Hospice Enrollments : 2024-07-01",
+        "description": "The Hospice Enrollments dataset provides enrollment information of all hospices currently enrolled in Medicare. This data includes information on the hospice's legal business name, doing business as name, organization type and address.\u00a0\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/d52c6495-6369-4bd7-9b98-788d4f98d245/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint346": {
+      "get": {
+        "summary": "Hospice Enrollments : 2024-04-01",
+        "description": "The Hospice Enrollments dataset provides enrollment information of all hospices currently enrolled in Medicare. This data includes information on the hospice's legal business name, doing business as name, organization type and address.\u00a0\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/e88e5497-b0d4-453a-9069-dfbb2faf44ef/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint347": {
+      "get": {
+        "summary": "Hospice Enrollments : 2024-01-05",
+        "description": "The Hospice Enrollments dataset provides enrollment information of all hospices currently enrolled in Medicare. This data includes information on the hospice's legal business name, doing business as name, organization type and address.\u00a0\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/194e710e-1eac-4b27-a539-0d2bb8de40ea/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint348": {
+      "get": {
+        "summary": "Hospice Enrollments : 2023-10-02",
+        "description": "The Hospice Enrollments dataset provides enrollment information of all hospices currently enrolled in Medicare. This data includes information on the hospice's legal business name, doing business as name, organization type and address.\u00a0\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/df9b9c6e-9b8a-4c4d-993c-bc9541d72a49/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint349": {
+      "get": {
+        "summary": "Hospice Enrollments : 2023-07-17",
+        "description": "The Hospice Enrollments dataset provides enrollment information of all hospices currently enrolled in Medicare. This data includes information on the hospice's legal business name, doing business as name, organization type and address.\u00a0\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/aa3df2b4-67e8-4c1b-a4dd-f35db8ece0fd/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint350": {
+      "get": {
+        "summary": "Hospice Enrollments : 2023-04-01",
+        "description": "The Hospice Enrollments dataset provides enrollment information of all hospices currently enrolled in Medicare. This data includes information on the hospice's legal business name, doing business as name, organization type and address.\u00a0\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/94c94f93-0ab8-4c23-889f-7162587bc9ee/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint351": {
+      "get": {
+        "summary": "Hospital All Owners : 2025-01-01",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/029c119f-f79c-49be-9100-344d31d10344/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint352": {
+      "get": {
+        "summary": "Hospital All Owners : 2025-01-01",
+        "description": "The Hospital All Owners Information dataset provides information on all owners of the hospitals. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/6d33e473-6f4d-47cc-b76c-d79035f2cc47/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint353": {
+      "get": {
+        "summary": "Hospital All Owners : 2024-12-01",
+        "description": "The Hospital All Owners Information dataset provides information on all owners of the hospitals. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/25d5589e-5539-4683-a06b-0b3c477a6133/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint354": {
+      "get": {
+        "summary": "Hospital All Owners : 2024-11-01",
+        "description": "The Hospital All Owners Information dataset provides information on all owners of the hospitals. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/9cb92c29-9a6e-4ce7-b96d-45ab86563604/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint355": {
+      "get": {
+        "summary": "Hospital All Owners : 2024-10-01",
+        "description": "The Hospital All Owners Information dataset provides information on all owners of the hospitals. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/a94b75bf-6c84-4b9f-9de7-8a15cb694359/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint356": {
+      "get": {
+        "summary": "Hospital All Owners : 2024-09-01",
+        "description": "The Hospital All Owners Information dataset provides information on all owners of the hospitals. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/2537547b-05af-4f7d-bc39-f9c1d4e9ea85/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint357": {
+      "get": {
+        "summary": "Hospital All Owners : 2024-08-01",
+        "description": "The Hospital All Owners Information dataset provides information on all owners of the hospitals. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/b677d60b-12fe-464b-8f0d-c6ae6ae7e37f/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint358": {
+      "get": {
+        "summary": "Hospital All Owners : 2024-07-01",
+        "description": "The Hospital All Owners Information dataset provides information on all owners of the hospitals. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/ae5c92dd-3d5e-446c-9092-6644da7cb94e/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint359": {
+      "get": {
+        "summary": "Hospital All Owners : 2024-06-03",
+        "description": "The Hospital All Owners Information dataset provides information on all owners of the hospitals. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/3f495a07-3c06-4073-9eb9-1ed3623899a7/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint360": {
+      "get": {
+        "summary": "Hospital All Owners : 2024-05-01",
+        "description": "The Hospital All Owners Information dataset provides information on all owners of the hospitals. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/e3271c0a-d7b3-444f-99a8-a854c34eba34/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint361": {
+      "get": {
+        "summary": "Hospital All Owners : 2024-04-01",
+        "description": "The Hospital All Owners Information dataset provides information on all owners of the hospitals. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/90ef425f-1a3b-4035-972f-d40381390375/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint362": {
+      "get": {
+        "summary": "Hospital All Owners : 2024-03-01",
+        "description": "The Hospital All Owners Information dataset provides information on all owners of the hospitals. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/22113cff-cfa1-4974-bcb6-67be29cde318/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint363": {
+      "get": {
+        "summary": "Hospital All Owners : 2024-02-01",
+        "description": "The Hospital All Owners Information dataset provides information on all owners of the hospitals. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/e4a93e23-bb34-4852-a3b8-2b3f2077a4e2/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint364": {
+      "get": {
+        "summary": "Hospital All Owners : 2024-01-05",
+        "description": "The Hospital All Owners Information dataset provides information on all owners of the hospitals. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/28b046c1-0153-4682-8dec-270240779ced/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint365": {
+      "get": {
+        "summary": "Hospital All Owners : 2023-12-01",
+        "description": "The Hospital All Owners Information dataset provides information on all owners of the hospitals. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f5646e6d-78ca-4553-a842-a7d1e0573869/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint366": {
+      "get": {
+        "summary": "Hospital All Owners : 2023-11-01",
+        "description": "The Hospital All Owners Information dataset provides information on all owners of the hospitals. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/419c8fdc-9ccc-4db1-8e3f-d37abdc96d59/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint367": {
+      "get": {
+        "summary": "Hospital All Owners : 2023-10-02",
+        "description": "The Hospital All Owners Information dataset provides information on all owners of the hospitals. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/133656c6-7654-4b32-8ae1-1779cbe0073c/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint368": {
+      "get": {
+        "summary": "Hospital All Owners : 2023-09-15",
+        "description": "The Hospital All Owners Information dataset provides information on all owners of the hospitals. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/52f957f7-aca1-4287-85c8-033d2996c3c8/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint369": {
+      "get": {
+        "summary": "Hospital All Owners : 2023-08-01",
+        "description": "The Hospital All Owners Information dataset provides information on all owners of the hospitals. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/cf0de111-a036-4571-a43f-d90171c29435/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint370": {
+      "get": {
+        "summary": "Hospital All Owners : 2023-07-17",
+        "description": "The Hospital All Owners Information dataset provides information on all owners of the hospitals. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/03e2c61e-74e7-42e4-aa35-0f975b69efa5/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint371": {
+      "get": {
+        "summary": "Hospital All Owners : 2023-06-15",
+        "description": "The Hospital All Owners Information dataset provides information on all owners of the hospitals. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/03811b6e-2808-457a-be0a-81f704f10b27/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint372": {
+      "get": {
+        "summary": "Hospital All Owners : 2023-05-01",
+        "description": "The Hospital All Owners Information dataset provides information on all owners of the hospitals. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/d4ec5de6-b917-4f91-9d81-618ca54a82df/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint373": {
+      "get": {
+        "summary": "Hospital All Owners : 2023-04-14",
+        "description": "The Hospital All Owners Information dataset provides information on all owners of the hospitals. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/809d5848-26e3-4909-b96a-29cf33e74b36/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint374": {
+      "get": {
+        "summary": "Hospital All Owners : 2023-03-15",
+        "description": "The Hospital All Owners Information dataset provides information on all owners of the hospitals. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/42919067-8b0d-47bc-8fba-5dc9f79c634a/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint375": {
+      "get": {
+        "summary": "Hospital All Owners : 2023-02-15",
+        "description": "The Hospital All Owners Information dataset provides information on all owners of the hospitals. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/16043ada-7359-4146-b3ef-1902b7db0be8/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint376": {
+      "get": {
+        "summary": "Hospital All Owners : 2023-01-01",
+        "description": "The Hospital All Owners Information dataset provides information on all owners of the hospitals. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/77849457-608d-4718-acb8-52a8e5e5cb4a/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint377": {
+      "get": {
+        "summary": "Hospital All Owners : 2022-11-13",
+        "description": "The Hospital All Owners Information dataset provides information on all owners of the hospitals. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/dd7f766d-1a95-4286-bbd4-6421726b9a77/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint378": {
+      "get": {
+        "summary": "Hospital Change of Ownership : 2024-12-01",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/c04031db-54ce-461c-85d1-d2613d71f167/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint379": {
+      "get": {
+        "summary": "Hospital Change of Ownership : 2024-12-01",
+        "description": "The Hospital Change of Ownership (CHOW) dataset provides information on the hospital ownership changes that occurred on or after January 1, 2016. This data includes information on the buyer and seller organization\u2019s legal business name, provider type, change of ownership type (CHOW, Acquisition/Merger, or Consolidation) and the effective date of the change.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/852a0391-86e0-4470-a56a-6b259984171c/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint380": {
+      "get": {
+        "summary": "Hospital Change of Ownership : 2024-09-01",
+        "description": "The Hospital Change of Ownership (CHOW) dataset provides information on the hospital ownership changes that occurred on or after January 1, 2016. This data includes information on the buyer and seller organization\u2019s legal business name, provider type, change of ownership type (CHOW, Acquisition/Merger, or Consolidation) and the effective date of the change.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/c409dfea-0f37-41ff-b846-1e1435fcc0ff/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint381": {
+      "get": {
+        "summary": "Hospital Change of Ownership : 2024-06-01",
+        "description": "The Hospital Change of Ownership (CHOW) dataset provides information on the hospital ownership changes that occurred on or after January 1, 2016. This data includes information on the buyer and seller organization\u2019s legal business name, provider type, change of ownership type (CHOW, Acquisition/Merger, or Consolidation) and the effective date of the change.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/919e2896-182d-4e6c-9bb5-2e6f85de5fdf/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint382": {
+      "get": {
+        "summary": "Hospital Change of Ownership : 2024-03-31",
+        "description": "The Hospital Change of Ownership (CHOW) dataset provides information on the hospital ownership changes that occurred on or after January 1, 2016. This data includes information on the buyer and seller organization\u2019s legal business name, provider type, change of ownership type (CHOW, Acquisition/Merger, or Consolidation) and the effective date of the change.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/3cba80db-046a-40b0-944d-22528595dcfe/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint383": {
+      "get": {
+        "summary": "Hospital Change of Ownership : 2023-12-31",
+        "description": "The Hospital Change of Ownership (CHOW) dataset provides information on the hospital ownership changes that occurred on or after January 1, 2016. This data includes information on the buyer and seller organization\u2019s legal business name, provider type, change of ownership type (CHOW, Acquisition/Merger, or Consolidation) and the effective date of the change.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/278595ef-6f5b-4d37-9b50-8d7acd4bfa25/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint384": {
+      "get": {
+        "summary": "Hospital Change of Ownership : 2023-09-30",
+        "description": "The Hospital Change of Ownership (CHOW) dataset provides information on the hospital ownership changes that occurred on or after January 1, 2016. This data includes information on the buyer and seller organization\u2019s legal business name, provider type, change of ownership type (CHOW, Acquisition/Merger, or Consolidation) and the effective date of the change.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/7c76c201-98c6-4840-ac0d-58a4b31043c5/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint385": {
+      "get": {
+        "summary": "Hospital Change of Ownership : 2023-06-30",
+        "description": "The Hospital Change of Ownership (CHOW) dataset provides information on the hospital ownership changes that occurred on or after January 1, 2016. This data includes information on the buyer and seller organization\u2019s legal business name, provider type, change of ownership type (CHOW, Acquisition/Merger, or Consolidation) and the effective date of the change.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/aa821455-086f-40e4-836e-9fd30a95cb67/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint386": {
+      "get": {
+        "summary": "Hospital Change of Ownership : 2023-03-31",
+        "description": "The Hospital Change of Ownership (CHOW) dataset provides information on the hospital ownership changes that occurred on or after January 1, 2016. This data includes information on the buyer and seller organization\u2019s legal business name, provider type, change of ownership type (CHOW, Acquisition/Merger, or Consolidation) and the effective date of the change.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/0825fbbd-c57b-4722-bb4d-655c50236be2/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint387": {
+      "get": {
+        "summary": "Hospital Change of Ownership : 2022-12-30",
+        "description": "The Hospital Change of Ownership (CHOW) dataset provides information on the hospital ownership changes that occurred on or after January 1, 2016. This data includes information on the buyer and seller organization\u2019s legal business name, provider type, change of ownership type (CHOW, Acquisition/Merger, or Consolidation) and the effective date of the change.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/6748a5be-cfe1-4b2c-8b46-ab1322c6364c/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint388": {
+      "get": {
+        "summary": "Hospital Change of Ownership : 2022-09-30",
+        "description": "The Hospital Change of Ownership (CHOW) dataset provides information on the hospital ownership changes that occurred on or after January 1, 2016. This data includes information on the buyer and seller organization\u2019s legal business name, provider type, change of ownership type (CHOW, Acquisition/Merger, or Consolidation) and the effective date of the change.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/4a71ba37-45d0-4a8b-93bb-dedb3f39c049/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint389": {
+      "get": {
+        "summary": "Hospital Change of Ownership : 2022-06-30",
+        "description": "The Hospital Change of Ownership (CHOW) dataset provides information on the hospital ownership changes that occurred on or after January 1, 2016. This data includes information on the buyer and seller organization\u2019s legal business name, provider type, change of ownership type (CHOW, Acquisition/Merger, or Consolidation) and the effective date of the change.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/d779fb35-1882-4dda-a0a0-e754ab4e634d/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint390": {
+      "get": {
+        "summary": "Hospital Change of Ownership : 2022-03-31",
+        "description": "The Hospital Change of Ownership (CHOW) dataset provides information on the hospital ownership changes that occurred on or after January 1, 2016. This data includes information on the buyer and seller organization\u2019s legal business name, provider type, change of ownership type (CHOW, Acquisition/Merger, or Consolidation) and the effective date of the change.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/2b26bbaa-61e8-4a94-aa3f-eaf5719b78b1/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint391": {
+      "get": {
+        "summary": "Hospital Change of Ownership - Owner Information : 2024-12-01",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/60625dc8-b621-45f0-9423-077fd133b13e/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint392": {
+      "get": {
+        "summary": "Hospital Change of Ownership - Owner Information : 2024-12-01",
+        "description": "The Hospital Change of Ownership (CHOW) - Owner Information dataset provides information on individual and organizational ownership interest and managerial control associated with the buyer and seller organizations, role of the owner, association date, address of the organizational owner and other ownership details.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/9573d9f5-1abd-4511-b426-b5966c56050f/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint393": {
+      "get": {
+        "summary": "Hospital Change of Ownership - Owner Information : 2024-09-01",
+        "description": "The Hospital Change of Ownership (CHOW) - Owner Information dataset provides information on individual and organizational ownership interest and managerial control associated with the buyer and seller organizations, role of the owner, association date, address of the organizational owner and other ownership details.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/ab0061aa-4513-465d-8e3d-162a993190b3/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint394": {
+      "get": {
+        "summary": "Hospital Change of Ownership - Owner Information : 2024-06-01",
+        "description": "The Hospital Change of Ownership (CHOW) - Owner Information dataset provides information on individual and organizational ownership interest and managerial control associated with the buyer and seller organizations, role of the owner, association date, address of the organizational owner and other ownership details.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/101960de-5d1a-4a2e-a878-9caaf39b7a9a/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint395": {
+      "get": {
+        "summary": "Hospital Change of Ownership - Owner Information : 2024-03-31",
+        "description": "The Hospital Change of Ownership (CHOW) - Owner Information dataset provides information on individual and organizational ownership interest and managerial control associated with the buyer and seller organizations, role of the owner, association date, address of the organizational owner and other ownership details.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/1166689d-490e-41d0-842a-fde005fab35e/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint396": {
+      "get": {
+        "summary": "Hospital Change of Ownership - Owner Information : 2023-12-31",
+        "description": "The Hospital Change of Ownership (CHOW) - Owner Information dataset provides information on individual and organizational ownership interest and managerial control associated with the buyer and seller organizations, role of the owner, association date, address of the organizational owner and other ownership details.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/fc7c14a2-6212-4622-bdd9-91e760a25084/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint397": {
+      "get": {
+        "summary": "Hospital Change of Ownership - Owner Information : 2023-09-30",
+        "description": "The Hospital Change of Ownership (CHOW) - Owner Information dataset provides information on individual and organizational ownership interest and managerial control associated with the buyer and seller organizations, role of the owner, association date, address of the organizational owner and other ownership details.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/4454b84e-4c23-4adb-8abb-8c05a272fe34/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint398": {
+      "get": {
+        "summary": "Hospital Change of Ownership - Owner Information : 2023-06-30",
+        "description": "The Hospital Change of Ownership (CHOW) - Owner Information dataset provides information on individual and organizational ownership interest and managerial control associated with the buyer and seller organizations, role of the owner, association date, address of the organizational owner and other ownership details.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/24ff58f4-6d3e-449e-8eff-36a779bd8df2/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint399": {
+      "get": {
+        "summary": "Hospital Change of Ownership - Owner Information : 2023-03-31",
+        "description": "The Hospital Change of Ownership (CHOW) - Owner Information dataset provides information on individual and organizational ownership interest and managerial control associated with the buyer and seller organizations, role of the owner, association date, address of the organizational owner and other ownership details.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/fdf4fa07-c062-4e5f-adf8-61dda5ce6d11/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint400": {
+      "get": {
+        "summary": "Hospital Change of Ownership - Owner Information : 2022-12-30",
+        "description": "The Hospital Change of Ownership (CHOW) - Owner Information dataset provides information on individual and organizational ownership interest and managerial control associated with the buyer and seller organizations, role of the owner, association date, address of the organizational owner and other ownership details.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/3960b721-c29b-4003-8a69-4d04f17e4797/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

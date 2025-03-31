@@ -1,0 +1,1915 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "CMS API Subset 5",
+    "version": "1.0.0",
+    "description": "Subset 5 of CMS API endpoints"
+  },
+  "servers": [
+    {
+      "url": "https://data.cms.gov"
+    }
+  ],
+  "paths": {
+    "/proxy/endpoint401": {
+      "get": {
+        "summary": "Hospital Change of Ownership - Owner Information : 2022-09-30",
+        "description": "The Hospital Change of Ownership (CHOW) - Owner Information dataset provides information on individual and organizational ownership interest and managerial control associated with the buyer and seller organizations, role of the owner, association date, address of the organizational owner and other ownership details.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f044600b-2eb3-4c60-870a-b16f6362ac8e/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint402": {
+      "get": {
+        "summary": "Hospital Change of Ownership - Owner Information : 2022-06-30",
+        "description": "The Hospital Change of Ownership (CHOW) - Owner Information dataset provides information on individual and organizational ownership interest and managerial control associated with the buyer and seller organizations, role of the owner, association date, address of the organizational owner and other ownership details.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/26ac5a32-b6c3-489c-85f9-3b3c1673f1c7/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint403": {
+      "get": {
+        "summary": "Hospital Change of Ownership - Owner Information : 2022-03-31",
+        "description": "The Hospital Change of Ownership (CHOW) - Owner Information dataset provides information on individual and organizational ownership interest and managerial control associated with the buyer and seller organizations, role of the owner, association date, address of the organizational owner and other ownership details.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/6f86d453-a29d-450d-ab8a-49b44ceb04ce/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint404": {
+      "get": {
+        "summary": "Hospital Enrollments : 2025-01-01",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f6f6505c-e8b0-4d57-b258-e2b94133aaf2/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint405": {
+      "get": {
+        "summary": "Hospital Enrollments : 2025-01-01",
+        "description": "The Hospital Enrollments dataset provides enrollment information of all Hospitals currently enrolled in Medicare. This data includes information on the Hospital's sub-group type, legal business name, doing business as name, organization type and address.\u00a0\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/4a4388c8-4a14-4a4d-b03a-f67d85d041f0/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint406": {
+      "get": {
+        "summary": "Hospital Enrollments : 2024-12-01",
+        "description": "The Hospital Enrollments dataset provides enrollment information of all Hospitals currently enrolled in Medicare. This data includes information on the Hospital's sub-group type, legal business name, doing business as name, organization type and address.\u00a0\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/be4d4816-be24-4635-9f4b-af9af75b708e/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint407": {
+      "get": {
+        "summary": "Hospital Enrollments : 2024-11-01",
+        "description": "The Hospital Enrollments dataset provides enrollment information of all Hospitals currently enrolled in Medicare. This data includes information on the Hospital's sub-group type, legal business name, doing business as name, organization type and address.\u00a0\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/0b4b0c5d-0ea7-41a6-9b1f-af5cf98289ce/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint408": {
+      "get": {
+        "summary": "Hospital Enrollments : 2024-10-01",
+        "description": "The Hospital Enrollments dataset provides enrollment information of all Hospitals currently enrolled in Medicare. This data includes information on the Hospital's sub-group type, legal business name, doing business as name, organization type and address.\u00a0\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/bc0698f5-672f-473e-9ea4-72a8ecf73e52/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint409": {
+      "get": {
+        "summary": "Hospital Enrollments : 2024-09-01",
+        "description": "The Hospital Enrollments dataset provides enrollment information of all Hospitals currently enrolled in Medicare. This data includes information on the Hospital's sub-group type, legal business name, doing business as name, organization type and address.\u00a0\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/6730716f-6a3f-47d3-9887-efd364764e71/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint410": {
+      "get": {
+        "summary": "Hospital Enrollments : 2024-08-01",
+        "description": "The Hospital Enrollments dataset provides enrollment information of all Hospitals currently enrolled in Medicare. This data includes information on the Hospital's sub-group type, legal business name, doing business as name, organization type and address.\u00a0\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/8f04d11f-7a25-4fb4-ae7d-e63975f544db/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint411": {
+      "get": {
+        "summary": "Hospital Enrollments : 2024-07-01",
+        "description": "The Hospital Enrollments dataset provides enrollment information of all Hospitals currently enrolled in Medicare. This data includes information on the Hospital's sub-group type, legal business name, doing business as name, organization type and address.\u00a0\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/adf543ec-03a4-4eab-851c-d2646f03167d/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint412": {
+      "get": {
+        "summary": "Hospital Enrollments : 2024-06-03",
+        "description": "The Hospital Enrollments dataset provides enrollment information of all Hospitals currently enrolled in Medicare. This data includes information on the Hospital's sub-group type, legal business name, doing business as name, organization type and address.\u00a0\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/da6d46bd-b701-432e-b5d9-c0f5a9c078b8/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint413": {
+      "get": {
+        "summary": "Hospital Enrollments : 2024-05-01",
+        "description": "The Hospital Enrollments dataset provides enrollment information of all Hospitals currently enrolled in Medicare. This data includes information on the Hospital's sub-group type, legal business name, doing business as name, organization type and address.\u00a0\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/e6672740-a004-462c-9fc2-4333f26b070a/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint414": {
+      "get": {
+        "summary": "Hospital Enrollments : 2024-04-01",
+        "description": "The Hospital Enrollments dataset provides enrollment information of all Hospitals currently enrolled in Medicare. This data includes information on the Hospital's sub-group type, legal business name, doing business as name, organization type and address.\u00a0\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f975f35a-a4a0-48ad-9360-9db84c6725ad/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint415": {
+      "get": {
+        "summary": "Hospital Enrollments : 2024-03-01",
+        "description": "The Hospital Enrollments dataset provides enrollment information of all Hospitals currently enrolled in Medicare. This data includes information on the Hospital's sub-group type, legal business name, doing business as name, organization type and address.\u00a0\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/76dddaa4-4136-4642-a5fc-d05c19f60c9c/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint416": {
+      "get": {
+        "summary": "Hospital Enrollments : 2024-02-01",
+        "description": "The Hospital Enrollments dataset provides enrollment information of all Hospitals currently enrolled in Medicare. This data includes information on the Hospital's sub-group type, legal business name, doing business as name, organization type and address.\u00a0\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/eb06749d-f988-4799-aeba-9d0881860690/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint417": {
+      "get": {
+        "summary": "Hospital Enrollments : 2024-01-05",
+        "description": "The Hospital Enrollments dataset provides enrollment information of all Hospitals currently enrolled in Medicare. This data includes information on the Hospital's sub-group type, legal business name, doing business as name, organization type and address.\u00a0\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/bc22c157-7779-473b-b624-085ad7265f91/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint418": {
+      "get": {
+        "summary": "Hospital Enrollments : 2023-12-01",
+        "description": "The Hospital Enrollments dataset provides enrollment information of all Hospitals currently enrolled in Medicare. This data includes information on the Hospital's sub-group type, legal business name, doing business as name, organization type and address.\u00a0\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/dde19e76-3228-44c7-8185-779cdb654ebf/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint419": {
+      "get": {
+        "summary": "Hospital Enrollments : 2023-11-01",
+        "description": "The Hospital Enrollments dataset provides enrollment information of all Hospitals currently enrolled in Medicare. This data includes information on the Hospital's sub-group type, legal business name, doing business as name, organization type and address.\u00a0\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/a85fa452-dee9-4c8f-8156-665238b8492f/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint420": {
+      "get": {
+        "summary": "Hospital Enrollments : 2023-10-02",
+        "description": "The Hospital Enrollments dataset provides enrollment information of all Hospitals currently enrolled in Medicare. This data includes information on the Hospital's sub-group type, legal business name, doing business as name, organization type and address.\u00a0\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/7cfeded7-0d46-40c0-a23a-453b51271ae4/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint421": {
+      "get": {
+        "summary": "Hospital Enrollments : 2023-09-15",
+        "description": "The Hospital Enrollments dataset provides enrollment information of all Hospitals currently enrolled in Medicare. This data includes information on the Hospital's sub-group type, legal business name, doing business as name, organization type and address.\u00a0\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/daf5c2d5-15fd-4431-9469-93faec8aa567/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint422": {
+      "get": {
+        "summary": "Hospital Enrollments : 2023-08-01",
+        "description": "The Hospital Enrollments dataset provides enrollment information of all Hospitals currently enrolled in Medicare. This data includes information on the Hospital's sub-group type, legal business name, doing business as name, organization type and address.\u00a0\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/1e406482-cafe-4787-84b0-4241fd76cee9/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint423": {
+      "get": {
+        "summary": "Hospital Enrollments : 2023-07-17",
+        "description": "The Hospital Enrollments dataset provides enrollment information of all Hospitals currently enrolled in Medicare. This data includes information on the Hospital's sub-group type, legal business name, doing business as name, organization type and address.\u00a0\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/621b6745-dbd9-4924-8004-7e334ce1885e/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint424": {
+      "get": {
+        "summary": "Hospital Enrollments : 2023-06-15",
+        "description": "The Hospital Enrollments dataset provides enrollment information of all Hospitals currently enrolled in Medicare. This data includes information on the Hospital's sub-group type, legal business name, doing business as name, organization type and address.\u00a0\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/0480e7af-4410-4b93-bd13-d8c8fd3d1153/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint425": {
+      "get": {
+        "summary": "Hospital Enrollments : 2023-05-01",
+        "description": "The Hospital Enrollments dataset provides enrollment information of all Hospitals currently enrolled in Medicare. This data includes information on the Hospital's sub-group type, legal business name, doing business as name, organization type and address.\u00a0\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/ce85ae8a-4b06-41fd-a926-e3d19292bff2/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint426": {
+      "get": {
+        "summary": "Hospital Enrollments : 2023-04-14",
+        "description": "The Hospital Enrollments dataset provides enrollment information of all Hospitals currently enrolled in Medicare. This data includes information on the Hospital's sub-group type, legal business name, doing business as name, organization type and address.\u00a0\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/9786bd59-b775-4556-9a1f-c5431fcbe6d1/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint427": {
+      "get": {
+        "summary": "Hospital Enrollments : 2023-03-15",
+        "description": "The Hospital Enrollments dataset provides enrollment information of all Hospitals currently enrolled in Medicare. This data includes information on the Hospital's sub-group type, legal business name, doing business as name, organization type and address.\u00a0\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f162edc0-c6b6-4a9e-9f31-7c5a5e2a0128/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint428": {
+      "get": {
+        "summary": "Hospital Enrollments : 2023-02-15",
+        "description": "The Hospital Enrollments dataset provides enrollment information of all Hospitals currently enrolled in Medicare. This data includes information on the Hospital's sub-group type, legal business name, doing business as name, organization type and address.\u00a0\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/cceab54a-f9b2-4ae0-8bc5-275bcaed6c3b/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint429": {
+      "get": {
+        "summary": "Hospital Enrollments : 2023-01-01",
+        "description": "The Hospital Enrollments dataset provides enrollment information of all Hospitals currently enrolled in Medicare. This data includes information on the Hospital's sub-group type, legal business name, doing business as name, organization type and address.\u00a0\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/4c7919b0-545e-4188-94fa-0819c5b3b063/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint430": {
+      "get": {
+        "summary": "Hospital Enrollments : 2022-11-21",
+        "description": "The Hospital Enrollments dataset provides enrollment information of all Hospitals currently enrolled in Medicare. This data includes information on the Hospital's sub-group type, legal business name, doing business as name, organization type and address.\u00a0\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/ea39ffd9-3a46-4844-857a-10c1503fbfa7/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint431": {
+      "get": {
+        "summary": "Hospital Price Transparency Enforcement Activities and Outcomes : 2024-12-01",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/6a3aa708-3c9d-411a-a1a4-e046d3ade7ef/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint432": {
+      "get": {
+        "summary": "Hospital Price Transparency Enforcement Activities and Outcomes : 2024-12-01",
+        "description": "The Hospital Price Transparency Enforcement Activities and Outcomes dataset contains information related to enforcement actions taken by CMS following a compliance review of a hospital's obligation to establish, update and make public a list of the hospital\u2019s standard charges for items and services provided by the hospital, in accordance with regulation (45 CFR 180). This data set includes the name of each hospital or hospital location, the hospital or hospital location address, the outcome or action following a CMS compliance review and the date of the outcome or action taken.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/99fa0786-29a5-4159-aee1-5900caad7018/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint433": {
+      "get": {
+        "summary": "Hospital Price Transparency Enforcement Activities and Outcomes : 2024-09-01",
+        "description": "The Hospital Price Transparency Enforcement Activities and Outcomes dataset contains information related to enforcement actions taken by CMS following a compliance review of a hospital's obligation to establish, update and make public a list of the hospital\u2019s standard charges for items and services provided by the hospital, in accordance with regulation (45 CFR 180). This data set includes the name of each hospital or hospital location, the hospital or hospital location address, the outcome or action following a CMS compliance review and the date of the outcome or action taken.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/6a5a1ca0-14ba-4b12-86be-0fa535209e74/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint434": {
+      "get": {
+        "summary": "Hospital Price Transparency Enforcement Activities and Outcomes : 2024-06-01",
+        "description": "The Hospital Price Transparency Enforcement Activities and Outcomes dataset contains information related to enforcement actions taken by CMS following a compliance review of a hospital's obligation to establish, update and make public a list of the hospital\u2019s standard charges for items and services provided by the hospital, in accordance with regulation (45 CFR 180). This data set includes the name of each hospital or hospital location, the hospital or hospital location address, the outcome or action following a CMS compliance review and the date of the outcome or action taken.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/a077c403-59c0-4cf0-87ed-37f5527e3075/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint435": {
+      "get": {
+        "summary": "Hospital Price Transparency Enforcement Activities and Outcomes : 2023-12-31",
+        "description": "The Hospital Price Transparency Enforcement Activities and Outcomes dataset contains information related to enforcement actions taken by CMS following a compliance review of a hospital's obligation to establish, update and make public a list of the hospital\u2019s standard charges for items and services provided by the hospital, in accordance with regulation (45 CFR 180). This data set includes the name of each hospital or hospital location, the hospital or hospital location address, the outcome or action following a CMS compliance review and the date of the outcome or action taken.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/8f815d76-c741-4a99-92ad-280ab2d2dceb/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint436": {
+      "get": {
+        "summary": "Hospital Service Area : 2023-01-01",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/8708ca8b-8636-44ed-8303-724cbfaf78ad/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint437": {
+      "get": {
+        "summary": "Hospital Service Area : 2023-01-01",
+        "description": "The Hospital Service Area data\u00a0is a summary of calendar year Medicare inpatient hospital fee-for-service and Medicare Advantage claims data. It contains number of discharges, total days of care, and total charges summarized by hospital provider number and the ZIP code of the Medicare beneficiary.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/7f749f00-bfa9-4377-9a98-90c15cacc2f3/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint438": {
+      "get": {
+        "summary": "Hospital Service Area : 2022-01-01",
+        "description": "The Hospital Service Area data\u00a0is a summary of calendar year Medicare inpatient hospital fee-for-service and Medicare Advantage claims data. It contains number of discharges, total days of care, and total charges summarized by hospital provider number and the ZIP code of the Medicare beneficiary.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/84a0a165-a570-4ffe-a230-043176c1221a/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint439": {
+      "get": {
+        "summary": "Hospital Service Area : 2021-01-01",
+        "description": "The Hospital Service Area data\u00a0is a summary of calendar year Medicare inpatient hospital fee-for-service and Medicare Advantage claims data. It contains number of discharges, total days of care, and total charges summarized by hospital provider number and the ZIP code of the Medicare beneficiary.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/099b80df-be9c-4274-a974-31d4537bdc33/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint440": {
+      "get": {
+        "summary": "Hospital Service Area : 2020-12-31",
+        "description": "The Hospital Service Area data\u00a0is a summary of calendar year Medicare inpatient hospital fee-for-service and Medicare Advantage claims data. It contains number of discharges, total days of care, and total charges summarized by hospital provider number and the ZIP code of the Medicare beneficiary.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/609f2b73-d7e0-4dd1-a8b1-f951860ad9f7/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint441": {
+      "get": {
+        "summary": "Hospital Service Area : 2019-12-31",
+        "description": "The Hospital Service Area data\u00a0is a summary of calendar year Medicare inpatient hospital fee-for-service and Medicare Advantage claims data. It contains number of discharges, total days of care, and total charges summarized by hospital provider number and the ZIP code of the Medicare beneficiary.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/2713ba99-c59e-4b25-9a3d-3661d35988da/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint442": {
+      "get": {
+        "summary": "Hospital Service Area : 2018-12-31",
+        "description": "The Hospital Service Area data\u00a0is a summary of calendar year Medicare inpatient hospital fee-for-service and Medicare Advantage claims data. It contains number of discharges, total days of care, and total charges summarized by hospital provider number and the ZIP code of the Medicare beneficiary.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/263734c7-f5fd-4df2-8436-2322c86e7191/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint443": {
+      "get": {
+        "summary": "Hospital Service Area : 2017-12-31",
+        "description": "The Hospital Service Area data\u00a0is a summary of calendar year Medicare inpatient hospital fee-for-service and Medicare Advantage claims data. It contains number of discharges, total days of care, and total charges summarized by hospital provider number and the ZIP code of the Medicare beneficiary.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/6628dd7e-9706-4e8a-bd85-f8450308066a/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint444": {
+      "get": {
+        "summary": "Hospital Service Area : 2016-12-31",
+        "description": "The Hospital Service Area data\u00a0is a summary of calendar year Medicare inpatient hospital fee-for-service and Medicare Advantage claims data. It contains number of discharges, total days of care, and total charges summarized by hospital provider number and the ZIP code of the Medicare beneficiary.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/c9912dd2-fac1-4929-9641-dc031422b458/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint445": {
+      "get": {
+        "summary": "Hospital Service Area : 2015-12-31",
+        "description": "The Hospital Service Area data\u00a0is a summary of calendar year Medicare inpatient hospital fee-for-service and Medicare Advantage claims data. It contains number of discharges, total days of care, and total charges summarized by hospital provider number and the ZIP code of the Medicare beneficiary.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/93a89060-c812-4955-8433-09cad35d5eb2/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint446": {
+      "get": {
+        "summary": "Innovation Center Data and Reports : 2025-03-25",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/c0451a3a-a86c-4bd4-a0b7-c93e6b1f1257/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint447": {
+      "get": {
+        "summary": "Innovation Center Data and Reports : 2025-03-25",
+        "description": "The Innovation Center Data and Reports dataset contains a variety of contributions from CMS Innovation Center models, demonstrations, initiatives and programs. These resources include evaluation reports and associated materials, reports to Congress, and case studies among others.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/8c7fac95-aaec-4233-bad5-ac51d0f2dfc9/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint448": {
+      "get": {
+        "summary": "Innovation Center Innovation Advisors : 2015-01-16",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/6d6fe0be-25d8-473b-84f6-b3b9ef3e4469/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint449": {
+      "get": {
+        "summary": "Innovation Center Innovation Advisors : 2015-01-16",
+        "description": "The CMS Innovation Center Innovation Advisors dataset provides information on individuals chosen by CMS as participants in the Innovation Advisors Program. The data\u00a0includes the name of the initiative, as well as participants names, geographic location including city and state, and geographic reach of the practice.\u00a0\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/884aad8e-da20-439b-bb9d-850cd60dca3d/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint450": {
+      "get": {
+        "summary": "Innovation Center Model Awardees : 2017-09-15",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/424de599-7a34-4243-af70-95d24dd675dd/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint451": {
+      "get": {
+        "summary": "Innovation Center Model Awardees : 2017-09-15",
+        "description": "The Innovation Center Model Awardees dataset provides information about institutions that have participated in the model process, and have been awarded funding based on their efforts to design, implement, or test innovative healthcare delivery initiatives. The data includes the name of the institution, related keywords, project name, geographic reach, funding amount, real or projected 3-year savings, a summary of the institutions activities in the model, categories related to the type of healthcare initiative, stage of participation, and the URL for the model or initiative page on the CMMI website.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/a6056af4-c89a-4a2b-9503-905b597cab40/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint452": {
+      "get": {
+        "summary": "Innovation Center Model Participants : 2025-03-12",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/44e93e18-b9b3-4650-9471-2b1b31dc588b/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint453": {
+      "get": {
+        "summary": "Innovation Center Model Participants : 2025-03-12",
+        "description": "The Innovation Center Model Participants dataset contains information on current CMS Innovation Center models, demonstrations, initiatives, and programs. This can include the name of the initiative, organization name, location information, address, phase of participation, social media and website URLs, Metropolitan Statistical Area, categories related to health care quality, cost, payment, and delivery, among others. Information on past participants can be found below under resources.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/cea81977-6fa6-44e3-876a-5116c905921c/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint454": {
+      "get": {
+        "summary": "Innovation Center Model Summary Information : 2025-03-12",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/0d753f51-c3de-43cd-95d2-550a23b8606a/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint455": {
+      "get": {
+        "summary": "Innovation Center Model Summary Information : 2025-03-12",
+        "description": "The Innovation Center Model Summary Information dataset contains various data points related to CMS Innovation Center models, demonstrations, programs, and initiatives. This can includes name, start and end date, statutory or regulatory authority, keywords, stage of implementation, participants, beneficiaries and physicians impacted, and categories related to health care quality, cost, payment, and delivery.\u00a0\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/038a8dcf-6552-4766-a954-18a275412bb6/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint456": {
+      "get": {
+        "summary": "Innovation Center Webinars and Forums : 2024-06-21",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/cc3bd6db-2ae9-4d86-95be-20267f159f73/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint457": {
+      "get": {
+        "summary": "Innovation Center Webinars and Forums : 2024-06-21",
+        "description": "The Innovation Center Webinars and Forums dataset contains listings of a variety of events from CMS Innovation Center models, demonstrations, initiatives and programs. The types of events include webinars, open door forums, office hours and conference calls among others. These events provide opportunities to learn about current activity, upcoming proceedings and to ask questions and offer feedback.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/332846e4-ea55-4641-8307-59ea4e59a5a0/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint458": {
+      "get": {
+        "summary": "Long-Term Care Facility Characteristics : 2024-07-01",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/129a6503-c0f1-4132-b186-4c0232c2d894/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint459": {
+      "get": {
+        "summary": "Long-Term Care Facility Characteristics : 2024-07-01",
+        "description": "The Long-Term Care Facility Characteristics, CMS Form 671, dataset provides information submitted by nursing homes on the CMS Form 671 collected during annual surveys. The data include information about resident census, ownership, dedicated special care units, facility characteristics, and staffing.\n\n\u00a0\n\nNote: Annual surveys are conducted every 9 to 15 months. Additionally, some states are experiencing delays in conducting annual surveys, resulting in longer periods of time since the last annual survey. As such, some of the data included in these files may not be up to date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/510f8762-0cf7-4aa3-93ff-e13af0b3bf26/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint460": {
+      "get": {
+        "summary": "Long-Term Care Facility Characteristics : 2024-04-01",
+        "description": "The Long-Term Care Facility Characteristics, CMS Form 671, dataset provides information submitted by nursing homes on the CMS Form 671 collected during annual surveys. The data include information about resident census, ownership, dedicated special care units, facility characteristics, and staffing.\n\n\u00a0\n\nNote: Annual surveys are conducted every 9 to 15 months. Additionally, some states are experiencing delays in conducting annual surveys, resulting in longer periods of time since the last annual survey. As such, some of the data included in these files may not be up to date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/99117fd5-b2f5-439d-8a3a-1c6bedee563f/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint461": {
+      "get": {
+        "summary": "Long-Term Care Facility Characteristics : 2024-01-01",
+        "description": "The Long-Term Care Facility Characteristics, CMS Form 671, dataset provides information submitted by nursing homes on the CMS Form 671 collected during annual surveys. The data include information about resident census, ownership, dedicated special care units, facility characteristics, and staffing.\n\n\u00a0\n\nNote: Annual surveys are conducted every 9 to 15 months. Additionally, some states are experiencing delays in conducting annual surveys, resulting in longer periods of time since the last annual survey. As such, some of the data included in these files may not be up to date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/e62e6195-01de-407e-9f6b-538e671a73af/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint462": {
+      "get": {
+        "summary": "Long-Term Care Facility Characteristics : 2023-10-01",
+        "description": "The Long-Term Care Facility Characteristics, CMS Form 671, dataset provides information submitted by nursing homes on the CMS Form 671 collected during annual surveys. The data include information about resident census, ownership, dedicated special care units, facility characteristics, and staffing.\n\n\u00a0\n\nNote: Annual surveys are conducted every 9 to 15 months. Additionally, some states are experiencing delays in conducting annual surveys, resulting in longer periods of time since the last annual survey. As such, some of the data included in these files may not be up to date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/b3c5c8c2-d7b2-410e-95ce-2919eaf8994d/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint463": {
+      "get": {
+        "summary": "Managing Clinician Aggregation Group Performance : 2023-06-01",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/6a0dbf98-e4b0-4037-ac63-1439b08f4a71/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint464": {
+      "get": {
+        "summary": "Managing Clinician Aggregation Group Performance : 2023-06-01",
+        "description": "The\u00a0Managing Clinician Aggregation Group Performance dataset provides performance information in the End-Stage Renal Disease (ESRD) Treatment Choices (ETC) Model. The dataset includes information on Performance Payment Adjustment (PPA), Modality Performance Score (MPS), home dialysis rate, and transplant rate, as well as the individual components of each rate for each model participant Managing Clinician\u00a0aggregation group.\n\n\u00a0\n\nAll Managing Clinicians within the same aggregation group share the same performance information. The supplementary aggregation group crosswalk file may be used to map aggregation groups to individual ETC Participant Managing Clinicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/4315f83a-760b-4aa5-acf0-02c1ff9ed403/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint465": {
+      "get": {
+        "summary": "Managing Clinician Aggregation Group Performance : 2022-12-31",
+        "description": "The\u00a0Managing Clinician Aggregation Group Performance dataset provides performance information in the End-Stage Renal Disease (ESRD) Treatment Choices (ETC) Model. The dataset includes information on Performance Payment Adjustment (PPA), Modality Performance Score (MPS), home dialysis rate, and transplant rate, as well as the individual components of each rate for each model participant Managing Clinician\u00a0aggregation group.\n\n\u00a0\n\nAll Managing Clinicians within the same aggregation group share the same performance information. The supplementary aggregation group crosswalk file may be used to map aggregation groups to individual ETC Participant Managing Clinicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/814e85b5-c8f7-4331-b34c-7cc1eb5a2dab/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint466": {
+      "get": {
+        "summary": "Managing Clinician Aggregation Group Performance : 2022-06-30",
+        "description": "The\u00a0Managing Clinician Aggregation Group Performance dataset provides performance information in the End-Stage Renal Disease (ESRD) Treatment Choices (ETC) Model. The dataset includes information on Performance Payment Adjustment (PPA), Modality Performance Score (MPS), home dialysis rate, and transplant rate, as well as the individual components of each rate for each model participant Managing Clinician\u00a0aggregation group.\n\n\u00a0\n\nAll Managing Clinicians within the same aggregation group share the same performance information. The supplementary aggregation group crosswalk file may be used to map aggregation groups to individual ETC Participant Managing Clinicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/8bcc5f21-3692-4e89-9462-241af027496d/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint467": {
+      "get": {
+        "summary": "Managing Clinician Aggregation Group Performance : 2021-12-31",
+        "description": "The\u00a0Managing Clinician Aggregation Group Performance dataset provides performance information in the End-Stage Renal Disease (ESRD) Treatment Choices (ETC) Model. The dataset includes information on Performance Payment Adjustment (PPA), Modality Performance Score (MPS), home dialysis rate, and transplant rate, as well as the individual components of each rate for each model participant Managing Clinician\u00a0aggregation group.\n\n\u00a0\n\nAll Managing Clinicians within the same aggregation group share the same performance information. The supplementary aggregation group crosswalk file may be used to map aggregation groups to individual ETC Participant Managing Clinicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/04ff35fe-16f5-4b81-83db-c5668a7c8770/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint468": {
+      "get": {
+        "summary": "Market Saturation & Utilization Core-Based Statistical Areas : 2023-12-04",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/9b0e7798-d945-48fc-9861-d38bb5083a74/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint469": {
+      "get": {
+        "summary": "Market Saturation & Utilization Core-Based Statistical Areas : 2023-12-04",
+        "description": "The Market Saturation and Utilization Core-Based Statistical Areas (CBSA) dataset provides monitoring of market saturation as a means to help prevent potential fraud, waste, and abuse (FWA). CBSAs are geographical delineations that are Census Bureau-defined urban clusters of at least 10,000 people. Market saturation, in the present context, refers to the density of providers of a particular service within a defined geographic area relative to the number of beneficiaries receiving that service in the area. The data can be used to reveal the degree to which use of a service is related to the number of providers servicing a geographic region. There are also a number of secondary research uses for these data, but one objective of making these data public is to assist health care providers in making informed decisions about their service locations and the beneficiary population they serve.\n\nThe interactive dataset can be filtered and analyzed on the site or downloaded in Excel format.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/ec13a93f-3d70-409f-8bc1-9e5df5bb95bc/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint470": {
+      "get": {
+        "summary": "Market Saturation & Utilization State-County : 2023-12-04",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/8900b9c5-50b7-43de-9bdd-0d7113a8355e/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint471": {
+      "get": {
+        "summary": "Market Saturation & Utilization State-County : 2023-12-04",
+        "description": "The Market Saturation and Utilization State-County dataset provides monitoring of market saturation as a means to help prevent potential fraud, waste, and abuse (FWA). Market saturation, in the present context, refers to the density of providers of a particular service within a defined geographic area relative to the number of beneficiaries receiving that service in the area. The data can be used to reveal the degree to which use of a service is related to the number of providers servicing a geographic region. There are also a number of secondary research uses for these data, but one objective of making these data public is to assist health care providers in making informed decisions about their service locations and the beneficiary population they serve.\n\nThe interactive dataset can be filtered and analyzed on the site or downloaded in Excel format.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f040c43c-4b7f-43df-ba0d-9596aaf691fa/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint472": {
+      "get": {
+        "summary": "Medicaid Managed Care : 2023-12-01",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/a93f5362-2fe6-4b4d-8260-118be0d618e0/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint473": {
+      "get": {
+        "summary": "Medicaid Managed Care : 2023-12-01",
+        "description": "The Medicaid Managed Care\u00a0dataset uses CMS' state Transformed Medicaid Statistical Information System (T-MSIS)\u00a0data for Arizona, Michigan, Nevada, and New Mexico to identify various metrics for managed care plans within each state. These metrics are designed to allow users to compare plans in each state across different specialty areas (currently Pediatric Dental, Behavioral Health, and Prenatal OB/GYN).\u00a0This dataset does not include all available data in T-MSIS but utilized a subset to calculate the individual metrics identified.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/4e00993e-c755-4009-bd99-cf44f119eae3/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint474": {
+      "get": {
+        "summary": "Medicare Advantage Geographic Variation - National & State : 2021-01-15",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/8e989bc0-2260-49a7-9c6d-8e9e10af7cea/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint475": {
+      "get": {
+        "summary": "Medicare Advantage Geographic Variation - National & State : 2021-01-15",
+        "description": "The Medicare Advantage Geographic Variation National & State dataset provides information on demographic characteristics and service utilization for hospital inpatient, skilled nursing facility services, outpatient, DME, and professional services between 2016-2021 for Medicare Advantage beneficiaries at the national and state levels.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/ddde8085-d976-4694-914a-5d52a7818170/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint476": {
+      "get": {
+        "summary": "Medicare Clinical Laboratory Fee Schedule Private Payer Rates and Volumes : 2018-12-31",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/0e57f57d-0acc-4c9c-8f8c-973e3f4a3c4b/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint477": {
+      "get": {
+        "summary": "Medicare Clinical Laboratory Fee Schedule Private Payer Rates and Volumes : 2018-12-31",
+        "description": "The Medicare Clinical Laboratory Fee Schedule (CLFS) dataset provides raw data reported by any applicable laboratories that reported a volume greater than 10 tests for the data collection period. As described by the Protecting Access to Medicare Act, Applicable Laboratories must report to CMS private payor rates and associated volumes for laboratory tests on the Clinical Laboratory Fee Schedule.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/1f39e9a2-5f75-4b39-831a-cff0a2096832/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint478": {
+      "get": {
+        "summary": "Medicare COVID-19 Hospitalization Trends : 2023-12-31",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/2684c3e2-3598-4997-a598-0991bad6fbf2/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint479": {
+      "get": {
+        "summary": "Medicare COVID-19 Hospitalization Trends : 2023-12-31",
+        "description": "The Medicare COVID-19 Hospitalization Trends dataset contains aggregate information from Medicare Fee-for-Service claims, Medicare Advantage encounter, and Medicare enrollment data. It provides insight around the groups of beneficiaries that were hospitalized at different points during the pandemic.\n\n\u00a0\n\nCMS publicly released the first Preliminary Medicare COVID-19 Snapshot in June 2020 during the early stages of the Public Health Emergency for COVID-19. That report focused on COVID-19 cases and hospitalizations data for Medicare beneficiaries with a COVID-19 diagnosis. Throughout 2020 and 2021, that report was subsequently updated with refreshed data 13 times. Beginning in October 2021, CMS shifted its public COVID-19 reporting away from cumulative case and hospitalization rates to hospitalization trends over time with the release of this report, the Medicare COVID-19 Hospitalization Trends Report.\u00a0\n\n\u00a0\n\nAll prior releases of both the Preliminary Medicare COVID-19 Snapshot and the Medicare COVID-19 Hospitalization Trends Report are available for download in the Medicare COVID-19 Data - Prior Releases file.\u00a0\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/7379cbb0-1e14-40de-9639-510776894267/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint480": {
+      "get": {
+        "summary": "Medicare COVID-19 Hospitalization Trends : 2022-12-01",
+        "description": "The Medicare COVID-19 Hospitalization Trends dataset contains aggregate information from Medicare Fee-for-Service claims, Medicare Advantage encounter, and Medicare enrollment data. It provides insight around the groups of beneficiaries that were hospitalized at different points during the pandemic.\n\n\u00a0\n\nCMS publicly released the first Preliminary Medicare COVID-19 Snapshot in June 2020 during the early stages of the Public Health Emergency for COVID-19. That report focused on COVID-19 cases and hospitalizations data for Medicare beneficiaries with a COVID-19 diagnosis. Throughout 2020 and 2021, that report was subsequently updated with refreshed data 13 times. Beginning in October 2021, CMS shifted its public COVID-19 reporting away from cumulative case and hospitalization rates to hospitalization trends over time with the release of this report, the Medicare COVID-19 Hospitalization Trends Report.\u00a0\n\n\u00a0\n\nAll prior releases of both the Preliminary Medicare COVID-19 Snapshot and the Medicare COVID-19 Hospitalization Trends Report are available for download in the Medicare COVID-19 Data - Prior Releases file.\u00a0\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/10b0e63a-a65a-45c1-8c9f-26829a98c9ea/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint481": {
+      "get": {
+        "summary": "Medicare Demonstrations : 2024-04-12",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/0764d86c-d19c-4b73-9e57-eba3cc1f7849/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint482": {
+      "get": {
+        "summary": "Medicare Demonstrations : 2024-04-12",
+        "description": "The Medicare Demonstrations dataset provides information on demonstrations conducted in the CMS Innovation Center. It includes the demonstration project name, type, description, year, and website for the demonstration page.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/b35c77ac-26e2-4320-91e1-ba71c4d7ff2c/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint483": {
+      "get": {
+        "summary": "Medicare Diabetes Prevention Program : 2025-03-12",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/a15c198e-4cf3-46ab-a30e-15c69bd13edd/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint484": {
+      "get": {
+        "summary": "Medicare Diabetes Prevention Program : 2025-03-12",
+        "description": "The Medicare Diabetes Prevention Program dataset contains information about suppliers from which eligible Medicare beneficiaries may be furnished associated services. The information in this dataset can include organization name, location, contact information, National Provider Identifier (NPI) among other data points. Location data populates the \"Map of MDPP Suppliers furnishing MDPP Services\" map.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/84f9514b-815e-4bda-9323-e65cff0ed5c3/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint485": {
+      "get": {
+        "summary": "Medicare Dialysis Facilities : 2024-01-01",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f8610e87-ba25-43a3-a49e-927dbc8701ae/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint486": {
+      "get": {
+        "summary": "Medicare Dialysis Facilities : 2024-01-01",
+        "description": "The Medicare Dialysis Facilities data provides information on clinical and patient measures for Medicare-certified\u00a0ESRD\u00a0facilities, also known as dialysis facilities. It contains data on patient characteristics, treatment patterns, hospitalization, mortality, and transplantation patterns in Medicare-certified dialysis facilities.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/62d125ff-c959-4c5c-8a46-8cacba50bfd4/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint487": {
+      "get": {
+        "summary": "Medicare Dialysis Facilities : 2023-01-01",
+        "description": "The Medicare Dialysis Facilities data provides information on clinical and patient measures for Medicare-certified\u00a0ESRD\u00a0facilities, also known as dialysis facilities. It contains data on patient characteristics, treatment patterns, hospitalization, mortality, and transplantation patterns in Medicare-certified dialysis facilities.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/200e7e7e-a5a6-4450-ba18-ab53d237cc45/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint488": {
+      "get": {
+        "summary": "Medicare Dialysis Facilities : 2022-12-31",
+        "description": "The Medicare Dialysis Facilities data provides information on clinical and patient measures for Medicare-certified\u00a0ESRD\u00a0facilities, also known as dialysis facilities. It contains data on patient characteristics, treatment patterns, hospitalization, mortality, and transplantation patterns in Medicare-certified dialysis facilities.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/ebc64ad1-164c-455a-80ca-cb0753e44a46/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint489": {
+      "get": {
+        "summary": "Medicare Dialysis Facilities : 2021-12-30",
+        "description": "The Medicare Dialysis Facilities data provides information on clinical and patient measures for Medicare-certified\u00a0ESRD\u00a0facilities, also known as dialysis facilities. It contains data on patient characteristics, treatment patterns, hospitalization, mortality, and transplantation patterns in Medicare-certified dialysis facilities.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/e66eaf03-398f-4a8c-9d1b-6aaf25fb6425/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint490": {
+      "get": {
+        "summary": "Medicare Dialysis Facilities : 2020-12-30",
+        "description": "The Medicare Dialysis Facilities data provides information on clinical and patient measures for Medicare-certified\u00a0ESRD\u00a0facilities, also known as dialysis facilities. It contains data on patient characteristics, treatment patterns, hospitalization, mortality, and transplantation patterns in Medicare-certified dialysis facilities.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/44aedde0-c535-497d-ab27-b415ec12ff5a/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint491": {
+      "get": {
+        "summary": "Medicare Durable Medical Equipment, Devices & Supplies - by Supplier : 2022-03-26",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/a2d56d3f-3531-4315-9d87-e29986516b41/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint492": {
+      "get": {
+        "summary": "Medicare Durable Medical Equipment, Devices & Supplies - by Supplier : 2022-03-26",
+        "description": "The Medicare Durable Medical Equipment, Devices & Supplies by Supplier dataset contains information on usage, payments, submitted charges and beneficiary demographic and health characteristics organized by supplier National Provider Identifier (NPI).\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/471f9c0d-12c4-4601-a547-559dcfa2d0e2/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint493": {
+      "get": {
+        "summary": "Medicare Durable Medical Equipment, Devices & Supplies - by Supplier : 2021-03-26",
+        "description": "The Medicare Durable Medical Equipment, Devices & Supplies by Supplier dataset contains information on usage, payments, submitted charges and beneficiary demographic and health characteristics organized by supplier National Provider Identifier (NPI).\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/887561f5-1676-4c93-84b6-d2e50eb609d3/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint494": {
+      "get": {
+        "summary": "Medicare Durable Medical Equipment, Devices & Supplies - by Supplier : 2020-03-26",
+        "description": "The Medicare Durable Medical Equipment, Devices & Supplies by Supplier dataset contains information on usage, payments, submitted charges and beneficiary demographic and health characteristics organized by supplier National Provider Identifier (NPI).\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/04f11092-de71-4a40-93b1-da2b41e4e938/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint495": {
+      "get": {
+        "summary": "Medicare Durable Medical Equipment, Devices & Supplies - by Supplier : 2019-03-26",
+        "description": "The Medicare Durable Medical Equipment, Devices & Supplies by Supplier dataset contains information on usage, payments, submitted charges and beneficiary demographic and health characteristics organized by supplier National Provider Identifier (NPI).\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/e8c8eb83-a1d8-49d3-ac99-dda79b147021/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint496": {
+      "get": {
+        "summary": "Medicare Durable Medical Equipment, Devices & Supplies - by Supplier : 2018-03-26",
+        "description": "The Medicare Durable Medical Equipment, Devices & Supplies by Supplier dataset contains information on usage, payments, submitted charges and beneficiary demographic and health characteristics organized by supplier National Provider Identifier (NPI).\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/896e9c85-eec1-4abe-b94a-f29aaae71178/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint497": {
+      "get": {
+        "summary": "Medicare Durable Medical Equipment, Devices & Supplies - by Supplier : 2017-03-26",
+        "description": "The Medicare Durable Medical Equipment, Devices & Supplies by Supplier dataset contains information on usage, payments, submitted charges and beneficiary demographic and health characteristics organized by supplier National Provider Identifier (NPI).\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/4189e4bc-f27d-4ef7-9b81-da038d9eedba/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint498": {
+      "get": {
+        "summary": "Medicare Durable Medical Equipment, Devices & Supplies - by Supplier : 2016-03-26",
+        "description": "The Medicare Durable Medical Equipment, Devices & Supplies by Supplier dataset contains information on usage, payments, submitted charges and beneficiary demographic and health characteristics organized by supplier National Provider Identifier (NPI).\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/8ac79556-925e-4bc7-a1aa-66c101411a4a/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint499": {
+      "get": {
+        "summary": "Medicare Durable Medical Equipment, Devices & Supplies - by Supplier : 2015-03-26",
+        "description": "The Medicare Durable Medical Equipment, Devices & Supplies by Supplier dataset contains information on usage, payments, submitted charges and beneficiary demographic and health characteristics organized by supplier National Provider Identifier (NPI).\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/a07ab9b1-4dcf-43eb-8aff-04cfd02cd19e/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint500": {
+      "get": {
+        "summary": "Medicare Durable Medical Equipment, Devices & Supplies - by Supplier : 2014-03-26",
+        "description": "The Medicare Durable Medical Equipment, Devices & Supplies by Supplier dataset contains information on usage, payments, submitted charges and beneficiary demographic and health characteristics organized by supplier National Provider Identifier (NPI).\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/82cb69ef-1271-4967-bda6-d557e1be0345/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

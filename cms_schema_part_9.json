@@ -1,0 +1,1915 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "CMS API Subset 9",
+    "version": "1.0.0",
+    "description": "Subset 9 of CMS API endpoints"
+  },
+  "servers": [
+    {
+      "url": "https://data.cms.gov"
+    }
+  ],
+  "paths": {
+    "/proxy/endpoint801": {
+      "get": {
+        "summary": "Order and Referring : 2024-03-12",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/8d60e0e1-9281-4aa2-b9d1-2914886c52d2/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint802": {
+      "get": {
+        "summary": "Order and Referring : 2024-03-08",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/601c1e5d-5f9d-47b7-9599-e95a8462caba/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint803": {
+      "get": {
+        "summary": "Order and Referring : 2024-03-05",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/4fef13e5-3262-4951-95e5-c293f842e9fa/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint804": {
+      "get": {
+        "summary": "Order and Referring : 2024-03-01",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/9b88255a-5840-46c4-aa87-ea1d86d5186c/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint805": {
+      "get": {
+        "summary": "Order and Referring : 2024-02-27",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/28823776-f646-42d6-987f-a10bfa344cb6/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint806": {
+      "get": {
+        "summary": "Order and Referring : 2024-02-23",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/66e55b07-d0cf-46af-a66b-846a6fbddfdb/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint807": {
+      "get": {
+        "summary": "Order and Referring : 2024-02-21",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/2b422db4-57d8-461e-a46b-2a41c0e4770a/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint808": {
+      "get": {
+        "summary": "Order and Referring : 2024-02-16",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/a4cb0262-b7a5-4355-91a5-e844f4fdef9f/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint809": {
+      "get": {
+        "summary": "Order and Referring : 2024-02-13",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/02c032bc-6271-413b-b9d9-6faa6a93cc10/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint810": {
+      "get": {
+        "summary": "Order and Referring : 2024-02-09",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/10caba18-96fa-429f-bd3e-8fd38fd70bdf/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint811": {
+      "get": {
+        "summary": "Order and Referring : 2024-02-06",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/bb8eff87-e6a2-45fe-93ed-b8895218281c/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint812": {
+      "get": {
+        "summary": "Order and Referring : 2024-02-02",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/c71c0987-7b3e-408a-ae19-6594f0ff2ad4/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint813": {
+      "get": {
+        "summary": "Order and Referring : 2024-01-30",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/a1a04a73-6c58-4c69-9b01-00752d8f77fc/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint814": {
+      "get": {
+        "summary": "Order and Referring : 2024-01-26",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/5c9f6e41-77ae-42f5-8081-211679f3acf8/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint815": {
+      "get": {
+        "summary": "Order and Referring : 2024-01-23",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/65b01bf5-af21-47db-bada-fd2cafbdd0ad/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint816": {
+      "get": {
+        "summary": "Order and Referring : 2024-01-19",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/e8326b2a-5833-497c-9bd7-452bb6821d15/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint817": {
+      "get": {
+        "summary": "Order and Referring : 2024-01-16",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/e6bf07f8-3a7c-478f-964f-995ccb58f811/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint818": {
+      "get": {
+        "summary": "Order and Referring : 2024-01-12",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/c843eec3-9855-4c16-a845-0285f57614e8/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint819": {
+      "get": {
+        "summary": "Order and Referring : 2024-01-09",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/edc2a28d-7e2a-4267-a924-296ef4f25115/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint820": {
+      "get": {
+        "summary": "Order and Referring : 2024-01-05",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f187e3e0-668a-4b3d-8b50-d9302bea4eeb/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint821": {
+      "get": {
+        "summary": "Order and Referring : 2024-01-03",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/890d310c-5721-49f5-960d-dc594462b39b/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint822": {
+      "get": {
+        "summary": "Order and Referring : 2023-12-29",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/9f1d8d2d-2555-4bef-95d2-ba836669e953/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint823": {
+      "get": {
+        "summary": "Order and Referring : 2023-12-27",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/97cca54f-79c1-4bc0-878e-a3ed5654f2c1/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint824": {
+      "get": {
+        "summary": "Order and Referring : 2023-12-22",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/9ccda173-4277-40a1-8e0b-fe80fab99fb3/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint825": {
+      "get": {
+        "summary": "Order and Referring : 2023-12-19",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/faa60cf1-07c8-4bdf-a043-e9f46a18240d/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint826": {
+      "get": {
+        "summary": "Order and Referring : 2023-12-15",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/5f538f56-7268-4536-8681-fd6d73d6f435/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint827": {
+      "get": {
+        "summary": "Order and Referring : 2023-12-11",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/e9d839df-fb75-4268-bf25-7996f900476b/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint828": {
+      "get": {
+        "summary": "Order and Referring : 2023-12-08",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/1e314b06-b8ab-4c41-bd65-6e259882b8ba/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint829": {
+      "get": {
+        "summary": "Order and Referring : 2023-12-05",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/316e8260-cd85-4886-ad48-3cfdf8d76b31/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint830": {
+      "get": {
+        "summary": "Order and Referring : 2023-12-01",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f3451124-44c8-4a8f-b023-0f163d012ff4/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint831": {
+      "get": {
+        "summary": "Order and Referring : 2023-11-28",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/94f920ea-c6f2-4e37-836f-eaffedd95ecb/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint832": {
+      "get": {
+        "summary": "Order and Referring : 2023-11-24",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/baffcf5f-6b2f-49d4-9014-8834b4ada1e9/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint833": {
+      "get": {
+        "summary": "Order and Referring : 2023-11-21",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/aec9178f-42e9-4f0a-84a4-cddb0280b502/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint834": {
+      "get": {
+        "summary": "Order and Referring : 2023-11-16",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/5f5fb1f3-8864-4fe7-89d0-c43eb3fa4ef3/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint835": {
+      "get": {
+        "summary": "Order and Referring : 2023-11-14",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/02208d6a-9a37-493a-8fa4-1799cb78a196/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint836": {
+      "get": {
+        "summary": "Order and Referring : 2023-11-09",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/57e4cc9a-d2af-45d6-b984-259cbd8b48e2/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint837": {
+      "get": {
+        "summary": "Order and Referring : 2023-11-07",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/c279cf96-a2b2-48c0-bd01-5aa4cc3102e2/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint838": {
+      "get": {
+        "summary": "Order and Referring : 2023-11-03",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f6d8846b-a3ca-400d-9460-81dc065ac665/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint839": {
+      "get": {
+        "summary": "Order and Referring : 2023-10-31",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/32abead4-b5e7-4bd3-b2b2-9f47e333f000/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint840": {
+      "get": {
+        "summary": "Order and Referring : 2023-10-27",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/5a0d91dc-52c8-4914-ae33-19c850662caf/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint841": {
+      "get": {
+        "summary": "Order and Referring : 2023-10-24",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/2ad67082-62b5-4466-a832-12d94359910d/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint842": {
+      "get": {
+        "summary": "Order and Referring : 2023-10-19",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/4ba01a93-eaf0-4f09-b197-dc3df39f75f4/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint843": {
+      "get": {
+        "summary": "Order and Referring : 2023-10-17",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/9ce22c5c-0268-4cbe-a5c5-eaecf12c5ad2/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint844": {
+      "get": {
+        "summary": "Order and Referring : 2023-10-13",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/a8e4791c-d0c5-477f-aa81-b4497f081b0a/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint845": {
+      "get": {
+        "summary": "Order and Referring : 2023-10-11",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/82d46420-4074-4da4-94b9-b7fd917ff8ad/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint846": {
+      "get": {
+        "summary": "Order and Referring : 2023-10-05",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/bbee7e3f-c65f-4137-88e2-631f65a6ccb4/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint847": {
+      "get": {
+        "summary": "Order and Referring : 2023-10-03",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/7db510fd-92d8-473e-8a26-1b63d1884be2/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint848": {
+      "get": {
+        "summary": "Order and Referring : 2023-09-28",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f6917afa-895c-42ee-9399-b1882223a67c/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint849": {
+      "get": {
+        "summary": "Order and Referring : 2023-09-26",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/af09903f-785c-4734-a759-5b36f2d06876/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint850": {
+      "get": {
+        "summary": "Order and Referring : 2023-09-22",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/0b8a8563-32a2-4ae5-9bc1-7a606c704bdb/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint851": {
+      "get": {
+        "summary": "Order and Referring : 2023-09-18",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/ca5eb525-be80-4c80-9634-b89497b4f07a/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint852": {
+      "get": {
+        "summary": "Order and Referring : 2023-09-14",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/c138d90b-c13f-493f-86fc-8bff0c09c7f7/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint853": {
+      "get": {
+        "summary": "Order and Referring : 2023-09-11",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/1e808e42-3e4f-430f-838e-17dd7461ecd6/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint854": {
+      "get": {
+        "summary": "Order and Referring : 2023-09-07",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/13415227-7b5c-40f2-82e6-4618c2633a08/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint855": {
+      "get": {
+        "summary": "Order and Referring : 2023-09-06",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/e38586eb-3a7b-4142-ad06-1cec92e3eb7b/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint856": {
+      "get": {
+        "summary": "Order and Referring : 2023-08-31",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/a02bfc85-120f-4877-b9fa-02b6328dae05/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint857": {
+      "get": {
+        "summary": "Order and Referring : 2023-08-29",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/8334f0e1-8b80-47c4-bfaf-2b16723cdf2d/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint858": {
+      "get": {
+        "summary": "Order and Referring : 2023-08-24",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/bd10aa4c-b407-486e-9658-d9b4164e7758/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint859": {
+      "get": {
+        "summary": "Order and Referring : 2023-08-22",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/21e9eb48-d188-4aa2-808b-0615d93e187b/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint860": {
+      "get": {
+        "summary": "Order and Referring : 2023-08-17",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/eee325d6-4f8b-4e2d-b581-7329482e9de7/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint861": {
+      "get": {
+        "summary": "Order and Referring : 2023-08-15",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/965499c3-2dd7-4d71-997b-2816f825df5d/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint862": {
+      "get": {
+        "summary": "Order and Referring : 2023-08-10",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/44412d5e-1b3a-4d66-94eb-1c4232593300/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint863": {
+      "get": {
+        "summary": "Order and Referring : 2023-08-08",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/6742a93a-a672-45b6-9535-1e83d6736d29/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint864": {
+      "get": {
+        "summary": "Order and Referring : 2023-08-03",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/a60b2352-3f00-4c03-b9b8-a0c7c73a0ff7/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint865": {
+      "get": {
+        "summary": "Order and Referring : 2023-08-01",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/7a03b98b-3112-4af3-ad19-3e4dc3f1da0b/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint866": {
+      "get": {
+        "summary": "Order and Referring : 2023-07-27",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/06df4f37-0528-4e87-b6d1-c1ceeb8aef0c/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint867": {
+      "get": {
+        "summary": "Order and Referring : 2023-07-25",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/32f11423-8f29-42c4-8acb-41d3f86ba72e/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint868": {
+      "get": {
+        "summary": "Order and Referring : 2023-07-21",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/64295d92-aecb-419c-b4ba-bb17daa4d39e/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint869": {
+      "get": {
+        "summary": "Order and Referring : 2023-07-19",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/e2d6fd6c-2867-4ba0-b037-1350f2306988/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint870": {
+      "get": {
+        "summary": "Order and Referring : 2023-07-14",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/d31fa389-6d64-4121-89f0-0e7166c917c5/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint871": {
+      "get": {
+        "summary": "Order and Referring : 2023-07-11",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/904563e0-ec1a-4202-853c-fe0c17c5aced/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint872": {
+      "get": {
+        "summary": "Order and Referring : 2023-07-07",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/91b7fd18-82a7-4a3c-be20-9f53580edba7/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint873": {
+      "get": {
+        "summary": "Order and Referring : 2023-07-05",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/07baf902-515b-4a64-a115-4c88b83b9f1d/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint874": {
+      "get": {
+        "summary": "Order and Referring : 2023-07-03",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/0abeb9d7-0712-431a-b5b0-f56764bb6478/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint875": {
+      "get": {
+        "summary": "Order and Referring : 2023-06-27",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/cc4cd07e-0360-4eb4-8487-00d298b7480e/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint876": {
+      "get": {
+        "summary": "Order and Referring : 2023-06-23",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/783c1d7c-eb8b-4097-8cf7-9f2dbd37a01a/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint877": {
+      "get": {
+        "summary": "Order and Referring : 2023-06-20",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/ba4ac56a-6ce1-4e72-8907-5d71c6856663/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint878": {
+      "get": {
+        "summary": "Order and Referring : 2023-06-15",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f3414dae-6cf7-418d-a762-ac1c7a69986b/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint879": {
+      "get": {
+        "summary": "Order and Referring : 2023-06-13",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f08fb24f-8b0f-4444-9ec7-8ccd213e45e4/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint880": {
+      "get": {
+        "summary": "Order and Referring : 2023-06-08",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/9b019919-c2cf-4ccd-864c-7fa881b17c68/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint881": {
+      "get": {
+        "summary": "Order and Referring : 2023-06-01",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/1cb95115-25c9-4097-8d12-a8f76b266591/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint882": {
+      "get": {
+        "summary": "Payroll Based Journal Daily Non-Nurse Staffing : 2024-04-01",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/b497431a-5b57-42c0-9016-90105b51841e/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint883": {
+      "get": {
+        "summary": "Payroll Based Journal Daily Non-Nurse Staffing : 2024-04-01",
+        "description": "The Payroll Based Journal (PBJ) Nurse Staffing and Non-Nurse Staffing datasets provide information submitted by nursing homes including rehabilitation services on a quarterly basis. The data include the hours staff are paid to work each day, for each facility. Examples of reporting categories include Director of Nursing, Administrative Registered Nurses, Registered Nursing, Administrative Licensed Practice Nurses, Licensed Practice Nurses, Certified Nurse Aides, Certified Medication Aides, and Nurse Aides in Training. There are also other non-nurse staff categories provided in the data such as Respiratory Therapist, Occupational Therapist, and Social Worker. The datasets also include a facility\u2019s daily census calculated using the Minimum Data Set (MDS) submission.\n\nThe Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing datasets and technical information have been moved to a new location.\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/c06ad548-5cb2-4f29-8075-66efc2d195b6/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint884": {
+      "get": {
+        "summary": "Payroll Based Journal Daily Non-Nurse Staffing : 2024-01-01",
+        "description": "The Payroll Based Journal (PBJ) Nurse Staffing and Non-Nurse Staffing datasets provide information submitted by nursing homes including rehabilitation services on a quarterly basis. The data include the hours staff are paid to work each day, for each facility. Examples of reporting categories include Director of Nursing, Administrative Registered Nurses, Registered Nursing, Administrative Licensed Practice Nurses, Licensed Practice Nurses, Certified Nurse Aides, Certified Medication Aides, and Nurse Aides in Training. There are also other non-nurse staff categories provided in the data such as Respiratory Therapist, Occupational Therapist, and Social Worker. The datasets also include a facility\u2019s daily census calculated using the Minimum Data Set (MDS) submission.\n\nThe Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing datasets and technical information have been moved to a new location.\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/86603f7e-6ed8-4005-a5d3-b13d2ebcf3d4/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint885": {
+      "get": {
+        "summary": "Payroll Based Journal Daily Non-Nurse Staffing : 2023-12-01",
+        "description": "The Payroll Based Journal (PBJ) Nurse Staffing and Non-Nurse Staffing datasets provide information submitted by nursing homes including rehabilitation services on a quarterly basis. The data include the hours staff are paid to work each day, for each facility. Examples of reporting categories include Director of Nursing, Administrative Registered Nurses, Registered Nursing, Administrative Licensed Practice Nurses, Licensed Practice Nurses, Certified Nurse Aides, Certified Medication Aides, and Nurse Aides in Training. There are also other non-nurse staff categories provided in the data such as Respiratory Therapist, Occupational Therapist, and Social Worker. The datasets also include a facility\u2019s daily census calculated using the Minimum Data Set (MDS) submission.\n\nThe Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing datasets and technical information have been moved to a new location.\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/80e14392-7640-4fef-b226-309929273962/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint886": {
+      "get": {
+        "summary": "Payroll Based Journal Daily Non-Nurse Staffing : 2023-09-01",
+        "description": "The Payroll Based Journal (PBJ) Nurse Staffing and Non-Nurse Staffing datasets provide information submitted by nursing homes including rehabilitation services on a quarterly basis. The data include the hours staff are paid to work each day, for each facility. Examples of reporting categories include Director of Nursing, Administrative Registered Nurses, Registered Nursing, Administrative Licensed Practice Nurses, Licensed Practice Nurses, Certified Nurse Aides, Certified Medication Aides, and Nurse Aides in Training. There are also other non-nurse staff categories provided in the data such as Respiratory Therapist, Occupational Therapist, and Social Worker. The datasets also include a facility\u2019s daily census calculated using the Minimum Data Set (MDS) submission.\n\nThe Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing datasets and technical information have been moved to a new location.\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/c4e98981-5128-4aee-b175-223c743d0914/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint887": {
+      "get": {
+        "summary": "Payroll Based Journal Daily Non-Nurse Staffing : 2023-06-01",
+        "description": "The Payroll Based Journal (PBJ) Nurse Staffing and Non-Nurse Staffing datasets provide information submitted by nursing homes including rehabilitation services on a quarterly basis. The data include the hours staff are paid to work each day, for each facility. Examples of reporting categories include Director of Nursing, Administrative Registered Nurses, Registered Nursing, Administrative Licensed Practice Nurses, Licensed Practice Nurses, Certified Nurse Aides, Certified Medication Aides, and Nurse Aides in Training. There are also other non-nurse staff categories provided in the data such as Respiratory Therapist, Occupational Therapist, and Social Worker. The datasets also include a facility\u2019s daily census calculated using the Minimum Data Set (MDS) submission.\n\nThe Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing datasets and technical information have been moved to a new location.\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/e43a7c86-1ef1-411e-ba53-b3711f029d0d/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint888": {
+      "get": {
+        "summary": "Payroll Based Journal Daily Non-Nurse Staffing : 2023-01-01",
+        "description": "The Payroll Based Journal (PBJ) Nurse Staffing and Non-Nurse Staffing datasets provide information submitted by nursing homes including rehabilitation services on a quarterly basis. The data include the hours staff are paid to work each day, for each facility. Examples of reporting categories include Director of Nursing, Administrative Registered Nurses, Registered Nursing, Administrative Licensed Practice Nurses, Licensed Practice Nurses, Certified Nurse Aides, Certified Medication Aides, and Nurse Aides in Training. There are also other non-nurse staff categories provided in the data such as Respiratory Therapist, Occupational Therapist, and Social Worker. The datasets also include a facility\u2019s daily census calculated using the Minimum Data Set (MDS) submission.\n\nThe Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing datasets and technical information have been moved to a new location.\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/60ea3ab9-e8f7-412f-ade6-e1517569cdce/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint889": {
+      "get": {
+        "summary": "Payroll Based Journal Daily Non-Nurse Staffing : 2022-12-31",
+        "description": "The Payroll Based Journal (PBJ) Nurse Staffing and Non-Nurse Staffing datasets provide information submitted by nursing homes including rehabilitation services on a quarterly basis. The data include the hours staff are paid to work each day, for each facility. Examples of reporting categories include Director of Nursing, Administrative Registered Nurses, Registered Nursing, Administrative Licensed Practice Nurses, Licensed Practice Nurses, Certified Nurse Aides, Certified Medication Aides, and Nurse Aides in Training. There are also other non-nurse staff categories provided in the data such as Respiratory Therapist, Occupational Therapist, and Social Worker. The datasets also include a facility\u2019s daily census calculated using the Minimum Data Set (MDS) submission.\n\nThe Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing datasets and technical information have been moved to a new location.\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/161d21ed-2f94-46da-aeb3-6bdd58d57264/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint890": {
+      "get": {
+        "summary": "Payroll Based Journal Daily Non-Nurse Staffing : 2022-09-30",
+        "description": "The Payroll Based Journal (PBJ) Nurse Staffing and Non-Nurse Staffing datasets provide information submitted by nursing homes including rehabilitation services on a quarterly basis. The data include the hours staff are paid to work each day, for each facility. Examples of reporting categories include Director of Nursing, Administrative Registered Nurses, Registered Nursing, Administrative Licensed Practice Nurses, Licensed Practice Nurses, Certified Nurse Aides, Certified Medication Aides, and Nurse Aides in Training. There are also other non-nurse staff categories provided in the data such as Respiratory Therapist, Occupational Therapist, and Social Worker. The datasets also include a facility\u2019s daily census calculated using the Minimum Data Set (MDS) submission.\n\nThe Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing datasets and technical information have been moved to a new location.\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/d061079d-0247-4611-acfb-39da43d13f0b/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint891": {
+      "get": {
+        "summary": "Payroll Based Journal Daily Non-Nurse Staffing : 2022-06-30",
+        "description": "The Payroll Based Journal (PBJ) Nurse Staffing and Non-Nurse Staffing datasets provide information submitted by nursing homes including rehabilitation services on a quarterly basis. The data include the hours staff are paid to work each day, for each facility. Examples of reporting categories include Director of Nursing, Administrative Registered Nurses, Registered Nursing, Administrative Licensed Practice Nurses, Licensed Practice Nurses, Certified Nurse Aides, Certified Medication Aides, and Nurse Aides in Training. There are also other non-nurse staff categories provided in the data such as Respiratory Therapist, Occupational Therapist, and Social Worker. The datasets also include a facility\u2019s daily census calculated using the Minimum Data Set (MDS) submission.\n\nThe Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing datasets and technical information have been moved to a new location.\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/a9606f6a-e021-4e7c-812a-e2fbad8963e3/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint892": {
+      "get": {
+        "summary": "Payroll Based Journal Daily Non-Nurse Staffing : 2022-01-01",
+        "description": "The Payroll Based Journal (PBJ) Nurse Staffing and Non-Nurse Staffing datasets provide information submitted by nursing homes including rehabilitation services on a quarterly basis. The data include the hours staff are paid to work each day, for each facility. Examples of reporting categories include Director of Nursing, Administrative Registered Nurses, Registered Nursing, Administrative Licensed Practice Nurses, Licensed Practice Nurses, Certified Nurse Aides, Certified Medication Aides, and Nurse Aides in Training. There are also other non-nurse staff categories provided in the data such as Respiratory Therapist, Occupational Therapist, and Social Worker. The datasets also include a facility\u2019s daily census calculated using the Minimum Data Set (MDS) submission.\n\nThe Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing datasets and technical information have been moved to a new location.\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/4dcd0728-93e3-4f00-ade9-f458a3798cb0/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint893": {
+      "get": {
+        "summary": "Payroll Based Journal Daily Non-Nurse Staffing : 2021-12-31",
+        "description": "The Payroll Based Journal (PBJ) Nurse Staffing and Non-Nurse Staffing datasets provide information submitted by nursing homes including rehabilitation services on a quarterly basis. The data include the hours staff are paid to work each day, for each facility. Examples of reporting categories include Director of Nursing, Administrative Registered Nurses, Registered Nursing, Administrative Licensed Practice Nurses, Licensed Practice Nurses, Certified Nurse Aides, Certified Medication Aides, and Nurse Aides in Training. There are also other non-nurse staff categories provided in the data such as Respiratory Therapist, Occupational Therapist, and Social Worker. The datasets also include a facility\u2019s daily census calculated using the Minimum Data Set (MDS) submission.\n\nThe Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing datasets and technical information have been moved to a new location.\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/d805bf46-faa2-48d8-89af-1f40def16c36/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint894": {
+      "get": {
+        "summary": "Payroll Based Journal Daily Non-Nurse Staffing : 2021-09-30",
+        "description": "The Payroll Based Journal (PBJ) Nurse Staffing and Non-Nurse Staffing datasets provide information submitted by nursing homes including rehabilitation services on a quarterly basis. The data include the hours staff are paid to work each day, for each facility. Examples of reporting categories include Director of Nursing, Administrative Registered Nurses, Registered Nursing, Administrative Licensed Practice Nurses, Licensed Practice Nurses, Certified Nurse Aides, Certified Medication Aides, and Nurse Aides in Training. There are also other non-nurse staff categories provided in the data such as Respiratory Therapist, Occupational Therapist, and Social Worker. The datasets also include a facility\u2019s daily census calculated using the Minimum Data Set (MDS) submission.\n\nThe Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing datasets and technical information have been moved to a new location.\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/40dbe6b5-ea42-4cbc-9e7c-79673a29beb9/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint895": {
+      "get": {
+        "summary": "Payroll Based Journal Daily Non-Nurse Staffing : 2021-06-30",
+        "description": "The Payroll Based Journal (PBJ) Nurse Staffing and Non-Nurse Staffing datasets provide information submitted by nursing homes including rehabilitation services on a quarterly basis. The data include the hours staff are paid to work each day, for each facility. Examples of reporting categories include Director of Nursing, Administrative Registered Nurses, Registered Nursing, Administrative Licensed Practice Nurses, Licensed Practice Nurses, Certified Nurse Aides, Certified Medication Aides, and Nurse Aides in Training. There are also other non-nurse staff categories provided in the data such as Respiratory Therapist, Occupational Therapist, and Social Worker. The datasets also include a facility\u2019s daily census calculated using the Minimum Data Set (MDS) submission.\n\nThe Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing datasets and technical information have been moved to a new location.\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/5f730690-64b6-4fde-ba0d-d20d0dbdc7b1/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint896": {
+      "get": {
+        "summary": "Payroll Based Journal Daily Non-Nurse Staffing : 2021-03-31",
+        "description": "The Payroll Based Journal (PBJ) Nurse Staffing and Non-Nurse Staffing datasets provide information submitted by nursing homes including rehabilitation services on a quarterly basis. The data include the hours staff are paid to work each day, for each facility. Examples of reporting categories include Director of Nursing, Administrative Registered Nurses, Registered Nursing, Administrative Licensed Practice Nurses, Licensed Practice Nurses, Certified Nurse Aides, Certified Medication Aides, and Nurse Aides in Training. There are also other non-nurse staff categories provided in the data such as Respiratory Therapist, Occupational Therapist, and Social Worker. The datasets also include a facility\u2019s daily census calculated using the Minimum Data Set (MDS) submission.\n\nThe Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing datasets and technical information have been moved to a new location.\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/91cd6494-f576-47c6-861f-fe1f436522c9/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint897": {
+      "get": {
+        "summary": "Payroll Based Journal Daily Non-Nurse Staffing : 2020-12-31",
+        "description": "The Payroll Based Journal (PBJ) Nurse Staffing and Non-Nurse Staffing datasets provide information submitted by nursing homes including rehabilitation services on a quarterly basis. The data include the hours staff are paid to work each day, for each facility. Examples of reporting categories include Director of Nursing, Administrative Registered Nurses, Registered Nursing, Administrative Licensed Practice Nurses, Licensed Practice Nurses, Certified Nurse Aides, Certified Medication Aides, and Nurse Aides in Training. There are also other non-nurse staff categories provided in the data such as Respiratory Therapist, Occupational Therapist, and Social Worker. The datasets also include a facility\u2019s daily census calculated using the Minimum Data Set (MDS) submission.\n\nThe Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing datasets and technical information have been moved to a new location.\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/5759c2e9-a132-4a6f-b544-d9f1dfa1d2d5/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint898": {
+      "get": {
+        "summary": "Payroll Based Journal Daily Non-Nurse Staffing : 2020-09-30",
+        "description": "The Payroll Based Journal (PBJ) Nurse Staffing and Non-Nurse Staffing datasets provide information submitted by nursing homes including rehabilitation services on a quarterly basis. The data include the hours staff are paid to work each day, for each facility. Examples of reporting categories include Director of Nursing, Administrative Registered Nurses, Registered Nursing, Administrative Licensed Practice Nurses, Licensed Practice Nurses, Certified Nurse Aides, Certified Medication Aides, and Nurse Aides in Training. There are also other non-nurse staff categories provided in the data such as Respiratory Therapist, Occupational Therapist, and Social Worker. The datasets also include a facility\u2019s daily census calculated using the Minimum Data Set (MDS) submission.\n\nThe Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing datasets and technical information have been moved to a new location.\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/2ab96e88-d0ea-4e53-b2ec-cd32971aa659/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint899": {
+      "get": {
+        "summary": "Payroll Based Journal Daily Non-Nurse Staffing : 2020-06-30",
+        "description": "The Payroll Based Journal (PBJ) Nurse Staffing and Non-Nurse Staffing datasets provide information submitted by nursing homes including rehabilitation services on a quarterly basis. The data include the hours staff are paid to work each day, for each facility. Examples of reporting categories include Director of Nursing, Administrative Registered Nurses, Registered Nursing, Administrative Licensed Practice Nurses, Licensed Practice Nurses, Certified Nurse Aides, Certified Medication Aides, and Nurse Aides in Training. There are also other non-nurse staff categories provided in the data such as Respiratory Therapist, Occupational Therapist, and Social Worker. The datasets also include a facility\u2019s daily census calculated using the Minimum Data Set (MDS) submission.\n\nThe Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing datasets and technical information have been moved to a new location.\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/da8a7110-b591-46d8-af39-eae3eee07623/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint900": {
+      "get": {
+        "summary": "Payroll Based Journal Daily Non-Nurse Staffing : 2020-03-31",
+        "description": "The Payroll Based Journal (PBJ) Nurse Staffing and Non-Nurse Staffing datasets provide information submitted by nursing homes including rehabilitation services on a quarterly basis. The data include the hours staff are paid to work each day, for each facility. Examples of reporting categories include Director of Nursing, Administrative Registered Nurses, Registered Nursing, Administrative Licensed Practice Nurses, Licensed Practice Nurses, Certified Nurse Aides, Certified Medication Aides, and Nurse Aides in Training. There are also other non-nurse staff categories provided in the data such as Respiratory Therapist, Occupational Therapist, and Social Worker. The datasets also include a facility\u2019s daily census calculated using the Minimum Data Set (MDS) submission.\n\nThe Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing datasets and technical information have been moved to a new location.\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f2b3d871-c5cc-45c4-b77e-77dd2384a52e/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,1915 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "CMS API Subset 3",
+    "version": "1.0.0",
+    "description": "Subset 3 of CMS API endpoints"
+  },
+  "servers": [
+    {
+      "url": "https://data.cms.gov"
+    }
+  ],
+  "paths": {
+    "/proxy/endpoint201": {
+      "get": {
+        "summary": "Fiscal Intermediary Shared System Attending and Rendering : 2024-01-23",
+        "description": "The Fiscal Intermediary Shared System (FISS) Attending and Rendering dataset provides a list of those attending and rendering physicians for the FISS. FISS edits require that the Line Item Rendering Physician information be transmitted when providers submit a combined claim. Claims that include both facility and professional components, need to report the rendering physician or other practitioner at the line level if it differs from the rendering physician/practitioner reported at the claim level.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/bd0bb369-dbe6-40ab-8729-7113f1ac64c0/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint202": {
+      "get": {
+        "summary": "Fiscal Intermediary Shared System Attending and Rendering : 2024-01-19",
+        "description": "The Fiscal Intermediary Shared System (FISS) Attending and Rendering dataset provides a list of those attending and rendering physicians for the FISS. FISS edits require that the Line Item Rendering Physician information be transmitted when providers submit a combined claim. Claims that include both facility and professional components, need to report the rendering physician or other practitioner at the line level if it differs from the rendering physician/practitioner reported at the claim level.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/93f797c5-3a27-44ba-9a35-16fa1b9f19b1/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint203": {
+      "get": {
+        "summary": "Fiscal Intermediary Shared System Attending and Rendering : 2024-01-16",
+        "description": "The Fiscal Intermediary Shared System (FISS) Attending and Rendering dataset provides a list of those attending and rendering physicians for the FISS. FISS edits require that the Line Item Rendering Physician information be transmitted when providers submit a combined claim. Claims that include both facility and professional components, need to report the rendering physician or other practitioner at the line level if it differs from the rendering physician/practitioner reported at the claim level.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/a4213a34-e7db-4e7b-9f3b-ade91b81d957/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint204": {
+      "get": {
+        "summary": "Fiscal Intermediary Shared System Attending and Rendering : 2024-01-12",
+        "description": "The Fiscal Intermediary Shared System (FISS) Attending and Rendering dataset provides a list of those attending and rendering physicians for the FISS. FISS edits require that the Line Item Rendering Physician information be transmitted when providers submit a combined claim. Claims that include both facility and professional components, need to report the rendering physician or other practitioner at the line level if it differs from the rendering physician/practitioner reported at the claim level.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/e1e0c962-89ea-4452-8576-74b166309bcd/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint205": {
+      "get": {
+        "summary": "Fiscal Intermediary Shared System Attending and Rendering : 2024-01-09",
+        "description": "The Fiscal Intermediary Shared System (FISS) Attending and Rendering dataset provides a list of those attending and rendering physicians for the FISS. FISS edits require that the Line Item Rendering Physician information be transmitted when providers submit a combined claim. Claims that include both facility and professional components, need to report the rendering physician or other practitioner at the line level if it differs from the rendering physician/practitioner reported at the claim level.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/b11141bc-9352-4692-9215-6269c40c686d/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint206": {
+      "get": {
+        "summary": "Fiscal Intermediary Shared System Attending and Rendering : 2024-01-05",
+        "description": "The Fiscal Intermediary Shared System (FISS) Attending and Rendering dataset provides a list of those attending and rendering physicians for the FISS. FISS edits require that the Line Item Rendering Physician information be transmitted when providers submit a combined claim. Claims that include both facility and professional components, need to report the rendering physician or other practitioner at the line level if it differs from the rendering physician/practitioner reported at the claim level.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/ed5f8ef0-66a4-4afd-9980-4bf529c541ea/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint207": {
+      "get": {
+        "summary": "Fiscal Intermediary Shared System Attending and Rendering : 2024-01-03",
+        "description": "The Fiscal Intermediary Shared System (FISS) Attending and Rendering dataset provides a list of those attending and rendering physicians for the FISS. FISS edits require that the Line Item Rendering Physician information be transmitted when providers submit a combined claim. Claims that include both facility and professional components, need to report the rendering physician or other practitioner at the line level if it differs from the rendering physician/practitioner reported at the claim level.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/5d1a8be3-1d4e-4d49-870d-fdcf2ca27846/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint208": {
+      "get": {
+        "summary": "Fiscal Intermediary Shared System Attending and Rendering : 2023-12-29",
+        "description": "The Fiscal Intermediary Shared System (FISS) Attending and Rendering dataset provides a list of those attending and rendering physicians for the FISS. FISS edits require that the Line Item Rendering Physician information be transmitted when providers submit a combined claim. Claims that include both facility and professional components, need to report the rendering physician or other practitioner at the line level if it differs from the rendering physician/practitioner reported at the claim level.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/14ddd928-dbe5-470a-8a5a-55183b13494d/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint209": {
+      "get": {
+        "summary": "Fiscal Intermediary Shared System Attending and Rendering : 2023-12-27",
+        "description": "The Fiscal Intermediary Shared System (FISS) Attending and Rendering dataset provides a list of those attending and rendering physicians for the FISS. FISS edits require that the Line Item Rendering Physician information be transmitted when providers submit a combined claim. Claims that include both facility and professional components, need to report the rendering physician or other practitioner at the line level if it differs from the rendering physician/practitioner reported at the claim level.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/4041b8f9-b70b-4c82-94db-244bf7c123b3/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint210": {
+      "get": {
+        "summary": "Fiscal Intermediary Shared System Attending and Rendering : 2023-12-22",
+        "description": "The Fiscal Intermediary Shared System (FISS) Attending and Rendering dataset provides a list of those attending and rendering physicians for the FISS. FISS edits require that the Line Item Rendering Physician information be transmitted when providers submit a combined claim. Claims that include both facility and professional components, need to report the rendering physician or other practitioner at the line level if it differs from the rendering physician/practitioner reported at the claim level.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/65ade0ce-5255-40ea-8e22-b9dc790e406a/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint211": {
+      "get": {
+        "summary": "Fiscal Intermediary Shared System Attending and Rendering : 2023-12-19",
+        "description": "The Fiscal Intermediary Shared System (FISS) Attending and Rendering dataset provides a list of those attending and rendering physicians for the FISS. FISS edits require that the Line Item Rendering Physician information be transmitted when providers submit a combined claim. Claims that include both facility and professional components, need to report the rendering physician or other practitioner at the line level if it differs from the rendering physician/practitioner reported at the claim level.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/6709c6b9-5457-410d-a792-5797d7161e93/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint212": {
+      "get": {
+        "summary": "Fiscal Intermediary Shared System Attending and Rendering : 2023-12-15",
+        "description": "The Fiscal Intermediary Shared System (FISS) Attending and Rendering dataset provides a list of those attending and rendering physicians for the FISS. FISS edits require that the Line Item Rendering Physician information be transmitted when providers submit a combined claim. Claims that include both facility and professional components, need to report the rendering physician or other practitioner at the line level if it differs from the rendering physician/practitioner reported at the claim level.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/02cb5188-011c-4093-ae92-3570c287d7cc/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint213": {
+      "get": {
+        "summary": "Fiscal Intermediary Shared System Attending and Rendering : 2023-12-11",
+        "description": "The Fiscal Intermediary Shared System (FISS) Attending and Rendering dataset provides a list of those attending and rendering physicians for the FISS. FISS edits require that the Line Item Rendering Physician information be transmitted when providers submit a combined claim. Claims that include both facility and professional components, need to report the rendering physician or other practitioner at the line level if it differs from the rendering physician/practitioner reported at the claim level.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/1043fa1a-421c-40c1-ab63-0e087633823e/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint214": {
+      "get": {
+        "summary": "Fiscal Intermediary Shared System Attending and Rendering : 2023-12-08",
+        "description": "The Fiscal Intermediary Shared System (FISS) Attending and Rendering dataset provides a list of those attending and rendering physicians for the FISS. FISS edits require that the Line Item Rendering Physician information be transmitted when providers submit a combined claim. Claims that include both facility and professional components, need to report the rendering physician or other practitioner at the line level if it differs from the rendering physician/practitioner reported at the claim level.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/b23c7720-893d-4e27-a961-f2738ffc8b3e/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint215": {
+      "get": {
+        "summary": "Fiscal Intermediary Shared System Attending and Rendering : 2023-12-05",
+        "description": "The Fiscal Intermediary Shared System (FISS) Attending and Rendering dataset provides a list of those attending and rendering physicians for the FISS. FISS edits require that the Line Item Rendering Physician information be transmitted when providers submit a combined claim. Claims that include both facility and professional components, need to report the rendering physician or other practitioner at the line level if it differs from the rendering physician/practitioner reported at the claim level.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/4c00c6df-9ac6-4377-85b8-09d9c6b3dfe9/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint216": {
+      "get": {
+        "summary": "Fiscal Intermediary Shared System Attending and Rendering : 2023-12-01",
+        "description": "The Fiscal Intermediary Shared System (FISS) Attending and Rendering dataset provides a list of those attending and rendering physicians for the FISS. FISS edits require that the Line Item Rendering Physician information be transmitted when providers submit a combined claim. Claims that include both facility and professional components, need to report the rendering physician or other practitioner at the line level if it differs from the rendering physician/practitioner reported at the claim level.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/82e77c44-333c-4628-beaf-91d4c07ef86c/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint217": {
+      "get": {
+        "summary": "Fiscal Intermediary Shared System Attending and Rendering : 2023-11-28",
+        "description": "The Fiscal Intermediary Shared System (FISS) Attending and Rendering dataset provides a list of those attending and rendering physicians for the FISS. FISS edits require that the Line Item Rendering Physician information be transmitted when providers submit a combined claim. Claims that include both facility and professional components, need to report the rendering physician or other practitioner at the line level if it differs from the rendering physician/practitioner reported at the claim level.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/2d579af6-7f56-4dec-b704-2354643adc63/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint218": {
+      "get": {
+        "summary": "Fiscal Intermediary Shared System Attending and Rendering : 2023-11-24",
+        "description": "The Fiscal Intermediary Shared System (FISS) Attending and Rendering dataset provides a list of those attending and rendering physicians for the FISS. FISS edits require that the Line Item Rendering Physician information be transmitted when providers submit a combined claim. Claims that include both facility and professional components, need to report the rendering physician or other practitioner at the line level if it differs from the rendering physician/practitioner reported at the claim level.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/1639daa6-6aba-47f2-bf13-74342b9ff295/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint219": {
+      "get": {
+        "summary": "Fiscal Intermediary Shared System Attending and Rendering : 2023-11-21",
+        "description": "The Fiscal Intermediary Shared System (FISS) Attending and Rendering dataset provides a list of those attending and rendering physicians for the FISS. FISS edits require that the Line Item Rendering Physician information be transmitted when providers submit a combined claim. Claims that include both facility and professional components, need to report the rendering physician or other practitioner at the line level if it differs from the rendering physician/practitioner reported at the claim level.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/46d2b756-d8db-40db-8813-e2ac9699414d/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint220": {
+      "get": {
+        "summary": "Fiscal Intermediary Shared System Attending and Rendering : 2023-11-16",
+        "description": "The Fiscal Intermediary Shared System (FISS) Attending and Rendering dataset provides a list of those attending and rendering physicians for the FISS. FISS edits require that the Line Item Rendering Physician information be transmitted when providers submit a combined claim. Claims that include both facility and professional components, need to report the rendering physician or other practitioner at the line level if it differs from the rendering physician/practitioner reported at the claim level.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/5e5934d3-450e-4879-8f25-a3c43f95f3ef/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint221": {
+      "get": {
+        "summary": "Fiscal Intermediary Shared System Attending and Rendering : 2023-11-14",
+        "description": "The Fiscal Intermediary Shared System (FISS) Attending and Rendering dataset provides a list of those attending and rendering physicians for the FISS. FISS edits require that the Line Item Rendering Physician information be transmitted when providers submit a combined claim. Claims that include both facility and professional components, need to report the rendering physician or other practitioner at the line level if it differs from the rendering physician/practitioner reported at the claim level.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/6058c157-5c7b-4900-b88c-fc24a5680b11/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint222": {
+      "get": {
+        "summary": "Fiscal Intermediary Shared System Attending and Rendering : 2023-11-09",
+        "description": "The Fiscal Intermediary Shared System (FISS) Attending and Rendering dataset provides a list of those attending and rendering physicians for the FISS. FISS edits require that the Line Item Rendering Physician information be transmitted when providers submit a combined claim. Claims that include both facility and professional components, need to report the rendering physician or other practitioner at the line level if it differs from the rendering physician/practitioner reported at the claim level.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/2001b9c2-40e3-48b8-b607-4442ba0a5ee5/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint223": {
+      "get": {
+        "summary": "Fiscal Intermediary Shared System Attending and Rendering : 2023-11-07",
+        "description": "The Fiscal Intermediary Shared System (FISS) Attending and Rendering dataset provides a list of those attending and rendering physicians for the FISS. FISS edits require that the Line Item Rendering Physician information be transmitted when providers submit a combined claim. Claims that include both facility and professional components, need to report the rendering physician or other practitioner at the line level if it differs from the rendering physician/practitioner reported at the claim level.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/cbf0011d-1dcc-408c-a529-8392391ec3af/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint224": {
+      "get": {
+        "summary": "Fiscal Intermediary Shared System Attending and Rendering : 2023-11-03",
+        "description": "The Fiscal Intermediary Shared System (FISS) Attending and Rendering dataset provides a list of those attending and rendering physicians for the FISS. FISS edits require that the Line Item Rendering Physician information be transmitted when providers submit a combined claim. Claims that include both facility and professional components, need to report the rendering physician or other practitioner at the line level if it differs from the rendering physician/practitioner reported at the claim level.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/e23c7d89-6145-4b28-a3a6-216168539210/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint225": {
+      "get": {
+        "summary": "Fiscal Intermediary Shared System Attending and Rendering : 2023-10-31",
+        "description": "The Fiscal Intermediary Shared System (FISS) Attending and Rendering dataset provides a list of those attending and rendering physicians for the FISS. FISS edits require that the Line Item Rendering Physician information be transmitted when providers submit a combined claim. Claims that include both facility and professional components, need to report the rendering physician or other practitioner at the line level if it differs from the rendering physician/practitioner reported at the claim level.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/4f64860a-4368-451f-a9d9-ab4e4457f068/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint226": {
+      "get": {
+        "summary": "Fiscal Intermediary Shared System Attending and Rendering : 2023-10-27",
+        "description": "The Fiscal Intermediary Shared System (FISS) Attending and Rendering dataset provides a list of those attending and rendering physicians for the FISS. FISS edits require that the Line Item Rendering Physician information be transmitted when providers submit a combined claim. Claims that include both facility and professional components, need to report the rendering physician or other practitioner at the line level if it differs from the rendering physician/practitioner reported at the claim level.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/07b5c392-bc7c-4b66-a137-cfe426bff5b1/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint227": {
+      "get": {
+        "summary": "Fiscal Intermediary Shared System Attending and Rendering : 2023-10-24",
+        "description": "The Fiscal Intermediary Shared System (FISS) Attending and Rendering dataset provides a list of those attending and rendering physicians for the FISS. FISS edits require that the Line Item Rendering Physician information be transmitted when providers submit a combined claim. Claims that include both facility and professional components, need to report the rendering physician or other practitioner at the line level if it differs from the rendering physician/practitioner reported at the claim level.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/c05911e3-563a-4c9d-bee0-09cea59de406/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint228": {
+      "get": {
+        "summary": "Fiscal Intermediary Shared System Attending and Rendering : 2023-10-20",
+        "description": "The Fiscal Intermediary Shared System (FISS) Attending and Rendering dataset provides a list of those attending and rendering physicians for the FISS. FISS edits require that the Line Item Rendering Physician information be transmitted when providers submit a combined claim. Claims that include both facility and professional components, need to report the rendering physician or other practitioner at the line level if it differs from the rendering physician/practitioner reported at the claim level.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/6300ac24-4179-4a28-a3f3-ed7b0a06b3c2/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint229": {
+      "get": {
+        "summary": "Fiscal Intermediary Shared System Attending and Rendering : 2023-10-17",
+        "description": "The Fiscal Intermediary Shared System (FISS) Attending and Rendering dataset provides a list of those attending and rendering physicians for the FISS. FISS edits require that the Line Item Rendering Physician information be transmitted when providers submit a combined claim. Claims that include both facility and professional components, need to report the rendering physician or other practitioner at the line level if it differs from the rendering physician/practitioner reported at the claim level.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/d77776bb-62af-4922-858a-a82ba52e4246/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint230": {
+      "get": {
+        "summary": "Fiscal Intermediary Shared System Attending and Rendering : 2023-10-13",
+        "description": "The Fiscal Intermediary Shared System (FISS) Attending and Rendering dataset provides a list of those attending and rendering physicians for the FISS. FISS edits require that the Line Item Rendering Physician information be transmitted when providers submit a combined claim. Claims that include both facility and professional components, need to report the rendering physician or other practitioner at the line level if it differs from the rendering physician/practitioner reported at the claim level.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/fade2ff9-e520-4884-8bb2-3b3c7be9c493/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint231": {
+      "get": {
+        "summary": "Fiscal Intermediary Shared System Attending and Rendering : 2023-10-11",
+        "description": "The Fiscal Intermediary Shared System (FISS) Attending and Rendering dataset provides a list of those attending and rendering physicians for the FISS. FISS edits require that the Line Item Rendering Physician information be transmitted when providers submit a combined claim. Claims that include both facility and professional components, need to report the rendering physician or other practitioner at the line level if it differs from the rendering physician/practitioner reported at the claim level.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/da243d59-b3a9-476e-a5ee-dd5dbe4dc17e/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint232": {
+      "get": {
+        "summary": "Fiscal Intermediary Shared System Attending and Rendering : 2023-10-05",
+        "description": "The Fiscal Intermediary Shared System (FISS) Attending and Rendering dataset provides a list of those attending and rendering physicians for the FISS. FISS edits require that the Line Item Rendering Physician information be transmitted when providers submit a combined claim. Claims that include both facility and professional components, need to report the rendering physician or other practitioner at the line level if it differs from the rendering physician/practitioner reported at the claim level.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/deea52b2-15c9-4b1a-9fd6-c4341ebabffd/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint233": {
+      "get": {
+        "summary": "Fiscal Intermediary Shared System Attending and Rendering : 2023-10-03",
+        "description": "The Fiscal Intermediary Shared System (FISS) Attending and Rendering dataset provides a list of those attending and rendering physicians for the FISS. FISS edits require that the Line Item Rendering Physician information be transmitted when providers submit a combined claim. Claims that include both facility and professional components, need to report the rendering physician or other practitioner at the line level if it differs from the rendering physician/practitioner reported at the claim level.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/3396dbb6-b1d7-45b1-a3c3-3630dbcceb10/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint234": {
+      "get": {
+        "summary": "Fiscal Intermediary Shared System Attending and Rendering : 2023-09-28",
+        "description": "The Fiscal Intermediary Shared System (FISS) Attending and Rendering dataset provides a list of those attending and rendering physicians for the FISS. FISS edits require that the Line Item Rendering Physician information be transmitted when providers submit a combined claim. Claims that include both facility and professional components, need to report the rendering physician or other practitioner at the line level if it differs from the rendering physician/practitioner reported at the claim level.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/d70c976f-4230-4aec-9b78-3d0ff9198beb/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint235": {
+      "get": {
+        "summary": "Fiscal Intermediary Shared System Attending and Rendering : 2023-09-26",
+        "description": "The Fiscal Intermediary Shared System (FISS) Attending and Rendering dataset provides a list of those attending and rendering physicians for the FISS. FISS edits require that the Line Item Rendering Physician information be transmitted when providers submit a combined claim. Claims that include both facility and professional components, need to report the rendering physician or other practitioner at the line level if it differs from the rendering physician/practitioner reported at the claim level.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/e935d254-2d9a-4c4c-a28d-a3b34a40e607/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint236": {
+      "get": {
+        "summary": "Fiscal Intermediary Shared System Attending and Rendering : 2023-09-22",
+        "description": "The Fiscal Intermediary Shared System (FISS) Attending and Rendering dataset provides a list of those attending and rendering physicians for the FISS. FISS edits require that the Line Item Rendering Physician information be transmitted when providers submit a combined claim. Claims that include both facility and professional components, need to report the rendering physician or other practitioner at the line level if it differs from the rendering physician/practitioner reported at the claim level.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/3c818122-9568-4d6a-baaa-a43daf2dc241/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint237": {
+      "get": {
+        "summary": "Fiscal Intermediary Shared System Attending and Rendering : 2023-09-18",
+        "description": "The Fiscal Intermediary Shared System (FISS) Attending and Rendering dataset provides a list of those attending and rendering physicians for the FISS. FISS edits require that the Line Item Rendering Physician information be transmitted when providers submit a combined claim. Claims that include both facility and professional components, need to report the rendering physician or other practitioner at the line level if it differs from the rendering physician/practitioner reported at the claim level.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/5b46146c-4c66-42e5-ad82-1ca04fb8c1b7/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint238": {
+      "get": {
+        "summary": "Fiscal Intermediary Shared System Attending and Rendering : 2023-09-14",
+        "description": "The Fiscal Intermediary Shared System (FISS) Attending and Rendering dataset provides a list of those attending and rendering physicians for the FISS. FISS edits require that the Line Item Rendering Physician information be transmitted when providers submit a combined claim. Claims that include both facility and professional components, need to report the rendering physician or other practitioner at the line level if it differs from the rendering physician/practitioner reported at the claim level.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/ba7475b5-6d9b-46e2-89f9-6af3a6ecd744/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint239": {
+      "get": {
+        "summary": "Fiscal Intermediary Shared System Attending and Rendering : 2023-09-11",
+        "description": "The Fiscal Intermediary Shared System (FISS) Attending and Rendering dataset provides a list of those attending and rendering physicians for the FISS. FISS edits require that the Line Item Rendering Physician information be transmitted when providers submit a combined claim. Claims that include both facility and professional components, need to report the rendering physician or other practitioner at the line level if it differs from the rendering physician/practitioner reported at the claim level.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/7353bd93-8af0-42a5-afbd-c76bae3a54fc/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint240": {
+      "get": {
+        "summary": "Fiscal Intermediary Shared System Attending and Rendering : 2023-09-07",
+        "description": "The Fiscal Intermediary Shared System (FISS) Attending and Rendering dataset provides a list of those attending and rendering physicians for the FISS. FISS edits require that the Line Item Rendering Physician information be transmitted when providers submit a combined claim. Claims that include both facility and professional components, need to report the rendering physician or other practitioner at the line level if it differs from the rendering physician/practitioner reported at the claim level.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/b9e26fc2-6e71-4f80-8884-c25dabb74065/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint241": {
+      "get": {
+        "summary": "Fiscal Intermediary Shared System Attending and Rendering : 2023-09-06",
+        "description": "The Fiscal Intermediary Shared System (FISS) Attending and Rendering dataset provides a list of those attending and rendering physicians for the FISS. FISS edits require that the Line Item Rendering Physician information be transmitted when providers submit a combined claim. Claims that include both facility and professional components, need to report the rendering physician or other practitioner at the line level if it differs from the rendering physician/practitioner reported at the claim level.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/cff94111-e355-42e3-a8d2-7e62e6e2106d/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint242": {
+      "get": {
+        "summary": "Fiscal Intermediary Shared System Attending and Rendering : 2023-08-31",
+        "description": "The Fiscal Intermediary Shared System (FISS) Attending and Rendering dataset provides a list of those attending and rendering physicians for the FISS. FISS edits require that the Line Item Rendering Physician information be transmitted when providers submit a combined claim. Claims that include both facility and professional components, need to report the rendering physician or other practitioner at the line level if it differs from the rendering physician/practitioner reported at the claim level.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/b3492fcf-a0d6-4959-a0f5-6acbb2278e95/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint243": {
+      "get": {
+        "summary": "Fiscal Intermediary Shared System Attending and Rendering : 2023-08-29",
+        "description": "The Fiscal Intermediary Shared System (FISS) Attending and Rendering dataset provides a list of those attending and rendering physicians for the FISS. FISS edits require that the Line Item Rendering Physician information be transmitted when providers submit a combined claim. Claims that include both facility and professional components, need to report the rendering physician or other practitioner at the line level if it differs from the rendering physician/practitioner reported at the claim level.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/d9f12e5e-cabe-4d60-9ae8-fbf6a18aff47/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint244": {
+      "get": {
+        "summary": "Fiscal Intermediary Shared System Attending and Rendering : 2023-08-24",
+        "description": "The Fiscal Intermediary Shared System (FISS) Attending and Rendering dataset provides a list of those attending and rendering physicians for the FISS. FISS edits require that the Line Item Rendering Physician information be transmitted when providers submit a combined claim. Claims that include both facility and professional components, need to report the rendering physician or other practitioner at the line level if it differs from the rendering physician/practitioner reported at the claim level.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/11f057e9-b45c-4d70-8eef-5ccfe149542b/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint245": {
+      "get": {
+        "summary": "Fiscal Intermediary Shared System Attending and Rendering : 2023-08-22",
+        "description": "The Fiscal Intermediary Shared System (FISS) Attending and Rendering dataset provides a list of those attending and rendering physicians for the FISS. FISS edits require that the Line Item Rendering Physician information be transmitted when providers submit a combined claim. Claims that include both facility and professional components, need to report the rendering physician or other practitioner at the line level if it differs from the rendering physician/practitioner reported at the claim level.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/27f9604f-1834-4a0c-8afe-75209d093134/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint246": {
+      "get": {
+        "summary": "Fiscal Intermediary Shared System Attending and Rendering : 2023-08-17",
+        "description": "The Fiscal Intermediary Shared System (FISS) Attending and Rendering dataset provides a list of those attending and rendering physicians for the FISS. FISS edits require that the Line Item Rendering Physician information be transmitted when providers submit a combined claim. Claims that include both facility and professional components, need to report the rendering physician or other practitioner at the line level if it differs from the rendering physician/practitioner reported at the claim level.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/463f6d4a-fd18-481c-afc6-91d36324c94a/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint247": {
+      "get": {
+        "summary": "Fiscal Intermediary Shared System Attending and Rendering : 2023-08-15",
+        "description": "The Fiscal Intermediary Shared System (FISS) Attending and Rendering dataset provides a list of those attending and rendering physicians for the FISS. FISS edits require that the Line Item Rendering Physician information be transmitted when providers submit a combined claim. Claims that include both facility and professional components, need to report the rendering physician or other practitioner at the line level if it differs from the rendering physician/practitioner reported at the claim level.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/cf9cc428-fc56-48bc-a9f8-2654f3e01328/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint248": {
+      "get": {
+        "summary": "Fiscal Intermediary Shared System Attending and Rendering : 2023-08-10",
+        "description": "The Fiscal Intermediary Shared System (FISS) Attending and Rendering dataset provides a list of those attending and rendering physicians for the FISS. FISS edits require that the Line Item Rendering Physician information be transmitted when providers submit a combined claim. Claims that include both facility and professional components, need to report the rendering physician or other practitioner at the line level if it differs from the rendering physician/practitioner reported at the claim level.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/ff182662-558a-473c-922e-a8511643e774/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint249": {
+      "get": {
+        "summary": "Fiscal Intermediary Shared System Attending and Rendering : 2023-08-08",
+        "description": "The Fiscal Intermediary Shared System (FISS) Attending and Rendering dataset provides a list of those attending and rendering physicians for the FISS. FISS edits require that the Line Item Rendering Physician information be transmitted when providers submit a combined claim. Claims that include both facility and professional components, need to report the rendering physician or other practitioner at the line level if it differs from the rendering physician/practitioner reported at the claim level.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f10f0d1b-ef01-4f1c-be1a-9701e08f5b0a/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint250": {
+      "get": {
+        "summary": "Fiscal Intermediary Shared System Attending and Rendering : 2023-08-03",
+        "description": "The Fiscal Intermediary Shared System (FISS) Attending and Rendering dataset provides a list of those attending and rendering physicians for the FISS. FISS edits require that the Line Item Rendering Physician information be transmitted when providers submit a combined claim. Claims that include both facility and professional components, need to report the rendering physician or other practitioner at the line level if it differs from the rendering physician/practitioner reported at the claim level.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/095f84bf-4d74-461b-830b-5fcc5cae4144/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint251": {
+      "get": {
+        "summary": "Fiscal Intermediary Shared System Attending and Rendering : 2023-08-01",
+        "description": "The Fiscal Intermediary Shared System (FISS) Attending and Rendering dataset provides a list of those attending and rendering physicians for the FISS. FISS edits require that the Line Item Rendering Physician information be transmitted when providers submit a combined claim. Claims that include both facility and professional components, need to report the rendering physician or other practitioner at the line level if it differs from the rendering physician/practitioner reported at the claim level.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/4e8a09af-97a2-4739-9588-cd47fd703872/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint252": {
+      "get": {
+        "summary": "Fiscal Intermediary Shared System Attending and Rendering : 2023-07-27",
+        "description": "The Fiscal Intermediary Shared System (FISS) Attending and Rendering dataset provides a list of those attending and rendering physicians for the FISS. FISS edits require that the Line Item Rendering Physician information be transmitted when providers submit a combined claim. Claims that include both facility and professional components, need to report the rendering physician or other practitioner at the line level if it differs from the rendering physician/practitioner reported at the claim level.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/24057976-4d92-46a7-9915-b12608a3768a/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint253": {
+      "get": {
+        "summary": "Fiscal Intermediary Shared System Attending and Rendering : 2023-07-25",
+        "description": "The Fiscal Intermediary Shared System (FISS) Attending and Rendering dataset provides a list of those attending and rendering physicians for the FISS. FISS edits require that the Line Item Rendering Physician information be transmitted when providers submit a combined claim. Claims that include both facility and professional components, need to report the rendering physician or other practitioner at the line level if it differs from the rendering physician/practitioner reported at the claim level.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/1fc70571-1bff-4836-b10e-54a99269b5ea/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint254": {
+      "get": {
+        "summary": "Fiscal Intermediary Shared System Attending and Rendering : 2023-07-21",
+        "description": "The Fiscal Intermediary Shared System (FISS) Attending and Rendering dataset provides a list of those attending and rendering physicians for the FISS. FISS edits require that the Line Item Rendering Physician information be transmitted when providers submit a combined claim. Claims that include both facility and professional components, need to report the rendering physician or other practitioner at the line level if it differs from the rendering physician/practitioner reported at the claim level.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/cffa589a-598f-4317-92b6-2f1f112fd7db/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint255": {
+      "get": {
+        "summary": "Fiscal Intermediary Shared System Attending and Rendering : 2023-07-19",
+        "description": "The Fiscal Intermediary Shared System (FISS) Attending and Rendering dataset provides a list of those attending and rendering physicians for the FISS. FISS edits require that the Line Item Rendering Physician information be transmitted when providers submit a combined claim. Claims that include both facility and professional components, need to report the rendering physician or other practitioner at the line level if it differs from the rendering physician/practitioner reported at the claim level.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/46bc04b7-cbe9-4157-a9b8-8fb1a0af5c30/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint256": {
+      "get": {
+        "summary": "Fiscal Intermediary Shared System Attending and Rendering : 2023-07-14",
+        "description": "The Fiscal Intermediary Shared System (FISS) Attending and Rendering dataset provides a list of those attending and rendering physicians for the FISS. FISS edits require that the Line Item Rendering Physician information be transmitted when providers submit a combined claim. Claims that include both facility and professional components, need to report the rendering physician or other practitioner at the line level if it differs from the rendering physician/practitioner reported at the claim level.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/158adc21-0ef1-48da-abc0-269e5935c0fd/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint257": {
+      "get": {
+        "summary": "Fiscal Intermediary Shared System Attending and Rendering : 2023-07-11",
+        "description": "The Fiscal Intermediary Shared System (FISS) Attending and Rendering dataset provides a list of those attending and rendering physicians for the FISS. FISS edits require that the Line Item Rendering Physician information be transmitted when providers submit a combined claim. Claims that include both facility and professional components, need to report the rendering physician or other practitioner at the line level if it differs from the rendering physician/practitioner reported at the claim level.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/9e8afcac-8727-4615-892c-f9c2133c62dd/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint258": {
+      "get": {
+        "summary": "Fiscal Intermediary Shared System Attending and Rendering : 2023-07-07",
+        "description": "The Fiscal Intermediary Shared System (FISS) Attending and Rendering dataset provides a list of those attending and rendering physicians for the FISS. FISS edits require that the Line Item Rendering Physician information be transmitted when providers submit a combined claim. Claims that include both facility and professional components, need to report the rendering physician or other practitioner at the line level if it differs from the rendering physician/practitioner reported at the claim level.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/77ce886b-fcaf-4eef-8030-769e0ef55742/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint259": {
+      "get": {
+        "summary": "Fiscal Intermediary Shared System Attending and Rendering : 2023-07-05",
+        "description": "The Fiscal Intermediary Shared System (FISS) Attending and Rendering dataset provides a list of those attending and rendering physicians for the FISS. FISS edits require that the Line Item Rendering Physician information be transmitted when providers submit a combined claim. Claims that include both facility and professional components, need to report the rendering physician or other practitioner at the line level if it differs from the rendering physician/practitioner reported at the claim level.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/285e83bb-f153-4f8a-b386-5e6ad0a8aff2/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint260": {
+      "get": {
+        "summary": "Fiscal Intermediary Shared System Attending and Rendering : 2023-07-03",
+        "description": "The Fiscal Intermediary Shared System (FISS) Attending and Rendering dataset provides a list of those attending and rendering physicians for the FISS. FISS edits require that the Line Item Rendering Physician information be transmitted when providers submit a combined claim. Claims that include both facility and professional components, need to report the rendering physician or other practitioner at the line level if it differs from the rendering physician/practitioner reported at the claim level.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/8934f94a-adaf-4192-b5ad-9d000e0e0a76/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint261": {
+      "get": {
+        "summary": "Fiscal Intermediary Shared System Attending and Rendering : 2023-06-27",
+        "description": "The Fiscal Intermediary Shared System (FISS) Attending and Rendering dataset provides a list of those attending and rendering physicians for the FISS. FISS edits require that the Line Item Rendering Physician information be transmitted when providers submit a combined claim. Claims that include both facility and professional components, need to report the rendering physician or other practitioner at the line level if it differs from the rendering physician/practitioner reported at the claim level.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/4235e93e-331a-4345-95cb-b2af561a2b8c/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint262": {
+      "get": {
+        "summary": "Fiscal Intermediary Shared System Attending and Rendering : 2023-06-23",
+        "description": "The Fiscal Intermediary Shared System (FISS) Attending and Rendering dataset provides a list of those attending and rendering physicians for the FISS. FISS edits require that the Line Item Rendering Physician information be transmitted when providers submit a combined claim. Claims that include both facility and professional components, need to report the rendering physician or other practitioner at the line level if it differs from the rendering physician/practitioner reported at the claim level.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/447ac2de-68bb-4364-a1e6-2d1449c69e42/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint263": {
+      "get": {
+        "summary": "Fiscal Intermediary Shared System Attending and Rendering : 2023-06-20",
+        "description": "The Fiscal Intermediary Shared System (FISS) Attending and Rendering dataset provides a list of those attending and rendering physicians for the FISS. FISS edits require that the Line Item Rendering Physician information be transmitted when providers submit a combined claim. Claims that include both facility and professional components, need to report the rendering physician or other practitioner at the line level if it differs from the rendering physician/practitioner reported at the claim level.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/8cb4c77e-c393-4841-a400-38e085a76f04/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint264": {
+      "get": {
+        "summary": "Fiscal Intermediary Shared System Attending and Rendering : 2023-06-15",
+        "description": "The Fiscal Intermediary Shared System (FISS) Attending and Rendering dataset provides a list of those attending and rendering physicians for the FISS. FISS edits require that the Line Item Rendering Physician information be transmitted when providers submit a combined claim. Claims that include both facility and professional components, need to report the rendering physician or other practitioner at the line level if it differs from the rendering physician/practitioner reported at the claim level.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f08341c9-ee08-497d-8799-4b8f09c3c4c7/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint265": {
+      "get": {
+        "summary": "Fiscal Intermediary Shared System Attending and Rendering : 2023-06-13",
+        "description": "The Fiscal Intermediary Shared System (FISS) Attending and Rendering dataset provides a list of those attending and rendering physicians for the FISS. FISS edits require that the Line Item Rendering Physician information be transmitted when providers submit a combined claim. Claims that include both facility and professional components, need to report the rendering physician or other practitioner at the line level if it differs from the rendering physician/practitioner reported at the claim level.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/5d281d1e-b906-4f5c-8c2f-4ab1bd97ea43/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint266": {
+      "get": {
+        "summary": "Fiscal Intermediary Shared System Attending and Rendering : 2023-06-08",
+        "description": "The Fiscal Intermediary Shared System (FISS) Attending and Rendering dataset provides a list of those attending and rendering physicians for the FISS. FISS edits require that the Line Item Rendering Physician information be transmitted when providers submit a combined claim. Claims that include both facility and professional components, need to report the rendering physician or other practitioner at the line level if it differs from the rendering physician/practitioner reported at the claim level.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/01307335-54cb-4ee2-aa3e-944a61c80128/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint267": {
+      "get": {
+        "summary": "Fiscal Intermediary Shared System Attending and Rendering : 2023-06-01",
+        "description": "The Fiscal Intermediary Shared System (FISS) Attending and Rendering dataset provides a list of those attending and rendering physicians for the FISS. FISS edits require that the Line Item Rendering Physician information be transmitted when providers submit a combined claim. Claims that include both facility and professional components, need to report the rendering physician or other practitioner at the line level if it differs from the rendering physician/practitioner reported at the claim level.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/3a59aa8b-46fb-4a5e-a255-c28494d53194/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint268": {
+      "get": {
+        "summary": "Home Health Agency All Owners : 2025-01-01",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/fc009b2d-7846-44b1-b4a1-692f0c143879/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint269": {
+      "get": {
+        "summary": "Home Health Agency All Owners : 2025-01-01",
+        "description": "The Home Health Agency (HHA) All Owners dataset provides ownership information on all HHAs currently enrolled in Medicare. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/a338d79f-d7fc-4503-91f9-ae2696742830/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint270": {
+      "get": {
+        "summary": "Home Health Agency All Owners : 2024-10-01",
+        "description": "The Home Health Agency (HHA) All Owners dataset provides ownership information on all HHAs currently enrolled in Medicare. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/dfa40c06-c5cf-43aa-a70c-15b95ae240b9/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint271": {
+      "get": {
+        "summary": "Home Health Agency All Owners : 2024-07-01",
+        "description": "The Home Health Agency (HHA) All Owners dataset provides ownership information on all HHAs currently enrolled in Medicare. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/539fa7db-5720-438d-ae94-555c156e17fd/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint272": {
+      "get": {
+        "summary": "Home Health Agency All Owners : 2024-04-01",
+        "description": "The Home Health Agency (HHA) All Owners dataset provides ownership information on all HHAs currently enrolled in Medicare. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/c745e6c8-795f-4b3e-89df-12e85264a892/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint273": {
+      "get": {
+        "summary": "Home Health Agency All Owners : 2024-01-05",
+        "description": "The Home Health Agency (HHA) All Owners dataset provides ownership information on all HHAs currently enrolled in Medicare. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/c1b3a866-2efa-416c-8f7b-6f17e553dbf1/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint274": {
+      "get": {
+        "summary": "Home Health Agency All Owners : 2023-10-02",
+        "description": "The Home Health Agency (HHA) All Owners dataset provides ownership information on all HHAs currently enrolled in Medicare. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/8f1a6139-8df2-4bfd-9e95-8ce4adec6488/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint275": {
+      "get": {
+        "summary": "Home Health Agency All Owners : 2023-07-17",
+        "description": "The Home Health Agency (HHA) All Owners dataset provides ownership information on all HHAs currently enrolled in Medicare. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/94c1d434-bdad-47e5-b301-6bcf8634af6b/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint276": {
+      "get": {
+        "summary": "Home Health Agency All Owners : 2023-04-01",
+        "description": "The Home Health Agency (HHA) All Owners dataset provides ownership information on all HHAs currently enrolled in Medicare. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/84a40ec7-d315-48e4-b2ed-ec00878cfec5/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint277": {
+      "get": {
+        "summary": "Home Health Agency Cost Report : 2022-12-01",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/4999da74-1d8d-4a6f-934e-2d7ea470cc63/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint278": {
+      "get": {
+        "summary": "Home Health Agency Cost Report : 2022-12-01",
+        "description": "The Home Health Agency Provider Cost Report dataset provides select measures from the home health agency annual cost report. This data includes provider information such as facility characteristics, utilization data, cost and charges by cost center (in total and for Medicare), Medicare settlement data, and financial statement data organized by CMS Certification Number.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/1adf48d9-9ff2-4641-ac51-d827aabf791c/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint279": {
+      "get": {
+        "summary": "Home Health Agency Cost Report : 2021-12-02",
+        "description": "The Home Health Agency Provider Cost Report dataset provides select measures from the home health agency annual cost report. This data includes provider information such as facility characteristics, utilization data, cost and charges by cost center (in total and for Medicare), Medicare settlement data, and financial statement data organized by CMS Certification Number.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/a02a324e-a8ad-4933-8bcd-e6a10ab28c8e/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint280": {
+      "get": {
+        "summary": "Home Health Agency Cost Report : 2020-12-02",
+        "description": "The Home Health Agency Provider Cost Report dataset provides select measures from the home health agency annual cost report. This data includes provider information such as facility characteristics, utilization data, cost and charges by cost center (in total and for Medicare), Medicare settlement data, and financial statement data organized by CMS Certification Number.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/2914a2e4-6d60-4b46-8806-9e9c56ca2f39/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint281": {
+      "get": {
+        "summary": "Home Health Agency Enrollments : 2025-01-01",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/15f64ab4-3172-4a27-b589-ebd67a6d28aa/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint282": {
+      "get": {
+        "summary": "Home Health Agency Enrollments : 2025-01-01",
+        "description": "The Home Health Agency (HHA) Enrollments dataset provides enrollment information on all HHAs currently enrolled in Medicare. This data includes information on the HHA's legal business name, doing business as name, organization type and address.\u00a0\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/e9278ca0-fd12-4e20-9a21-9d5cd733cc1d/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint283": {
+      "get": {
+        "summary": "Home Health Agency Enrollments : 2024-10-01",
+        "description": "The Home Health Agency (HHA) Enrollments dataset provides enrollment information on all HHAs currently enrolled in Medicare. This data includes information on the HHA's legal business name, doing business as name, organization type and address.\u00a0\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/115ccf0e-4312-4229-84e9-2b35267b106c/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint284": {
+      "get": {
+        "summary": "Home Health Agency Enrollments : 2024-07-01",
+        "description": "The Home Health Agency (HHA) Enrollments dataset provides enrollment information on all HHAs currently enrolled in Medicare. This data includes information on the HHA's legal business name, doing business as name, organization type and address.\u00a0\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/3a842f3f-2d77-43dc-b92c-078977a8c102/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint285": {
+      "get": {
+        "summary": "Home Health Agency Enrollments : 2024-04-01",
+        "description": "The Home Health Agency (HHA) Enrollments dataset provides enrollment information on all HHAs currently enrolled in Medicare. This data includes information on the HHA's legal business name, doing business as name, organization type and address.\u00a0\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/4410b442-fff1-4b05-bd49-3a90c9cac114/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint286": {
+      "get": {
+        "summary": "Home Health Agency Enrollments : 2024-01-05",
+        "description": "The Home Health Agency (HHA) Enrollments dataset provides enrollment information on all HHAs currently enrolled in Medicare. This data includes information on the HHA's legal business name, doing business as name, organization type and address.\u00a0\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/089ee308-8d5c-4ab5-afbf-a82c14b3f3b6/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint287": {
+      "get": {
+        "summary": "Home Health Agency Enrollments : 2023-10-02",
+        "description": "The Home Health Agency (HHA) Enrollments dataset provides enrollment information on all HHAs currently enrolled in Medicare. This data includes information on the HHA's legal business name, doing business as name, organization type and address.\u00a0\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/6e53ed2f-c967-4661-b566-a2cbcd7996f1/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint288": {
+      "get": {
+        "summary": "Home Health Agency Enrollments : 2023-07-17",
+        "description": "The Home Health Agency (HHA) Enrollments dataset provides enrollment information on all HHAs currently enrolled in Medicare. This data includes information on the HHA's legal business name, doing business as name, organization type and address.\u00a0\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/d998c103-6d16-48a1-b58a-51e5848c6939/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint289": {
+      "get": {
+        "summary": "Home Health Agency Enrollments : 2023-04-01",
+        "description": "The Home Health Agency (HHA) Enrollments dataset provides enrollment information on all HHAs currently enrolled in Medicare. This data includes information on the HHA's legal business name, doing business as name, organization type and address.\u00a0\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f48bb755-bd9f-42e3-87b9-b88c562cb981/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint290": {
+      "get": {
+        "summary": "Home Infusion Therapy Providers : 2025-01-07",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/31f25ab6-2fe3-4bad-ac5a-90635ed79935/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint291": {
+      "get": {
+        "summary": "Home Infusion Therapy Providers : 2025-01-07",
+        "description": "The Home Infusion Therapy Providers dataset provides information on the Providers in Medicare who specialize in Home Infusion Therapy.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/8596aa47-d4d4-4149-bc80-eb52e2d3a761/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint292": {
+      "get": {
+        "summary": "Home Infusion Therapy Providers : 2024-12-23",
+        "description": "The Home Infusion Therapy Providers dataset provides information on the Providers in Medicare who specialize in Home Infusion Therapy.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/7e14f5b0-1bc6-4b07-952e-786711893997/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint293": {
+      "get": {
+        "summary": "Home Infusion Therapy Providers : 2024-12-10",
+        "description": "The Home Infusion Therapy Providers dataset provides information on the Providers in Medicare who specialize in Home Infusion Therapy.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/b045ef18-e306-4f1d-b710-04cd335a7895/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint294": {
+      "get": {
+        "summary": "Home Infusion Therapy Providers : 2024-11-26",
+        "description": "The Home Infusion Therapy Providers dataset provides information on the Providers in Medicare who specialize in Home Infusion Therapy.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/edda6a20-cae6-41b9-8594-ec90ab0edf3f/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint295": {
+      "get": {
+        "summary": "Home Infusion Therapy Providers : 2024-11-13",
+        "description": "The Home Infusion Therapy Providers dataset provides information on the Providers in Medicare who specialize in Home Infusion Therapy.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/86c2aadc-7836-45a3-9962-bb7f31d86877/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint296": {
+      "get": {
+        "summary": "Home Infusion Therapy Providers : 2024-10-29",
+        "description": "The Home Infusion Therapy Providers dataset provides information on the Providers in Medicare who specialize in Home Infusion Therapy.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/28835aba-de78-4e14-b76f-d9c880342b9a/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint297": {
+      "get": {
+        "summary": "Home Infusion Therapy Providers : 2024-10-15",
+        "description": "The Home Infusion Therapy Providers dataset provides information on the Providers in Medicare who specialize in Home Infusion Therapy.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/11bee001-3af6-49f0-86cd-2ff3e372d6c0/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint298": {
+      "get": {
+        "summary": "Home Infusion Therapy Providers : 2024-10-01",
+        "description": "The Home Infusion Therapy Providers dataset provides information on the Providers in Medicare who specialize in Home Infusion Therapy.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/4ef9fdd8-2543-4415-a4b4-a339c8b6ee36/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint299": {
+      "get": {
+        "summary": "Home Infusion Therapy Providers : 2024-09-17",
+        "description": "The Home Infusion Therapy Providers dataset provides information on the Providers in Medicare who specialize in Home Infusion Therapy.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/bb7bc7cb-86cc-405f-b379-b1783b8d4be2/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint300": {
+      "get": {
+        "summary": "Home Infusion Therapy Providers : 2024-09-03",
+        "description": "The Home Infusion Therapy Providers dataset provides information on the Providers in Medicare who specialize in Home Infusion Therapy.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/db8830fb-0de4-4ac0-97ee-f68d8fd700eb/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

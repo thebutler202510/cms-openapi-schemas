@@ -1,0 +1,1915 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "CMS API Subset 12",
+    "version": "1.0.0",
+    "description": "Subset 12 of CMS API endpoints"
+  },
+  "servers": [
+    {
+      "url": "https://data.cms.gov"
+    }
+  ],
+  "paths": {
+    "/proxy/endpoint1101": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2023-06-08",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/4b916311-e358-4059-9d61-1d8d0779eb8d/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1102": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2023-06-05",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/9cc3c149-d6fa-4890-8d85-f461158b3cab/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1103": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2023-06-01",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/aa4b7289-578e-4102-ab06-d08fe380b812/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1104": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2025-01-21",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/6bd6b1dd-208c-4f9c-88b8-b15fec6db548/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1105": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2025-01-21",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f1848255-f2d6-4e10-a269-49330b051a58/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1106": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2025-01-17",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/8c432486-8c63-4bcc-84b1-0c2f06fd652a/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1107": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2025-01-14",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/075c7c2c-413e-4ca8-a5fb-45bcb5611b8f/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1108": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2025-01-10",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/9621a288-4f8a-46fc-a3cc-0490380979ca/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1109": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2025-01-07",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/4bd25754-5890-46d3-af3a-cfb2744c7ed9/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1110": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2025-01-06",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/e16ced69-a28e-4d45-bdd1-abceea3ee484/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1111": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-12-31",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/890502c2-5ec3-4fc1-8c55-88470f09552c/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1112": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-12-30",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/1a6b2305-8922-4934-81e9-3e378f169987/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1113": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-12-23",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/098496b6-af34-4140-9218-066c52afbce8/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1114": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-12-20",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/c5d52e66-a695-4d19-b763-7f49ced66c33/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1115": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-12-17",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/7cf1b191-40d2-400c-ad8f-6a3af8f941d1/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1116": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-12-13",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/7e8af2e2-7183-4faa-91d5-052fad794d6e/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1117": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-12-10",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/92854ee4-3134-45e0-a2ab-86e9554c93f2/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1118": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-12-06",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/e4b16cdc-264e-49e9-9f20-7eb94a71e8fc/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1119": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-12-03",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/661c77b1-f4fa-44b9-a3c7-6ba2f9ef7666/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1120": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-11-29",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/7ec74805-b3fa-40d0-9954-854133b5f936/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1121": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-11-26",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/50218736-14e7-4d8b-8603-1b387f1a4d0d/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1122": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-11-21",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/aef6e89a-39e2-4cbc-9b03-453f56f3d853/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1123": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-11-19",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/c9f2e625-acb5-40b8-a25d-f39ad01dae41/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1124": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-11-15",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/7f9f7449-4258-4e1b-b512-2796b026ebbe/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1125": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-11-13",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/c0389ef0-2a81-45f3-aca3-1f05e43f4388/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1126": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-11-08",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/9431a439-ccc2-42fd-9585-b8ff0d4c825d/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1127": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-11-05",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/936dd914-9f2b-4adf-ad4e-cd72a77d5f22/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1128": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-11-01",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/00b08e5f-0fc0-49f7-b3e3-340e90994e27/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1129": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-10-29",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/82c799d0-cd4a-4e13-a36e-5196876b6d13/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1130": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-10-25",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/8e03b028-c341-45a1-b07a-e0bf3eeed07f/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1131": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-10-22",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f613e808-1182-49cc-8f8e-462fd0be9b36/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1132": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-10-18",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/9ca7e821-f6dc-4603-bd28-6abbdc6b4866/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1133": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-10-15",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/c77b3aa9-ef10-435c-a0f9-2e6555bfd365/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1134": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-10-11",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/dd8e643c-b69a-4a6d-a2e7-a5cbaec1e46a/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1135": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-10-08",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/addeb05c-03d6-4b75-89c4-6f9040e17be1/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1136": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-10-04",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/1cb8a7fc-a390-4c9a-ad18-217df865df8a/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1137": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-10-01",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/1f574fd7-63a1-4892-91dc-b82e913beb29/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1138": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-09-27",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/5b7575e5-7762-400c-8f24-4a0bfcbb3efc/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1139": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-09-24",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/c988ffa0-7ee3-44e9-94b7-19877f19ad9e/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1140": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-09-20",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/008dd1ca-ad6c-4ac5-b532-1f2a2f83e20b/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1141": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-09-17",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/c41e1211-5502-4d00-8096-12dd0bf4a40e/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1142": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-09-13",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/68120cf0-e6fc-4428-9d2e-3776bac5b7bd/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1143": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-09-10",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/93644fea-475e-49b9-95bf-6d313bc37c31/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1144": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-09-06",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/3c610b60-94ff-406e-9684-0259b67ff1c9/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1145": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-09-04",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/4aa5992d-13b8-4bb0-b92a-ebc531476b73/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1146": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-08-30",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/ee78ac43-dae0-437d-a68f-80dd047ed9a6/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1147": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-08-27",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/7a4342a4-5030-4c38-9c9c-8256a9867073/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1148": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-08-23",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/5355ddde-0f71-4284-b1df-838a9e9e9c56/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1149": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-08-20",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/236c81ea-77a3-4ce9-aff5-25c118dd65cd/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1150": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-08-16",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/7e7a736d-b2e8-4b7c-9a90-7b0666ee463d/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1151": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-08-13",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/653a4d5a-3852-4721-bcc7-9904005c8906/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1152": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-08-09",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/d81b9555-7f92-45ca-a5ef-4f89907b70f4/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1153": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-08-06",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/c886c4b9-b570-4b42-966b-d182619ef703/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1154": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-08-02",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/9cde00c9-5600-4d4c-aff3-a1b3f9279317/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1155": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-07-30",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f8141f7f-8cc9-452b-a5e2-88b48af468af/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1156": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-07-26",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/480f9b38-e472-4c1a-b3b9-b35bf14ddaff/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1157": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-07-23",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/0219c500-dd2a-4a37-8cc7-ff816c4a7177/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1158": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-07-19",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/bf67419f-024f-45fb-a5f9-e4de02fb98c8/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1159": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-07-16",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/36047a75-6f3d-4afe-8678-59681e91ecb7/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1160": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-07-15",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/ce4acf4c-73ba-4f78-98f3-e4e101182e1a/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1161": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-07-09",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/c3c3108d-aa72-4703-925e-41cb05c3341c/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1162": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-07-05",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/2c532f03-e07b-40c2-93c9-9093d773ff05/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1163": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-07-02",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/22886d06-857b-4901-b197-239dcb9869b1/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1164": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-06-28",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/568ea272-93d5-4fc5-93a4-95fbb08f8c00/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1165": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-06-25",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/d9a007ca-420e-43ef-9923-2267b008e975/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1166": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-06-21",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/6b8c08d1-dc56-411b-8ada-ee9f3dcc87a4/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1167": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-06-18",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/28b5da9f-f18d-4093-b867-710618a02e19/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1168": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-06-14",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/9a4d6b64-b303-45e7-8654-6aff799396e7/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1169": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-06-11",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/c9f3265f-a6d5-404e-b871-daffa5bf0d22/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1170": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-06-07",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/8ea0d682-0600-4e8a-873d-cc58a5aae812/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1171": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-06-04",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/3ba4e11a-0666-4ab2-8f68-d3481a50bd8f/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1172": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-05-31",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/ddce660e-4775-4fa9-9fae-4b8248b59052/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1173": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-05-29",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/0fa0b977-a96b-4c55-9b29-afa2d92bc88a/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1174": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-05-28",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/b656ed47-edc8-440c-8eab-34e005030e8d/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1175": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-05-21",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/95de84b0-268b-4863-b7b8-e456cd56718c/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1176": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-05-17",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/2f205dbb-5b19-48fa-aba3-864fe62ec5d5/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1177": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-05-14",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/71ff6b23-3d04-4b58-87ca-d9dbff3e11a1/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1178": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-05-10",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/603a10e8-c200-42db-a22c-18ac2232342d/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1179": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-05-07",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/fe6061c9-7e74-4681-99de-1f2b1d33e4ac/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1180": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-05-03",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/68bcbb91-1a48-4c59-acf4-72df44642512/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1181": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-04-30",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/10e5fb2e-adee-42b6-b68f-ba6c3b1e77c0/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1182": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-04-26",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/9454a288-35e5-4e51-b7d6-65ca9205c205/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1183": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-04-23",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/1e286281-9db9-4eb4-82f6-5399537903b1/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1184": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-04-19",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/1509c354-05f4-4f93-acf9-77d1d726e0a8/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1185": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-04-16",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/c7cf9729-6d4d-4160-8fc1-a72e7c292eb5/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1186": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-04-12",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/77ea6277-c767-4169-b1cf-0d8818845d9a/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1187": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-04-09",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/6cd4da21-9e5a-460b-a273-9c4d67dc87f3/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1188": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-04-05",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/0a54ebcb-81cf-4341-8a9f-794b403ee49a/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1189": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-04-02",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/8ec76d6a-ff06-4d9e-8b06-247d921dbbd5/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1190": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-03-29",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/474e88bf-e3de-494e-ad91-c3efbf0bc7d8/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1191": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-03-26",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/7eb06c0b-e161-451a-8e5f-f22563ae1d10/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1192": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-03-22",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/875eda09-3381-431c-9297-706857a3800d/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1193": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-03-19",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/c550cac3-cd24-4b66-9bb5-3dee05cb3963/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1194": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-03-15",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/7ead690f-f520-4d62-9737-d829bcf74510/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1195": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-03-12",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/36f22764-e27d-484c-ae39-95398c983ee9/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1196": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-03-08",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/9974c85d-04d0-4aa8-9f73-4f17ffb433d5/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1197": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-03-05",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/4be267e6-0fb2-40dc-9f0d-fd951b2198d2/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1198": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-03-01",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/4b444e0c-3532-40f3-a3a0-b70e85d913ef/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1199": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-02-27",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/e0634859-bbfb-4b4e-9cae-509bddc8cfe9/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1200": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-02-23",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/8c444507-5249-4369-8eed-397524e3ea5b/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

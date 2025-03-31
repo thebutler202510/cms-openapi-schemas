@@ -1,0 +1,1915 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "CMS API Subset 13",
+    "version": "1.0.0",
+    "description": "Subset 13 of CMS API endpoints"
+  },
+  "servers": [
+    {
+      "url": "https://data.cms.gov"
+    }
+  ],
+  "paths": {
+    "/proxy/endpoint1201": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-02-21",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/471ab8b1-c230-4fb4-a168-aa26faee6f6f/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1202": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-02-16",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/26ee6375-be47-49e1-9704-69898690730f/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1203": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-02-13",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/68cdb183-d048-41f3-8ef2-e2411d90625f/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1204": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-02-09",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/ad0dcc72-9cf5-4652-9f4d-38e31ba5b589/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1205": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-02-06",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/aadd5de7-eedc-4659-b277-c46035dbf6d8/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1206": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-02-02",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f136b3d9-eb89-43b3-aa76-6dca2f6ff3c3/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1207": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-01-30",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/8a888249-8ff2-403e-bf7b-71746bb2e168/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1208": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-01-26",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/bf95eb63-e1e8-4c15-aa87-bdfeddceeb0b/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1209": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-01-23",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f34d6b5f-0ca5-4ff4-99a3-814ea9baab6f/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1210": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-01-19",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/97aed327-fb66-45e5-9265-ac2f2d2cff3b/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1211": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-01-16",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/aa906f48-d138-4022-b22b-21bce840fec3/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1212": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-01-12",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/bb374999-f1d1-4727-b63b-24094206504c/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1213": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-01-09",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f9c0cfee-78ed-4c4e-8b6c-e144286580ac/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1214": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-01-05",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/4dd58bdf-2fa1-4673-9518-90fa09744197/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1215": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2024-01-03",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/84f6dea1-a3f5-429a-940b-033c65adb978/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1216": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2023-12-29",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/9c0307a9-83e4-4226-b866-180c3f6eec09/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1217": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2023-12-27",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/acb02bee-7f53-4ec1-8f4a-262bb865ac7b/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1218": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2023-12-22",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/5683542c-ee11-4f80-9e57-679dacc111ec/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1219": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2023-12-19",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/32c736f7-8ddc-4989-825e-e17f7d7f3b3b/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1220": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2023-12-15",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/432d05f0-326f-4aad-8756-6d4fe94c5247/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1221": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2023-12-11",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/187ee544-68da-4ccf-bcd9-078bc81c1f2c/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1222": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2023-12-08",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/2300e2e1-38dc-4a03-b993-9b502a3fe79c/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1223": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2023-12-05",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/736e3731-105f-448b-b004-c21bfba5518c/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1224": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2023-12-01",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/974b5435-8a37-43ae-baac-192ca1edbbaa/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1225": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2023-11-28",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/ab7fb01c-5e51-4210-bb60-51bd0562f7a4/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1226": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2023-11-24",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/c5d7a347-cb82-4b68-abf6-70afd34ba7ea/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1227": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2023-11-21",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f5c8a921-fad2-4426-b595-4689c8752e03/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1228": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2023-11-16",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/adbe7f57-40eb-424e-81a6-43a62262cebf/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1229": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2023-11-14",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/c4cf8f72-c18a-46da-9d70-f98281d5a607/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1230": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2023-11-09",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/fae086d1-8ec1-43a6-b981-ffc9ce52df12/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1231": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2023-11-07",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/8cc7f9f8-475d-428b-8d60-1297fcfe0616/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1232": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2023-11-03",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/4dca697f-06ea-41c6-be1f-beb9d34ce52c/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1233": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2023-10-31",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/4103f052-e182-41c2-b2e4-9440087f23e4/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1234": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2023-10-27",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/897e6d28-abbf-4d81-99e8-a943dee3708c/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1235": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2023-10-24",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/7ad5003d-f7c1-4dfe-be7f-6b54789dbfac/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1236": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2023-10-19",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/d99e288b-0f66-4cb5-8e3d-3e5201e067a3/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1237": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2023-10-17",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/1295b87a-c3e1-469e-85c6-56a15f380a63/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1238": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2023-10-13",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/14d39d94-03a2-4acd-a094-a5a8b1086502/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1239": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2023-10-11",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/7f529622-2eb0-47c3-9e8a-9589cb2cc643/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1240": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2023-10-05",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/6aefaf4e-e79d-478d-9814-86ebe0487731/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1241": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2023-10-03",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/afe4f827-93d5-47e7-83d7-509adf717ab2/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1242": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2023-09-28",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/a72b32a8-26a9-4e6f-8687-9a73382b23d0/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1243": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2023-09-26",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/14f9e6a8-4e37-4578-81af-abacd82b8997/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1244": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2023-09-22",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/faf57b7f-2fbe-435f-9001-e42e773173e5/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1245": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2023-09-18",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/0ad3d32b-4e90-45a7-abae-c1e2be829a5a/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1246": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2023-09-14",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/398bad37-e71c-408f-99df-d6d5af5fa7fc/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1247": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2023-09-11",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/04cf4265-8359-4f89-abe9-4a1d947ce3fd/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1248": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2023-09-07",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f8ce2d1f-c089-4ba0-acf5-25737cbe308a/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1249": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2023-09-06",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/3bd78965-26d9-492f-9cdb-8ea365f3b34b/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1250": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2023-08-31",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/1da7a5e0-d94c-479d-a079-c15d69813930/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1251": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2023-08-29",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/721269c0-c61e-4928-804a-37e948db436f/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1252": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2023-08-24",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/3d366375-9d94-4a98-a99a-52ecae532204/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1253": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2023-08-22",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/75ac5f20-446e-4156-89ff-86332b8affff/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1254": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2023-08-17",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/81527852-821c-4018-801d-fdebda6d54f5/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1255": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2023-08-15",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/e5825116-2cb5-4b2b-9016-061877f138d0/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1256": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2023-08-10",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/1ff9221e-dcad-402e-8fb6-57f4797b817e/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1257": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2023-08-08",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/c3d6f460-660e-4900-a10e-022c2905a2ee/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1258": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2023-08-03",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/cbbed65c-ef7a-47b5-a833-40dda91592cb/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1259": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2023-08-01",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/81af36dd-a474-473c-b176-1b6ad01f1245/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1260": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2023-07-27",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/9478ac58-78ea-4b40-a3bc-be296a787dcf/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1261": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2023-07-25",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f75383f8-29a0-460f-b936-daaebdb15f25/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1262": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2023-07-21",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/c3a893cc-45a2-4b65-9051-a9af53423994/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1263": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2023-07-19",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/e098c1e2-a0cb-4f73-9bfe-84f05ec25c64/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1264": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2023-07-14",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/37fba918-b475-4ec4-9177-7c25185b0015/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1265": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2023-07-11",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/def28f7c-9636-4aa1-96fa-0f78efb906d4/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1266": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2023-07-07",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/bdc9734c-bfd3-433e-9116-ed60357c82d5/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1267": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2023-07-05",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/658e91c1-8218-4d31-ac24-042c06202d5d/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1268": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2023-07-03",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/cacab648-6941-443f-b1af-02e9a4acc476/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1269": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2023-06-27",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/6c8e9e0b-32c2-4d31-bffd-91345f90278c/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1270": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2023-06-23",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/ac7176fb-13c6-44cd-8610-4fa42d6575af/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1271": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2023-06-20",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/802ad7f7-c5ca-4ca0-915c-dd7b039a038b/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1272": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2023-06-15",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/b4f87204-ecba-4399-91a7-1651ed6480d3/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1273": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2023-06-13",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/4e766ee5-6598-47c6-a88d-6d08583e8137/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1274": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2023-06-08",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/1b83e4e9-9ec3-462c-ad1d-b414b17233cf/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1275": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2023-06-05",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/3dba6e32-669c-4f57-9e89-df2143c02219/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1276": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Physicians : 2023-06-01",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Physicians dataset provides a list of pending applications that have not been processed by CMS contractors.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/d2d588ab-017d-443b-88a6-39fb45f4239b/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1277": {
+      "get": {
+        "summary": "Performance Year Financial and Quality Results : 2023-10-01",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/73b2ce14-351d-40ac-90ba-ec9e1f5ba80c/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1278": {
+      "get": {
+        "summary": "Performance Year Financial and Quality Results : 2023-10-01",
+        "description": "The Shared Savings Program Performance Year Financial and Quality Results data provides Medicare Shared Savings Program (Shared Savings Program) ACO-specific quality, expenditure, benchmark, and shared savings/loss metrics, as well as summarized beneficiary and provider information for each performance year of the Shared Savings Program. \u00a0\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to Shared Savings Program ACO information occur periodically. Each Shared Savings Program ACO has the most up-to-date information about their organization. Consider contacting the Shared Savings Program ACO for the latest information. Contact information is available in the ACO Public Use File (PUF) and the ACO Participants PUF.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/7082a8f1-6d51-4723-853d-086bf254f5fb/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1279": {
+      "get": {
+        "summary": "Performance Year Financial and Quality Results : 2022-02-01",
+        "description": "The Shared Savings Program Performance Year Financial and Quality Results data provides Medicare Shared Savings Program (Shared Savings Program) ACO-specific quality, expenditure, benchmark, and shared savings/loss metrics, as well as summarized beneficiary and provider information for each performance year of the Shared Savings Program. \u00a0\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to Shared Savings Program ACO information occur periodically. Each Shared Savings Program ACO has the most up-to-date information about their organization. Consider contacting the Shared Savings Program ACO for the latest information. Contact information is available in the ACO Public Use File (PUF) and the ACO Participants PUF.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/a5d74ce2-ba38-47be-8523-146e4ad41832/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1280": {
+      "get": {
+        "summary": "Performance Year Financial and Quality Results : 2021-01-04",
+        "description": "The Shared Savings Program Performance Year Financial and Quality Results data provides Medicare Shared Savings Program (Shared Savings Program) ACO-specific quality, expenditure, benchmark, and shared savings/loss metrics, as well as summarized beneficiary and provider information for each performance year of the Shared Savings Program. \u00a0\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to Shared Savings Program ACO information occur periodically. Each Shared Savings Program ACO has the most up-to-date information about their organization. Consider contacting the Shared Savings Program ACO for the latest information. Contact information is available in the ACO Public Use File (PUF) and the ACO Participants PUF.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/bd6b766f-6fa3-43ae-8e9a-319da31dc374/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1281": {
+      "get": {
+        "summary": "Performance Year Financial and Quality Results : 2020-01-01",
+        "description": "The Shared Savings Program Performance Year Financial and Quality Results data provides Medicare Shared Savings Program (Shared Savings Program) ACO-specific quality, expenditure, benchmark, and shared savings/loss metrics, as well as summarized beneficiary and provider information for each performance year of the Shared Savings Program. \u00a0\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to Shared Savings Program ACO information occur periodically. Each Shared Savings Program ACO has the most up-to-date information about their organization. Consider contacting the Shared Savings Program ACO for the latest information. Contact information is available in the ACO Public Use File (PUF) and the ACO Participants PUF.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/8f073013-9db0-4b12-9a34-5802bdabbdfe/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1282": {
+      "get": {
+        "summary": "Performance Year Financial and Quality Results : 2019-07-01oc1",
+        "description": "The Shared Savings Program Performance Year Financial and Quality Results data provides Medicare Shared Savings Program (Shared Savings Program) ACO-specific quality, expenditure, benchmark, and shared savings/loss metrics, as well as summarized beneficiary and provider information for each performance year of the Shared Savings Program. \u00a0\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to Shared Savings Program ACO information occur periodically. Each Shared Savings Program ACO has the most up-to-date information about their organization. Consider contacting the Shared Savings Program ACO for the latest information. Contact information is available in the ACO Public Use File (PUF) and the ACO Participants PUF.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/858908f7-37b2-4810-ad34-a6ab66d7a5ef/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1283": {
+      "get": {
+        "summary": "Performance Year Financial and Quality Results : 2019-01-31",
+        "description": "The Shared Savings Program Performance Year Financial and Quality Results data provides Medicare Shared Savings Program (Shared Savings Program) ACO-specific quality, expenditure, benchmark, and shared savings/loss metrics, as well as summarized beneficiary and provider information for each performance year of the Shared Savings Program. \u00a0\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to Shared Savings Program ACO information occur periodically. Each Shared Savings Program ACO has the most up-to-date information about their organization. Consider contacting the Shared Savings Program ACO for the latest information. Contact information is available in the ACO Public Use File (PUF) and the ACO Participants PUF.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/9c3a4c69-7d00-4307-9b6f-a080dc90417e/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1284": {
+      "get": {
+        "summary": "Performance Year Financial and Quality Results : 2018-01-15",
+        "description": "The Shared Savings Program Performance Year Financial and Quality Results data provides Medicare Shared Savings Program (Shared Savings Program) ACO-specific quality, expenditure, benchmark, and shared savings/loss metrics, as well as summarized beneficiary and provider information for each performance year of the Shared Savings Program. \u00a0\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to Shared Savings Program ACO information occur periodically. Each Shared Savings Program ACO has the most up-to-date information about their organization. Consider contacting the Shared Savings Program ACO for the latest information. Contact information is available in the ACO Public Use File (PUF) and the ACO Participants PUF.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/80c86127-8839-4f35-b87b-aa37664afd19/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1285": {
+      "get": {
+        "summary": "Performance Year Financial and Quality Results : 2017-01-15",
+        "description": "The Shared Savings Program Performance Year Financial and Quality Results data provides Medicare Shared Savings Program (Shared Savings Program) ACO-specific quality, expenditure, benchmark, and shared savings/loss metrics, as well as summarized beneficiary and provider information for each performance year of the Shared Savings Program. \u00a0\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to Shared Savings Program ACO information occur periodically. Each Shared Savings Program ACO has the most up-to-date information about their organization. Consider contacting the Shared Savings Program ACO for the latest information. Contact information is available in the ACO Public Use File (PUF) and the ACO Participants PUF.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/3b306450-1836-417b-b779-7d70fd2fc734/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1286": {
+      "get": {
+        "summary": "Performance Year Financial and Quality Results : 2016-01-15",
+        "description": "The Shared Savings Program Performance Year Financial and Quality Results data provides Medicare Shared Savings Program (Shared Savings Program) ACO-specific quality, expenditure, benchmark, and shared savings/loss metrics, as well as summarized beneficiary and provider information for each performance year of the Shared Savings Program. \u00a0\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to Shared Savings Program ACO information occur periodically. Each Shared Savings Program ACO has the most up-to-date information about their organization. Consider contacting the Shared Savings Program ACO for the latest information. Contact information is available in the ACO Public Use File (PUF) and the ACO Participants PUF.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/a290fdd3-976a-4fc9-9139-a98193b3af82/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1287": {
+      "get": {
+        "summary": "Performance Year Financial and Quality Results : 2015-01-15",
+        "description": "The Shared Savings Program Performance Year Financial and Quality Results data provides Medicare Shared Savings Program (Shared Savings Program) ACO-specific quality, expenditure, benchmark, and shared savings/loss metrics, as well as summarized beneficiary and provider information for each performance year of the Shared Savings Program. \u00a0\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to Shared Savings Program ACO information occur periodically. Each Shared Savings Program ACO has the most up-to-date information about their organization. Consider contacting the Shared Savings Program ACO for the latest information. Contact information is available in the ACO Public Use File (PUF) and the ACO Participants PUF.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/156c00e2-ab42-4923-b54f-09c031f5f28d/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1288": {
+      "get": {
+        "summary": "Performance Year Financial and Quality Results : 2014-12-31",
+        "description": "The Shared Savings Program Performance Year Financial and Quality Results data provides Medicare Shared Savings Program (Shared Savings Program) ACO-specific quality, expenditure, benchmark, and shared savings/loss metrics, as well as summarized beneficiary and provider information for each performance year of the Shared Savings Program. \u00a0\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to Shared Savings Program ACO information occur periodically. Each Shared Savings Program ACO has the most up-to-date information about their organization. Consider contacting the Shared Savings Program ACO for the latest information. Contact information is available in the ACO Public Use File (PUF) and the ACO Participants PUF.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/0ef9b1e2-e23b-4a01-921c-1ac7290c814b/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1289": {
+      "get": {
+        "summary": "Performance Year Financial and Quality Results : 2013-12-31",
+        "description": "The Shared Savings Program Performance Year Financial and Quality Results data provides Medicare Shared Savings Program (Shared Savings Program) ACO-specific quality, expenditure, benchmark, and shared savings/loss metrics, as well as summarized beneficiary and provider information for each performance year of the Shared Savings Program. \u00a0\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to Shared Savings Program ACO information occur periodically. Each Shared Savings Program ACO has the most up-to-date information about their organization. Consider contacting the Shared Savings Program ACO for the latest information. Contact information is available in the ACO Public Use File (PUF) and the ACO Participants PUF.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/bc90f498-76f4-4e75-8225-8aae30336059/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1290": {
+      "get": {
+        "summary": "Physician/Supplier Procedure Summary : 2023-01-01",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/164fc736-4179-4100-9f79-592b69e41975/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1291": {
+      "get": {
+        "summary": "Physician/Supplier Procedure Summary : 2023-01-01",
+        "description": "The Physician/Supplier Procedure Summary (PSPS) data provides a summary of calendar year Medicare Part B carrier and durable medical equipment fee-for-service (FFS) claims. The file is organized by carrier, pricing locality, Healthcare Common Procedure Coding System (HCPCS) code, HCPCS modifier, provider specialty, type of service, and place of service. The summarized fields are total submitted services and charges, total allowed services and charges, total denied services and charges, and total payment amounts.\u00a0 This dataset is produced annually and is typically available in July (i.e., data for CY2015 is usually available in July 2016).\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/b72adfb6-22cf-4241-9c64-050ad9061e03/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1292": {
+      "get": {
+        "summary": "Physician/Supplier Procedure Summary : 2022-01-01",
+        "description": "The Physician/Supplier Procedure Summary (PSPS) data provides a summary of calendar year Medicare Part B carrier and durable medical equipment fee-for-service (FFS) claims. The file is organized by carrier, pricing locality, Healthcare Common Procedure Coding System (HCPCS) code, HCPCS modifier, provider specialty, type of service, and place of service. The summarized fields are total submitted services and charges, total allowed services and charges, total denied services and charges, and total payment amounts.\u00a0 This dataset is produced annually and is typically available in July (i.e., data for CY2015 is usually available in July 2016).\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/e4786716-10e9-40f2-b936-7444177474d5/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1293": {
+      "get": {
+        "summary": "Physician/Supplier Procedure Summary : 2021-01-01",
+        "description": "The Physician/Supplier Procedure Summary (PSPS) data provides a summary of calendar year Medicare Part B carrier and durable medical equipment fee-for-service (FFS) claims. The file is organized by carrier, pricing locality, Healthcare Common Procedure Coding System (HCPCS) code, HCPCS modifier, provider specialty, type of service, and place of service. The summarized fields are total submitted services and charges, total allowed services and charges, total denied services and charges, and total payment amounts.\u00a0 This dataset is produced annually and is typically available in July (i.e., data for CY2015 is usually available in July 2016).\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/72200613-6706-4ad2-8219-e200cc4391cc/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1294": {
+      "get": {
+        "summary": "Physician/Supplier Procedure Summary : 2020-12-31",
+        "description": "The Physician/Supplier Procedure Summary (PSPS) data provides a summary of calendar year Medicare Part B carrier and durable medical equipment fee-for-service (FFS) claims. The file is organized by carrier, pricing locality, Healthcare Common Procedure Coding System (HCPCS) code, HCPCS modifier, provider specialty, type of service, and place of service. The summarized fields are total submitted services and charges, total allowed services and charges, total denied services and charges, and total payment amounts.\u00a0 This dataset is produced annually and is typically available in July (i.e., data for CY2015 is usually available in July 2016).\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/5eb3eebe-20cb-405c-864f-444873134f24/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1295": {
+      "get": {
+        "summary": "Physician/Supplier Procedure Summary : 2019-12-31",
+        "description": "The Physician/Supplier Procedure Summary (PSPS) data provides a summary of calendar year Medicare Part B carrier and durable medical equipment fee-for-service (FFS) claims. The file is organized by carrier, pricing locality, Healthcare Common Procedure Coding System (HCPCS) code, HCPCS modifier, provider specialty, type of service, and place of service. The summarized fields are total submitted services and charges, total allowed services and charges, total denied services and charges, and total payment amounts.\u00a0 This dataset is produced annually and is typically available in July (i.e., data for CY2015 is usually available in July 2016).\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/0ce67ad8-524b-4d4f-8ac8-55f4a68f0711/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1296": {
+      "get": {
+        "summary": "Physician/Supplier Procedure Summary : 2018-03-16",
+        "description": "The Physician/Supplier Procedure Summary (PSPS) data provides a summary of calendar year Medicare Part B carrier and durable medical equipment fee-for-service (FFS) claims. The file is organized by carrier, pricing locality, Healthcare Common Procedure Coding System (HCPCS) code, HCPCS modifier, provider specialty, type of service, and place of service. The summarized fields are total submitted services and charges, total allowed services and charges, total denied services and charges, and total payment amounts.\u00a0 This dataset is produced annually and is typically available in July (i.e., data for CY2015 is usually available in July 2016).\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/6056deb7-17a7-49bc-a5b3-c799b4f91568/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1297": {
+      "get": {
+        "summary": "Physician/Supplier Procedure Summary : 2017-12-31",
+        "description": "The Physician/Supplier Procedure Summary (PSPS) data provides a summary of calendar year Medicare Part B carrier and durable medical equipment fee-for-service (FFS) claims. The file is organized by carrier, pricing locality, Healthcare Common Procedure Coding System (HCPCS) code, HCPCS modifier, provider specialty, type of service, and place of service. The summarized fields are total submitted services and charges, total allowed services and charges, total denied services and charges, and total payment amounts.\u00a0 This dataset is produced annually and is typically available in July (i.e., data for CY2015 is usually available in July 2016).\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/3060244e-269e-4442-a983-8c190adfe7f1/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1298": {
+      "get": {
+        "summary": "Physician/Supplier Procedure Summary : 2016-12-31",
+        "description": "The Physician/Supplier Procedure Summary (PSPS) data provides a summary of calendar year Medicare Part B carrier and durable medical equipment fee-for-service (FFS) claims. The file is organized by carrier, pricing locality, Healthcare Common Procedure Coding System (HCPCS) code, HCPCS modifier, provider specialty, type of service, and place of service. The summarized fields are total submitted services and charges, total allowed services and charges, total denied services and charges, and total payment amounts.\u00a0 This dataset is produced annually and is typically available in July (i.e., data for CY2015 is usually available in July 2016).\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/b8a1bee7-62b2-44eb-8585-0c257a3d8c3f/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1299": {
+      "get": {
+        "summary": "Physician/Supplier Procedure Summary : 2015-12-31",
+        "description": "The Physician/Supplier Procedure Summary (PSPS) data provides a summary of calendar year Medicare Part B carrier and durable medical equipment fee-for-service (FFS) claims. The file is organized by carrier, pricing locality, Healthcare Common Procedure Coding System (HCPCS) code, HCPCS modifier, provider specialty, type of service, and place of service. The summarized fields are total submitted services and charges, total allowed services and charges, total denied services and charges, and total payment amounts.\u00a0 This dataset is produced annually and is typically available in July (i.e., data for CY2015 is usually available in July 2016).\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f8392bbd-981b-4ea6-b9f9-0891825105d7/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1300": {
+      "get": {
+        "summary": "Physician/Supplier Procedure Summary : 2014-12-31",
+        "description": "The Physician/Supplier Procedure Summary (PSPS) data provides a summary of calendar year Medicare Part B carrier and durable medical equipment fee-for-service (FFS) claims. The file is organized by carrier, pricing locality, Healthcare Common Procedure Coding System (HCPCS) code, HCPCS modifier, provider specialty, type of service, and place of service. The summarized fields are total submitted services and charges, total allowed services and charges, total denied services and charges, and total payment amounts.\u00a0 This dataset is produced annually and is typically available in July (i.e., data for CY2015 is usually available in July 2016).\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/3d28f6b0-e9df-48ea-b2eb-5cac10eaaf45/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

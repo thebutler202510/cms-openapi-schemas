@@ -1,0 +1,1915 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "CMS API Subset 17",
+    "version": "1.0.0",
+    "description": "Subset 17 of CMS API endpoints"
+  },
+  "servers": [
+    {
+      "url": "https://data.cms.gov"
+    }
+  ],
+  "paths": {
+    "/proxy/endpoint1601": {
+      "get": {
+        "summary": "Accountable Care Organizations : 2021-01-11",
+        "description": "The\u00a0Accountable Care Organizations data\u00a0provides information on ACOs participating in the Medicare Shared Savings Program (Shared Savings Program), including their name, track status, number of years in the program, and contact information for key personnel.\u00a0\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to ACO information occur periodically. Each ACO has the most up-to-date information about their organization. Consider contacting the ACO for the latest information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/0ece71c6-1112-47b3-8f7a-5385087e7041/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1602": {
+      "get": {
+        "summary": "Accountable Care Organizations : 2020-01-07",
+        "description": "The\u00a0Accountable Care Organizations data\u00a0provides information on ACOs participating in the Medicare Shared Savings Program (Shared Savings Program), including their name, track status, number of years in the program, and contact information for key personnel.\u00a0\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to ACO information occur periodically. Each ACO has the most up-to-date information about their organization. Consider contacting the ACO for the latest information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/37bec819-7143-4b81-b3e0-d2d74b2a9ea1/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1603": {
+      "get": {
+        "summary": "Accountable Care Organizations : 2019-07-31oc1",
+        "description": "The\u00a0Accountable Care Organizations data\u00a0provides information on ACOs participating in the Medicare Shared Savings Program (Shared Savings Program), including their name, track status, number of years in the program, and contact information for key personnel.\u00a0\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to ACO information occur periodically. Each ACO has the most up-to-date information about their organization. Consider contacting the ACO for the latest information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/8a5f2a5a-f897-4a78-b38f-c2c74a532e25/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1604": {
+      "get": {
+        "summary": "Accountable Care Organizations : 2019-01-01",
+        "description": "The\u00a0Accountable Care Organizations data\u00a0provides information on ACOs participating in the Medicare Shared Savings Program (Shared Savings Program), including their name, track status, number of years in the program, and contact information for key personnel.\u00a0\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to ACO information occur periodically. Each ACO has the most up-to-date information about their organization. Consider contacting the ACO for the latest information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/58ce66bf-aeae-499b-a3af-7607e9d6b052/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1605": {
+      "get": {
+        "summary": "Accountable Care Organizations : 2018-01-01",
+        "description": "The\u00a0Accountable Care Organizations data\u00a0provides information on ACOs participating in the Medicare Shared Savings Program (Shared Savings Program), including their name, track status, number of years in the program, and contact information for key personnel.\u00a0\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to ACO information occur periodically. Each ACO has the most up-to-date information about their organization. Consider contacting the ACO for the latest information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/3b8bd4de-3e42-4cf2-9a88-b156a261d572/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1606": {
+      "get": {
+        "summary": "Accountable Care Organizations : 2017-01-01",
+        "description": "The\u00a0Accountable Care Organizations data\u00a0provides information on ACOs participating in the Medicare Shared Savings Program (Shared Savings Program), including their name, track status, number of years in the program, and contact information for key personnel.\u00a0\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to ACO information occur periodically. Each ACO has the most up-to-date information about their organization. Consider contacting the ACO for the latest information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/bd0ce4bd-7306-4a0f-8cea-ba5c9e141cdd/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1607": {
+      "get": {
+        "summary": "Accountable Care Organizations : 2016-12-31",
+        "description": "The\u00a0Accountable Care Organizations data\u00a0provides information on ACOs participating in the Medicare Shared Savings Program (Shared Savings Program), including their name, track status, number of years in the program, and contact information for key personnel.\u00a0\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to ACO information occur periodically. Each ACO has the most up-to-date information about their organization. Consider contacting the ACO for the latest information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/50a58526-8cf0-4f91-93ec-3712e73d559c/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1608": {
+      "get": {
+        "summary": "Accountable Care Organizations : 2015-12-31",
+        "description": "The\u00a0Accountable Care Organizations data\u00a0provides information on ACOs participating in the Medicare Shared Savings Program (Shared Savings Program), including their name, track status, number of years in the program, and contact information for key personnel.\u00a0\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to ACO information occur periodically. Each ACO has the most up-to-date information about their organization. Consider contacting the ACO for the latest information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/3a6aa76e-996a-4440-a4ad-b8c441b185e7/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1609": {
+      "get": {
+        "summary": "Accountable Care Organizations : 2014-12-31",
+        "description": "The\u00a0Accountable Care Organizations data\u00a0provides information on ACOs participating in the Medicare Shared Savings Program (Shared Savings Program), including their name, track status, number of years in the program, and contact information for key personnel.\u00a0\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to ACO information occur periodically. Each ACO has the most up-to-date information about their organization. Consider contacting the ACO for the latest information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/3ad5bcaf-8818-48b1-b94d-ef6faf26e297/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1610": {
+      "get": {
+        "summary": "Innovation Center Milestones and Updates : 2025-03-25",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/4ce4157f-4e02-4188-b43a-2b21b7769b4e/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1611": {
+      "get": {
+        "summary": "Innovation Center Milestones and Updates : 2025-03-25",
+        "description": "The Innovation Center Milestones and Updates dataset contains a variety of contributions from CMS Innovation Center models, demonstrations, initiatives and programs. These resources include relevant milestones, dates, and changes to the status or parameters of a model, demonstration, or initiative.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/3817f5a4-bb28-416e-93b5-9cd794a76024/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1612": {
+      "get": {
+        "summary": "Medicare Geographic Variation - by National, State & County : 2022-01-15",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/6219697b-8f6c-4164-bed4-cd9317c58ebc/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1613": {
+      "get": {
+        "summary": "Medicare Geographic Variation - by National, State & County : 2022-01-15",
+        "description": "The Medicare Geographic Variation by National, State & County dataset provides information on the geographic differences in the use and quality of health care services for the Original Medicare\u00a0population. This dataset contains demographic, spending, use, and quality indicators at the state level (including the District of Columbia, Puerto Rico, and the Virgin Islands) and the county level.\n\nSpending is standardized to remove geographic differences in payment rates for individual services as a source of variation. In general, total standardized per capita costs are less than actual per capita costs because the extra payments Medicare made to hospitals were removed, such as payments for medical education (both direct and indirect) and payments to hospitals that serve a disproportionate share of low-income patients. Standardization does not adjust for differences in beneficiaries\u2019 health status.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/567a0e69-320d-429c-a31f-c59b7099f22d/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1614": {
+      "get": {
+        "summary": "Medicare Part D Spending by Drug : 2022-01-01",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/7e0b4365-fd63-4a29-8f5e-e0ac9f66a81b/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1615": {
+      "get": {
+        "summary": "Medicare Part D Spending by Drug : 2022-01-01",
+        "description": "The Medicare Part D by Drug dataset presents information on spending for drugs prescribed to Medicare beneficiaries enrolled in Part D by physicians and other healthcare providers. Drugs prescribed in the Medicare Part D program are drugs patients generally administer themselves.\n\n\u00a0\n\nThe dataset focuses on average spending per dosage unit and change in average spending per dosage unit over time. It\u00a0also includes spending information for manufacturer(s) of the drugs as well as consumer-friendly information of drug uses and clinical indications.\n\n\u00a0\n\nDrug spending metrics for Part D drugs are based on the gross drug cost, which represents total spending for the prescription claim, including Medicare, plan, and beneficiary payments. The Part D spending metrics do not reflect any manufacturers\u2019 rebates or other price concessions as CMS is prohibited from publicly disclosing such information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/87604795-a3e2-4190-9b3a-e39142221fcd/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1616": {
+      "get": {
+        "summary": "Medicare Part B Spending by Drug : 2022-01-01",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/76a714ad-3a2c-43ac-b76d-9dadf8f7d890/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1617": {
+      "get": {
+        "summary": "Medicare Part B Spending by Drug : 2022-01-01",
+        "description": "The Medicare Part B by Drug dataset presents information on spending for drugs administered in doctors\u2019 offices and other outpatient settings by physicians and other healthcare providers to Medicare Part B enrollees.\u00a0\n\nThe dataset focuses on average spending per dosage unit and change in average spending per dosage unit over time. It\u00a0also includes consumer-friendly descriptions of the drug uses, clinical indications, and manufacturer(s).\n\nDrug spending metrics for Part B drugs represent the full value of the product, including the Medicare payment and beneficiary liability. All Part B drug spending metrics are calculated at the HCPCS level.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/be562dd4-34a0-4e1a-9cde-dcc58efde527/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1618": {
+      "get": {
+        "summary": "Medicaid Spending by Drug : 2022-01-01",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/be64fce3-e835-4589-b46b-024198e524a6/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1619": {
+      "get": {
+        "summary": "Medicaid Spending by Drug : 2022-01-01",
+        "description": "The Medicaid by Drug dataset presents information on spending for covered outpatient drugs prescribed to beneficiaries enrolled in Medicaid by physicians and other healthcare professionals.\u00a0\n\n\u00a0\n\nThe dataset focuses on average spending per dosage unit and change in average spending per dosage unit over time. Units refer to the drug unit in the lowest dispensable amount. It also includes spending information for manufacturer(s) of the drugs as well as consumer-friendly information of drug uses and clinical indications.\n\n\u00a0\n\nDrug spending metrics for Medicaid represent the total amount reimbursed by both Medicaid and non-Medicaid entities to pharmacies for the drug. Medicaid drug spending contains both the Federal and State reimbursement and is inclusive of any applicable dispensing fees. In addition, this total is not reduced or affected by Medicaid rebates paid to the states.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/512a1a54-0d43-4aa2-adb6-3f1d19e9a917/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1620": {
+      "get": {
+        "summary": "Medicare Part D Opioid Prescribing Rates - by Geography : 2022-12-01",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/94d00f36-73ce-4520-9b3f-83cd3cded25c/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1621": {
+      "get": {
+        "summary": "Medicare Part D Opioid Prescribing Rates - by Geography : 2022-12-01",
+        "description": "The Medicare Part D Opioid Prescribing Rates by Geography dataset provides information on geographic comparisons of the number and percentage of Medicare Part D opioid prescriptions at the state, county, and ZIP code levels.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/0b78699c-d892-4841-9c4c-267a6b9707be/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1622": {
+      "get": {
+        "summary": "Medicaid Opioid Prescribing Rates - by Geography : 2022-12-01",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/c37ebe6d-f54f-4d7d-861f-fefe345554e6/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1623": {
+      "get": {
+        "summary": "Medicaid Opioid Prescribing Rates - by Geography : 2022-12-01",
+        "description": "The Medicaid Opioid Prescribing Rates by Geography dataset provides information on geographic comparisons of the number and percentage of Medicaid opioid prescriptions at the state, county, and ZIP code levels.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/22a0a587-428b-42cd-920f-1ae7d111bc80/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1624": {
+      "get": {
+        "summary": "Medicare Physician & Other Practitioners - by Provider and Service : 2022-12-02",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/92396110-2aed-4d63-a6a2-5d6207d46a29/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1625": {
+      "get": {
+        "summary": "Medicare Physician & Other Practitioners - by Provider and Service : 2022-12-02",
+        "description": "The Medicare Physician & Other Practitioners by Provider and Service dataset provides information on use, payments, and submitted charges organized by National Provider Identifier (NPI), Healthcare Common Procedure Coding System (HCPCS) code, and place of service.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/e650987d-01b7-4f09-b75e-b0b075afbf98/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1626": {
+      "get": {
+        "summary": "Medicare Physician & Other Practitioners - by Provider and Service : 2021-12-02",
+        "description": "The Medicare Physician & Other Practitioners by Provider and Service dataset provides information on use, payments, and submitted charges organized by National Provider Identifier (NPI), Healthcare Common Procedure Coding System (HCPCS) code, and place of service.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/31dc2c47-f297-4948-bfb4-075e1bec3a02/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1627": {
+      "get": {
+        "summary": "Medicare Physician & Other Practitioners - by Provider and Service : 2020-12-02",
+        "description": "The Medicare Physician & Other Practitioners by Provider and Service dataset provides information on use, payments, and submitted charges organized by National Provider Identifier (NPI), Healthcare Common Procedure Coding System (HCPCS) code, and place of service.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/c957b49e-1323-49e7-8678-c09da387551d/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1628": {
+      "get": {
+        "summary": "Medicare Physician & Other Practitioners - by Provider and Service : 2019-12-02",
+        "description": "The Medicare Physician & Other Practitioners by Provider and Service dataset provides information on use, payments, and submitted charges organized by National Provider Identifier (NPI), Healthcare Common Procedure Coding System (HCPCS) code, and place of service.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/867b8ac7-ccb7-4cc9-873d-b24340d89e32/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1629": {
+      "get": {
+        "summary": "Medicare Physician & Other Practitioners - by Provider and Service : 2018-12-02",
+        "description": "The Medicare Physician & Other Practitioners by Provider and Service dataset provides information on use, payments, and submitted charges organized by National Provider Identifier (NPI), Healthcare Common Procedure Coding System (HCPCS) code, and place of service.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/fb6d9fe8-38c1-4d24-83d4-0b7b291000b2/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1630": {
+      "get": {
+        "summary": "Medicare Physician & Other Practitioners - by Provider and Service : 2017-12-02",
+        "description": "The Medicare Physician & Other Practitioners by Provider and Service dataset provides information on use, payments, and submitted charges organized by National Provider Identifier (NPI), Healthcare Common Procedure Coding System (HCPCS) code, and place of service.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/85bf3c9c-2244-490d-ad7d-c34e4c28f8ea/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1631": {
+      "get": {
+        "summary": "Medicare Physician & Other Practitioners - by Provider and Service : 2016-12-02",
+        "description": "The Medicare Physician & Other Practitioners by Provider and Service dataset provides information on use, payments, and submitted charges organized by National Provider Identifier (NPI), Healthcare Common Procedure Coding System (HCPCS) code, and place of service.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/7918e22a-fbfb-4a07-9f59-f8aab2b757d4/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1632": {
+      "get": {
+        "summary": "Medicare Physician & Other Practitioners - by Provider and Service : 2015-12-02",
+        "description": "The Medicare Physician & Other Practitioners by Provider and Service dataset provides information on use, payments, and submitted charges organized by National Provider Identifier (NPI), Healthcare Common Procedure Coding System (HCPCS) code, and place of service.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f8cdb11a-d5f7-4fbe-aac4-05abc8ee2c83/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1633": {
+      "get": {
+        "summary": "Medicare Physician & Other Practitioners - by Provider and Service : 2014-12-02",
+        "description": "The Medicare Physician & Other Practitioners by Provider and Service dataset provides information on use, payments, and submitted charges organized by National Provider Identifier (NPI), Healthcare Common Procedure Coding System (HCPCS) code, and place of service.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f63b48ae-946e-48f7-9f56-327a68da4e0b/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1634": {
+      "get": {
+        "summary": "Medicare Physician & Other Practitioners - by Provider and Service : 2013-12-02",
+        "description": "The Medicare Physician & Other Practitioners by Provider and Service dataset provides information on use, payments, and submitted charges organized by National Provider Identifier (NPI), Healthcare Common Procedure Coding System (HCPCS) code, and place of service.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/ad5e7548-98ab-4325-af4b-b2a7099b9351/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1635": {
+      "get": {
+        "summary": "Medicare Physician & Other Practitioners - by Provider : 2022-12-02",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/8889d81e-2ee7-448f-8713-f071038289b5/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1636": {
+      "get": {
+        "summary": "Medicare Physician & Other Practitioners - by Provider : 2022-12-02",
+        "description": "The Medicare Physician & Other Practitioners by Provider dataset provides information on\u00a0use, payments, submitted charges and beneficiary demographic and health characteristics organized by National Provider Identifier (NPI).\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/21555c17-ec1b-4e74-b2c6-925c6cbb3147/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1637": {
+      "get": {
+        "summary": "Medicare Physician & Other Practitioners - by Provider : 2021-12-17",
+        "description": "The Medicare Physician & Other Practitioners by Provider dataset provides information on\u00a0use, payments, submitted charges and beneficiary demographic and health characteristics organized by National Provider Identifier (NPI).\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/44e0a489-666c-4ea4-a1a2-360b6cdc19db/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1638": {
+      "get": {
+        "summary": "Medicare Physician & Other Practitioners - by Provider : 2020-12-17",
+        "description": "The Medicare Physician & Other Practitioners by Provider dataset provides information on\u00a0use, payments, submitted charges and beneficiary demographic and health characteristics organized by National Provider Identifier (NPI).\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/29d799aa-c660-44fe-a51a-72c4b3e661ac/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1639": {
+      "get": {
+        "summary": "Medicare Physician & Other Practitioners - by Provider : 2019-12-18",
+        "description": "The Medicare Physician & Other Practitioners by Provider dataset provides information on\u00a0use, payments, submitted charges and beneficiary demographic and health characteristics organized by National Provider Identifier (NPI).\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/6a53afe5-1cbc-4b33-9dc8-926ee532dc66/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1640": {
+      "get": {
+        "summary": "Medicare Physician & Other Practitioners - by Provider : 2018-12-18",
+        "description": "The Medicare Physician & Other Practitioners by Provider dataset provides information on\u00a0use, payments, submitted charges and beneficiary demographic and health characteristics organized by National Provider Identifier (NPI).\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/900850df-c9a9-47ce-a9e0-d0ceae5a811f/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1641": {
+      "get": {
+        "summary": "Medicare Physician & Other Practitioners - by Provider : 2017-12-17",
+        "description": "The Medicare Physician & Other Practitioners by Provider dataset provides information on\u00a0use, payments, submitted charges and beneficiary demographic and health characteristics organized by National Provider Identifier (NPI).\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/44ea2789-993f-4d55-ac44-ed7f160b58fa/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1642": {
+      "get": {
+        "summary": "Medicare Physician & Other Practitioners - by Provider : 2016-12-17",
+        "description": "The Medicare Physician & Other Practitioners by Provider dataset provides information on\u00a0use, payments, submitted charges and beneficiary demographic and health characteristics organized by National Provider Identifier (NPI).\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/2691839a-99fb-45a1-9bd9-86905ba975cc/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1643": {
+      "get": {
+        "summary": "Medicare Physician & Other Practitioners - by Provider : 2015-12-17",
+        "description": "The Medicare Physician & Other Practitioners by Provider dataset provides information on\u00a0use, payments, submitted charges and beneficiary demographic and health characteristics organized by National Provider Identifier (NPI).\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/fb870c06-27f2-4e15-b556-1731d794bb5b/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1644": {
+      "get": {
+        "summary": "Medicare Physician & Other Practitioners - by Provider : 2014-12-17",
+        "description": "The Medicare Physician & Other Practitioners by Provider dataset provides information on\u00a0use, payments, submitted charges and beneficiary demographic and health characteristics organized by National Provider Identifier (NPI).\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/100d9e00-03cd-4105-9f58-27f9bf9ab773/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1645": {
+      "get": {
+        "summary": "Medicare Physician & Other Practitioners - by Provider : 2013-12-17",
+        "description": "The Medicare Physician & Other Practitioners by Provider dataset provides information on\u00a0use, payments, submitted charges and beneficiary demographic and health characteristics organized by National Provider Identifier (NPI).\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/483a68df-26a9-42a5-a24c-7458e5374f61/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1646": {
+      "get": {
+        "summary": "Medicare Physician & Other Practitioners - by Geography and Service : 2022-12-01",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/6fea9d79-0129-4e4c-b1b8-23cd86a4f435/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1647": {
+      "get": {
+        "summary": "Medicare Physician & Other Practitioners - by Geography and Service : 2022-12-01",
+        "description": "The Medicare Physician & Other Practitioners by Geography and Service dataset contains\u00a0information on use, payments, submitted charges, and beneficiary demographic and health characteristics organized by geography, Healthcare Common Procedure Coding System (HCPCS) code, and place of service.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/87304f15-9ed0-41dc-a141-6141a0327453/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1648": {
+      "get": {
+        "summary": "Medicare Physician & Other Practitioners - by Geography and Service : 2021-12-31",
+        "description": "The Medicare Physician & Other Practitioners by Geography and Service dataset contains\u00a0information on use, payments, submitted charges, and beneficiary demographic and health characteristics organized by geography, Healthcare Common Procedure Coding System (HCPCS) code, and place of service.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f00f462f-bb61-48b1-a321-1c50d78ce175/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1649": {
+      "get": {
+        "summary": "Medicare Physician & Other Practitioners - by Geography and Service : 2020-12-31",
+        "description": "The Medicare Physician & Other Practitioners by Geography and Service dataset contains\u00a0information on use, payments, submitted charges, and beneficiary demographic and health characteristics organized by geography, Healthcare Common Procedure Coding System (HCPCS) code, and place of service.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/31eb3018-43e0-4259-a0d8-e7a1112ffd08/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1650": {
+      "get": {
+        "summary": "Medicare Physician & Other Practitioners - by Geography and Service : 2019-12-31",
+        "description": "The Medicare Physician & Other Practitioners by Geography and Service dataset contains\u00a0information on use, payments, submitted charges, and beneficiary demographic and health characteristics organized by geography, Healthcare Common Procedure Coding System (HCPCS) code, and place of service.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/673030ae-ceed-4561-8fca-b1275395a86a/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1651": {
+      "get": {
+        "summary": "Medicare Physician & Other Practitioners - by Geography and Service : 2018-12-31",
+        "description": "The Medicare Physician & Other Practitioners by Geography and Service dataset contains\u00a0information on use, payments, submitted charges, and beneficiary demographic and health characteristics organized by geography, Healthcare Common Procedure Coding System (HCPCS) code, and place of service.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/05a85700-052f-4509-af43-7042b9b35868/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1652": {
+      "get": {
+        "summary": "Medicare Physician & Other Practitioners - by Geography and Service : 2017-12-31",
+        "description": "The Medicare Physician & Other Practitioners by Geography and Service dataset contains\u00a0information on use, payments, submitted charges, and beneficiary demographic and health characteristics organized by geography, Healthcare Common Procedure Coding System (HCPCS) code, and place of service.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/8e96a9f2-ce6e-46fd-b30d-8c695c756bfd/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1653": {
+      "get": {
+        "summary": "Medicare Physician & Other Practitioners - by Geography and Service : 2016-12-31",
+        "description": "The Medicare Physician & Other Practitioners by Geography and Service dataset contains\u00a0information on use, payments, submitted charges, and beneficiary demographic and health characteristics organized by geography, Healthcare Common Procedure Coding System (HCPCS) code, and place of service.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/c7d3f18c-2f00-4553-8cd1-871b727d5cdd/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1654": {
+      "get": {
+        "summary": "Medicare Physician & Other Practitioners - by Geography and Service : 2015-07-31",
+        "description": "The Medicare Physician & Other Practitioners by Geography and Service dataset contains\u00a0information on use, payments, submitted charges, and beneficiary demographic and health characteristics organized by geography, Healthcare Common Procedure Coding System (HCPCS) code, and place of service.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/dbee9609-2c90-43ca-b1b8-161bd9cfcdb2/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1655": {
+      "get": {
+        "summary": "Medicare Physician & Other Practitioners - by Geography and Service : 2014-12-31",
+        "description": "The Medicare Physician & Other Practitioners by Geography and Service dataset contains\u00a0information on use, payments, submitted charges, and beneficiary demographic and health characteristics organized by geography, Healthcare Common Procedure Coding System (HCPCS) code, and place of service.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/28181bd2-b377-4003-b73a-4bd92d1db4a9/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1656": {
+      "get": {
+        "summary": "Medicare Physician & Other Practitioners - by Geography and Service : 2013-12-31",
+        "description": "The Medicare Physician & Other Practitioners by Geography and Service dataset contains\u00a0information on use, payments, submitted charges, and beneficiary demographic and health characteristics organized by geography, Healthcare Common Procedure Coding System (HCPCS) code, and place of service.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/3c2a4756-0a8c-4e4d-845a-6ad169cb13d3/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1657": {
+      "get": {
+        "summary": "Medicare Inpatient Hospitals - by Provider and Service : 2022-12-01",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/690ddc6c-2767-4618-b277-420ffb2bf27c/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1658": {
+      "get": {
+        "summary": "Medicare Inpatient Hospitals - by Provider and Service : 2022-12-01",
+        "description": "The Medicare Inpatient Hospitals by Provider and Service dataset provides information on inpatient discharges for Original Medicare Part A beneficiaries by IPPS\u00a0hospitals. It includes information on the use, payment, and hospital charges for more than 3,000 U.S. hospitals that received IPPS payments.\u00a0The data are organized by hospital and Medicare Severity Diagnosis Related Group (DRG).\n\n\u00a0\n\nHospitals determine what they will charge for items and services provided to patients, and these charges are the amount the hospital bills for an item or service. The Total Payment Amount includes the DRG amount, claim per diem amount, beneficiary primary payer claim payment amount, beneficiary Part A (Hospital Insurance)\u00a0coinsurance amount, beneficiary deductible amount, beneficiary blood deductible amount and diagnosis related group outlier amount.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/46bf50f8-0983-4ca2-b8d5-f2afbbf2e589/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1659": {
+      "get": {
+        "summary": "Medicare Inpatient Hospitals - by Provider and Service : 2021-12-31",
+        "description": "The Medicare Inpatient Hospitals by Provider and Service dataset provides information on inpatient discharges for Original Medicare Part A beneficiaries by IPPS\u00a0hospitals. It includes information on the use, payment, and hospital charges for more than 3,000 U.S. hospitals that received IPPS payments.\u00a0The data are organized by hospital and Medicare Severity Diagnosis Related Group (DRG).\n\n\u00a0\n\nHospitals determine what they will charge for items and services provided to patients, and these charges are the amount the hospital bills for an item or service. The Total Payment Amount includes the DRG amount, claim per diem amount, beneficiary primary payer claim payment amount, beneficiary Part A (Hospital Insurance)\u00a0coinsurance amount, beneficiary deductible amount, beneficiary blood deductible amount and diagnosis related group outlier amount.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/117d93f2-ce81-40fe-a4d4-8c03203b95e1/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1660": {
+      "get": {
+        "summary": "Medicare Inpatient Hospitals - by Provider and Service : 2020-12-31",
+        "description": "The Medicare Inpatient Hospitals by Provider and Service dataset provides information on inpatient discharges for Original Medicare Part A beneficiaries by IPPS\u00a0hospitals. It includes information on the use, payment, and hospital charges for more than 3,000 U.S. hospitals that received IPPS payments.\u00a0The data are organized by hospital and Medicare Severity Diagnosis Related Group (DRG).\n\n\u00a0\n\nHospitals determine what they will charge for items and services provided to patients, and these charges are the amount the hospital bills for an item or service. The Total Payment Amount includes the DRG amount, claim per diem amount, beneficiary primary payer claim payment amount, beneficiary Part A (Hospital Insurance)\u00a0coinsurance amount, beneficiary deductible amount, beneficiary blood deductible amount and diagnosis related group outlier amount.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/ef5bdbe1-27b4-4296-b320-52bd5d2183d7/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1661": {
+      "get": {
+        "summary": "Medicare Inpatient Hospitals - by Provider and Service : 2019-12-31",
+        "description": "The Medicare Inpatient Hospitals by Provider and Service dataset provides information on inpatient discharges for Original Medicare Part A beneficiaries by IPPS\u00a0hospitals. It includes information on the use, payment, and hospital charges for more than 3,000 U.S. hospitals that received IPPS payments.\u00a0The data are organized by hospital and Medicare Severity Diagnosis Related Group (DRG).\n\n\u00a0\n\nHospitals determine what they will charge for items and services provided to patients, and these charges are the amount the hospital bills for an item or service. The Total Payment Amount includes the DRG amount, claim per diem amount, beneficiary primary payer claim payment amount, beneficiary Part A (Hospital Insurance)\u00a0coinsurance amount, beneficiary deductible amount, beneficiary blood deductible amount and diagnosis related group outlier amount.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/6f6d93e1-ecf8-4b93-9845-091faf20f274/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1662": {
+      "get": {
+        "summary": "Medicare Inpatient Hospitals - by Provider and Service : 2018-12-31",
+        "description": "The Medicare Inpatient Hospitals by Provider and Service dataset provides information on inpatient discharges for Original Medicare Part A beneficiaries by IPPS\u00a0hospitals. It includes information on the use, payment, and hospital charges for more than 3,000 U.S. hospitals that received IPPS payments.\u00a0The data are organized by hospital and Medicare Severity Diagnosis Related Group (DRG).\n\n\u00a0\n\nHospitals determine what they will charge for items and services provided to patients, and these charges are the amount the hospital bills for an item or service. The Total Payment Amount includes the DRG amount, claim per diem amount, beneficiary primary payer claim payment amount, beneficiary Part A (Hospital Insurance)\u00a0coinsurance amount, beneficiary deductible amount, beneficiary blood deductible amount and diagnosis related group outlier amount.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/09c12f06-e3fe-4cb0-81e9-945f2078c1df/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1663": {
+      "get": {
+        "summary": "Medicare Inpatient Hospitals - by Provider and Service : 2017-12-31",
+        "description": "The Medicare Inpatient Hospitals by Provider and Service dataset provides information on inpatient discharges for Original Medicare Part A beneficiaries by IPPS\u00a0hospitals. It includes information on the use, payment, and hospital charges for more than 3,000 U.S. hospitals that received IPPS payments.\u00a0The data are organized by hospital and Medicare Severity Diagnosis Related Group (DRG).\n\n\u00a0\n\nHospitals determine what they will charge for items and services provided to patients, and these charges are the amount the hospital bills for an item or service. The Total Payment Amount includes the DRG amount, claim per diem amount, beneficiary primary payer claim payment amount, beneficiary Part A (Hospital Insurance)\u00a0coinsurance amount, beneficiary deductible amount, beneficiary blood deductible amount and diagnosis related group outlier amount.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/b61ba5eb-021b-4510-947e-0f198982b0e8/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1664": {
+      "get": {
+        "summary": "Medicare Inpatient Hospitals - by Provider and Service : 2016-12-31",
+        "description": "The Medicare Inpatient Hospitals by Provider and Service dataset provides information on inpatient discharges for Original Medicare Part A beneficiaries by IPPS\u00a0hospitals. It includes information on the use, payment, and hospital charges for more than 3,000 U.S. hospitals that received IPPS payments.\u00a0The data are organized by hospital and Medicare Severity Diagnosis Related Group (DRG).\n\n\u00a0\n\nHospitals determine what they will charge for items and services provided to patients, and these charges are the amount the hospital bills for an item or service. The Total Payment Amount includes the DRG amount, claim per diem amount, beneficiary primary payer claim payment amount, beneficiary Part A (Hospital Insurance)\u00a0coinsurance amount, beneficiary deductible amount, beneficiary blood deductible amount and diagnosis related group outlier amount.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/ca9e33a4-e46c-4de9-8377-3bbcd25d24dd/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1665": {
+      "get": {
+        "summary": "Medicare Inpatient Hospitals - by Provider and Service : 2015-12-31",
+        "description": "The Medicare Inpatient Hospitals by Provider and Service dataset provides information on inpatient discharges for Original Medicare Part A beneficiaries by IPPS\u00a0hospitals. It includes information on the use, payment, and hospital charges for more than 3,000 U.S. hospitals that received IPPS payments.\u00a0The data are organized by hospital and Medicare Severity Diagnosis Related Group (DRG).\n\n\u00a0\n\nHospitals determine what they will charge for items and services provided to patients, and these charges are the amount the hospital bills for an item or service. The Total Payment Amount includes the DRG amount, claim per diem amount, beneficiary primary payer claim payment amount, beneficiary Part A (Hospital Insurance)\u00a0coinsurance amount, beneficiary deductible amount, beneficiary blood deductible amount and diagnosis related group outlier amount.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/e70315f5-4b02-46a8-81f4-16035b8665ab/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1666": {
+      "get": {
+        "summary": "Medicare Inpatient Hospitals - by Provider and Service : 2014-12-31",
+        "description": "The Medicare Inpatient Hospitals by Provider and Service dataset provides information on inpatient discharges for Original Medicare Part A beneficiaries by IPPS\u00a0hospitals. It includes information on the use, payment, and hospital charges for more than 3,000 U.S. hospitals that received IPPS payments.\u00a0The data are organized by hospital and Medicare Severity Diagnosis Related Group (DRG).\n\n\u00a0\n\nHospitals determine what they will charge for items and services provided to patients, and these charges are the amount the hospital bills for an item or service. The Total Payment Amount includes the DRG amount, claim per diem amount, beneficiary primary payer claim payment amount, beneficiary Part A (Hospital Insurance)\u00a0coinsurance amount, beneficiary deductible amount, beneficiary blood deductible amount and diagnosis related group outlier amount.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/635d7ccd-3dd7-4f1d-a82f-4bba7fe97509/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1667": {
+      "get": {
+        "summary": "Medicare Inpatient Hospitals - by Provider and Service : 2013-12-31",
+        "description": "The Medicare Inpatient Hospitals by Provider and Service dataset provides information on inpatient discharges for Original Medicare Part A beneficiaries by IPPS\u00a0hospitals. It includes information on the use, payment, and hospital charges for more than 3,000 U.S. hospitals that received IPPS payments.\u00a0The data are organized by hospital and Medicare Severity Diagnosis Related Group (DRG).\n\n\u00a0\n\nHospitals determine what they will charge for items and services provided to patients, and these charges are the amount the hospital bills for an item or service. The Total Payment Amount includes the DRG amount, claim per diem amount, beneficiary primary payer claim payment amount, beneficiary Part A (Hospital Insurance)\u00a0coinsurance amount, beneficiary deductible amount, beneficiary blood deductible amount and diagnosis related group outlier amount.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/cf60c282-a006-444c-9705-268f68b8e96d/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1668": {
+      "get": {
+        "summary": "Medicare Inpatient Hospitals - by Geography and Service : 2022-12-01",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/2941ab09-8cee-49d8-9703-f3c5b854e388/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1669": {
+      "get": {
+        "summary": "Medicare Inpatient Hospitals - by Geography and Service : 2022-12-01",
+        "description": "The Medicare Inpatient Hospitals by Geography and Service dataset provides information on hospital discharges for Original Medicare Part A beneficiaries by IPPS\u00a0hospitals. This dataset\u00a0contains information on the number of discharges, payments, and submitted charges organized by geography and Medicare Severity Diagnosis Related Group (DRG).\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/5c8b315f-a2a3-4b2f-bba6-7be19f8d7edc/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1670": {
+      "get": {
+        "summary": "Medicare Inpatient Hospitals - by Geography and Service : 2021-12-31",
+        "description": "The Medicare Inpatient Hospitals by Geography and Service dataset provides information on hospital discharges for Original Medicare Part A beneficiaries by IPPS\u00a0hospitals. This dataset\u00a0contains information on the number of discharges, payments, and submitted charges organized by geography and Medicare Severity Diagnosis Related Group (DRG).\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/68739613-1a4f-40ae-9664-49da07abd81f/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1671": {
+      "get": {
+        "summary": "Medicare Inpatient Hospitals - by Geography and Service : 2020-12-23",
+        "description": "The Medicare Inpatient Hospitals by Geography and Service dataset provides information on hospital discharges for Original Medicare Part A beneficiaries by IPPS\u00a0hospitals. This dataset\u00a0contains information on the number of discharges, payments, and submitted charges organized by geography and Medicare Severity Diagnosis Related Group (DRG).\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/e583de38-33d7-4895-a115-0d8af74f0795/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1672": {
+      "get": {
+        "summary": "Medicare Inpatient Hospitals - by Geography and Service : 2019-12-31",
+        "description": "The Medicare Inpatient Hospitals by Geography and Service dataset provides information on hospital discharges for Original Medicare Part A beneficiaries by IPPS\u00a0hospitals. This dataset\u00a0contains information on the number of discharges, payments, and submitted charges organized by geography and Medicare Severity Diagnosis Related Group (DRG).\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/337617e5-c18b-4cb9-8152-34851747584b/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1673": {
+      "get": {
+        "summary": "Medicare Inpatient Hospitals - by Geography and Service : 2018-12-31",
+        "description": "The Medicare Inpatient Hospitals by Geography and Service dataset provides information on hospital discharges for Original Medicare Part A beneficiaries by IPPS\u00a0hospitals. This dataset\u00a0contains information on the number of discharges, payments, and submitted charges organized by geography and Medicare Severity Diagnosis Related Group (DRG).\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/25b5b6c9-977d-4f7a-aaa7-7dde72f3d5cc/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1674": {
+      "get": {
+        "summary": "Medicare Inpatient Hospitals - by Geography and Service : 2017-12-31",
+        "description": "The Medicare Inpatient Hospitals by Geography and Service dataset provides information on hospital discharges for Original Medicare Part A beneficiaries by IPPS\u00a0hospitals. This dataset\u00a0contains information on the number of discharges, payments, and submitted charges organized by geography and Medicare Severity Diagnosis Related Group (DRG).\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/7c638c5f-7e8c-4346-8a25-9b37a0ed36dd/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1675": {
+      "get": {
+        "summary": "Medicare Inpatient Hospitals - by Geography and Service : 2016-12-31",
+        "description": "The Medicare Inpatient Hospitals by Geography and Service dataset provides information on hospital discharges for Original Medicare Part A beneficiaries by IPPS\u00a0hospitals. This dataset\u00a0contains information on the number of discharges, payments, and submitted charges organized by geography and Medicare Severity Diagnosis Related Group (DRG).\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/81dca731-b739-4a0a-b2ec-555f6cf04ea6/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1676": {
+      "get": {
+        "summary": "Medicare Inpatient Hospitals - by Geography and Service : 2015-12-31",
+        "description": "The Medicare Inpatient Hospitals by Geography and Service dataset provides information on hospital discharges for Original Medicare Part A beneficiaries by IPPS\u00a0hospitals. This dataset\u00a0contains information on the number of discharges, payments, and submitted charges organized by geography and Medicare Severity Diagnosis Related Group (DRG).\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/98069693-d269-46a1-8e7e-f360f37a2031/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1677": {
+      "get": {
+        "summary": "Medicare Inpatient Hospitals - by Geography and Service : 2014-12-31",
+        "description": "The Medicare Inpatient Hospitals by Geography and Service dataset provides information on hospital discharges for Original Medicare Part A beneficiaries by IPPS\u00a0hospitals. This dataset\u00a0contains information on the number of discharges, payments, and submitted charges organized by geography and Medicare Severity Diagnosis Related Group (DRG).\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/fe4fa35f-d27b-4bed-a14a-35528a870de0/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1678": {
+      "get": {
+        "summary": "Medicare Inpatient Hospitals - by Geography and Service : 2013-12-31",
+        "description": "The Medicare Inpatient Hospitals by Geography and Service dataset provides information on hospital discharges for Original Medicare Part A beneficiaries by IPPS\u00a0hospitals. This dataset\u00a0contains information on the number of discharges, payments, and submitted charges organized by geography and Medicare Severity Diagnosis Related Group (DRG).\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/c7019ecb-8f6f-4548-8eed-ee5bf35b51d5/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1679": {
+      "get": {
+        "summary": "Medicare Outpatient Hospitals - by Provider and Service : 2022-12-01",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/ccbc9a44-40d4-46b4-a709-5caa59212e50/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1680": {
+      "get": {
+        "summary": "Medicare Outpatient Hospitals - by Provider and Service : 2022-12-01",
+        "description": "The Medicare Outpatient Hospitals by Provider and Service dataset provides information on services for Original Medicare Part B beneficiaries by OPPS hospitals. These datasets contain information on the number of services, payments, and submitted charges organized by provider CMS Certified Number (CCN) and comprehensive Ambulatory Payment Classification (APC).\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/456dbe68-8878-49dd-889b-bb8bf432fcbe/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1681": {
+      "get": {
+        "summary": "Medicare Outpatient Hospitals - by Provider and Service : 2021-12-02",
+        "description": "The Medicare Outpatient Hospitals by Provider and Service dataset provides information on services for Original Medicare Part B beneficiaries by OPPS hospitals. These datasets contain information on the number of services, payments, and submitted charges organized by provider CMS Certified Number (CCN) and comprehensive Ambulatory Payment Classification (APC).\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/a7617aef-046f-4557-8a2a-54f9c9a88b57/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1682": {
+      "get": {
+        "summary": "Medicare Outpatient Hospitals - by Provider and Service : 2020-12-02",
+        "description": "The Medicare Outpatient Hospitals by Provider and Service dataset provides information on services for Original Medicare Part B beneficiaries by OPPS hospitals. These datasets contain information on the number of services, payments, and submitted charges organized by provider CMS Certified Number (CCN) and comprehensive Ambulatory Payment Classification (APC).\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/8281e9f7-1874-4bd9-a183-a74bec2debd3/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1683": {
+      "get": {
+        "summary": "Medicare Outpatient Hospitals - by Provider and Service : 2019-12-31",
+        "description": "The Medicare Outpatient Hospitals by Provider and Service dataset provides information on services for Original Medicare Part B beneficiaries by OPPS hospitals. These datasets contain information on the number of services, payments, and submitted charges organized by provider CMS Certified Number (CCN) and comprehensive Ambulatory Payment Classification (APC).\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f3fc4327-f66e-49e1-ba06-f2607a164406/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1684": {
+      "get": {
+        "summary": "Medicare Outpatient Hospitals - by Provider and Service : 2018-12-31",
+        "description": "The Medicare Outpatient Hospitals by Provider and Service dataset provides information on services for Original Medicare Part B beneficiaries by OPPS hospitals. These datasets contain information on the number of services, payments, and submitted charges organized by provider CMS Certified Number (CCN) and comprehensive Ambulatory Payment Classification (APC).\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/c52aa19e-38d1-40a3-b918-80add25502aa/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1685": {
+      "get": {
+        "summary": "Medicare Outpatient Hospitals - by Provider and Service : 2017-12-31",
+        "description": "The Medicare Outpatient Hospitals by Provider and Service dataset provides information on services for Original Medicare Part B beneficiaries by OPPS hospitals. These datasets contain information on the number of services, payments, and submitted charges organized by provider CMS Certified Number (CCN) and comprehensive Ambulatory Payment Classification (APC).\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/e5b339e2-0caa-4a01-b547-71e9eb3b4c17/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1686": {
+      "get": {
+        "summary": "Medicare Outpatient Hospitals - by Provider and Service : 2016-12-31",
+        "description": "The Medicare Outpatient Hospitals by Provider and Service dataset provides information on services for Original Medicare Part B beneficiaries by OPPS hospitals. These datasets contain information on the number of services, payments, and submitted charges organized by provider CMS Certified Number (CCN) and comprehensive Ambulatory Payment Classification (APC).\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/d7112a9d-aeb6-4242-a0bf-0bb07e442445/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1687": {
+      "get": {
+        "summary": "Medicare Outpatient Hospitals - by Provider and Service : 2015-12-31",
+        "description": "The Medicare Outpatient Hospitals by Provider and Service dataset provides information on services for Original Medicare Part B beneficiaries by OPPS hospitals. These datasets contain information on the number of services, payments, and submitted charges organized by provider CMS Certified Number (CCN) and comprehensive Ambulatory Payment Classification (APC).\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/42381a9e-676d-4392-baf2-155559c1c26f/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1688": {
+      "get": {
+        "summary": "Medicare Outpatient Hospitals - by Geography and Service : 2022-12-01",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/04baec39-4a54-400e-824d-8e75251ceda9/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1689": {
+      "get": {
+        "summary": "Medicare Outpatient Hospitals - by Geography and Service : 2022-12-01",
+        "description": "The Medicare Outpatient Hospitals by Geography and Service dataset provides information on services for Original Medicare Part B\u00a0beneficiaries by OPPS hospitals. These datasets contain information on the number of services, payments, and submitted charges organized by geography and comprehensive Ambulatory Payment Classification (APC).\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/6af002ba-b934-4491-96dd-d041989b843c/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1690": {
+      "get": {
+        "summary": "Medicare Outpatient Hospitals - by Geography and Service : 2021-12-02",
+        "description": "The Medicare Outpatient Hospitals by Geography and Service dataset provides information on services for Original Medicare Part B\u00a0beneficiaries by OPPS hospitals. These datasets contain information on the number of services, payments, and submitted charges organized by geography and comprehensive Ambulatory Payment Classification (APC).\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/b3537e90-c3c5-4895-914d-71f54123a0a4/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1691": {
+      "get": {
+        "summary": "Medicare Outpatient Hospitals - by Geography and Service : 2020-12-02",
+        "description": "The Medicare Outpatient Hospitals by Geography and Service dataset provides information on services for Original Medicare Part B\u00a0beneficiaries by OPPS hospitals. These datasets contain information on the number of services, payments, and submitted charges organized by geography and comprehensive Ambulatory Payment Classification (APC).\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/31db4293-f75c-4940-bfae-32d554cd164f/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1692": {
+      "get": {
+        "summary": "Medicare Outpatient Hospitals - by Geography and Service : 2019-12-31",
+        "description": "The Medicare Outpatient Hospitals by Geography and Service dataset provides information on services for Original Medicare Part B\u00a0beneficiaries by OPPS hospitals. These datasets contain information on the number of services, payments, and submitted charges organized by geography and comprehensive Ambulatory Payment Classification (APC).\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/46ae348d-8ba4-43df-868e-74ff87eada39/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1693": {
+      "get": {
+        "summary": "Medicare Outpatient Hospitals - by Geography and Service : 2018-12-31",
+        "description": "The Medicare Outpatient Hospitals by Geography and Service dataset provides information on services for Original Medicare Part B\u00a0beneficiaries by OPPS hospitals. These datasets contain information on the number of services, payments, and submitted charges organized by geography and comprehensive Ambulatory Payment Classification (APC).\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/bb7e2342-b0cd-4c79-bb68-869a8ab4cc41/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1694": {
+      "get": {
+        "summary": "Medicare Outpatient Hospitals - by Geography and Service : 2017-12-31",
+        "description": "The Medicare Outpatient Hospitals by Geography and Service dataset provides information on services for Original Medicare Part B\u00a0beneficiaries by OPPS hospitals. These datasets contain information on the number of services, payments, and submitted charges organized by geography and comprehensive Ambulatory Payment Classification (APC).\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/23f747b4-381d-4887-b3ac-a25b7c440740/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1695": {
+      "get": {
+        "summary": "Medicare Outpatient Hospitals - by Geography and Service : 2016-12-31",
+        "description": "The Medicare Outpatient Hospitals by Geography and Service dataset provides information on services for Original Medicare Part B\u00a0beneficiaries by OPPS hospitals. These datasets contain information on the number of services, payments, and submitted charges organized by geography and comprehensive Ambulatory Payment Classification (APC).\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/301f5c5e-4ec3-4d59-8f4e-9b4f3dd10265/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1696": {
+      "get": {
+        "summary": "Medicare Outpatient Hospitals - by Geography and Service : 2015-12-31",
+        "description": "The Medicare Outpatient Hospitals by Geography and Service dataset provides information on services for Original Medicare Part B\u00a0beneficiaries by OPPS hospitals. These datasets contain information on the number of services, payments, and submitted charges organized by geography and comprehensive Ambulatory Payment Classification (APC).\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/4409fc98-6ae1-4e1a-8c48-d2226b1e4823/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1697": {
+      "get": {
+        "summary": "Medicare Durable Medical Equipment, Devices & Supplies - by Referring Provider and Service : 2022-03-26",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/86b4807a-d63a-44be-bfdf-ffd398d5e623/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1698": {
+      "get": {
+        "summary": "Medicare Durable Medical Equipment, Devices & Supplies - by Referring Provider and Service : 2022-03-26",
+        "description": "The Medicare Durable Medical Equipment, Devices & Supplies by Referring Provider and Service dataset contains information on usage, payments and submitted charges organized by National Provider Identifier (NPI), Healthcare Common Procedure Coding System (HCPCS) code, and supplier rental indicator.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/0dd53b4b-67ba-48c7-b8fa-fecbdfc83b70/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1699": {
+      "get": {
+        "summary": "Medicare Durable Medical Equipment, Devices & Supplies - by Referring Provider and Service : 2021-03-26",
+        "description": "The Medicare Durable Medical Equipment, Devices & Supplies by Referring Provider and Service dataset contains information on usage, payments and submitted charges organized by National Provider Identifier (NPI), Healthcare Common Procedure Coding System (HCPCS) code, and supplier rental indicator.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/46ae675c-bc81-40ca-aa79-64da1c1ec9d9/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1700": {
+      "get": {
+        "summary": "Medicare Durable Medical Equipment, Devices & Supplies - by Referring Provider and Service : 2020-03-26",
+        "description": "The Medicare Durable Medical Equipment, Devices & Supplies by Referring Provider and Service dataset contains information on usage, payments and submitted charges organized by National Provider Identifier (NPI), Healthcare Common Procedure Coding System (HCPCS) code, and supplier rental indicator.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/323df359-ceac-4525-a350-e2cd9eb128fe/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

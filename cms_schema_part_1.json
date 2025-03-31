@@ -1,0 +1,1915 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "CMS API Subset 1",
+    "version": "1.0.0",
+    "description": "Subset 1 of CMS API endpoints"
+  },
+  "servers": [
+    {
+      "url": "https://data.cms.gov"
+    }
+  ],
+  "paths": {
+    "/proxy/endpoint1": {
+      "get": {
+        "summary": "Accountable Care Organization Participants : 2025-01-15",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/9767cb68-8ea9-4f0b-8179-9431abc89f11/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint2": {
+      "get": {
+        "summary": "Accountable Care Organization Participants : 2025-01-15",
+        "description": "The Accountable Care Organization Participants data presents overview information on ACO participants in the Medicare Shared Savings Program (Shared Savings Program), including their name, track status, number of years in the program, and contact information of key personnel.\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to ACO information occur periodically. Each ACO has the most up-to-date information about their organization. Consider contacting the ACO for the latest information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/597651f4-ed85-40b1-8008-d0a9ee4f4b7e/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint3": {
+      "get": {
+        "summary": "Accountable Care Organization Participants : 2024-01-24",
+        "description": "The Accountable Care Organization Participants data presents overview information on ACO participants in the Medicare Shared Savings Program (Shared Savings Program), including their name, track status, number of years in the program, and contact information of key personnel.\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to ACO information occur periodically. Each ACO has the most up-to-date information about their organization. Consider contacting the ACO for the latest information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/42b86f46-d8be-4e6d-bd03-b0b32dafe2d5/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint4": {
+      "get": {
+        "summary": "Accountable Care Organization Participants : 2023-01-13",
+        "description": "The Accountable Care Organization Participants data presents overview information on ACO participants in the Medicare Shared Savings Program (Shared Savings Program), including their name, track status, number of years in the program, and contact information of key personnel.\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to ACO information occur periodically. Each ACO has the most up-to-date information about their organization. Consider contacting the ACO for the latest information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/fd907586-71e8-4128-ad95-801ee1f4f6f0/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint5": {
+      "get": {
+        "summary": "Accountable Care Organization Participants : 2022-01-01",
+        "description": "The Accountable Care Organization Participants data presents overview information on ACO participants in the Medicare Shared Savings Program (Shared Savings Program), including their name, track status, number of years in the program, and contact information of key personnel.\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to ACO information occur periodically. Each ACO has the most up-to-date information about their organization. Consider contacting the ACO for the latest information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/5b678653-aa36-455b-9144-1d073ef7991b/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint6": {
+      "get": {
+        "summary": "Accountable Care Organization Participants : 2021-01-11",
+        "description": "The Accountable Care Organization Participants data presents overview information on ACO participants in the Medicare Shared Savings Program (Shared Savings Program), including their name, track status, number of years in the program, and contact information of key personnel.\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to ACO information occur periodically. Each ACO has the most up-to-date information about their organization. Consider contacting the ACO for the latest information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/7b409bba-ca00-426e-9493-1dc10e5340cc/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint7": {
+      "get": {
+        "summary": "Accountable Care Organization Participants : 2020-01-15",
+        "description": "The Accountable Care Organization Participants data presents overview information on ACO participants in the Medicare Shared Savings Program (Shared Savings Program), including their name, track status, number of years in the program, and contact information of key personnel.\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to ACO information occur periodically. Each ACO has the most up-to-date information about their organization. Consider contacting the ACO for the latest information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/3870b29c-4312-4fb1-a956-71c148ae5b50/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint8": {
+      "get": {
+        "summary": "Accountable Care Organization Participants : 2019-07-31oc1",
+        "description": "The Accountable Care Organization Participants data presents overview information on ACO participants in the Medicare Shared Savings Program (Shared Savings Program), including their name, track status, number of years in the program, and contact information of key personnel.\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to ACO information occur periodically. Each ACO has the most up-to-date information about their organization. Consider contacting the ACO for the latest information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/2c209bdb-ed0c-42e0-b027-8a97024b8035/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint9": {
+      "get": {
+        "summary": "Accountable Care Organization Participants : 2019-01-01",
+        "description": "The Accountable Care Organization Participants data presents overview information on ACO participants in the Medicare Shared Savings Program (Shared Savings Program), including their name, track status, number of years in the program, and contact information of key personnel.\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to ACO information occur periodically. Each ACO has the most up-to-date information about their organization. Consider contacting the ACO for the latest information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/017e6ab7-7e19-4e98-b4fa-30578b47e578/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint10": {
+      "get": {
+        "summary": "Accountable Care Organization Participants : 2018-01-01",
+        "description": "The Accountable Care Organization Participants data presents overview information on ACO participants in the Medicare Shared Savings Program (Shared Savings Program), including their name, track status, number of years in the program, and contact information of key personnel.\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to ACO information occur periodically. Each ACO has the most up-to-date information about their organization. Consider contacting the ACO for the latest information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/6ed410fb-5e7d-477f-90ed-a499e951c5d1/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint11": {
+      "get": {
+        "summary": "Accountable Care Organization Participants : 2017-01-01",
+        "description": "The Accountable Care Organization Participants data presents overview information on ACO participants in the Medicare Shared Savings Program (Shared Savings Program), including their name, track status, number of years in the program, and contact information of key personnel.\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to ACO information occur periodically. Each ACO has the most up-to-date information about their organization. Consider contacting the ACO for the latest information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/bbde17e0-01b1-46d2-b8bf-9949da11a448/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint12": {
+      "get": {
+        "summary": "Accountable Care Organization Participants : 2016-12-31",
+        "description": "The Accountable Care Organization Participants data presents overview information on ACO participants in the Medicare Shared Savings Program (Shared Savings Program), including their name, track status, number of years in the program, and contact information of key personnel.\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to ACO information occur periodically. Each ACO has the most up-to-date information about their organization. Consider contacting the ACO for the latest information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/d2b525f5-77b6-416e-858c-36c9c381eb33/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint13": {
+      "get": {
+        "summary": "Accountable Care Organization Participants : 2015-12-31",
+        "description": "The Accountable Care Organization Participants data presents overview information on ACO participants in the Medicare Shared Savings Program (Shared Savings Program), including their name, track status, number of years in the program, and contact information of key personnel.\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to ACO information occur periodically. Each ACO has the most up-to-date information about their organization. Consider contacting the ACO for the latest information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/4a743510-fbc3-4363-aab5-9d6c0fe3dea7/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint14": {
+      "get": {
+        "summary": "Accountable Care Organization Participants : 2014-12-31",
+        "description": "The Accountable Care Organization Participants data presents overview information on ACO participants in the Medicare Shared Savings Program (Shared Savings Program), including their name, track status, number of years in the program, and contact information of key personnel.\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to ACO information occur periodically. Each ACO has the most up-to-date information about their organization. Consider contacting the ACO for the latest information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/5ebc6246-1861-4d9f-92b4-33c69b315d64/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint15": {
+      "get": {
+        "summary": "Accountable Care Organization Skilled Nursing Facility Affiliates : 2025-01-15",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/5b227bd9-82d4-4145-86fd-809e02ca7f18/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint16": {
+      "get": {
+        "summary": "Accountable Care Organization Skilled Nursing Facility Affiliates : 2025-01-15",
+        "description": "The Accountable Care Organization Skilled Nursing Facility Affiliates data presents overview information on ACO SNF affiliates in the Medicare Shared Savings Program (Shared Savings Program), including their name, track status, number of years in the program, and contact information of key personnel.\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to ACO information occur periodically. Each ACO has the most up-to-date information about their organization. Consider contacting the ACO for the latest information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/a408717e-6214-4e3c-bbe7-76833697172a/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint17": {
+      "get": {
+        "summary": "Accountable Care Organization Skilled Nursing Facility Affiliates : 2024-01-24",
+        "description": "The Accountable Care Organization Skilled Nursing Facility Affiliates data presents overview information on ACO SNF affiliates in the Medicare Shared Savings Program (Shared Savings Program), including their name, track status, number of years in the program, and contact information of key personnel.\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to ACO information occur periodically. Each ACO has the most up-to-date information about their organization. Consider contacting the ACO for the latest information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/c8b07a5e-4b6a-4578-8e72-ecab0d712e4a/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint18": {
+      "get": {
+        "summary": "Accountable Care Organization Skilled Nursing Facility Affiliates : 2023-01-13",
+        "description": "The Accountable Care Organization Skilled Nursing Facility Affiliates data presents overview information on ACO SNF affiliates in the Medicare Shared Savings Program (Shared Savings Program), including their name, track status, number of years in the program, and contact information of key personnel.\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to ACO information occur periodically. Each ACO has the most up-to-date information about their organization. Consider contacting the ACO for the latest information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/3c1d3c97-ed6a-4caa-a8f9-9fe8994ead2c/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint19": {
+      "get": {
+        "summary": "Accountable Care Organization Skilled Nursing Facility Affiliates : 2022-01-01",
+        "description": "The Accountable Care Organization Skilled Nursing Facility Affiliates data presents overview information on ACO SNF affiliates in the Medicare Shared Savings Program (Shared Savings Program), including their name, track status, number of years in the program, and contact information of key personnel.\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to ACO information occur periodically. Each ACO has the most up-to-date information about their organization. Consider contacting the ACO for the latest information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/6e053921-7f8d-44df-aa61-2654e0f35ef3/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint20": {
+      "get": {
+        "summary": "Accountable Care Organization Skilled Nursing Facility Affiliates : 2021-01-11",
+        "description": "The Accountable Care Organization Skilled Nursing Facility Affiliates data presents overview information on ACO SNF affiliates in the Medicare Shared Savings Program (Shared Savings Program), including their name, track status, number of years in the program, and contact information of key personnel.\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to ACO information occur periodically. Each ACO has the most up-to-date information about their organization. Consider contacting the ACO for the latest information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/1023231b-b26c-4342-a7c4-c6dd39d99a36/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint21": {
+      "get": {
+        "summary": "Accountable Care Organization Skilled Nursing Facility Affiliates : 2020-12-31",
+        "description": "The Accountable Care Organization Skilled Nursing Facility Affiliates data presents overview information on ACO SNF affiliates in the Medicare Shared Savings Program (Shared Savings Program), including their name, track status, number of years in the program, and contact information of key personnel.\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to ACO information occur periodically. Each ACO has the most up-to-date information about their organization. Consider contacting the ACO for the latest information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/31012035-867f-445a-8ecc-eb01f630d3f7/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint22": {
+      "get": {
+        "summary": "Accountable Care Organization Skilled Nursing Facility Affiliates : 2019-07-31oc1",
+        "description": "The Accountable Care Organization Skilled Nursing Facility Affiliates data presents overview information on ACO SNF affiliates in the Medicare Shared Savings Program (Shared Savings Program), including their name, track status, number of years in the program, and contact information of key personnel.\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to ACO information occur periodically. Each ACO has the most up-to-date information about their organization. Consider contacting the ACO for the latest information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/3a998bd2-7e55-4c56-a240-a9b7de34b5a9/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint23": {
+      "get": {
+        "summary": "Accountable Care Organization Skilled Nursing Facility Affiliates : 2019-01-01",
+        "description": "The Accountable Care Organization Skilled Nursing Facility Affiliates data presents overview information on ACO SNF affiliates in the Medicare Shared Savings Program (Shared Savings Program), including their name, track status, number of years in the program, and contact information of key personnel.\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to ACO information occur periodically. Each ACO has the most up-to-date information about their organization. Consider contacting the ACO for the latest information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/a6be7a5d-c345-444c-9449-708ee0f73617/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint24": {
+      "get": {
+        "summary": "Accountable Care Organization Skilled Nursing Facility Affiliates : 2018-01-15",
+        "description": "The Accountable Care Organization Skilled Nursing Facility Affiliates data presents overview information on ACO SNF affiliates in the Medicare Shared Savings Program (Shared Savings Program), including their name, track status, number of years in the program, and contact information of key personnel.\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to ACO information occur periodically. Each ACO has the most up-to-date information about their organization. Consider contacting the ACO for the latest information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/2fa21672-de7d-4157-a7ed-b2787f8a6fe1/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint25": {
+      "get": {
+        "summary": "Accountable Care Organization Skilled Nursing Facility Affiliates : 2017-01-15",
+        "description": "The Accountable Care Organization Skilled Nursing Facility Affiliates data presents overview information on ACO SNF affiliates in the Medicare Shared Savings Program (Shared Savings Program), including their name, track status, number of years in the program, and contact information of key personnel.\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to ACO information occur periodically. Each ACO has the most up-to-date information about their organization. Consider contacting the ACO for the latest information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/62d0d206-01f7-4ed3-9b45-8d692d0bd431/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint26": {
+      "get": {
+        "summary": "ACO Realizing Equity, Access and Community Health Aligned Beneficiaries : 2021-12-02",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/1cd9eded-d2c9-4215-a064-aac6dae3b714/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint27": {
+      "get": {
+        "summary": "ACO Realizing Equity, Access and Community Health Aligned Beneficiaries : 2021-12-02",
+        "description": "The Accountable Care Organization Realizing Equity, Access and Community Health (ACO REACH) Model Aligned Beneficiary Public Use File (PUF) data details Medicare Beneficiaries aligned to the ACO REACH Model, formerly Global and Professional Direct Contracting (GPDC) Model, including counties, eligibility months and total aligned beneficiaries. This data is redacted and does not include identifiable information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/0775e970-9bc3-4e24-9693-4706ba5ff015/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint28": {
+      "get": {
+        "summary": "ACO Realizing Equity, Access and Community Health Eligible Beneficiaries : 2021-12-01",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/54551982-39a8-4744-90f6-c38bb4dd5108/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint29": {
+      "get": {
+        "summary": "ACO Realizing Equity, Access and Community Health Eligible Beneficiaries : 2021-12-01",
+        "description": "Accountable Care Organization Realizing Equity, Access and Community Health (ACO REACH) Model Eligible Beneficiary Public Use File (PUF) data details Medicare Beneficiaries who were used as the reference population for comparison to aligned to the ACO REACH Model, formerly Global and Professional Direct Contracting (GPDC) Model, including average risk scores and eligibility months. This data is redacted and does not include identifiable information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/5941f9b8-9d72-44a1-a102-f8386c155290/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint30": {
+      "get": {
+        "summary": "ACO Realizing Equity, Access and Community Health Financial and Quality Results : 2021-12-02",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/6c3532b3-8325-48fd-a939-12b41d2b126a/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint31": {
+      "get": {
+        "summary": "ACO Realizing Equity, Access and Community Health Financial and Quality Results : 2021-12-02",
+        "description": "The Accountable Care Organization Realizing Equity, Access and Community Health (ACO REACH) Model Financial and Quality Results Public Use File (PUF) details performance for the ACO REACH Model, formerly Global and Professional Direct Contracting (GPDC) Model, prior to settlement. This data includes information such as the ACOs risk arrangement, stop loss, capitation, savings rate, and quality results.\u00a0\n\n\u00a0\n\nThe expanded quality performance results are expected to be released in the fall.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/51206383-1bf2-4230-af28-6bd66a9f311c/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint32": {
+      "get": {
+        "summary": "ACO Realizing Equity, Access and Community Health Providers : 2021-12-01",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/e0eba16f-ce0d-4037-96ce-2af70c718c98/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint33": {
+      "get": {
+        "summary": "ACO Realizing Equity, Access and Community Health Providers : 2021-12-01",
+        "description": "The Accountable Care Organization Realizing Equity, Access and Community Health (ACO REACH) Model Providers Public Use File (PUF) data details Participant Providers and Preferred Providers in the ACO REACH Model, formerly Global and Professional Direct Contracting (GPDC) Model. This dataset includes information on each providers capitation arrangement, Advanced Payment Option and elected waivers.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/e235bb4b-84ea-456a-a64e-b7c1b8a98ea7/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint34": {
+      "get": {
+        "summary": "Advance Investment Payment Spend Plan : 2025-01-01",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/a3d35ba1-3ff4-48dd-91b4-8e1f9e7a19b7/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint35": {
+      "get": {
+        "summary": "Advance Investment Payment Spend Plan : 2025-01-01",
+        "description": "The Advance Investment Payment Spend Plan data provides payment use, spending category, projected and actual spending of advanced investments payments by Accountable Care Organizations (ACOs).\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/22c4a86d-1727-47d0-998c-34e03c94d669/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint36": {
+      "get": {
+        "summary": "Advance Investment Payment Spend Plan : 2024-01-02",
+        "description": "The Advance Investment Payment Spend Plan data provides payment use, spending category, projected and actual spending of advanced investments payments by Accountable Care Organizations (ACOs).\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/329394bc-b58c-4458-a028-33a00ae47a84/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint37": {
+      "get": {
+        "summary": "Agency for Healthcare Research and Quality (AHRQ) Patient Safety Indicator 11 (PSI-11) Measure Rates : 2016-07-29",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/7cf9662e-7c5c-4fe0-a8c6-828edf81a23c/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint38": {
+      "get": {
+        "summary": "Agency for Healthcare Research and Quality (AHRQ) Patient Safety Indicator 11 (PSI-11) Measure Rates : 2016-07-29",
+        "description": "The Agency for Healthcare Research and Quality (AHRQ) Patient Safety Indicator 11 (PSI-11) Measure Rates dataset provides information on provider-level measure\u00a0rates regarding one preventable complication (postoperative respiratory failure) for Medicare fee-for-service discharges. The PSI-11 measure data is solely reported for providers\u2019 information and quality improvement purposes and are not a part of the Deficit Reduction Act (DRA) Hospital-Acquired Condition (HAC) Payment Provision or HAC Reduction Program.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/bcf769c0-5bfc-433e-852e-730a6f8e899c/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint39": {
+      "get": {
+        "summary": "Agency for Healthcare Research and Quality (AHRQ) Patient Safety Indicator 11 (PSI-11) Measure Rates : 2015-08-19",
+        "description": "The Agency for Healthcare Research and Quality (AHRQ) Patient Safety Indicator 11 (PSI-11) Measure Rates dataset provides information on provider-level measure\u00a0rates regarding one preventable complication (postoperative respiratory failure) for Medicare fee-for-service discharges. The PSI-11 measure data is solely reported for providers\u2019 information and quality improvement purposes and are not a part of the Deficit Reduction Act (DRA) Hospital-Acquired Condition (HAC) Payment Provision or HAC Reduction Program.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/374c448f-4507-4949-bc5a-e59fdc6f0698/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint40": {
+      "get": {
+        "summary": "Comprehensive Care for Joint Replacement Model: Metropolitan Statistical Areas : 2020-07-01",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/62e490c0-9503-4b5f-9518-8e82fe20ccb6/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint41": {
+      "get": {
+        "summary": "Comprehensive Care for Joint Replacement Model: Metropolitan Statistical Areas : 2020-07-01",
+        "description": "The Comprehensive Care for Joint Replacement Model: Metropolitan Statistical Areas (MSAs) dataset presents MSAs that are participating in the CMS Innovation Center Comprehensive Care for Joint Replacement Model, a model to support better and more efficient care for beneficiaries undergoing the most common inpatient surgery for Medicare beneficiaries: hip and knee replacements. Participation in this model is designated by geographic area, specifically MSAs. The information contained in the dataset can include MSA identification number, MSA geographic name and associated county or counties.\u00a0\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/a6076e90-62b4-4d61-8b54-f7b340797190/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint42": {
+      "get": {
+        "summary": "County-level Aggregate Expenditure and Risk Score Data on Assignable Beneficiaries : 2023-12-03oc2",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/5f9f1216-6fd9-455d-bfbc-0efade687a4e/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint43": {
+      "get": {
+        "summary": "County-level Aggregate Expenditure and Risk Score Data on Assignable Beneficiaries : 2023-12-03oc2",
+        "description": "The Shared Savings Program County-level Aggregate Expenditure and Risk Score Data on Assignable Beneficiaries Public Use File (PUF) for the Medicare Shared Savings Program (Shared Savings Program) provides aggregate data consisting of per capita Parts A and B FFS expenditures, average CMS-HCC prospective risk scores,\u00a0average demographic risk scores and total person-years for Shared Savings Program assignable beneficiaries by Medicare enrollment type (End Stage Renal Disease (ESRD), disabled, aged/dual eligible, aged/non-dual eligible).\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to Shared Savings Program Accountable Care Organization (ACO) information occur periodically. Each Shared Savings Program ACO has the most up-to-date information about their organization. Consider contacting the Shared Savings Program ACO for the latest information. Contact information is available in the ACO PUF and the ACO Participants PUF.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/0b335816-649d-4a10-8c43-2ab47bf08852/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint44": {
+      "get": {
+        "summary": "County-level Aggregate Expenditure and Risk Score Data on Assignable Beneficiaries : 2023-12-02oc1",
+        "description": "The Shared Savings Program County-level Aggregate Expenditure and Risk Score Data on Assignable Beneficiaries Public Use File (PUF) for the Medicare Shared Savings Program (Shared Savings Program) provides aggregate data consisting of per capita Parts A and B FFS expenditures, average CMS-HCC prospective risk scores,\u00a0average demographic risk scores and total person-years for Shared Savings Program assignable beneficiaries by Medicare enrollment type (End Stage Renal Disease (ESRD), disabled, aged/dual eligible, aged/non-dual eligible).\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to Shared Savings Program Accountable Care Organization (ACO) information occur periodically. Each Shared Savings Program ACO has the most up-to-date information about their organization. Consider contacting the Shared Savings Program ACO for the latest information. Contact information is available in the ACO PUF and the ACO Participants PUF.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/4edf4a26-a014-409d-bd48-dab830f7f7bf/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint45": {
+      "get": {
+        "summary": "County-level Aggregate Expenditure and Risk Score Data on Assignable Beneficiaries : 2023-12-01",
+        "description": "The Shared Savings Program County-level Aggregate Expenditure and Risk Score Data on Assignable Beneficiaries Public Use File (PUF) for the Medicare Shared Savings Program (Shared Savings Program) provides aggregate data consisting of per capita Parts A and B FFS expenditures, average CMS-HCC prospective risk scores,\u00a0average demographic risk scores and total person-years for Shared Savings Program assignable beneficiaries by Medicare enrollment type (End Stage Renal Disease (ESRD), disabled, aged/dual eligible, aged/non-dual eligible).\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to Shared Savings Program Accountable Care Organization (ACO) information occur periodically. Each Shared Savings Program ACO has the most up-to-date information about their organization. Consider contacting the Shared Savings Program ACO for the latest information. Contact information is available in the ACO PUF and the ACO Participants PUF.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/eeb048d0-aad6-42b9-988c-487c8da947e0/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint46": {
+      "get": {
+        "summary": "County-level Aggregate Expenditure and Risk Score Data on Assignable Beneficiaries : 2022-12-19oc2",
+        "description": "The Shared Savings Program County-level Aggregate Expenditure and Risk Score Data on Assignable Beneficiaries Public Use File (PUF) for the Medicare Shared Savings Program (Shared Savings Program) provides aggregate data consisting of per capita Parts A and B FFS expenditures, average CMS-HCC prospective risk scores,\u00a0average demographic risk scores and total person-years for Shared Savings Program assignable beneficiaries by Medicare enrollment type (End Stage Renal Disease (ESRD), disabled, aged/dual eligible, aged/non-dual eligible).\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to Shared Savings Program Accountable Care Organization (ACO) information occur periodically. Each Shared Savings Program ACO has the most up-to-date information about their organization. Consider contacting the Shared Savings Program ACO for the latest information. Contact information is available in the ACO PUF and the ACO Participants PUF.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/3cbafed5-9147-43b3-bc2e-ee7795fce4a4/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint47": {
+      "get": {
+        "summary": "County-level Aggregate Expenditure and Risk Score Data on Assignable Beneficiaries : 2022-12-18oc1",
+        "description": "The Shared Savings Program County-level Aggregate Expenditure and Risk Score Data on Assignable Beneficiaries Public Use File (PUF) for the Medicare Shared Savings Program (Shared Savings Program) provides aggregate data consisting of per capita Parts A and B FFS expenditures, average CMS-HCC prospective risk scores,\u00a0average demographic risk scores and total person-years for Shared Savings Program assignable beneficiaries by Medicare enrollment type (End Stage Renal Disease (ESRD), disabled, aged/dual eligible, aged/non-dual eligible).\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to Shared Savings Program Accountable Care Organization (ACO) information occur periodically. Each Shared Savings Program ACO has the most up-to-date information about their organization. Consider contacting the Shared Savings Program ACO for the latest information. Contact information is available in the ACO PUF and the ACO Participants PUF.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/21b7288e-02a3-4d5b-b1a0-5a2cfebb5c2f/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint48": {
+      "get": {
+        "summary": "County-level Aggregate Expenditure and Risk Score Data on Assignable Beneficiaries : 2022-12-15",
+        "description": "The Shared Savings Program County-level Aggregate Expenditure and Risk Score Data on Assignable Beneficiaries Public Use File (PUF) for the Medicare Shared Savings Program (Shared Savings Program) provides aggregate data consisting of per capita Parts A and B FFS expenditures, average CMS-HCC prospective risk scores,\u00a0average demographic risk scores and total person-years for Shared Savings Program assignable beneficiaries by Medicare enrollment type (End Stage Renal Disease (ESRD), disabled, aged/dual eligible, aged/non-dual eligible).\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to Shared Savings Program Accountable Care Organization (ACO) information occur periodically. Each Shared Savings Program ACO has the most up-to-date information about their organization. Consider contacting the Shared Savings Program ACO for the latest information. Contact information is available in the ACO PUF and the ACO Participants PUF.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/ba11da80-56be-457d-af54-889733d0b413/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint49": {
+      "get": {
+        "summary": "County-level Aggregate Expenditure and Risk Score Data on Assignable Beneficiaries : 2021-12-17oc2",
+        "description": "The Shared Savings Program County-level Aggregate Expenditure and Risk Score Data on Assignable Beneficiaries Public Use File (PUF) for the Medicare Shared Savings Program (Shared Savings Program) provides aggregate data consisting of per capita Parts A and B FFS expenditures, average CMS-HCC prospective risk scores,\u00a0average demographic risk scores and total person-years for Shared Savings Program assignable beneficiaries by Medicare enrollment type (End Stage Renal Disease (ESRD), disabled, aged/dual eligible, aged/non-dual eligible).\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to Shared Savings Program Accountable Care Organization (ACO) information occur periodically. Each Shared Savings Program ACO has the most up-to-date information about their organization. Consider contacting the Shared Savings Program ACO for the latest information. Contact information is available in the ACO PUF and the ACO Participants PUF.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/000ea270-0d91-4b2f-919a-7c0d78bcfc7e/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint50": {
+      "get": {
+        "summary": "County-level Aggregate Expenditure and Risk Score Data on Assignable Beneficiaries : 2021-12-16oc1",
+        "description": "The Shared Savings Program County-level Aggregate Expenditure and Risk Score Data on Assignable Beneficiaries Public Use File (PUF) for the Medicare Shared Savings Program (Shared Savings Program) provides aggregate data consisting of per capita Parts A and B FFS expenditures, average CMS-HCC prospective risk scores,\u00a0average demographic risk scores and total person-years for Shared Savings Program assignable beneficiaries by Medicare enrollment type (End Stage Renal Disease (ESRD), disabled, aged/dual eligible, aged/non-dual eligible).\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to Shared Savings Program Accountable Care Organization (ACO) information occur periodically. Each Shared Savings Program ACO has the most up-to-date information about their organization. Consider contacting the Shared Savings Program ACO for the latest information. Contact information is available in the ACO PUF and the ACO Participants PUF.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/54acabe4-aa6a-44f1-bd8c-55536bf6ea77/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint51": {
+      "get": {
+        "summary": "County-level Aggregate Expenditure and Risk Score Data on Assignable Beneficiaries : 2021-12-15",
+        "description": "The Shared Savings Program County-level Aggregate Expenditure and Risk Score Data on Assignable Beneficiaries Public Use File (PUF) for the Medicare Shared Savings Program (Shared Savings Program) provides aggregate data consisting of per capita Parts A and B FFS expenditures, average CMS-HCC prospective risk scores,\u00a0average demographic risk scores and total person-years for Shared Savings Program assignable beneficiaries by Medicare enrollment type (End Stage Renal Disease (ESRD), disabled, aged/dual eligible, aged/non-dual eligible).\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to Shared Savings Program Accountable Care Organization (ACO) information occur periodically. Each Shared Savings Program ACO has the most up-to-date information about their organization. Consider contacting the Shared Savings Program ACO for the latest information. Contact information is available in the ACO PUF and the ACO Participants PUF.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/a4154831-7934-4d7e-9b23-3441fee564d7/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint52": {
+      "get": {
+        "summary": "County-level Aggregate Expenditure and Risk Score Data on Assignable Beneficiaries : 2020-12-15",
+        "description": "The Shared Savings Program County-level Aggregate Expenditure and Risk Score Data on Assignable Beneficiaries Public Use File (PUF) for the Medicare Shared Savings Program (Shared Savings Program) provides aggregate data consisting of per capita Parts A and B FFS expenditures, average CMS-HCC prospective risk scores,\u00a0average demographic risk scores and total person-years for Shared Savings Program assignable beneficiaries by Medicare enrollment type (End Stage Renal Disease (ESRD), disabled, aged/dual eligible, aged/non-dual eligible).\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to Shared Savings Program Accountable Care Organization (ACO) information occur periodically. Each Shared Savings Program ACO has the most up-to-date information about their organization. Consider contacting the Shared Savings Program ACO for the latest information. Contact information is available in the ACO PUF and the ACO Participants PUF.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/7b181182-828c-4fa4-91bd-641759f6eddd/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint53": {
+      "get": {
+        "summary": "County-level Aggregate Expenditure and Risk Score Data on Assignable Beneficiaries : 2019-01-15",
+        "description": "The Shared Savings Program County-level Aggregate Expenditure and Risk Score Data on Assignable Beneficiaries Public Use File (PUF) for the Medicare Shared Savings Program (Shared Savings Program) provides aggregate data consisting of per capita Parts A and B FFS expenditures, average CMS-HCC prospective risk scores,\u00a0average demographic risk scores and total person-years for Shared Savings Program assignable beneficiaries by Medicare enrollment type (End Stage Renal Disease (ESRD), disabled, aged/dual eligible, aged/non-dual eligible).\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to Shared Savings Program Accountable Care Organization (ACO) information occur periodically. Each Shared Savings Program ACO has the most up-to-date information about their organization. Consider contacting the Shared Savings Program ACO for the latest information. Contact information is available in the ACO PUF and the ACO Participants PUF.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/28b6537c-c658-42bc-93b1-f2c32e8c00ae/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint54": {
+      "get": {
+        "summary": "County-level Aggregate Expenditure and Risk Score Data on Assignable Beneficiaries : 2018-01-15",
+        "description": "The Shared Savings Program County-level Aggregate Expenditure and Risk Score Data on Assignable Beneficiaries Public Use File (PUF) for the Medicare Shared Savings Program (Shared Savings Program) provides aggregate data consisting of per capita Parts A and B FFS expenditures, average CMS-HCC prospective risk scores,\u00a0average demographic risk scores and total person-years for Shared Savings Program assignable beneficiaries by Medicare enrollment type (End Stage Renal Disease (ESRD), disabled, aged/dual eligible, aged/non-dual eligible).\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to Shared Savings Program Accountable Care Organization (ACO) information occur periodically. Each Shared Savings Program ACO has the most up-to-date information about their organization. Consider contacting the Shared Savings Program ACO for the latest information. Contact information is available in the ACO PUF and the ACO Participants PUF.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/c78d06dc-816d-46e4-821c-25a022c1096f/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint55": {
+      "get": {
+        "summary": "County-level Aggregate Expenditure and Risk Score Data on Assignable Beneficiaries : 2017-01-15",
+        "description": "The Shared Savings Program County-level Aggregate Expenditure and Risk Score Data on Assignable Beneficiaries Public Use File (PUF) for the Medicare Shared Savings Program (Shared Savings Program) provides aggregate data consisting of per capita Parts A and B FFS expenditures, average CMS-HCC prospective risk scores,\u00a0average demographic risk scores and total person-years for Shared Savings Program assignable beneficiaries by Medicare enrollment type (End Stage Renal Disease (ESRD), disabled, aged/dual eligible, aged/non-dual eligible).\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to Shared Savings Program Accountable Care Organization (ACO) information occur periodically. Each Shared Savings Program ACO has the most up-to-date information about their organization. Consider contacting the Shared Savings Program ACO for the latest information. Contact information is available in the ACO PUF and the ACO Participants PUF.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/e60ff4ba-e1f3-4645-891e-bc5badf5e580/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint56": {
+      "get": {
+        "summary": "County-level Aggregate Expenditure and Risk Score Data on Assignable Beneficiaries : 2016-01-15",
+        "description": "The Shared Savings Program County-level Aggregate Expenditure and Risk Score Data on Assignable Beneficiaries Public Use File (PUF) for the Medicare Shared Savings Program (Shared Savings Program) provides aggregate data consisting of per capita Parts A and B FFS expenditures, average CMS-HCC prospective risk scores,\u00a0average demographic risk scores and total person-years for Shared Savings Program assignable beneficiaries by Medicare enrollment type (End Stage Renal Disease (ESRD), disabled, aged/dual eligible, aged/non-dual eligible).\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to Shared Savings Program Accountable Care Organization (ACO) information occur periodically. Each Shared Savings Program ACO has the most up-to-date information about their organization. Consider contacting the Shared Savings Program ACO for the latest information. Contact information is available in the ACO PUF and the ACO Participants PUF.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/fe7b9822-f528-44b6-9ee7-5f65b86e1027/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint57": {
+      "get": {
+        "summary": "COVID-19 Nursing Home Data : 2025-01-05",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/137f90cb-ac53-4b3d-8358-e65cf64e03d3/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint58": {
+      "get": {
+        "summary": "COVID-19 Nursing Home Data : 2025-01-05",
+        "description": "Submitted data as of the week ending 01/05/2025.\n\nThe Nursing Home COVID-19 Public File includes data reported by nursing homes to the CDC\u2019s National Healthcare Safety Network (NHSN) Long Term Care Facility (LTCF) COVID-19 Module.\u00a0For resources and ways to explore and visualize the data, please see the links to the left, as well as the buttons at the top of the page.\n\nUp to Date with COVID-19 Vaccines\n\nOn January 1, 2024, the Centers for Disease Control (CDC) changed the way it collects data to calculate the percent of staff who are up to date with their COVID-19 vaccination. It may take facilities some time to adapt to the new methodology. As a result, the reported percent of staff who are up to date with their COVID-19 vaccination should be viewed with caution over the next few weeks. Contact facilities directly for more information on their vaccination levels.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/64db7975-4f2e-4c8d-9c83-c50753c89cd2/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint59": {
+      "get": {
+        "summary": "CPC Initiative - Participating Primary Care Practices : 2017-09-25",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/24da2642-7269-4c75-9a62-0dc3a195b205/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint60": {
+      "get": {
+        "summary": "CPC Initiative - Participating Primary Care Practices : 2017-09-25",
+        "description": "The CPC Initiative - Participating Primary Care Practices dataset provides a list of practices involved in a multi-payer initiative which fosters collaboration between public and private health care payers to strengthen primary care.\u00a0\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/8a099a4e-3bac-4ce2-bb17-b99b488d4440/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint61": {
+      "get": {
+        "summary": "Deficit Reduction Act Hospital-Acquired Condition Measures : 2024-01-01",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/01edb62e-5c45-4f43-8c91-16cba21cbb74/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint62": {
+      "get": {
+        "summary": "Deficit Reduction Act Hospital-Acquired Condition Measures : 2024-01-01",
+        "description": "The Publicly Reported Deficit Reduction Act (DRA) Hospital-Acquired Condition (HAC) Measures data provides information on hospital-level measures rates for four of the HACs included in the DRA HAC payment provision \u2013 foreign object retained after surgery, blood incompatibility, air embolism, and falls and trauma \u2013 for Medicare fee-for-service discharges. The Publicly Reported DRA HAC Measures are reported only for informational and quality improvement purposes; the results of the measure calculations do not affect payment and are not a part of the HAC Reduction Program.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/4992c1c4-db78-466c-93cc-b796076e9686/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint63": {
+      "get": {
+        "summary": "Deficit Reduction Act Hospital-Acquired Condition Measures : 2023-01-01",
+        "description": "The Publicly Reported Deficit Reduction Act (DRA) Hospital-Acquired Condition (HAC) Measures data provides information on hospital-level measures rates for four of the HACs included in the DRA HAC payment provision \u2013 foreign object retained after surgery, blood incompatibility, air embolism, and falls and trauma \u2013 for Medicare fee-for-service discharges. The Publicly Reported DRA HAC Measures are reported only for informational and quality improvement purposes; the results of the measure calculations do not affect payment and are not a part of the HAC Reduction Program.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/a15892f9-ee64-4fb6-9436-a11ad00a01b8/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint64": {
+      "get": {
+        "summary": "Deficit Reduction Act Hospital-Acquired Condition Measures : 2022-12-31",
+        "description": "The Publicly Reported Deficit Reduction Act (DRA) Hospital-Acquired Condition (HAC) Measures data provides information on hospital-level measures rates for four of the HACs included in the DRA HAC payment provision \u2013 foreign object retained after surgery, blood incompatibility, air embolism, and falls and trauma \u2013 for Medicare fee-for-service discharges. The Publicly Reported DRA HAC Measures are reported only for informational and quality improvement purposes; the results of the measure calculations do not affect payment and are not a part of the HAC Reduction Program.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/dca0e636-de68-4902-af94-0ec30b3f2894/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint65": {
+      "get": {
+        "summary": "Deficit Reduction Act Hospital-Acquired Condition Measures : 2021-12-31",
+        "description": "The Publicly Reported Deficit Reduction Act (DRA) Hospital-Acquired Condition (HAC) Measures data provides information on hospital-level measures rates for four of the HACs included in the DRA HAC payment provision \u2013 foreign object retained after surgery, blood incompatibility, air embolism, and falls and trauma \u2013 for Medicare fee-for-service discharges. The Publicly Reported DRA HAC Measures are reported only for informational and quality improvement purposes; the results of the measure calculations do not affect payment and are not a part of the HAC Reduction Program.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/3d467162-df90-46f1-801b-6d5fc796521c/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint66": {
+      "get": {
+        "summary": "Deficit Reduction Act Hospital-Acquired Condition Measures : 2020-08-12",
+        "description": "The Publicly Reported Deficit Reduction Act (DRA) Hospital-Acquired Condition (HAC) Measures data provides information on hospital-level measures rates for four of the HACs included in the DRA HAC payment provision \u2013 foreign object retained after surgery, blood incompatibility, air embolism, and falls and trauma \u2013 for Medicare fee-for-service discharges. The Publicly Reported DRA HAC Measures are reported only for informational and quality improvement purposes; the results of the measure calculations do not affect payment and are not a part of the HAC Reduction Program.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/e44ef8de-3ac4-451a-bc92-5aae04aeed41/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint67": {
+      "get": {
+        "summary": "Deficit Reduction Act Hospital-Acquired Condition Measures : 2019-07-31",
+        "description": "The Publicly Reported Deficit Reduction Act (DRA) Hospital-Acquired Condition (HAC) Measures data provides information on hospital-level measures rates for four of the HACs included in the DRA HAC payment provision \u2013 foreign object retained after surgery, blood incompatibility, air embolism, and falls and trauma \u2013 for Medicare fee-for-service discharges. The Publicly Reported DRA HAC Measures are reported only for informational and quality improvement purposes; the results of the measure calculations do not affect payment and are not a part of the HAC Reduction Program.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/3c2e3f06-2be2-49f0-92e4-0dc48b880746/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint68": {
+      "get": {
+        "summary": "Deficit Reduction Act Hospital-Acquired Condition Measures : 2018-08-22",
+        "description": "The Publicly Reported Deficit Reduction Act (DRA) Hospital-Acquired Condition (HAC) Measures data provides information on hospital-level measures rates for four of the HACs included in the DRA HAC payment provision \u2013 foreign object retained after surgery, blood incompatibility, air embolism, and falls and trauma \u2013 for Medicare fee-for-service discharges. The Publicly Reported DRA HAC Measures are reported only for informational and quality improvement purposes; the results of the measure calculations do not affect payment and are not a part of the HAC Reduction Program.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/705b4fb5-1f6f-4d66-86c5-4acc3bf74218/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint69": {
+      "get": {
+        "summary": "Deficit Reduction Act Hospital-Acquired Condition Measures : 2017-08-07",
+        "description": "The Publicly Reported Deficit Reduction Act (DRA) Hospital-Acquired Condition (HAC) Measures data provides information on hospital-level measures rates for four of the HACs included in the DRA HAC payment provision \u2013 foreign object retained after surgery, blood incompatibility, air embolism, and falls and trauma \u2013 for Medicare fee-for-service discharges. The Publicly Reported DRA HAC Measures are reported only for informational and quality improvement purposes; the results of the measure calculations do not affect payment and are not a part of the HAC Reduction Program.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/6dcdc8a1-8dab-4a89-ae1d-bbb324cba3f8/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint70": {
+      "get": {
+        "summary": "Deficit Reduction Act Hospital-Acquired Condition Measures : 2016-07-29",
+        "description": "The Publicly Reported Deficit Reduction Act (DRA) Hospital-Acquired Condition (HAC) Measures data provides information on hospital-level measures rates for four of the HACs included in the DRA HAC payment provision \u2013 foreign object retained after surgery, blood incompatibility, air embolism, and falls and trauma \u2013 for Medicare fee-for-service discharges. The Publicly Reported DRA HAC Measures are reported only for informational and quality improvement purposes; the results of the measure calculations do not affect payment and are not a part of the HAC Reduction Program.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/94c8f101-e873-4688-85a5-3e2ecd9ce320/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint71": {
+      "get": {
+        "summary": "Deficit Reduction Act Hospital-Acquired Condition Measures : 2015-08-16",
+        "description": "The Publicly Reported Deficit Reduction Act (DRA) Hospital-Acquired Condition (HAC) Measures data provides information on hospital-level measures rates for four of the HACs included in the DRA HAC payment provision \u2013 foreign object retained after surgery, blood incompatibility, air embolism, and falls and trauma \u2013 for Medicare fee-for-service discharges. The Publicly Reported DRA HAC Measures are reported only for informational and quality improvement purposes; the results of the measure calculations do not affect payment and are not a part of the HAC Reduction Program.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/d5c2ce96-a45a-4205-8f1a-597d7d3b6557/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint72": {
+      "get": {
+        "summary": "End-Stage Renal Disease Facility Aggregation Group Performance : 2023-06-01",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/4bae4223-a1dc-4b9c-bd7e-d9622461be35/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint73": {
+      "get": {
+        "summary": "End-Stage Renal Disease Facility Aggregation Group Performance : 2023-06-01",
+        "description": "The End-Stage Renal Disease (ESRD) Facility Aggregation Group Performance dataset provides performance information in the End-Stage Renal Disease (ESRD) Treatment Choices (ETC) Model. The dataset includes information on Performance Payment Adjustment (PPA), Modality Performance Score (MPS), home dialysis rate, and transplant rate, as well as the individual components of each rate for each model participant ESRD facility aggregation group.\n\n\u00a0\n\nAll ESRD facilities\u00a0within the same aggregation group share the same performance information. The supplementary aggregation group crosswalk file may be used to map aggregation groups to individual ETC Participant ESRD facilities.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/e06cdea4-526d-436b-815e-612c22cec061/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint74": {
+      "get": {
+        "summary": "End-Stage Renal Disease Facility Aggregation Group Performance : 2022-12-31",
+        "description": "The End-Stage Renal Disease (ESRD) Facility Aggregation Group Performance dataset provides performance information in the End-Stage Renal Disease (ESRD) Treatment Choices (ETC) Model. The dataset includes information on Performance Payment Adjustment (PPA), Modality Performance Score (MPS), home dialysis rate, and transplant rate, as well as the individual components of each rate for each model participant ESRD facility aggregation group.\n\n\u00a0\n\nAll ESRD facilities\u00a0within the same aggregation group share the same performance information. The supplementary aggregation group crosswalk file may be used to map aggregation groups to individual ETC Participant ESRD facilities.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f56b3953-76ba-4b3a-a76a-725ac6a78ae7/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint75": {
+      "get": {
+        "summary": "End-Stage Renal Disease Facility Aggregation Group Performance : 2022-06-30",
+        "description": "The End-Stage Renal Disease (ESRD) Facility Aggregation Group Performance dataset provides performance information in the End-Stage Renal Disease (ESRD) Treatment Choices (ETC) Model. The dataset includes information on Performance Payment Adjustment (PPA), Modality Performance Score (MPS), home dialysis rate, and transplant rate, as well as the individual components of each rate for each model participant ESRD facility aggregation group.\n\n\u00a0\n\nAll ESRD facilities\u00a0within the same aggregation group share the same performance information. The supplementary aggregation group crosswalk file may be used to map aggregation groups to individual ETC Participant ESRD facilities.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/a587a99b-4669-485d-99a5-68050ba8b3fe/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint76": {
+      "get": {
+        "summary": "End-Stage Renal Disease Facility Aggregation Group Performance : 2021-12-31",
+        "description": "The End-Stage Renal Disease (ESRD) Facility Aggregation Group Performance dataset provides performance information in the End-Stage Renal Disease (ESRD) Treatment Choices (ETC) Model. The dataset includes information on Performance Payment Adjustment (PPA), Modality Performance Score (MPS), home dialysis rate, and transplant rate, as well as the individual components of each rate for each model participant ESRD facility aggregation group.\n\n\u00a0\n\nAll ESRD facilities\u00a0within the same aggregation group share the same performance information. The supplementary aggregation group crosswalk file may be used to map aggregation groups to individual ETC Participant ESRD facilities.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/ef13fb2d-d276-42c5-8c81-400cfcb089e5/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint77": {
+      "get": {
+        "summary": "Facility-Level Minimum Data Set Frequency : 2024-07-01",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/d086edc0-4953-4fb9-a663-b35526371add/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint78": {
+      "get": {
+        "summary": "Facility-Level Minimum Data Set Frequency : 2024-07-01",
+        "description": "The Facility-Level Minimum Data Set (MDS) Frequency\u00a0dataset provides information for active nursing home residents on topics, such as race/ethnicity, age, or marital status; discharge dispositions; hearing, speech, and vision; cognitive patterns; mood; functional abilities and goals; bladder and bowel; active diagnoses; health conditions; swallowing/nutritional status; oral/dental status; skin conditions; medications; special treatments, procedures, and programs; restraints and alarms; and participation in assessment and goal setting.\n\n\u00a0\n\nNote: The MDS dataset contains more records than most spreadsheet programs can handle. The use of a database or statistical software is generally required. The dataset can be filtered to a more manageable size for use in a spreadsheet program by clicking on the \u201cView Data\u201d button. Additional filter information can be found in the methodology, if needed.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/184a3e9c-6757-4cb1-ba98-4fd43803c557/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint79": {
+      "get": {
+        "summary": "Facility-Level Minimum Data Set Frequency : 2024-04-01",
+        "description": "The Facility-Level Minimum Data Set (MDS) Frequency\u00a0dataset provides information for active nursing home residents on topics, such as race/ethnicity, age, or marital status; discharge dispositions; hearing, speech, and vision; cognitive patterns; mood; functional abilities and goals; bladder and bowel; active diagnoses; health conditions; swallowing/nutritional status; oral/dental status; skin conditions; medications; special treatments, procedures, and programs; restraints and alarms; and participation in assessment and goal setting.\n\n\u00a0\n\nNote: The MDS dataset contains more records than most spreadsheet programs can handle. The use of a database or statistical software is generally required. The dataset can be filtered to a more manageable size for use in a spreadsheet program by clicking on the \u201cView Data\u201d button. Additional filter information can be found in the methodology, if needed.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/450425c3-5b81-454e-88b7-9902739ecb12/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint80": {
+      "get": {
+        "summary": "Facility-Level Minimum Data Set Frequency : 2024-01-02",
+        "description": "The Facility-Level Minimum Data Set (MDS) Frequency\u00a0dataset provides information for active nursing home residents on topics, such as race/ethnicity, age, or marital status; discharge dispositions; hearing, speech, and vision; cognitive patterns; mood; functional abilities and goals; bladder and bowel; active diagnoses; health conditions; swallowing/nutritional status; oral/dental status; skin conditions; medications; special treatments, procedures, and programs; restraints and alarms; and participation in assessment and goal setting.\n\n\u00a0\n\nNote: The MDS dataset contains more records than most spreadsheet programs can handle. The use of a database or statistical software is generally required. The dataset can be filtered to a more manageable size for use in a spreadsheet program by clicking on the \u201cView Data\u201d button. Additional filter information can be found in the methodology, if needed.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f6a42f70-af9a-497f-91eb-ddc9dd89c6a9/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint81": {
+      "get": {
+        "summary": "Facility-Level Minimum Data Set Frequency : 2023-12-01",
+        "description": "The Facility-Level Minimum Data Set (MDS) Frequency\u00a0dataset provides information for active nursing home residents on topics, such as race/ethnicity, age, or marital status; discharge dispositions; hearing, speech, and vision; cognitive patterns; mood; functional abilities and goals; bladder and bowel; active diagnoses; health conditions; swallowing/nutritional status; oral/dental status; skin conditions; medications; special treatments, procedures, and programs; restraints and alarms; and participation in assessment and goal setting.\n\n\u00a0\n\nNote: The MDS dataset contains more records than most spreadsheet programs can handle. The use of a database or statistical software is generally required. The dataset can be filtered to a more manageable size for use in a spreadsheet program by clicking on the \u201cView Data\u201d button. Additional filter information can be found in the methodology, if needed.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/460c94f3-7f7f-4a3e-bd25-33ad8343a66e/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint82": {
+      "get": {
+        "summary": "Federally Qualified Health Center All Owners : 2025-01-01",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/ed289c89-0bb8-4221-a20a-85776066381b/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint83": {
+      "get": {
+        "summary": "Federally Qualified Health Center All Owners : 2025-01-01",
+        "description": "The\u00a0Federally Qualified Health Center (FQHC) All Owners dataset provides ownership information on all\u00a0FQHCs currently enrolled in Medicare. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/6e1ca8c8-5d98-449a-a7b1-8b29b995f904/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint84": {
+      "get": {
+        "summary": "Federally Qualified Health Center All Owners : 2024-10-01",
+        "description": "The\u00a0Federally Qualified Health Center (FQHC) All Owners dataset provides ownership information on all\u00a0FQHCs currently enrolled in Medicare. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/c6a864cc-5dde-417a-825b-823e8b6a5d03/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint85": {
+      "get": {
+        "summary": "Federally Qualified Health Center All Owners : 2024-07-01",
+        "description": "The\u00a0Federally Qualified Health Center (FQHC) All Owners dataset provides ownership information on all\u00a0FQHCs currently enrolled in Medicare. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/b9eb73e8-7fdc-421a-9e02-4a4112ef7620/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint86": {
+      "get": {
+        "summary": "Federally Qualified Health Center All Owners : 2024-04-01",
+        "description": "The\u00a0Federally Qualified Health Center (FQHC) All Owners dataset provides ownership information on all\u00a0FQHCs currently enrolled in Medicare. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/c8bfbf21-82fb-4100-a904-55595ace6745/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint87": {
+      "get": {
+        "summary": "Federally Qualified Health Center All Owners : 2024-01-05",
+        "description": "The\u00a0Federally Qualified Health Center (FQHC) All Owners dataset provides ownership information on all\u00a0FQHCs currently enrolled in Medicare. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/c0f15553-d8e3-4cec-a543-344dc16b710a/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint88": {
+      "get": {
+        "summary": "Federally Qualified Health Center All Owners : 2023-10-28",
+        "description": "The\u00a0Federally Qualified Health Center (FQHC) All Owners dataset provides ownership information on all\u00a0FQHCs currently enrolled in Medicare. This data includes ownership information such as ownership name, ownership type, ownership address and ownership effective date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/02138ebf-9179-40e4-af52-487274dc982f/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint89": {
+      "get": {
+        "summary": "Federally Qualified Health Center Enrollments : 2025-01-01",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/4bcae866-3411-439a-b762-90a6187c194b/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint90": {
+      "get": {
+        "summary": "Federally Qualified Health Center Enrollments : 2025-01-01",
+        "description": "The Federally Qualified Health Center (FQHC) Enrollments dataset provides enrollment information on all FQHCs currently enrolled in Medicare. This data includes information on the FQHC's legal business name, doing business as name, organization type, and address.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/376a6172-0b62-4c47-88bb-9c9732ea42eb/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint91": {
+      "get": {
+        "summary": "Federally Qualified Health Center Enrollments : 2024-10-01",
+        "description": "The Federally Qualified Health Center (FQHC) Enrollments dataset provides enrollment information on all FQHCs currently enrolled in Medicare. This data includes information on the FQHC's legal business name, doing business as name, organization type, and address.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/1c2ec7dd-56c1-4b04-ba73-dcc978049181/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint92": {
+      "get": {
+        "summary": "Federally Qualified Health Center Enrollments : 2024-07-01",
+        "description": "The Federally Qualified Health Center (FQHC) Enrollments dataset provides enrollment information on all FQHCs currently enrolled in Medicare. This data includes information on the FQHC's legal business name, doing business as name, organization type, and address.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/81be797a-03bd-4498-92a0-4ebeb4939030/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint93": {
+      "get": {
+        "summary": "Federally Qualified Health Center Enrollments : 2024-04-01",
+        "description": "The Federally Qualified Health Center (FQHC) Enrollments dataset provides enrollment information on all FQHCs currently enrolled in Medicare. This data includes information on the FQHC's legal business name, doing business as name, organization type, and address.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/fee5c58a-9c36-421f-970b-80f5efca33d3/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint94": {
+      "get": {
+        "summary": "Federally Qualified Health Center Enrollments : 2024-01-05",
+        "description": "The Federally Qualified Health Center (FQHC) Enrollments dataset provides enrollment information on all FQHCs currently enrolled in Medicare. This data includes information on the FQHC's legal business name, doing business as name, organization type, and address.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/dc4defb6-1b1d-4b49-8188-1718c96c7f85/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint95": {
+      "get": {
+        "summary": "Federally Qualified Health Center Enrollments : 2023-10-28",
+        "description": "The Federally Qualified Health Center (FQHC) Enrollments dataset provides enrollment information on all FQHCs currently enrolled in Medicare. This data includes information on the FQHC's legal business name, doing business as name, organization type, and address.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/ba0c506c-a269-402d-baa9-4941b36c71b1/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint96": {
+      "get": {
+        "summary": "Fiscal Intermediary Shared System Attending and Rendering : 2025-01-21",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/75e8dcb2-78eb-4a7d-a377-9108441966db/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint97": {
+      "get": {
+        "summary": "Fiscal Intermediary Shared System Attending and Rendering : 2025-01-21",
+        "description": "The Fiscal Intermediary Shared System (FISS) Attending and Rendering dataset provides a list of those attending and rendering physicians for the FISS. FISS edits require that the Line Item Rendering Physician information be transmitted when providers submit a combined claim. Claims that include both facility and professional components, need to report the rendering physician or other practitioner at the line level if it differs from the rendering physician/practitioner reported at the claim level.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/7eb8e1a2-573c-43cf-8b2e-92a02fc2af12/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint98": {
+      "get": {
+        "summary": "Fiscal Intermediary Shared System Attending and Rendering : 2025-01-17",
+        "description": "The Fiscal Intermediary Shared System (FISS) Attending and Rendering dataset provides a list of those attending and rendering physicians for the FISS. FISS edits require that the Line Item Rendering Physician information be transmitted when providers submit a combined claim. Claims that include both facility and professional components, need to report the rendering physician or other practitioner at the line level if it differs from the rendering physician/practitioner reported at the claim level.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f0acdba9-686b-4624-88ff-fd5b3da9a493/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint99": {
+      "get": {
+        "summary": "Fiscal Intermediary Shared System Attending and Rendering : 2025-01-14",
+        "description": "The Fiscal Intermediary Shared System (FISS) Attending and Rendering dataset provides a list of those attending and rendering physicians for the FISS. FISS edits require that the Line Item Rendering Physician information be transmitted when providers submit a combined claim. Claims that include both facility and professional components, need to report the rendering physician or other practitioner at the line level if it differs from the rendering physician/practitioner reported at the claim level.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/45754bc3-7ec9-41ed-98bf-0b7ba533b9ab/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint100": {
+      "get": {
+        "summary": "Fiscal Intermediary Shared System Attending and Rendering : 2025-01-10",
+        "description": "The Fiscal Intermediary Shared System (FISS) Attending and Rendering dataset provides a list of those attending and rendering physicians for the FISS. FISS edits require that the Line Item Rendering Physician information be transmitted when providers submit a combined claim. Claims that include both facility and professional components, need to report the rendering physician or other practitioner at the line level if it differs from the rendering physician/practitioner reported at the claim level.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/15fc4c7e-7b0d-4d40-9ee7-764617b88314/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

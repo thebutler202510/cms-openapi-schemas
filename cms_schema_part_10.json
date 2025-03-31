@@ -1,0 +1,1915 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "CMS API Subset 10",
+    "version": "1.0.0",
+    "description": "Subset 10 of CMS API endpoints"
+  },
+  "servers": [
+    {
+      "url": "https://data.cms.gov"
+    }
+  ],
+  "paths": {
+    "/proxy/endpoint901": {
+      "get": {
+        "summary": "Payroll Based Journal Daily Non-Nurse Staffing : 2019-12-31",
+        "description": "The Payroll Based Journal (PBJ) Nurse Staffing and Non-Nurse Staffing datasets provide information submitted by nursing homes including rehabilitation services on a quarterly basis. The data include the hours staff are paid to work each day, for each facility. Examples of reporting categories include Director of Nursing, Administrative Registered Nurses, Registered Nursing, Administrative Licensed Practice Nurses, Licensed Practice Nurses, Certified Nurse Aides, Certified Medication Aides, and Nurse Aides in Training. There are also other non-nurse staff categories provided in the data such as Respiratory Therapist, Occupational Therapist, and Social Worker. The datasets also include a facility\u2019s daily census calculated using the Minimum Data Set (MDS) submission.\n\nThe Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing datasets and technical information have been moved to a new location.\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/3a393de4-c907-4635-ab0d-6df2b074925c/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint902": {
+      "get": {
+        "summary": "Payroll Based Journal Daily Non-Nurse Staffing : 2019-09-30",
+        "description": "The Payroll Based Journal (PBJ) Nurse Staffing and Non-Nurse Staffing datasets provide information submitted by nursing homes including rehabilitation services on a quarterly basis. The data include the hours staff are paid to work each day, for each facility. Examples of reporting categories include Director of Nursing, Administrative Registered Nurses, Registered Nursing, Administrative Licensed Practice Nurses, Licensed Practice Nurses, Certified Nurse Aides, Certified Medication Aides, and Nurse Aides in Training. There are also other non-nurse staff categories provided in the data such as Respiratory Therapist, Occupational Therapist, and Social Worker. The datasets also include a facility\u2019s daily census calculated using the Minimum Data Set (MDS) submission.\n\nThe Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing datasets and technical information have been moved to a new location.\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/3102d802-82e2-4e98-8378-8af1adc9dd1a/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint903": {
+      "get": {
+        "summary": "Payroll Based Journal Daily Non-Nurse Staffing : 2019-06-30",
+        "description": "The Payroll Based Journal (PBJ) Nurse Staffing and Non-Nurse Staffing datasets provide information submitted by nursing homes including rehabilitation services on a quarterly basis. The data include the hours staff are paid to work each day, for each facility. Examples of reporting categories include Director of Nursing, Administrative Registered Nurses, Registered Nursing, Administrative Licensed Practice Nurses, Licensed Practice Nurses, Certified Nurse Aides, Certified Medication Aides, and Nurse Aides in Training. There are also other non-nurse staff categories provided in the data such as Respiratory Therapist, Occupational Therapist, and Social Worker. The datasets also include a facility\u2019s daily census calculated using the Minimum Data Set (MDS) submission.\n\nThe Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing datasets and technical information have been moved to a new location.\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/aafcfc64-b66c-48e2-a4f0-c207fb88081e/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint904": {
+      "get": {
+        "summary": "Payroll Based Journal Daily Non-Nurse Staffing : 2019-03-31",
+        "description": "The Payroll Based Journal (PBJ) Nurse Staffing and Non-Nurse Staffing datasets provide information submitted by nursing homes including rehabilitation services on a quarterly basis. The data include the hours staff are paid to work each day, for each facility. Examples of reporting categories include Director of Nursing, Administrative Registered Nurses, Registered Nursing, Administrative Licensed Practice Nurses, Licensed Practice Nurses, Certified Nurse Aides, Certified Medication Aides, and Nurse Aides in Training. There are also other non-nurse staff categories provided in the data such as Respiratory Therapist, Occupational Therapist, and Social Worker. The datasets also include a facility\u2019s daily census calculated using the Minimum Data Set (MDS) submission.\n\nThe Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing datasets and technical information have been moved to a new location.\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/d859ded6-53d8-4b65-aec5-34ee757e00d0/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint905": {
+      "get": {
+        "summary": "Payroll Based Journal Daily Non-Nurse Staffing : 2018-12-31",
+        "description": "The Payroll Based Journal (PBJ) Nurse Staffing and Non-Nurse Staffing datasets provide information submitted by nursing homes including rehabilitation services on a quarterly basis. The data include the hours staff are paid to work each day, for each facility. Examples of reporting categories include Director of Nursing, Administrative Registered Nurses, Registered Nursing, Administrative Licensed Practice Nurses, Licensed Practice Nurses, Certified Nurse Aides, Certified Medication Aides, and Nurse Aides in Training. There are also other non-nurse staff categories provided in the data such as Respiratory Therapist, Occupational Therapist, and Social Worker. The datasets also include a facility\u2019s daily census calculated using the Minimum Data Set (MDS) submission.\n\nThe Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing datasets and technical information have been moved to a new location.\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/6e991d59-160c-4e1d-84c4-6325cf2e4d7b/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint906": {
+      "get": {
+        "summary": "Payroll Based Journal Daily Non-Nurse Staffing : 2018-09-30",
+        "description": "The Payroll Based Journal (PBJ) Nurse Staffing and Non-Nurse Staffing datasets provide information submitted by nursing homes including rehabilitation services on a quarterly basis. The data include the hours staff are paid to work each day, for each facility. Examples of reporting categories include Director of Nursing, Administrative Registered Nurses, Registered Nursing, Administrative Licensed Practice Nurses, Licensed Practice Nurses, Certified Nurse Aides, Certified Medication Aides, and Nurse Aides in Training. There are also other non-nurse staff categories provided in the data such as Respiratory Therapist, Occupational Therapist, and Social Worker. The datasets also include a facility\u2019s daily census calculated using the Minimum Data Set (MDS) submission.\n\nThe Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing datasets and technical information have been moved to a new location.\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/eec70ea6-2d4d-4bc3-8df9-14fe9a64d222/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint907": {
+      "get": {
+        "summary": "Payroll Based Journal Daily Non-Nurse Staffing : 2018-06-30",
+        "description": "The Payroll Based Journal (PBJ) Nurse Staffing and Non-Nurse Staffing datasets provide information submitted by nursing homes including rehabilitation services on a quarterly basis. The data include the hours staff are paid to work each day, for each facility. Examples of reporting categories include Director of Nursing, Administrative Registered Nurses, Registered Nursing, Administrative Licensed Practice Nurses, Licensed Practice Nurses, Certified Nurse Aides, Certified Medication Aides, and Nurse Aides in Training. There are also other non-nurse staff categories provided in the data such as Respiratory Therapist, Occupational Therapist, and Social Worker. The datasets also include a facility\u2019s daily census calculated using the Minimum Data Set (MDS) submission.\n\nThe Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing datasets and technical information have been moved to a new location.\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/dddfeeba-b686-4d56-b5a1-12131d5dda9b/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint908": {
+      "get": {
+        "summary": "Payroll Based Journal Daily Non-Nurse Staffing : 2018-03-31",
+        "description": "The Payroll Based Journal (PBJ) Nurse Staffing and Non-Nurse Staffing datasets provide information submitted by nursing homes including rehabilitation services on a quarterly basis. The data include the hours staff are paid to work each day, for each facility. Examples of reporting categories include Director of Nursing, Administrative Registered Nurses, Registered Nursing, Administrative Licensed Practice Nurses, Licensed Practice Nurses, Certified Nurse Aides, Certified Medication Aides, and Nurse Aides in Training. There are also other non-nurse staff categories provided in the data such as Respiratory Therapist, Occupational Therapist, and Social Worker. The datasets also include a facility\u2019s daily census calculated using the Minimum Data Set (MDS) submission.\n\nThe Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing datasets and technical information have been moved to a new location.\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/0721c6b4-9dcd-4260-a7ce-7f285036bc9d/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint909": {
+      "get": {
+        "summary": "Payroll Based Journal Daily Non-Nurse Staffing : 2017-12-31",
+        "description": "The Payroll Based Journal (PBJ) Nurse Staffing and Non-Nurse Staffing datasets provide information submitted by nursing homes including rehabilitation services on a quarterly basis. The data include the hours staff are paid to work each day, for each facility. Examples of reporting categories include Director of Nursing, Administrative Registered Nurses, Registered Nursing, Administrative Licensed Practice Nurses, Licensed Practice Nurses, Certified Nurse Aides, Certified Medication Aides, and Nurse Aides in Training. There are also other non-nurse staff categories provided in the data such as Respiratory Therapist, Occupational Therapist, and Social Worker. The datasets also include a facility\u2019s daily census calculated using the Minimum Data Set (MDS) submission.\n\nThe Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing datasets and technical information have been moved to a new location.\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/71b9dc6a-3073-491f-ac67-8fac3c6b9a43/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint910": {
+      "get": {
+        "summary": "Payroll Based Journal Daily Non-Nurse Staffing : 2017-09-30",
+        "description": "The Payroll Based Journal (PBJ) Nurse Staffing and Non-Nurse Staffing datasets provide information submitted by nursing homes including rehabilitation services on a quarterly basis. The data include the hours staff are paid to work each day, for each facility. Examples of reporting categories include Director of Nursing, Administrative Registered Nurses, Registered Nursing, Administrative Licensed Practice Nurses, Licensed Practice Nurses, Certified Nurse Aides, Certified Medication Aides, and Nurse Aides in Training. There are also other non-nurse staff categories provided in the data such as Respiratory Therapist, Occupational Therapist, and Social Worker. The datasets also include a facility\u2019s daily census calculated using the Minimum Data Set (MDS) submission.\n\nThe Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing datasets and technical information have been moved to a new location.\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/0bf9a592-a1c6-4b63-a052-775c885e5633/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint911": {
+      "get": {
+        "summary": "Payroll Based Journal Daily Non-Nurse Staffing : 2017-06-30",
+        "description": "The Payroll Based Journal (PBJ) Nurse Staffing and Non-Nurse Staffing datasets provide information submitted by nursing homes including rehabilitation services on a quarterly basis. The data include the hours staff are paid to work each day, for each facility. Examples of reporting categories include Director of Nursing, Administrative Registered Nurses, Registered Nursing, Administrative Licensed Practice Nurses, Licensed Practice Nurses, Certified Nurse Aides, Certified Medication Aides, and Nurse Aides in Training. There are also other non-nurse staff categories provided in the data such as Respiratory Therapist, Occupational Therapist, and Social Worker. The datasets also include a facility\u2019s daily census calculated using the Minimum Data Set (MDS) submission.\n\nThe Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing datasets and technical information have been moved to a new location.\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/7cf6d016-2d68-4217-8d83-0ee08dd16802/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint912": {
+      "get": {
+        "summary": "Payroll Based Journal Daily Non-Nurse Staffing : 2017-03-31",
+        "description": "The Payroll Based Journal (PBJ) Nurse Staffing and Non-Nurse Staffing datasets provide information submitted by nursing homes including rehabilitation services on a quarterly basis. The data include the hours staff are paid to work each day, for each facility. Examples of reporting categories include Director of Nursing, Administrative Registered Nurses, Registered Nursing, Administrative Licensed Practice Nurses, Licensed Practice Nurses, Certified Nurse Aides, Certified Medication Aides, and Nurse Aides in Training. There are also other non-nurse staff categories provided in the data such as Respiratory Therapist, Occupational Therapist, and Social Worker. The datasets also include a facility\u2019s daily census calculated using the Minimum Data Set (MDS) submission.\n\nThe Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing datasets and technical information have been moved to a new location.\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/7008b7ea-6237-4596-b36b-667f4f26c58b/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint913": {
+      "get": {
+        "summary": "Payroll Based Journal Employee Detail Nursing Home Staffing : 2024-04-01",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/d65b8be0-946e-410b-ab06-01829628d5a1/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint914": {
+      "get": {
+        "summary": "Payroll Based Journal Employee Detail Nursing Home Staffing : 2024-04-01",
+        "description": "The Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing dataset provides information submitted by nursing homes including rehabilitation services on a quarterly basis. The data include a system generated employee identification number, work date, job type and employment status, and hours worked for each nursing home employee.\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/d99a572e-e50e-46e4-9be2-0eddb5963701/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint915": {
+      "get": {
+        "summary": "Payroll Based Journal Employee Detail Nursing Home Staffing : 2024-01-01",
+        "description": "The Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing dataset provides information submitted by nursing homes including rehabilitation services on a quarterly basis. The data include a system generated employee identification number, work date, job type and employment status, and hours worked for each nursing home employee.\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/ee686e84-d778-48bf-b78a-1cec8a36923a/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint916": {
+      "get": {
+        "summary": "Payroll Based Journal Employee Detail Nursing Home Staffing : 2023-12-01",
+        "description": "The Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing dataset provides information submitted by nursing homes including rehabilitation services on a quarterly basis. The data include a system generated employee identification number, work date, job type and employment status, and hours worked for each nursing home employee.\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/86f6f9ad-2cb2-447c-b460-cf4f819fea7c/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint917": {
+      "get": {
+        "summary": "Payroll Based Journal Employee Detail Nursing Home Staffing : 2023-09-01",
+        "description": "The Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing dataset provides information submitted by nursing homes including rehabilitation services on a quarterly basis. The data include a system generated employee identification number, work date, job type and employment status, and hours worked for each nursing home employee.\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f3fd4a00-c808-4e34-9464-68a50be7c69c/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint918": {
+      "get": {
+        "summary": "Payroll Based Journal Employee Detail Nursing Home Staffing : 2023-06-01",
+        "description": "The Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing dataset provides information submitted by nursing homes including rehabilitation services on a quarterly basis. The data include a system generated employee identification number, work date, job type and employment status, and hours worked for each nursing home employee.\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/c9fecee7-46b8-4ae6-98a6-c90a6ca8e745/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint919": {
+      "get": {
+        "summary": "Payroll Based Journal Employee Detail Nursing Home Staffing : 2023-03-01",
+        "description": "The Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing dataset provides information submitted by nursing homes including rehabilitation services on a quarterly basis. The data include a system generated employee identification number, work date, job type and employment status, and hours worked for each nursing home employee.\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/700daa22-b84d-46b4-8495-a43512a5fec2/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint920": {
+      "get": {
+        "summary": "Payroll Based Journal Employee Detail Nursing Home Staffing : 2022-12-01",
+        "description": "The Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing dataset provides information submitted by nursing homes including rehabilitation services on a quarterly basis. The data include a system generated employee identification number, work date, job type and employment status, and hours worked for each nursing home employee.\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/91c55823-f84a-4b68-b770-9f594f9e776f/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint921": {
+      "get": {
+        "summary": "Payroll Based Journal Employee Detail Nursing Home Staffing : 2022-09-30",
+        "description": "The Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing dataset provides information submitted by nursing homes including rehabilitation services on a quarterly basis. The data include a system generated employee identification number, work date, job type and employment status, and hours worked for each nursing home employee.\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/a6fb781f-0503-4e4f-8cd6-9afbcbd77156/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint922": {
+      "get": {
+        "summary": "Payroll Based Journal Employee Detail Nursing Home Staffing : 2022-06-30",
+        "description": "The Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing dataset provides information submitted by nursing homes including rehabilitation services on a quarterly basis. The data include a system generated employee identification number, work date, job type and employment status, and hours worked for each nursing home employee.\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/ecb5f45a-1620-4db6-bd07-53a8b58835a3/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint923": {
+      "get": {
+        "summary": "Payroll Based Journal Employee Detail Nursing Home Staffing : 2022-03-01",
+        "description": "The Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing dataset provides information submitted by nursing homes including rehabilitation services on a quarterly basis. The data include a system generated employee identification number, work date, job type and employment status, and hours worked for each nursing home employee.\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/de95ae4c-73b5-4824-80d2-5ae1558f9249/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint924": {
+      "get": {
+        "summary": "Payroll Based Journal Employee Detail Nursing Home Staffing : 2021-12-31",
+        "description": "The Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing dataset provides information submitted by nursing homes including rehabilitation services on a quarterly basis. The data include a system generated employee identification number, work date, job type and employment status, and hours worked for each nursing home employee.\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/24e7953e-ed2a-4931-a272-a4c0995c4865/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint925": {
+      "get": {
+        "summary": "Payroll Based Journal Employee Detail Nursing Home Staffing : 2021-09-30",
+        "description": "The Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing dataset provides information submitted by nursing homes including rehabilitation services on a quarterly basis. The data include a system generated employee identification number, work date, job type and employment status, and hours worked for each nursing home employee.\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/ee4d7788-1cf7-44da-b419-d126d9138bec/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint926": {
+      "get": {
+        "summary": "Payroll Based Journal Employee Detail Nursing Home Staffing : 2021-06-30",
+        "description": "The Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing dataset provides information submitted by nursing homes including rehabilitation services on a quarterly basis. The data include a system generated employee identification number, work date, job type and employment status, and hours worked for each nursing home employee.\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/2a017680-ef59-4fbf-beeb-8b2d69266c3f/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint927": {
+      "get": {
+        "summary": "Payroll Based Journal Employee Detail Nursing Home Staffing : 2021-03-01",
+        "description": "The Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing dataset provides information submitted by nursing homes including rehabilitation services on a quarterly basis. The data include a system generated employee identification number, work date, job type and employment status, and hours worked for each nursing home employee.\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/942d7734-4401-4372-a5be-3c9d32996f14/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint928": {
+      "get": {
+        "summary": "Payroll Based Journal Employee Detail Nursing Home Staffing : 2020-12-01",
+        "description": "The Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing dataset provides information submitted by nursing homes including rehabilitation services on a quarterly basis. The data include a system generated employee identification number, work date, job type and employment status, and hours worked for each nursing home employee.\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/3b8ff726-23e5-493f-8fac-a3c8e759af69/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint929": {
+      "get": {
+        "summary": "Payroll Based Journal Employee Detail Nursing Home Staffing : 2020-09-30",
+        "description": "The Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing dataset provides information submitted by nursing homes including rehabilitation services on a quarterly basis. The data include a system generated employee identification number, work date, job type and employment status, and hours worked for each nursing home employee.\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/2a10d692-a0bf-48c3-aa2d-98283c26588d/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint930": {
+      "get": {
+        "summary": "Payroll Based Journal Employee Detail Nursing Home Staffing : 2020-06-01",
+        "description": "The Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing dataset provides information submitted by nursing homes including rehabilitation services on a quarterly basis. The data include a system generated employee identification number, work date, job type and employment status, and hours worked for each nursing home employee.\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/0309f7d8-d639-49eb-9c22-2acd8f571879/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint931": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2025-01-21",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/261b83b6-b89f-43ad-ae7b-0d419a3bc24b/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint932": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2025-01-21",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/9d1895d6-2841-407b-aee7-35974b4e42f6/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint933": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2025-01-17",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/28cfd3cc-735d-4362-8772-280144cc22f4/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint934": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2025-01-14",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/193b6c97-3e6d-40ba-8a41-daf9b12c319c/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint935": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2025-01-10",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/b1f4e50f-efae-415c-8f52-41880e833ffa/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint936": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2025-01-07",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/4712d514-3e8b-4ed8-8602-9d8476ea83e2/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint937": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2025-01-06",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/aa560886-a5b5-496e-aacc-39d920312300/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint938": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-12-31",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f512e445-bbad-49f6-9061-fc9572c60d9f/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint939": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-12-30",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f368aa05-43e4-4eaa-a266-e59ad16ae357/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint940": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-12-23",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/9cc777da-f3f3-42d7-80bd-55380a7b8423/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint941": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-12-20",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/2d9d153b-2c39-4239-ac25-2832ff86ebb7/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint942": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-12-17",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/bbd19468-8acb-4885-9642-a6bb951724fd/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint943": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-12-13",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f7c783d5-a906-457b-a496-59a701250866/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint944": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-12-10",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/8e1382fe-c79c-4261-a737-719bb1dd5873/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint945": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-12-06",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/0f3d5efe-d36d-4e96-ac2f-83e51d9d5593/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint946": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-12-03",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/a57b4e95-c2ce-409c-b0c0-cc0a416f0c57/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint947": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-11-29",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/69d3a707-dc73-4f82-bc04-edab0221824b/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint948": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-11-26",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/8e4e0a64-6c4e-401e-b293-2db25fa33269/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint949": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-11-21",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/8c30301f-bcb2-4cbd-a02a-e0e3e79fab5f/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint950": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-11-19",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/cb1bba55-72db-4495-ab1f-67b599e0cded/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint951": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-11-15",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/55243dd7-7da1-4140-b30d-1916780f82bb/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint952": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-11-13",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/99021011-54dd-42e6-a533-0ea2112b3a1f/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint953": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-11-08",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/0591b405-be52-48a5-826e-4bb01d8ac4f3/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint954": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-11-05",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/9f2ae496-4eea-46c9-b81f-dd7e18f8e293/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint955": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-11-01",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/b2a0d0be-e30c-453a-b22e-d075af7e1b11/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint956": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-10-29",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f6d696d0-29ca-4322-9f5e-7e8b6ebc55e1/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint957": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-10-25",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/dc13b996-173e-431e-b98e-8f1a8f2a0163/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint958": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-10-22",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/a1b10e08-f364-4e89-8f38-e19c7d19a138/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint959": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-10-18",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/57d272ea-8ce3-4cee-a83c-9811e0bde155/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint960": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-10-15",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/9342e6f0-7ae7-4422-be22-2e00b4345488/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint961": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-10-11",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/b2242e39-05e5-4907-b249-cc305d052c97/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint962": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-10-08",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/c8629390-03da-4b42-a14c-556c5cb66cd3/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint963": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-10-04",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/db729ca9-9cc0-41d6-b5e4-84f2d8dbffdd/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint964": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-10-01",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/95c2975c-0b1f-4486-bdf3-857d530b1c4d/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint965": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-09-27",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/87161fb2-48eb-4e9f-9129-ebd68b631153/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint966": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-09-24",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/a4f89b2a-08f1-4571-a10c-7fbc7e47b9dc/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint967": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-09-20",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f162fb96-8e5f-439b-a2f6-605abfa3f0de/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint968": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-09-17",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/7b93d0c9-a167-4a6e-830b-819e9d54bf31/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint969": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-09-13",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/b59df40d-8bf5-4068-babb-f337abfe4e05/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint970": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-09-10",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/209b7857-f736-4bd9-a473-cccf451f559f/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint971": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-09-06",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/a8009845-c81d-4586-8b93-0d98f2c433cf/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint972": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-09-04",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/fdf942ce-ed19-4005-9e35-e1bfa98df2db/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint973": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-08-30",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/31b73d0a-0f21-4bfc-9aba-55c4c2ed3b0f/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint974": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-08-27",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/6e6fee54-bebc-4b80-ade5-3c6e94a28acd/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint975": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-08-23",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/c6446cfe-4478-4979-997d-9f5539466a9d/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint976": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-08-20",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/53f22f0d-0464-4a26-a0f7-822fc9329fd0/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint977": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-08-16",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/ade524ea-4faa-410c-9280-a3158c66e47f/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint978": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-08-13",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/210de03e-a5ee-4d55-9066-20ad9fd601ea/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint979": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-08-09",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f58b6e3f-3df1-4132-9f53-fc74106e95e9/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint980": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-08-06",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/6bf0d008-48b2-424d-8932-381e42fb94e5/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint981": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-08-02",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/87d4c1b3-8d44-4770-a9e1-c9cb127eb8ea/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint982": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-07-30",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/8a1df569-95a8-49b7-b3fb-5e88745a1a3a/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint983": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-07-26",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/2d2173ed-a2ce-4c89-a3b2-67564f31dace/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint984": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-07-23",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/757aadf0-722a-474a-940a-d284dd12bf6f/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint985": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-07-19",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/cfa01f90-6e06-406d-b457-03c5e6601821/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint986": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-07-16",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/7463e826-c483-4ae9-9152-419053ee691d/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint987": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-07-15",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/a49ad4c2-db66-4d32-bd8f-bed622064dd6/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint988": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-07-09",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/7fac9af7-4ffd-4257-8d10-72abe40d7b3b/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint989": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-07-05",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/99b92275-c856-4768-b169-2e6a7b3bce8f/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint990": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-07-02",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/d8087ec2-2ef4-4522-9ddc-aa0be023ffd2/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint991": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-06-28",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/1f44dc6d-3282-487c-8660-edd95a8a6265/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint992": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-06-25",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/288237bb-016c-489a-a27b-30f3c8ac1180/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint993": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-06-21",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/05b18ab9-bbcf-417b-89c8-64b10c959603/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint994": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-06-18",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/6e134971-5d54-427f-b057-f66aa608fd1b/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint995": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-06-14",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/b68eba80-e169-4fb0-bfb8-e71bc6110c26/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint996": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-06-11",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/5f92d488-636e-425d-9055-9591b19416e8/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint997": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-06-07",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/c435ee31-5796-4aa4-adcc-2a90d2f7e769/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint998": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-06-04",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/bf05d6a7-726b-4771-b291-bf17af5cf5d8/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint999": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-05-31",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/fa2aeb4e-e73f-41c1-a8d4-1062d6a0a304/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1000": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-05-29",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/e12c8086-67ec-4774-930b-d98f273d1df5/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

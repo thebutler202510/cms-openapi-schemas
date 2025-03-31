@@ -1,0 +1,1915 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "CMS API Subset 7",
+    "version": "1.0.0",
+    "description": "Subset 7 of CMS API endpoints"
+  },
+  "servers": [
+    {
+      "url": "https://data.cms.gov"
+    }
+  ],
+  "paths": {
+    "/proxy/endpoint601": {
+      "get": {
+        "summary": "Nursing Home Affiliated Entity Performance Measures : 2024-01-25",
+        "description": "The Nursing Home Affiliated Entity Performance Measures dataset provides select quality and performance measures from Care Compare\u00a0for groups of nursing homes that share common individual or organizational owners, officers, or entities with operational/managerial control. The data include measures such as average health and staffing star ratings, staffing measures, average quality star ratings, select enforcement remedies, claims-based and Minimum Data Set (MDS) measures, average Skilled Nursing Facility Quality Reporting Program (SNF QRP) metrics, and COVID-19 vaccination rates.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/bfaac4b3-0323-468d-9b74-9710a8bf0ed2/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint602": {
+      "get": {
+        "summary": "Nursing Home Affiliated Entity Performance Measures : 2023-11-30",
+        "description": "The Nursing Home Affiliated Entity Performance Measures dataset provides select quality and performance measures from Care Compare\u00a0for groups of nursing homes that share common individual or organizational owners, officers, or entities with operational/managerial control. The data include measures such as average health and staffing star ratings, staffing measures, average quality star ratings, select enforcement remedies, claims-based and Minimum Data Set (MDS) measures, average Skilled Nursing Facility Quality Reporting Program (SNF QRP) metrics, and COVID-19 vaccination rates.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/4db18a6f-f261-4c3c-a01e-7aaf67292542/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint603": {
+      "get": {
+        "summary": "Nursing Home Affiliated Entity Performance Measures : 2023-10-18",
+        "description": "The Nursing Home Affiliated Entity Performance Measures dataset provides select quality and performance measures from Care Compare\u00a0for groups of nursing homes that share common individual or organizational owners, officers, or entities with operational/managerial control. The data include measures such as average health and staffing star ratings, staffing measures, average quality star ratings, select enforcement remedies, claims-based and Minimum Data Set (MDS) measures, average Skilled Nursing Facility Quality Reporting Program (SNF QRP) metrics, and COVID-19 vaccination rates.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/1d17565a-0644-4437-ac1f-8ec793b24572/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint604": {
+      "get": {
+        "summary": "Nursing Home Affiliated Entity Performance Measures : 2023-09-21",
+        "description": "The Nursing Home Affiliated Entity Performance Measures dataset provides select quality and performance measures from Care Compare\u00a0for groups of nursing homes that share common individual or organizational owners, officers, or entities with operational/managerial control. The data include measures such as average health and staffing star ratings, staffing measures, average quality star ratings, select enforcement remedies, claims-based and Minimum Data Set (MDS) measures, average Skilled Nursing Facility Quality Reporting Program (SNF QRP) metrics, and COVID-19 vaccination rates.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f1c7cb54-7fd8-4a99-b57c-a64054d9732f/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint605": {
+      "get": {
+        "summary": "Nursing Home Affiliated Entity Performance Measures : 2023-08-29",
+        "description": "The Nursing Home Affiliated Entity Performance Measures dataset provides select quality and performance measures from Care Compare\u00a0for groups of nursing homes that share common individual or organizational owners, officers, or entities with operational/managerial control. The data include measures such as average health and staffing star ratings, staffing measures, average quality star ratings, select enforcement remedies, claims-based and Minimum Data Set (MDS) measures, average Skilled Nursing Facility Quality Reporting Program (SNF QRP) metrics, and COVID-19 vaccination rates.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/160d8b98-0ade-42bf-a368-df5416a2da74/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint606": {
+      "get": {
+        "summary": "Nursing Home Affiliated Entity Performance Measures : 2023-07-21",
+        "description": "The Nursing Home Affiliated Entity Performance Measures dataset provides select quality and performance measures from Care Compare\u00a0for groups of nursing homes that share common individual or organizational owners, officers, or entities with operational/managerial control. The data include measures such as average health and staffing star ratings, staffing measures, average quality star ratings, select enforcement remedies, claims-based and Minimum Data Set (MDS) measures, average Skilled Nursing Facility Quality Reporting Program (SNF QRP) metrics, and COVID-19 vaccination rates.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/8d6020e3-1f0e-4251-802b-434b59c153ae/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint607": {
+      "get": {
+        "summary": "Nursing Home Affiliated Entity Performance Measures : 2023-06-01",
+        "description": "The Nursing Home Affiliated Entity Performance Measures dataset provides select quality and performance measures from Care Compare\u00a0for groups of nursing homes that share common individual or organizational owners, officers, or entities with operational/managerial control. The data include measures such as average health and staffing star ratings, staffing measures, average quality star ratings, select enforcement remedies, claims-based and Minimum Data Set (MDS) measures, average Skilled Nursing Facility Quality Reporting Program (SNF QRP) metrics, and COVID-19 vaccination rates.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/518f5555-ed04-48cb-a142-7cf76b207e37/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint608": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2025-01-21",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f1a8c197-b53d-4c24-9770-aea5d5a97dfb/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint609": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2025-01-21",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/4e9b678e-4a05-48e0-8e1e-0cf2645afef1/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint610": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2025-01-14",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/e2d91b24-c7a6-45d8-8b46-d199ba2af293/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint611": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2025-01-07",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/7c7581e3-0e2d-4d5b-aff5-ab73174a2bf8/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint612": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2024-12-31",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/6aaaf2ec-2e0d-4bc2-b58f-fa56e0b5fbf2/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint613": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2024-12-23",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/18e2a16b-8aed-45d8-a4f9-6b524f50bf16/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint614": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2024-12-17",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/b7df370f-7fd4-4f8b-8094-9f685bb68747/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint615": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2024-12-10",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/92e1693d-50d0-45ae-a26d-b0bbb1dbe4e5/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint616": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2024-12-03",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/c05a3c61-386e-4efb-b03d-dff4b970fc36/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint617": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2024-11-26",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/2251fef5-fe30-4f0b-a206-4a9fb722fa4a/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint618": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2024-11-19",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/1d802578-b549-4fc5-87c7-3b3e3ca744db/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint619": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2024-11-13",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/741d80da-f870-4401-be84-68a8a5b456a1/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint620": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2024-11-05",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/249edf97-4373-45ae-8895-65232be0029f/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint621": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2024-10-29",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/dd7907fb-a1c1-4e07-ac54-d75fd1e25d84/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint622": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2024-10-22",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/2044607e-35ff-4607-a729-faa62d16f1b3/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint623": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2024-10-15",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/e6a2a3be-37d9-4ffc-87c5-8d1cca94c7b4/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint624": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2024-10-08",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/44852666-b9a1-47aa-b4e3-7119860eb821/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint625": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2024-10-01",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f7ff3e0d-69ee-49b6-83ff-f1a84df6ff76/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint626": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2024-09-24",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f2d8b8cf-291b-42c9-8ea6-bb5f48969a5d/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint627": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2024-09-17",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/8a55ef68-4ac0-4207-9401-9227f3a346a6/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint628": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2024-09-10",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/77e2f15c-abea-4906-95f1-85a136cd3512/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint629": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2024-09-04",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/53648651-52d3-48c9-b07b-18ef9f11b79a/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint630": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2024-08-27",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/b33603df-16cd-465d-9292-74486b9d4d15/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint631": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2024-08-20",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/af2ae41e-a241-4ebd-9b57-45982a222875/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint632": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2024-08-13",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/a81f7f28-26f3-4083-abc6-d2c0f01f8b70/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint633": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2024-08-06",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/7a11f7d5-d8aa-4a13-b51f-510ffb301787/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint634": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2024-07-30",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/90511030-a542-45a1-981c-7ab3d2aa5520/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint635": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2024-07-23",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/0a30b447-3684-4ee7-8c9c-8310e0dddfc5/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint636": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2024-07-16",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/91721f41-2cfb-4a08-9c22-0b3a4a5e63c9/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint637": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2024-07-09",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/90f37e16-a48c-4224-b26c-872fbed1ce0d/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint638": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2024-07-02",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/bdb89467-299b-4b62-92a3-f502b66c5650/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint639": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2024-06-25",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/8253c9fc-0086-4fb9-ba55-c45acd62ac71/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint640": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2024-06-18",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/d157c4da-3d30-4f95-b4e0-c7f0481866f7/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint641": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2024-06-11",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/cab95d28-08d1-460c-8cba-2af6c090030c/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint642": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2024-06-04",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/a99b65eb-b43b-414e-a462-5b282242518e/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint643": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2024-05-29",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/ec0ba9d9-64f9-40c2-82bc-296f3bef456c/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint644": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2024-05-21",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f1ae0151-28f9-4775-ba59-cc520d6b7858/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint645": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2024-05-14",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/0f6d8090-1f0d-429e-aa53-a54e34b7e21e/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint646": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2024-05-07",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/21212a25-ed1a-42cf-a274-97d8af0bc2aa/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint647": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2024-04-30",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/589c7f78-281b-458f-b957-a50e8f33b165/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint648": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2024-04-23",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/8575517f-83bc-4db4-a6cd-46f7fb1e7900/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint649": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2024-04-16",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/96374811-0254-4857-b581-54a208bfde72/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint650": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2024-04-09",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/ce7b3acf-166d-4b5e-895b-fd4dbd9fc29f/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint651": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2024-04-02",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/fc322a5f-8b05-47fc-8c85-b72ff766a6e7/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint652": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2024-03-26",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/12cdcb8c-53f4-4a96-8d2d-da4ec82dd59d/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint653": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2024-03-19",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/2f013f53-8bdd-4190-8f68-4f5290151cf7/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint654": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2024-03-12",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/a3b08fa7-a406-4059-b814-fbad75bdd331/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint655": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2024-03-05",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/c78ee9a8-5257-40ad-96d7-58de9d44223c/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint656": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2024-02-27",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/2757a6f8-acb6-403d-91a4-c0390bf1b256/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint657": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2024-02-21",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/d52a6165-b1be-4086-8352-2487652f77ff/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint658": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2024-02-13",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/0ac09915-690f-46e7-be8b-8ec518704e49/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint659": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2024-02-06",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/4e709226-c603-4c3f-82db-b7d81d09c151/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint660": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2024-01-30",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/7af7c333-3e74-4624-9ed7-d6b414f22141/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint661": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2024-01-23",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/95685223-7957-4517-b3d1-ee3733ed05a7/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint662": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2024-01-16",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/882afd21-9ffb-4045-b925-c721840e6e27/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint663": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2024-01-09",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/54e5a28d-bcb2-4bab-bb53-d1242731dad5/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint664": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2024-01-03",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/4dc3b66c-831e-425a-ad3a-f52a7e1ca797/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint665": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2023-12-27",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/d97a74d4-caa8-4595-b62b-930b58e36fbc/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint666": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2023-12-19",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/36a9b0bb-fbe3-4546-bfe7-864f1e162f66/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint667": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2023-12-11",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/c5cbebb1-cf0c-4d32-9c02-d135e1cddf10/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint668": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2023-12-05",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/3dbf5a06-1a76-4fa6-87d7-74c187326205/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint669": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2023-11-28",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/cd304feb-5650-461b-91ae-4676f1d85e6a/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint670": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2023-11-21",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/7a101036-1595-443f-84b8-6bffca1786b8/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint671": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2023-11-14",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f493662f-9114-49eb-b401-1a20d9caff90/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint672": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2023-11-07",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/5a43a9c2-a327-4606-b234-b72059519391/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint673": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2023-10-31",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/144ea7b3-db19-4386-9223-80c78d6a74e0/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint674": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2023-10-24",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/39084279-cd1c-455a-a3dc-138a830438eb/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint675": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2023-10-17",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/1d66db5a-4c71-41a6-a414-8c98ad62472a/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint676": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2023-10-11",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/59291e77-11a0-474f-93ad-103362962a12/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint677": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2023-10-03",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/7e3197d5-2831-41ba-9c4b-3439b08eb96f/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint678": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2023-09-26",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/c5d40fca-823c-43b1-a7ca-51727fb9ea1c/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint679": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2023-09-11",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/a71c25d7-b61f-463e-9f7e-8cc1a49daf5d/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint680": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2023-09-06",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/adc418b9-db0e-4f8e-bf5c-7f3d94f44909/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint681": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2023-08-29",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/9999bb43-c09d-4313-ada4-100a81132695/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint682": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2023-08-22",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/352ef654-4dc4-450f-b130-86fd3a327bc3/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint683": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2023-08-15",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/3e8c55f6-4e19-4705-be86-528ba2ab7a17/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint684": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2023-08-08",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/d6982e69-1bb2-477a-8867-a0d69c7d85c3/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint685": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2023-08-01",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/d6535e0c-5d66-4275-9ac0-a636098cf495/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint686": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2023-07-25",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/6175fcd3-736d-4831-92ac-52622fc4a9b2/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint687": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2023-07-19",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/38a88cf5-df2f-4adf-9aa7-55b06b701a32/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint688": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2023-07-11",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/994ba8d9-1b03-4b74-a1f7-2d99ecc97116/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint689": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2023-07-05",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/1f4e9b93-6b77-4e29-8725-9a0d2530ca24/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint690": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2023-06-27",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/b7f878e8-4b0b-40d1-9bb8-f00c113b3eb1/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint691": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2023-06-05",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/00f70f29-dc71-4777-8a5e-343b257aca7e/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint692": {
+      "get": {
+        "summary": "Opioid Treatment Program Providers : 2023-05-30",
+        "description": "The Opioid Treatment Program (OTP) Providers dataset provides information on Providers who have enrolled in Medicare under the Opioid Treatment Program. It contains provider's name, National Provider Identifier (NPI), address, phone number and the effective enrollment date.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/24c8699f-a804-47b7-95fe-8fcb99acb918/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint693": {
+      "get": {
+        "summary": "Order and Referring : 2025-03-27",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/c99b5865-1119-4436-bb80-c5af2773ea1f/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint694": {
+      "get": {
+        "summary": "Order and Referring : 2025-03-27",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/2e0ad555-c11e-419a-951e-d6174bc2a58a/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint695": {
+      "get": {
+        "summary": "Order and Referring : 2025-03-24",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/3072adfc-ab76-4a38-8bca-337038205d56/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint696": {
+      "get": {
+        "summary": "Order and Referring : 2025-03-18",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/7c92304c-92cf-4589-9abf-c30156f8926f/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint697": {
+      "get": {
+        "summary": "Order and Referring : 2025-03-14",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/bdfeaf95-f96d-4628-84e6-32fb5e325f74/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint698": {
+      "get": {
+        "summary": "Order and Referring : 2025-03-11",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/bccc36e4-f666-4dd1-8032-0f297ec52df8/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint699": {
+      "get": {
+        "summary": "Order and Referring : 2025-03-07",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/ee463f09-d1ee-4b8e-8a4a-1d2fa0f1e924/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint700": {
+      "get": {
+        "summary": "Order and Referring : 2025-03-04",
+        "description": "The Order and Referring dataset provides information on all physicians and non-physician practitioners, by their National Provider Identifier (NPI), who are of a type/specialty that is legally eligible to order and refer in the Medicare program and who have current enrollment records in Medicare.\u00a0\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/fb384faf-0288-44ad-b43c-8c696b0517b6/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

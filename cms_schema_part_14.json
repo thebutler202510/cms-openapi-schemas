@@ -1,0 +1,1915 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "CMS API Subset 14",
+    "version": "1.0.0",
+    "description": "Subset 14 of CMS API endpoints"
+  },
+  "servers": [
+    {
+      "url": "https://data.cms.gov"
+    }
+  ],
+  "paths": {
+    "/proxy/endpoint1301": {
+      "get": {
+        "summary": "Physician/Supplier Procedure Summary : 2013-12-31",
+        "description": "The Physician/Supplier Procedure Summary (PSPS) data provides a summary of calendar year Medicare Part B carrier and durable medical equipment fee-for-service (FFS) claims. The file is organized by carrier, pricing locality, Healthcare Common Procedure Coding System (HCPCS) code, HCPCS modifier, provider specialty, type of service, and place of service. The summarized fields are total submitted services and charges, total allowed services and charges, total denied services and charges, and total payment amounts.\u00a0 This dataset is produced annually and is typically available in July (i.e., data for CY2015 is usually available in July 2016).\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/53027e7f-1b1d-4628-a286-03b0bc0b5f2f/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1302": {
+      "get": {
+        "summary": "Physician/Supplier Procedure Summary : 2012-12-31",
+        "description": "The Physician/Supplier Procedure Summary (PSPS) data provides a summary of calendar year Medicare Part B carrier and durable medical equipment fee-for-service (FFS) claims. The file is organized by carrier, pricing locality, Healthcare Common Procedure Coding System (HCPCS) code, HCPCS modifier, provider specialty, type of service, and place of service. The summarized fields are total submitted services and charges, total allowed services and charges, total denied services and charges, and total payment amounts.\u00a0 This dataset is produced annually and is typically available in July (i.e., data for CY2015 is usually available in July 2016).\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/b597d146-81bc-43f7-80b1-c2e85168170d/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1303": {
+      "get": {
+        "summary": "Physician/Supplier Procedure Summary : 2011-11-09",
+        "description": "The Physician/Supplier Procedure Summary (PSPS) data provides a summary of calendar year Medicare Part B carrier and durable medical equipment fee-for-service (FFS) claims. The file is organized by carrier, pricing locality, Healthcare Common Procedure Coding System (HCPCS) code, HCPCS modifier, provider specialty, type of service, and place of service. The summarized fields are total submitted services and charges, total allowed services and charges, total denied services and charges, and total payment amounts.\u00a0 This dataset is produced annually and is typically available in July (i.e., data for CY2015 is usually available in July 2016).\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/1e9f7a5a-5550-4525-bbbf-ef66115184b8/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1304": {
+      "get": {
+        "summary": "Physician/Supplier Procedure Summary : 2010-12-31",
+        "description": "The Physician/Supplier Procedure Summary (PSPS) data provides a summary of calendar year Medicare Part B carrier and durable medical equipment fee-for-service (FFS) claims. The file is organized by carrier, pricing locality, Healthcare Common Procedure Coding System (HCPCS) code, HCPCS modifier, provider specialty, type of service, and place of service. The summarized fields are total submitted services and charges, total allowed services and charges, total denied services and charges, and total payment amounts.\u00a0 This dataset is produced annually and is typically available in July (i.e., data for CY2015 is usually available in July 2016).\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f4344bd9-ac34-43f0-b144-0186f6fa099f/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1305": {
+      "get": {
+        "summary": "Pioneer ACO Model : 2016-12-01",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/bb2a336c-0710-4de9-80ad-6a2a5cbdbdeb/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1306": {
+      "get": {
+        "summary": "Pioneer ACO Model : 2016-12-01",
+        "description": "The Pioneer Accountable Care Organization (ACO) Model Public Use File (PUF) provides information on ACOs participating in the model. This dataset includes information on each ACO regarding beneficiaries, financial and quality results.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/28d8f11a-6585-4f69-898c-15fa6e150e7b/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1307": {
+      "get": {
+        "summary": "Pioneer ACO Model : 2015-12-01",
+        "description": "The Pioneer Accountable Care Organization (ACO) Model Public Use File (PUF) provides information on ACOs participating in the model. This dataset includes information on each ACO regarding beneficiaries, financial and quality results.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/eefd1ce2-c224-4a53-b713-0e126686fc1b/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1308": {
+      "get": {
+        "summary": "Pioneer ACO Model : 2014-12-01",
+        "description": "The Pioneer Accountable Care Organization (ACO) Model Public Use File (PUF) provides information on ACOs participating in the model. This dataset includes information on each ACO regarding beneficiaries, financial and quality results.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/0a6be0a3-53bf-4b53-a144-9ab782ec7571/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1309": {
+      "get": {
+        "summary": "Pioneer ACO Model : 2013-12-01",
+        "description": "The Pioneer Accountable Care Organization (ACO) Model Public Use File (PUF) provides information on ACOs participating in the model. This dataset includes information on each ACO regarding beneficiaries, financial and quality results.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/669080d5-1ec1-455f-99c6-507735a73e28/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1310": {
+      "get": {
+        "summary": "Pioneer ACO Model : 2012-05-11",
+        "description": "The Pioneer Accountable Care Organization (ACO) Model Public Use File (PUF) provides information on ACOs participating in the model. This dataset includes information on each ACO regarding beneficiaries, financial and quality results.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f5e39eff-5830-4979-a9f6-7a840ead66ad/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1311": {
+      "get": {
+        "summary": "Provider of Services File - Internet Quality Improvement and Evaluation System - Home Health Agency, Ambulatory Surgical Center, and Hospice Providers : 2024-12-02",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/086e48c4-87a6-4be1-8823-29e8da8f225b/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1312": {
+      "get": {
+        "summary": "Provider of Services File - Internet Quality Improvement and Evaluation System - Home Health Agency, Ambulatory Surgical Center, and Hospice Providers : 2024-12-02",
+        "description": "The Provider of Services File (POS) - Internet Quality Improvement and Evaluation System (iQIES) - Home Health Agency (HHA), Ambulatory Surgical Center (ASC), and Hospice Providers data\u00a0provides information on provider demographic and associated certification information. In this file you will find provider number (CMS Certification Number), name, address, and other characteristics of the participating institution providers.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/8ee504fc-7e19-486e-937d-495ded2f7e62/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1313": {
+      "get": {
+        "summary": "Provider of Services File - Internet Quality Improvement and Evaluation System - Home Health Agency, Ambulatory Surgical Center, and Hospice Providers : 2024-09-01",
+        "description": "The Provider of Services File (POS) - Internet Quality Improvement and Evaluation System (iQIES) - Home Health Agency (HHA), Ambulatory Surgical Center (ASC), and Hospice Providers data\u00a0provides information on provider demographic and associated certification information. In this file you will find provider number (CMS Certification Number), name, address, and other characteristics of the participating institution providers.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/6c56bf74-fc55-475b-89c1-4c9e11d7fac3/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1314": {
+      "get": {
+        "summary": "Provider of Services File - Internet Quality Improvement and Evaluation System - Home Health Agency, Ambulatory Surgical Center, and Hospice Providers : 2024-04-01",
+        "description": "The Provider of Services File (POS) - Internet Quality Improvement and Evaluation System (iQIES) - Home Health Agency (HHA), Ambulatory Surgical Center (ASC), and Hospice Providers data\u00a0provides information on provider demographic and associated certification information. In this file you will find provider number (CMS Certification Number), name, address, and other characteristics of the participating institution providers.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/3ba417c4-276c-4eda-aab0-f61d7f1d5062/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1315": {
+      "get": {
+        "summary": "Provider of Services File - Internet Quality Improvement and Evaluation System - Home Health Agency, Ambulatory Surgical Center, and Hospice Providers : 2024-03-24",
+        "description": "The Provider of Services File (POS) - Internet Quality Improvement and Evaluation System (iQIES) - Home Health Agency (HHA), Ambulatory Surgical Center (ASC), and Hospice Providers data\u00a0provides information on provider demographic and associated certification information. In this file you will find provider number (CMS Certification Number), name, address, and other characteristics of the participating institution providers.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/5ebbce5b-fbc2-44c2-ab7d-e286ad4ae7d2/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1316": {
+      "get": {
+        "summary": "Provider of Services File - Internet Quality Improvement and Evaluation System - Home Health Agency, Ambulatory Surgical Center, and Hospice Providers : 2023-12-31",
+        "description": "The Provider of Services File (POS) - Internet Quality Improvement and Evaluation System (iQIES) - Home Health Agency (HHA), Ambulatory Surgical Center (ASC), and Hospice Providers data\u00a0provides information on provider demographic and associated certification information. In this file you will find provider number (CMS Certification Number), name, address, and other characteristics of the participating institution providers.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/1540f41e-249d-4130-8da7-a2b488e8d165/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1317": {
+      "get": {
+        "summary": "Public Reporting of Missing Digital Contact Information : 2024-09-01",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/63a83bb1-4c02-43b3-8ef4-e3d3c6cf62fa/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1318": {
+      "get": {
+        "summary": "Public Reporting of Missing Digital Contact Information : 2024-09-01",
+        "description": "In the May 2020 CMS Interoperability and Patient Access final rule, CMS finalized the policy to publicly report the names and NPIs of those providers who do not have digital contact information included in the NPPES system (85 FR 25584). This data includes the NPI and provider name of providers and clinicians without digital contact information in NPPES.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/2bad6a8a-6cee-4d5f-b67b-da236cd75693/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1319": {
+      "get": {
+        "summary": "Public Reporting of Missing Digital Contact Information : 2024-04-01",
+        "description": "In the May 2020 CMS Interoperability and Patient Access final rule, CMS finalized the policy to publicly report the names and NPIs of those providers who do not have digital contact information included in the NPPES system (85 FR 25584). This data includes the NPI and provider name of providers and clinicians without digital contact information in NPPES.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/86be612a-a3d8-448a-a1fc-9652cb80b1c7/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1320": {
+      "get": {
+        "summary": "Public Reporting of Missing Digital Contact Information : 2023-12-31",
+        "description": "In the May 2020 CMS Interoperability and Patient Access final rule, CMS finalized the policy to publicly report the names and NPIs of those providers who do not have digital contact information included in the NPPES system (85 FR 25584). This data includes the NPI and provider name of providers and clinicians without digital contact information in NPPES.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/3722bebc-60f1-4602-8353-9742edd93303/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1321": {
+      "get": {
+        "summary": "Public Reporting of Missing Digital Contact Information : 2023-09-01",
+        "description": "In the May 2020 CMS Interoperability and Patient Access final rule, CMS finalized the policy to publicly report the names and NPIs of those providers who do not have digital contact information included in the NPPES system (85 FR 25584). This data includes the NPI and provider name of providers and clinicians without digital contact information in NPPES.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/17ac874c-7f4e-4a58-9b31-3a8db471edb6/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1322": {
+      "get": {
+        "summary": "Public Reporting of Missing Digital Contact Information : 2023-06-01",
+        "description": "In the May 2020 CMS Interoperability and Patient Access final rule, CMS finalized the policy to publicly report the names and NPIs of those providers who do not have digital contact information included in the NPPES system (85 FR 25584). This data includes the NPI and provider name of providers and clinicians without digital contact information in NPPES.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/0b5d3db6-2f12-4259-84e7-789caf0243ed/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1323": {
+      "get": {
+        "summary": "Public Reporting of Missing Digital Contact Information : 2023-03-31",
+        "description": "In the May 2020 CMS Interoperability and Patient Access final rule, CMS finalized the policy to publicly report the names and NPIs of those providers who do not have digital contact information included in the NPPES system (85 FR 25584). This data includes the NPI and provider name of providers and clinicians without digital contact information in NPPES.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/017ceedb-fda2-4c69-b7ec-ced232268135/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1324": {
+      "get": {
+        "summary": "Quality Payment Program Experience : 2022-01-01",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/7adb8b1b-b85c-4ed3-b314-064776e50180/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1325": {
+      "get": {
+        "summary": "Quality Payment Program Experience : 2022-01-01",
+        "description": "The Quality Payment Program (QPP) Experience dataset provides participation and performance information in the Merit-based Incentive Payment System (MIPS) during each performance year. They cover eligibility and participation, performance categories, and final score and payment adjustments. The dataset provides additional details at the TIN/NPI level on what was published in the previous performance year. You can sort the data by variables like clinician type, practice size, scores, and payment adjustments.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/b3438273-b4a6-44ca-8fb2-9e6026b74642/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1326": {
+      "get": {
+        "summary": "Quality Payment Program Experience : 2021-05-30",
+        "description": "The Quality Payment Program (QPP) Experience dataset provides participation and performance information in the Merit-based Incentive Payment System (MIPS) during each performance year. They cover eligibility and participation, performance categories, and final score and payment adjustments. The dataset provides additional details at the TIN/NPI level on what was published in the previous performance year. You can sort the data by variables like clinician type, practice size, scores, and payment adjustments.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/8c2ab3e4-597e-43c9-9d94-7223c66d7f25/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1327": {
+      "get": {
+        "summary": "Quality Payment Program Experience : 2020-12-31",
+        "description": "The Quality Payment Program (QPP) Experience dataset provides participation and performance information in the Merit-based Incentive Payment System (MIPS) during each performance year. They cover eligibility and participation, performance categories, and final score and payment adjustments. The dataset provides additional details at the TIN/NPI level on what was published in the previous performance year. You can sort the data by variables like clinician type, practice size, scores, and payment adjustments.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/48a484e6-ff02-4284-8666-6045b3cac17f/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1328": {
+      "get": {
+        "summary": "Quality Payment Program Experience : 2019-12-31",
+        "description": "The Quality Payment Program (QPP) Experience dataset provides participation and performance information in the Merit-based Incentive Payment System (MIPS) during each performance year. They cover eligibility and participation, performance categories, and final score and payment adjustments. The dataset provides additional details at the TIN/NPI level on what was published in the previous performance year. You can sort the data by variables like clinician type, practice size, scores, and payment adjustments.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/5776e77d-a844-49fd-b697-a2b01bdacdc7/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1329": {
+      "get": {
+        "summary": "Quality Payment Program Experience : 2018-12-31",
+        "description": "The Quality Payment Program (QPP) Experience dataset provides participation and performance information in the Merit-based Incentive Payment System (MIPS) during each performance year. They cover eligibility and participation, performance categories, and final score and payment adjustments. The dataset provides additional details at the TIN/NPI level on what was published in the previous performance year. You can sort the data by variables like clinician type, practice size, scores, and payment adjustments.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/4cae2e39-693d-4699-ac23-2611b29c5da7/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1330": {
+      "get": {
+        "summary": "Quality Payment Program Experience : 2017-12-31",
+        "description": "The Quality Payment Program (QPP) Experience dataset provides participation and performance information in the Merit-based Incentive Payment System (MIPS) during each performance year. They cover eligibility and participation, performance categories, and final score and payment adjustments. The dataset provides additional details at the TIN/NPI level on what was published in the previous performance year. You can sort the data by variables like clinician type, practice size, scores, and payment adjustments.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/d87865f9-70b6-41fb-be3a-db735c4a05d2/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1331": {
+      "get": {
+        "summary": "Realizing Equity, Access, and Community Health ACOs : 2024-01-01",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/eddc0a1b-dab8-478e-a883-3385e0275a17/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1332": {
+      "get": {
+        "summary": "Realizing Equity, Access, and Community Health ACOs : 2024-01-01",
+        "description": "The Accountable Care Organization Realizing Equity, Access, and Community Health (ACO REACH) Model dataset provides overview information on REACH ACOs including their name, number of years in the program, and contact information of key personnel. \u00a0\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to ACO information occur periodically. Each ACO has the most up-to-date information about their organization. Consider contacting the ACO for the latest information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/a8798590-0f4a-45e3-81e1-bb4cb3639706/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1333": {
+      "get": {
+        "summary": "Realizing Equity, Access, and Community Health ACOs : 2023-01-01",
+        "description": "The Accountable Care Organization Realizing Equity, Access, and Community Health (ACO REACH) Model dataset provides overview information on REACH ACOs including their name, number of years in the program, and contact information of key personnel. \u00a0\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to ACO information occur periodically. Each ACO has the most up-to-date information about their organization. Consider contacting the ACO for the latest information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/43386e60-4f89-48b2-b033-985538575349/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1334": {
+      "get": {
+        "summary": "Realizing Equity, Access, and Community Health ACOs : 2022-12-01",
+        "description": "The Accountable Care Organization Realizing Equity, Access, and Community Health (ACO REACH) Model dataset provides overview information on REACH ACOs including their name, number of years in the program, and contact information of key personnel. \u00a0\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to ACO information occur periodically. Each ACO has the most up-to-date information about their organization. Consider contacting the ACO for the latest information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/6890fe91-75c7-4557-9d89-f2ca3f4063e9/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1335": {
+      "get": {
+        "summary": "Realizing Equity, Access, and Community Health ACOs : 2021-04-28",
+        "description": "The Accountable Care Organization Realizing Equity, Access, and Community Health (ACO REACH) Model dataset provides overview information on REACH ACOs including their name, number of years in the program, and contact information of key personnel. \u00a0\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to ACO information occur periodically. Each ACO has the most up-to-date information about their organization. Consider contacting the ACO for the latest information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/931a82f0-d951-47a7-835d-644639225404/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1336": {
+      "get": {
+        "summary": "Restructured BETOS Classification System : 2024-10-04",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/e3db6e56-149f-49ce-b374-40aecda2357b/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1337": {
+      "get": {
+        "summary": "Restructured BETOS Classification System : 2024-10-04",
+        "description": "The Restructured BETOS Classification System (RBCS) dataset\u00a0is a taxonomy that allows researchers to group healthcare service codes for Medicare Part B services (i.e., HCPCS codes) into clinically meaningful categories and subcategories. It is based on the original Berenson-Eggers Type of Service (BETOS) classification created in the 1980s, and includes notable updates such as Part B non-physician services.\u00a0The RBCS will undergo annual updates by a technical expert panel of researchers and clinicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/aaeeb33a-1b8f-4f09-bffc-f9d194d9662f/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1338": {
+      "get": {
+        "summary": "Revalidation Clinic Group Practice Reassignment : 2025-03-01",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/e1f1fa9a-d6b4-417e-948a-c72dead8a41c/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1339": {
+      "get": {
+        "summary": "Revalidation Clinic Group Practice Reassignment : 2025-03-01",
+        "description": "The Revalidation Clinic Group Practice Reassignment dataset provides information between the physician and the group practice they reassign their billing to. It also includes individual employer association counts and the revalidation dates for the individual physician as well as the clinic group practice.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/50530ec7-7611-402d-9b64-73939524098a/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1340": {
+      "get": {
+        "summary": "Revalidation Clinic Group Practice Reassignment : 2025-02-01",
+        "description": "The Revalidation Clinic Group Practice Reassignment dataset provides information between the physician and the group practice they reassign their billing to. It also includes individual employer association counts and the revalidation dates for the individual physician as well as the clinic group practice.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/7615746a-47b3-4f61-8f8d-1c341ee1aadf/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1341": {
+      "get": {
+        "summary": "Revalidation Clinic Group Practice Reassignment : 2025-01-01",
+        "description": "The Revalidation Clinic Group Practice Reassignment dataset provides information between the physician and the group practice they reassign their billing to. It also includes individual employer association counts and the revalidation dates for the individual physician as well as the clinic group practice.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/a30bd9d4-1ad1-4bb1-b9d4-d31507095f47/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1342": {
+      "get": {
+        "summary": "Revalidation Clinic Group Practice Reassignment : 2024-07-01",
+        "description": "The Revalidation Clinic Group Practice Reassignment dataset provides information between the physician and the group practice they reassign their billing to. It also includes individual employer association counts and the revalidation dates for the individual physician as well as the clinic group practice.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/09ba1e0e-2000-469f-ae3e-d6acb406a4bd/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1343": {
+      "get": {
+        "summary": "Revalidation Clinic Group Practice Reassignment : 2024-04-01",
+        "description": "The Revalidation Clinic Group Practice Reassignment dataset provides information between the physician and the group practice they reassign their billing to. It also includes individual employer association counts and the revalidation dates for the individual physician as well as the clinic group practice.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/96fca71e-4ab9-44ca-978e-9821dad2366d/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1344": {
+      "get": {
+        "summary": "Revalidation Clinic Group Practice Reassignment : 2024-02-01",
+        "description": "The Revalidation Clinic Group Practice Reassignment dataset provides information between the physician and the group practice they reassign their billing to. It also includes individual employer association counts and the revalidation dates for the individual physician as well as the clinic group practice.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/0943cf59-6f41-4736-8e88-7c9f0a801954/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1345": {
+      "get": {
+        "summary": "Revalidation Clinic Group Practice Reassignment : 2024-01-02",
+        "description": "The Revalidation Clinic Group Practice Reassignment dataset provides information between the physician and the group practice they reassign their billing to. It also includes individual employer association counts and the revalidation dates for the individual physician as well as the clinic group practice.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/df40e019-20dc-4a6f-96ae-8369a8c2da65/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1346": {
+      "get": {
+        "summary": "Revalidation Clinic Group Practice Reassignment : 2023-12-01",
+        "description": "The Revalidation Clinic Group Practice Reassignment dataset provides information between the physician and the group practice they reassign their billing to. It also includes individual employer association counts and the revalidation dates for the individual physician as well as the clinic group practice.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/6e3d82b3-9ad0-4e1b-bb3e-e2579aebcb89/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1347": {
+      "get": {
+        "summary": "Revalidation Clinic Group Practice Reassignment : 2023-11-01",
+        "description": "The Revalidation Clinic Group Practice Reassignment dataset provides information between the physician and the group practice they reassign their billing to. It also includes individual employer association counts and the revalidation dates for the individual physician as well as the clinic group practice.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/0766a480-5ae0-4d1a-8166-4de1b0c565e7/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1348": {
+      "get": {
+        "summary": "Revalidation Clinic Group Practice Reassignment : 2023-10-01",
+        "description": "The Revalidation Clinic Group Practice Reassignment dataset provides information between the physician and the group practice they reassign their billing to. It also includes individual employer association counts and the revalidation dates for the individual physician as well as the clinic group practice.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/9e37c9d5-f0ae-404d-8d89-22f10b717d6e/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1349": {
+      "get": {
+        "summary": "Revalidation Clinic Group Practice Reassignment : 2023-09-01",
+        "description": "The Revalidation Clinic Group Practice Reassignment dataset provides information between the physician and the group practice they reassign their billing to. It also includes individual employer association counts and the revalidation dates for the individual physician as well as the clinic group practice.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/b28fa07b-50f8-4520-af1b-43a1be2fffb8/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1350": {
+      "get": {
+        "summary": "Revalidation Clinic Group Practice Reassignment : 2023-08-01",
+        "description": "The Revalidation Clinic Group Practice Reassignment dataset provides information between the physician and the group practice they reassign their billing to. It also includes individual employer association counts and the revalidation dates for the individual physician as well as the clinic group practice.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/6e251069-79c3-4bcf-972c-ec6efd319558/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1351": {
+      "get": {
+        "summary": "Revalidation Clinic Group Practice Reassignment : 2023-07-01",
+        "description": "The Revalidation Clinic Group Practice Reassignment dataset provides information between the physician and the group practice they reassign their billing to. It also includes individual employer association counts and the revalidation dates for the individual physician as well as the clinic group practice.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/9f242c09-6eef-405a-9692-b4c3a7f5a7e6/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1352": {
+      "get": {
+        "summary": "Revalidation Clinic Group Practice Reassignment : 2023-06-01",
+        "description": "The Revalidation Clinic Group Practice Reassignment dataset provides information between the physician and the group practice they reassign their billing to. It also includes individual employer association counts and the revalidation dates for the individual physician as well as the clinic group practice.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/6042e10e-a361-40ac-9838-8ede1dd2e473/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1353": {
+      "get": {
+        "summary": "Revalidation Clinic Group Practice Reassignment : 2023-05-01",
+        "description": "The Revalidation Clinic Group Practice Reassignment dataset provides information between the physician and the group practice they reassign their billing to. It also includes individual employer association counts and the revalidation dates for the individual physician as well as the clinic group practice.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/190a977e-8175-4f8e-84b9-f3ee5aa54c6f/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1354": {
+      "get": {
+        "summary": "Revalidation Clinic Group Practice Reassignment : 2023-03-01",
+        "description": "The Revalidation Clinic Group Practice Reassignment dataset provides information between the physician and the group practice they reassign their billing to. It also includes individual employer association counts and the revalidation dates for the individual physician as well as the clinic group practice.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/d5d244c1-79b3-46dc-83e6-91b9166a2263/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1355": {
+      "get": {
+        "summary": "Revalidation Clinic Group Practice Reassignment : 2022-12-01",
+        "description": "The Revalidation Clinic Group Practice Reassignment dataset provides information between the physician and the group practice they reassign their billing to. It also includes individual employer association counts and the revalidation dates for the individual physician as well as the clinic group practice.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/c3ddc2e3-901c-4549-8d6b-21db3a95a998/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1356": {
+      "get": {
+        "summary": "Revalidation Clinic Group Practice Reassignment : 2022-11-01",
+        "description": "The Revalidation Clinic Group Practice Reassignment dataset provides information between the physician and the group practice they reassign their billing to. It also includes individual employer association counts and the revalidation dates for the individual physician as well as the clinic group practice.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/b5d6013d-fdf3-4948-94ff-50171dc69028/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1357": {
+      "get": {
+        "summary": "Revalidation Clinic Group Practice Reassignment : 2022-10-01",
+        "description": "The Revalidation Clinic Group Practice Reassignment dataset provides information between the physician and the group practice they reassign their billing to. It also includes individual employer association counts and the revalidation dates for the individual physician as well as the clinic group practice.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/35b1631c-1557-44c4-ada0-d9d6cfdf286f/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1358": {
+      "get": {
+        "summary": "Revalidation Clinic Group Practice Reassignment : 2022-09-01",
+        "description": "The Revalidation Clinic Group Practice Reassignment dataset provides information between the physician and the group practice they reassign their billing to. It also includes individual employer association counts and the revalidation dates for the individual physician as well as the clinic group practice.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/d55ce5bf-91ee-4618-b4ce-59cda693e866/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1359": {
+      "get": {
+        "summary": "Revalidation Clinic Group Practice Reassignment : 2022-08-01",
+        "description": "The Revalidation Clinic Group Practice Reassignment dataset provides information between the physician and the group practice they reassign their billing to. It also includes individual employer association counts and the revalidation dates for the individual physician as well as the clinic group practice.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/0c55ef7b-098a-47ce-9897-9efcf6f4f4d6/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1360": {
+      "get": {
+        "summary": "Revalidation Clinic Group Practice Reassignment : 2022-07-01",
+        "description": "The Revalidation Clinic Group Practice Reassignment dataset provides information between the physician and the group practice they reassign their billing to. It also includes individual employer association counts and the revalidation dates for the individual physician as well as the clinic group practice.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/9389f6ad-5551-4da8-8d83-59f0234c1791/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1361": {
+      "get": {
+        "summary": "Revalidation Clinic Group Practice Reassignment : 2022-06-01",
+        "description": "The Revalidation Clinic Group Practice Reassignment dataset provides information between the physician and the group practice they reassign their billing to. It also includes individual employer association counts and the revalidation dates for the individual physician as well as the clinic group practice.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/306e9308-ebdb-47cd-adea-e72b6fb44fa5/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1362": {
+      "get": {
+        "summary": "Revalidation Clinic Group Practice Reassignment : 2022-04-29",
+        "description": "The Revalidation Clinic Group Practice Reassignment dataset provides information between the physician and the group practice they reassign their billing to. It also includes individual employer association counts and the revalidation dates for the individual physician as well as the clinic group practice.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/7062cc70-6490-4600-b292-858ca575358c/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1363": {
+      "get": {
+        "summary": "Revalidation Clinic Group Practice Reassignment : 2022-02-28",
+        "description": "The Revalidation Clinic Group Practice Reassignment dataset provides information between the physician and the group practice they reassign their billing to. It also includes individual employer association counts and the revalidation dates for the individual physician as well as the clinic group practice.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/3c16d900-64cd-4874-91bc-04a164e94789/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1364": {
+      "get": {
+        "summary": "Revalidation Clinic Group Practice Reassignment : 2022-01-01",
+        "description": "The Revalidation Clinic Group Practice Reassignment dataset provides information between the physician and the group practice they reassign their billing to. It also includes individual employer association counts and the revalidation dates for the individual physician as well as the clinic group practice.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/713e0294-e793-42b5-8c63-5f5723fe7ad1/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1365": {
+      "get": {
+        "summary": "Revalidation Due Date List : 2025-03-01",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/3746498e-874d-45d8-9c69-68603cafea60/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1366": {
+      "get": {
+        "summary": "Revalidation Due Date List : 2025-03-01",
+        "description": "The Revalidation Due Date List dataset contains revalidation due dates for Medicare providers who are due to revalidate in the following six months. If a provider's due date does not fall within the ensuing six months, the due date is marked 'TBD'. In addition the dataset also includes subfiles with reassignment information for a given provider as well as due date listings for clinics and group practices and their providers.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/8568607b-e836-449d-8e08-66d285e6a19b/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1367": {
+      "get": {
+        "summary": "Revalidation Due Date List : 2025-02-01",
+        "description": "The Revalidation Due Date List dataset contains revalidation due dates for Medicare providers who are due to revalidate in the following six months. If a provider's due date does not fall within the ensuing six months, the due date is marked 'TBD'. In addition the dataset also includes subfiles with reassignment information for a given provider as well as due date listings for clinics and group practices and their providers.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/a328eb4d-a863-43f2-8cd8-c666b14f9415/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1368": {
+      "get": {
+        "summary": "Revalidation Due Date List : 2025-01-01",
+        "description": "The Revalidation Due Date List dataset contains revalidation due dates for Medicare providers who are due to revalidate in the following six months. If a provider's due date does not fall within the ensuing six months, the due date is marked 'TBD'. In addition the dataset also includes subfiles with reassignment information for a given provider as well as due date listings for clinics and group practices and their providers.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/822c0c0f-865f-4a9d-a9bf-788ce1f574db/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1369": {
+      "get": {
+        "summary": "Revalidation Due Date List : 2024-07-01",
+        "description": "The Revalidation Due Date List dataset contains revalidation due dates for Medicare providers who are due to revalidate in the following six months. If a provider's due date does not fall within the ensuing six months, the due date is marked 'TBD'. In addition the dataset also includes subfiles with reassignment information for a given provider as well as due date listings for clinics and group practices and their providers.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/ca7b3e71-9fad-4564-a9c2-e8071e7a3044/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1370": {
+      "get": {
+        "summary": "Revalidation Due Date List : 2024-04-01a2",
+        "description": "The Revalidation Due Date List dataset contains revalidation due dates for Medicare providers who are due to revalidate in the following six months. If a provider's due date does not fall within the ensuing six months, the due date is marked 'TBD'. In addition the dataset also includes subfiles with reassignment information for a given provider as well as due date listings for clinics and group practices and their providers.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/6ee81f4f-162f-4aa0-a2d0-e40bcc61e75e/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1371": {
+      "get": {
+        "summary": "Revalidation Due Date List : 2024-04-01a1",
+        "description": "The Revalidation Due Date List dataset contains revalidation due dates for Medicare providers who are due to revalidate in the following six months. If a provider's due date does not fall within the ensuing six months, the due date is marked 'TBD'. In addition the dataset also includes subfiles with reassignment information for a given provider as well as due date listings for clinics and group practices and their providers.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/2e524d39-6446-461c-b326-c52a406ca658/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1372": {
+      "get": {
+        "summary": "Revalidation Due Date List : 2024-04-01",
+        "description": "The Revalidation Due Date List dataset contains revalidation due dates for Medicare providers who are due to revalidate in the following six months. If a provider's due date does not fall within the ensuing six months, the due date is marked 'TBD'. In addition the dataset also includes subfiles with reassignment information for a given provider as well as due date listings for clinics and group practices and their providers.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/633ef615-7fa2-42b4-a0c2-c196ebc8335b/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1373": {
+      "get": {
+        "summary": "Revalidation Due Date List : 2024-02-01",
+        "description": "The Revalidation Due Date List dataset contains revalidation due dates for Medicare providers who are due to revalidate in the following six months. If a provider's due date does not fall within the ensuing six months, the due date is marked 'TBD'. In addition the dataset also includes subfiles with reassignment information for a given provider as well as due date listings for clinics and group practices and their providers.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/8b304a52-408a-41ae-878e-26ffe0e8e647/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1374": {
+      "get": {
+        "summary": "Revalidation Due Date List : 2024-01-02",
+        "description": "The Revalidation Due Date List dataset contains revalidation due dates for Medicare providers who are due to revalidate in the following six months. If a provider's due date does not fall within the ensuing six months, the due date is marked 'TBD'. In addition the dataset also includes subfiles with reassignment information for a given provider as well as due date listings for clinics and group practices and their providers.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/e520dc2b-9b97-4bd0-8862-98ad56e26314/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1375": {
+      "get": {
+        "summary": "Revalidation Due Date List : 2023-12-01",
+        "description": "The Revalidation Due Date List dataset contains revalidation due dates for Medicare providers who are due to revalidate in the following six months. If a provider's due date does not fall within the ensuing six months, the due date is marked 'TBD'. In addition the dataset also includes subfiles with reassignment information for a given provider as well as due date listings for clinics and group practices and their providers.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/61f9e78e-4f5e-4154-b00a-6c0c320482bc/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1376": {
+      "get": {
+        "summary": "Revalidation Due Date List : 2023-11-01",
+        "description": "The Revalidation Due Date List dataset contains revalidation due dates for Medicare providers who are due to revalidate in the following six months. If a provider's due date does not fall within the ensuing six months, the due date is marked 'TBD'. In addition the dataset also includes subfiles with reassignment information for a given provider as well as due date listings for clinics and group practices and their providers.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/4ab269e9-f990-42e6-89a9-322959133f1e/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1377": {
+      "get": {
+        "summary": "Revalidation Due Date List : 2023-10-01",
+        "description": "The Revalidation Due Date List dataset contains revalidation due dates for Medicare providers who are due to revalidate in the following six months. If a provider's due date does not fall within the ensuing six months, the due date is marked 'TBD'. In addition the dataset also includes subfiles with reassignment information for a given provider as well as due date listings for clinics and group practices and their providers.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/912a759e-8d93-419d-8dfe-24538a647083/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1378": {
+      "get": {
+        "summary": "Revalidation Due Date List : 2023-09-01",
+        "description": "The Revalidation Due Date List dataset contains revalidation due dates for Medicare providers who are due to revalidate in the following six months. If a provider's due date does not fall within the ensuing six months, the due date is marked 'TBD'. In addition the dataset also includes subfiles with reassignment information for a given provider as well as due date listings for clinics and group practices and their providers.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/0ee81ae9-9012-476a-a42c-a7350b2927a3/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1379": {
+      "get": {
+        "summary": "Revalidation Due Date List : 2023-08-01",
+        "description": "The Revalidation Due Date List dataset contains revalidation due dates for Medicare providers who are due to revalidate in the following six months. If a provider's due date does not fall within the ensuing six months, the due date is marked 'TBD'. In addition the dataset also includes subfiles with reassignment information for a given provider as well as due date listings for clinics and group practices and their providers.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/41cc90d5-e8c8-4826-9a9e-f2d54cce53fd/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1380": {
+      "get": {
+        "summary": "Revalidation Due Date List : 2023-07-01",
+        "description": "The Revalidation Due Date List dataset contains revalidation due dates for Medicare providers who are due to revalidate in the following six months. If a provider's due date does not fall within the ensuing six months, the due date is marked 'TBD'. In addition the dataset also includes subfiles with reassignment information for a given provider as well as due date listings for clinics and group practices and their providers.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/dea96ce6-4e63-4ec7-a589-cbbb0d082378/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1381": {
+      "get": {
+        "summary": "Revalidation Due Date List : 2023-06-01",
+        "description": "The Revalidation Due Date List dataset contains revalidation due dates for Medicare providers who are due to revalidate in the following six months. If a provider's due date does not fall within the ensuing six months, the due date is marked 'TBD'. In addition the dataset also includes subfiles with reassignment information for a given provider as well as due date listings for clinics and group practices and their providers.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/92607c1d-6dc1-4bd8-b67c-c4bb50f78e90/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1382": {
+      "get": {
+        "summary": "Revalidation Due Date List : 2023-05-04",
+        "description": "The Revalidation Due Date List dataset contains revalidation due dates for Medicare providers who are due to revalidate in the following six months. If a provider's due date does not fall within the ensuing six months, the due date is marked 'TBD'. In addition the dataset also includes subfiles with reassignment information for a given provider as well as due date listings for clinics and group practices and their providers.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/2b3c73e6-54a5-49c1-8228-4a4fd7d6eb55/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1383": {
+      "get": {
+        "summary": "Revalidation Due Date List : 2023-03-01",
+        "description": "The Revalidation Due Date List dataset contains revalidation due dates for Medicare providers who are due to revalidate in the following six months. If a provider's due date does not fall within the ensuing six months, the due date is marked 'TBD'. In addition the dataset also includes subfiles with reassignment information for a given provider as well as due date listings for clinics and group practices and their providers.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/853054ee-2f17-4c8f-83a7-f6670b0df875/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1384": {
+      "get": {
+        "summary": "Revalidation Due Date List : 2022-12-01",
+        "description": "The Revalidation Due Date List dataset contains revalidation due dates for Medicare providers who are due to revalidate in the following six months. If a provider's due date does not fall within the ensuing six months, the due date is marked 'TBD'. In addition the dataset also includes subfiles with reassignment information for a given provider as well as due date listings for clinics and group practices and their providers.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/d022e5bf-4179-4b24-a349-cc675fdb3faa/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1385": {
+      "get": {
+        "summary": "Revalidation Due Date List : 2022-11-18",
+        "description": "The Revalidation Due Date List dataset contains revalidation due dates for Medicare providers who are due to revalidate in the following six months. If a provider's due date does not fall within the ensuing six months, the due date is marked 'TBD'. In addition the dataset also includes subfiles with reassignment information for a given provider as well as due date listings for clinics and group practices and their providers.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/ab4a4ed4-81ed-4285-bb95-20fffaa39045/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1386": {
+      "get": {
+        "summary": "Revalidation Due Date List : 2022-10-01",
+        "description": "The Revalidation Due Date List dataset contains revalidation due dates for Medicare providers who are due to revalidate in the following six months. If a provider's due date does not fall within the ensuing six months, the due date is marked 'TBD'. In addition the dataset also includes subfiles with reassignment information for a given provider as well as due date listings for clinics and group practices and their providers.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/5feb2d49-b5f3-474d-ae18-743f819556e6/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1387": {
+      "get": {
+        "summary": "Revalidation Due Date List : 2022-09-01",
+        "description": "The Revalidation Due Date List dataset contains revalidation due dates for Medicare providers who are due to revalidate in the following six months. If a provider's due date does not fall within the ensuing six months, the due date is marked 'TBD'. In addition the dataset also includes subfiles with reassignment information for a given provider as well as due date listings for clinics and group practices and their providers.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/68fa7b65-f27a-4218-8380-86127791d335/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1388": {
+      "get": {
+        "summary": "Revalidation Due Date List : 2022-08-01",
+        "description": "The Revalidation Due Date List dataset contains revalidation due dates for Medicare providers who are due to revalidate in the following six months. If a provider's due date does not fall within the ensuing six months, the due date is marked 'TBD'. In addition the dataset also includes subfiles with reassignment information for a given provider as well as due date listings for clinics and group practices and their providers.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/d0a18c13-83ae-44a0-bfa2-e95505af25bf/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1389": {
+      "get": {
+        "summary": "Revalidation Due Date List : 2022-07-01",
+        "description": "The Revalidation Due Date List dataset contains revalidation due dates for Medicare providers who are due to revalidate in the following six months. If a provider's due date does not fall within the ensuing six months, the due date is marked 'TBD'. In addition the dataset also includes subfiles with reassignment information for a given provider as well as due date listings for clinics and group practices and their providers.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/484a0a8b-1069-4322-bd57-47e5a7d88258/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1390": {
+      "get": {
+        "summary": "Revalidation Due Date List : 2022-06-01",
+        "description": "The Revalidation Due Date List dataset contains revalidation due dates for Medicare providers who are due to revalidate in the following six months. If a provider's due date does not fall within the ensuing six months, the due date is marked 'TBD'. In addition the dataset also includes subfiles with reassignment information for a given provider as well as due date listings for clinics and group practices and their providers.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/8b26cdaa-8860-467a-b065-f7ecb11375c2/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1391": {
+      "get": {
+        "summary": "Revalidation Due Date List : 2022-04-29",
+        "description": "The Revalidation Due Date List dataset contains revalidation due dates for Medicare providers who are due to revalidate in the following six months. If a provider's due date does not fall within the ensuing six months, the due date is marked 'TBD'. In addition the dataset also includes subfiles with reassignment information for a given provider as well as due date listings for clinics and group practices and their providers.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/d378fb6b-12ad-4bf3-95f6-b6dcb7cbb48d/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1392": {
+      "get": {
+        "summary": "Revalidation Due Date List : 2022-02-28",
+        "description": "The Revalidation Due Date List dataset contains revalidation due dates for Medicare providers who are due to revalidate in the following six months. If a provider's due date does not fall within the ensuing six months, the due date is marked 'TBD'. In addition the dataset also includes subfiles with reassignment information for a given provider as well as due date listings for clinics and group practices and their providers.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/6993d4bc-2484-4d16-abd4-b15abe12241e/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1393": {
+      "get": {
+        "summary": "Revalidation Reassignment List : 2025-03-01",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/20f51cff-4137-4f3a-b6b7-bfc9ad57983b/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1394": {
+      "get": {
+        "summary": "Revalidation Reassignment List : 2025-03-01",
+        "description": "The Revalidation Reassignment List dataset provides information on reassignments of providers who are due for revalidation.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/2b7fcb9c-9d92-47fa-a445-6f80742b1018/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1395": {
+      "get": {
+        "summary": "Revalidation Reassignment List : 2025-02-01",
+        "description": "The Revalidation Reassignment List dataset provides information on reassignments of providers who are due for revalidation.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/7264b617-2395-4286-81de-9ac109b8a08f/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1396": {
+      "get": {
+        "summary": "Revalidation Reassignment List : 2025-01-01",
+        "description": "The Revalidation Reassignment List dataset provides information on reassignments of providers who are due for revalidation.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/e1700c55-4e42-4fea-96fb-bf3198418e47/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1397": {
+      "get": {
+        "summary": "Revalidation Reassignment List : 2024-07-01",
+        "description": "The Revalidation Reassignment List dataset provides information on reassignments of providers who are due for revalidation.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/ab09a9d5-d986-4711-9024-692ea3866594/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1398": {
+      "get": {
+        "summary": "Revalidation Reassignment List : 2024-04-01",
+        "description": "The Revalidation Reassignment List dataset provides information on reassignments of providers who are due for revalidation.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/8d31ec1a-b237-46d6-bab1-878a05c1a04f/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1399": {
+      "get": {
+        "summary": "Revalidation Reassignment List : 2024-02-01",
+        "description": "The Revalidation Reassignment List dataset provides information on reassignments of providers who are due for revalidation.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/7e6c96d6-96fd-4a5e-841c-495aeaa873d1/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1400": {
+      "get": {
+        "summary": "Revalidation Reassignment List : 2024-01-02",
+        "description": "The Revalidation Reassignment List dataset provides information on reassignments of providers who are due for revalidation.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/60b4b211-8cb5-4646-a289-cc06f94ec097/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

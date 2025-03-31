@@ -1,0 +1,1915 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "CMS API Subset 6",
+    "version": "1.0.0",
+    "description": "Subset 6 of CMS API endpoints"
+  },
+  "servers": [
+    {
+      "url": "https://data.cms.gov"
+    }
+  ],
+  "paths": {
+    "/proxy/endpoint501": {
+      "get": {
+        "summary": "Medicare Durable Medical Equipment, Devices & Supplies - by Supplier and Service : 2022-03-26",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/1746a83e-bb65-4300-8e02-21edbab77c6b/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint502": {
+      "get": {
+        "summary": "Medicare Durable Medical Equipment, Devices & Supplies - by Supplier and Service : 2022-03-26",
+        "description": "The Medicare Durable Medical Equipment, Devices & Supplies by Supplier and Service dataset contains information on usage, payments and submitted charges organized by supplier National Provider Identifier (NPI), Healthcare Common Procedure Coding System (HCPCS) code, and supplier rental indicator.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/dad703df-2e52-4ac6-a26f-51ecbf463d77/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint503": {
+      "get": {
+        "summary": "Medicare Durable Medical Equipment, Devices & Supplies - by Supplier and Service : 2021-03-26",
+        "description": "The Medicare Durable Medical Equipment, Devices & Supplies by Supplier and Service dataset contains information on usage, payments and submitted charges organized by supplier National Provider Identifier (NPI), Healthcare Common Procedure Coding System (HCPCS) code, and supplier rental indicator.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/e531ffc9-57ad-48db-8d88-f686edb8b8e1/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint504": {
+      "get": {
+        "summary": "Medicare Durable Medical Equipment, Devices & Supplies - by Supplier and Service : 2020-03-26",
+        "description": "The Medicare Durable Medical Equipment, Devices & Supplies by Supplier and Service dataset contains information on usage, payments and submitted charges organized by supplier National Provider Identifier (NPI), Healthcare Common Procedure Coding System (HCPCS) code, and supplier rental indicator.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/1fe3a8c3-ecfd-44b9-9418-fda1843f72a5/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint505": {
+      "get": {
+        "summary": "Medicare Durable Medical Equipment, Devices & Supplies - by Supplier and Service : 2019-03-26",
+        "description": "The Medicare Durable Medical Equipment, Devices & Supplies by Supplier and Service dataset contains information on usage, payments and submitted charges organized by supplier National Provider Identifier (NPI), Healthcare Common Procedure Coding System (HCPCS) code, and supplier rental indicator.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/5165dbdd-eae3-4b94-82cd-da635e00e0fa/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint506": {
+      "get": {
+        "summary": "Medicare Durable Medical Equipment, Devices & Supplies - by Supplier and Service : 2018-03-26",
+        "description": "The Medicare Durable Medical Equipment, Devices & Supplies by Supplier and Service dataset contains information on usage, payments and submitted charges organized by supplier National Provider Identifier (NPI), Healthcare Common Procedure Coding System (HCPCS) code, and supplier rental indicator.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/18446ef8-3873-485a-8541-b43149cf91c0/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint507": {
+      "get": {
+        "summary": "Medicare Durable Medical Equipment, Devices & Supplies - by Supplier and Service : 2017-03-26",
+        "description": "The Medicare Durable Medical Equipment, Devices & Supplies by Supplier and Service dataset contains information on usage, payments and submitted charges organized by supplier National Provider Identifier (NPI), Healthcare Common Procedure Coding System (HCPCS) code, and supplier rental indicator.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/438aad4a-91a1-4a05-9d1f-7a0bd6156222/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint508": {
+      "get": {
+        "summary": "Medicare Durable Medical Equipment, Devices & Supplies - by Supplier and Service : 2016-03-26",
+        "description": "The Medicare Durable Medical Equipment, Devices & Supplies by Supplier and Service dataset contains information on usage, payments and submitted charges organized by supplier National Provider Identifier (NPI), Healthcare Common Procedure Coding System (HCPCS) code, and supplier rental indicator.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/cc033844-0d8a-4fca-9b63-9ff3c7367c6d/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint509": {
+      "get": {
+        "summary": "Medicare Durable Medical Equipment, Devices & Supplies - by Supplier and Service : 2015-03-26",
+        "description": "The Medicare Durable Medical Equipment, Devices & Supplies by Supplier and Service dataset contains information on usage, payments and submitted charges organized by supplier National Provider Identifier (NPI), Healthcare Common Procedure Coding System (HCPCS) code, and supplier rental indicator.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/203c6d35-a271-4ad0-ac20-91a1d1409121/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint510": {
+      "get": {
+        "summary": "Medicare Durable Medical Equipment, Devices & Supplies - by Supplier and Service : 2014-03-26",
+        "description": "The Medicare Durable Medical Equipment, Devices & Supplies by Supplier and Service dataset contains information on usage, payments and submitted charges organized by supplier National Provider Identifier (NPI), Healthcare Common Procedure Coding System (HCPCS) code, and supplier rental indicator.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/82e71823-6c88-498d-b156-938e30b03b73/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint511": {
+      "get": {
+        "summary": "Medicare Fee-For-Service Public Provider Enrollment : 2024-12-02",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/2457ea29-fc82-48b0-86ec-3b0755de7515/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint512": {
+      "get": {
+        "summary": "Medicare Fee-For-Service Public Provider Enrollment : 2024-12-02",
+        "description": "The Medicare Fee-For-Service Public Provider Enrollment dataset includes information on providers who are actively approved to bill Medicare or have completed the 855O at the time the data was pulled from the Provider Enrollment, Chain, and Ownership System (PECOS). The release of this provider enrollment data is not related to other provider information releases such as Physician Compare or Data Transparency.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/e9d278e4-90e8-47ab-9c5b-af2ca64bf352/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint513": {
+      "get": {
+        "summary": "Medicare Fee-For-Service Public Provider Enrollment : 2024-09-02",
+        "description": "The Medicare Fee-For-Service Public Provider Enrollment dataset includes information on providers who are actively approved to bill Medicare or have completed the 855O at the time the data was pulled from the Provider Enrollment, Chain, and Ownership System (PECOS). The release of this provider enrollment data is not related to other provider information releases such as Physician Compare or Data Transparency.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/e87f09c2-5ff7-4ddf-b60c-6130995b15cf/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint514": {
+      "get": {
+        "summary": "Medicare Fee-For-Service Public Provider Enrollment : 2024-04-02",
+        "description": "The Medicare Fee-For-Service Public Provider Enrollment dataset includes information on providers who are actively approved to bill Medicare or have completed the 855O at the time the data was pulled from the Provider Enrollment, Chain, and Ownership System (PECOS). The release of this provider enrollment data is not related to other provider information releases such as Physician Compare or Data Transparency.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/04405289-5635-4b2a-a64f-c4b6415ab6ff/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint515": {
+      "get": {
+        "summary": "Medicare Fee-For-Service Public Provider Enrollment : 2024-01-02",
+        "description": "The Medicare Fee-For-Service Public Provider Enrollment dataset includes information on providers who are actively approved to bill Medicare or have completed the 855O at the time the data was pulled from the Provider Enrollment, Chain, and Ownership System (PECOS). The release of this provider enrollment data is not related to other provider information releases such as Physician Compare or Data Transparency.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/6d6e0e8d-64cf-43fb-9ba8-e2ad9b9bb21e/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint516": {
+      "get": {
+        "summary": "Medicare Fee-For-Service Public Provider Enrollment : 2023-12-02",
+        "description": "The Medicare Fee-For-Service Public Provider Enrollment dataset includes information on providers who are actively approved to bill Medicare or have completed the 855O at the time the data was pulled from the Provider Enrollment, Chain, and Ownership System (PECOS). The release of this provider enrollment data is not related to other provider information releases such as Physician Compare or Data Transparency.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/1df8331a-ed44-41ec-971f-158349658949/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint517": {
+      "get": {
+        "summary": "Medicare Fee-For-Service Public Provider Enrollment : 2023-09-02",
+        "description": "The Medicare Fee-For-Service Public Provider Enrollment dataset includes information on providers who are actively approved to bill Medicare or have completed the 855O at the time the data was pulled from the Provider Enrollment, Chain, and Ownership System (PECOS). The release of this provider enrollment data is not related to other provider information releases such as Physician Compare or Data Transparency.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/70efac57-6093-4e1d-ad6a-36f8261f53eb/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint518": {
+      "get": {
+        "summary": "Medicare Fee-For-Service Public Provider Enrollment : 2023-04-02",
+        "description": "The Medicare Fee-For-Service Public Provider Enrollment dataset includes information on providers who are actively approved to bill Medicare or have completed the 855O at the time the data was pulled from the Provider Enrollment, Chain, and Ownership System (PECOS). The release of this provider enrollment data is not related to other provider information releases such as Physician Compare or Data Transparency.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/46339a0c-0f07-40ed-8975-ddb387c367a4/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint519": {
+      "get": {
+        "summary": "Medicare Fee-For-Service Public Provider Enrollment : 2023-01-02",
+        "description": "The Medicare Fee-For-Service Public Provider Enrollment dataset includes information on providers who are actively approved to bill Medicare or have completed the 855O at the time the data was pulled from the Provider Enrollment, Chain, and Ownership System (PECOS). The release of this provider enrollment data is not related to other provider information releases such as Physician Compare or Data Transparency.\n\n\u00a0\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/0b6caf2f-8948-4603-922e-d7f0c52c0a45/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint520": {
+      "get": {
+        "summary": "Medicare Fee-for-Service Comprehensive Error Rate Testing : 2024-01-01",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/6395b458-2f89-4828-8c1a-e1e16b723d48/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint521": {
+      "get": {
+        "summary": "Medicare Fee-for-Service Comprehensive Error Rate Testing : 2024-01-01",
+        "description": "The Medicare Fee-for-Service (FFS) Comprehensive Error Rate Testing (CERT) dataset provides information on a random sample of FFS claims to determine if they were paid properly under Medicare coverage, coding, and payment rules. The dataset contains information on type of FFS claim, Diagnosis Related Group (DRG) and Healthcare Common Procedure Coding System (HCPCS) codes, provider type, type of bill, review decision, and error code.\n\n\u00a0\n\nPlease note, each reporting year (RY) contains claims submitted July 1 two years before the report\u00a0through June 30 one year before the report. For example, the 2024 data contains claims submitted July 1, 2022 through June 30, 2023.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/81f4f6c8-0f55-49f1-a338-4f92a859263b/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint522": {
+      "get": {
+        "summary": "Medicare Fee-for-Service Comprehensive Error Rate Testing : 2023-01-01",
+        "description": "The Medicare Fee-for-Service (FFS) Comprehensive Error Rate Testing (CERT) dataset provides information on a random sample of FFS claims to determine if they were paid properly under Medicare coverage, coding, and payment rules. The dataset contains information on type of FFS claim, Diagnosis Related Group (DRG) and Healthcare Common Procedure Coding System (HCPCS) codes, provider type, type of bill, review decision, and error code.\n\n\u00a0\n\nPlease note, each reporting year (RY) contains claims submitted July 1 two years before the report\u00a0through June 30 one year before the report. For example, the 2024 data contains claims submitted July 1, 2022 through June 30, 2023.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/a3334602-31c4-45b0-95ee-988c6274032e/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint523": {
+      "get": {
+        "summary": "Medicare Fee-for-Service Comprehensive Error Rate Testing : 2022-12-31",
+        "description": "The Medicare Fee-for-Service (FFS) Comprehensive Error Rate Testing (CERT) dataset provides information on a random sample of FFS claims to determine if they were paid properly under Medicare coverage, coding, and payment rules. The dataset contains information on type of FFS claim, Diagnosis Related Group (DRG) and Healthcare Common Procedure Coding System (HCPCS) codes, provider type, type of bill, review decision, and error code.\n\n\u00a0\n\nPlease note, each reporting year (RY) contains claims submitted July 1 two years before the report\u00a0through June 30 one year before the report. For example, the 2024 data contains claims submitted July 1, 2022 through June 30, 2023.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/755391cc-6682-419d-9c95-d0905fea78d4/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint524": {
+      "get": {
+        "summary": "Medicare Fee-for-Service Comprehensive Error Rate Testing : 2021-12-31",
+        "description": "The Medicare Fee-for-Service (FFS) Comprehensive Error Rate Testing (CERT) dataset provides information on a random sample of FFS claims to determine if they were paid properly under Medicare coverage, coding, and payment rules. The dataset contains information on type of FFS claim, Diagnosis Related Group (DRG) and Healthcare Common Procedure Coding System (HCPCS) codes, provider type, type of bill, review decision, and error code.\n\n\u00a0\n\nPlease note, each reporting year (RY) contains claims submitted July 1 two years before the report\u00a0through June 30 one year before the report. For example, the 2024 data contains claims submitted July 1, 2022 through June 30, 2023.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/749f218f-0669-4925-885c-a4b40b6f0480/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint525": {
+      "get": {
+        "summary": "Medicare Fee-for-Service Comprehensive Error Rate Testing : 2020-12-31",
+        "description": "The Medicare Fee-for-Service (FFS) Comprehensive Error Rate Testing (CERT) dataset provides information on a random sample of FFS claims to determine if they were paid properly under Medicare coverage, coding, and payment rules. The dataset contains information on type of FFS claim, Diagnosis Related Group (DRG) and Healthcare Common Procedure Coding System (HCPCS) codes, provider type, type of bill, review decision, and error code.\n\n\u00a0\n\nPlease note, each reporting year (RY) contains claims submitted July 1 two years before the report\u00a0through June 30 one year before the report. For example, the 2024 data contains claims submitted July 1, 2022 through June 30, 2023.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/8e02cc09-8179-4aaf-a437-c6012642f9af/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint526": {
+      "get": {
+        "summary": "Medicare Fee-for-Service Comprehensive Error Rate Testing : 2019-12-31",
+        "description": "The Medicare Fee-for-Service (FFS) Comprehensive Error Rate Testing (CERT) dataset provides information on a random sample of FFS claims to determine if they were paid properly under Medicare coverage, coding, and payment rules. The dataset contains information on type of FFS claim, Diagnosis Related Group (DRG) and Healthcare Common Procedure Coding System (HCPCS) codes, provider type, type of bill, review decision, and error code.\n\n\u00a0\n\nPlease note, each reporting year (RY) contains claims submitted July 1 two years before the report\u00a0through June 30 one year before the report. For example, the 2024 data contains claims submitted July 1, 2022 through June 30, 2023.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/6b92a8b2-efaa-49ae-8a01-1922ef1fe534/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint527": {
+      "get": {
+        "summary": "Medicare Fee-for-Service Comprehensive Error Rate Testing : 2018-02-13",
+        "description": "The Medicare Fee-for-Service (FFS) Comprehensive Error Rate Testing (CERT) dataset provides information on a random sample of FFS claims to determine if they were paid properly under Medicare coverage, coding, and payment rules. The dataset contains information on type of FFS claim, Diagnosis Related Group (DRG) and Healthcare Common Procedure Coding System (HCPCS) codes, provider type, type of bill, review decision, and error code.\n\n\u00a0\n\nPlease note, each reporting year (RY) contains claims submitted July 1 two years before the report\u00a0through June 30 one year before the report. For example, the 2024 data contains claims submitted July 1, 2022 through June 30, 2023.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/e9d0fb3a-ca8d-4e80-8bd3-0ae336ac76e6/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint528": {
+      "get": {
+        "summary": "Medicare Fee-for-Service Comprehensive Error Rate Testing : 2017-11-13",
+        "description": "The Medicare Fee-for-Service (FFS) Comprehensive Error Rate Testing (CERT) dataset provides information on a random sample of FFS claims to determine if they were paid properly under Medicare coverage, coding, and payment rules. The dataset contains information on type of FFS claim, Diagnosis Related Group (DRG) and Healthcare Common Procedure Coding System (HCPCS) codes, provider type, type of bill, review decision, and error code.\n\n\u00a0\n\nPlease note, each reporting year (RY) contains claims submitted July 1 two years before the report\u00a0through June 30 one year before the report. For example, the 2024 data contains claims submitted July 1, 2022 through June 30, 2023.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/bcdc6155-64f8-4f0d-8ae4-dd31cfd3b61e/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint529": {
+      "get": {
+        "summary": "Medicare Fee-for-Service Comprehensive Error Rate Testing : 2016-02-13",
+        "description": "The Medicare Fee-for-Service (FFS) Comprehensive Error Rate Testing (CERT) dataset provides information on a random sample of FFS claims to determine if they were paid properly under Medicare coverage, coding, and payment rules. The dataset contains information on type of FFS claim, Diagnosis Related Group (DRG) and Healthcare Common Procedure Coding System (HCPCS) codes, provider type, type of bill, review decision, and error code.\n\n\u00a0\n\nPlease note, each reporting year (RY) contains claims submitted July 1 two years before the report\u00a0through June 30 one year before the report. For example, the 2024 data contains claims submitted July 1, 2022 through June 30, 2023.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/13a30957-b6e7-4d4e-b82c-a88b581d1ac9/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint530": {
+      "get": {
+        "summary": "Medicare Fee-for-Service Comprehensive Error Rate Testing : 2015-02-13",
+        "description": "The Medicare Fee-for-Service (FFS) Comprehensive Error Rate Testing (CERT) dataset provides information on a random sample of FFS claims to determine if they were paid properly under Medicare coverage, coding, and payment rules. The dataset contains information on type of FFS claim, Diagnosis Related Group (DRG) and Healthcare Common Procedure Coding System (HCPCS) codes, provider type, type of bill, review decision, and error code.\n\n\u00a0\n\nPlease note, each reporting year (RY) contains claims submitted July 1 two years before the report\u00a0through June 30 one year before the report. For example, the 2024 data contains claims submitted July 1, 2022 through June 30, 2023.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/b974bc10-e684-4972-80fa-b2280bb2f018/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint531": {
+      "get": {
+        "summary": "Medicare Fee-for-Service Comprehensive Error Rate Testing : 2014-02-13",
+        "description": "The Medicare Fee-for-Service (FFS) Comprehensive Error Rate Testing (CERT) dataset provides information on a random sample of FFS claims to determine if they were paid properly under Medicare coverage, coding, and payment rules. The dataset contains information on type of FFS claim, Diagnosis Related Group (DRG) and Healthcare Common Procedure Coding System (HCPCS) codes, provider type, type of bill, review decision, and error code.\n\n\u00a0\n\nPlease note, each reporting year (RY) contains claims submitted July 1 two years before the report\u00a0through June 30 one year before the report. For example, the 2024 data contains claims submitted July 1, 2022 through June 30, 2023.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/d7e943c8-853e-4cb0-ae1d-9ba37414e451/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint532": {
+      "get": {
+        "summary": "Medicare Fee-for-Service Comprehensive Error Rate Testing : 2013-02-13",
+        "description": "The Medicare Fee-for-Service (FFS) Comprehensive Error Rate Testing (CERT) dataset provides information on a random sample of FFS claims to determine if they were paid properly under Medicare coverage, coding, and payment rules. The dataset contains information on type of FFS claim, Diagnosis Related Group (DRG) and Healthcare Common Procedure Coding System (HCPCS) codes, provider type, type of bill, review decision, and error code.\n\n\u00a0\n\nPlease note, each reporting year (RY) contains claims submitted July 1 two years before the report\u00a0through June 30 one year before the report. For example, the 2024 data contains claims submitted July 1, 2022 through June 30, 2023.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/151d88cc-4872-4567-8a65-7afbd6b8f60b/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint533": {
+      "get": {
+        "summary": "Medicare Fee-for-Service Comprehensive Error Rate Testing : 2012-02-13",
+        "description": "The Medicare Fee-for-Service (FFS) Comprehensive Error Rate Testing (CERT) dataset provides information on a random sample of FFS claims to determine if they were paid properly under Medicare coverage, coding, and payment rules. The dataset contains information on type of FFS claim, Diagnosis Related Group (DRG) and Healthcare Common Procedure Coding System (HCPCS) codes, provider type, type of bill, review decision, and error code.\n\n\u00a0\n\nPlease note, each reporting year (RY) contains claims submitted July 1 two years before the report\u00a0through June 30 one year before the report. For example, the 2024 data contains claims submitted July 1, 2022 through June 30, 2023.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/e14016d4-599b-4cf9-b1d8-da6953947bb8/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint534": {
+      "get": {
+        "summary": "Medicare Fee-for-Service Comprehensive Error Rate Testing : 2011-02-13",
+        "description": "The Medicare Fee-for-Service (FFS) Comprehensive Error Rate Testing (CERT) dataset provides information on a random sample of FFS claims to determine if they were paid properly under Medicare coverage, coding, and payment rules. The dataset contains information on type of FFS claim, Diagnosis Related Group (DRG) and Healthcare Common Procedure Coding System (HCPCS) codes, provider type, type of bill, review decision, and error code.\n\n\u00a0\n\nPlease note, each reporting year (RY) contains claims submitted July 1 two years before the report\u00a0through June 30 one year before the report. For example, the 2024 data contains claims submitted July 1, 2022 through June 30, 2023.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/e171a6e4-21a9-4eed-aed5-fd6f845bdccb/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint535": {
+      "get": {
+        "summary": "Medicare Inpatient Hospitals - by Provider : 2022-12-01",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/ee6fb1a5-39b9-46b3-a980-a7284551a732/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint536": {
+      "get": {
+        "summary": "Medicare Inpatient Hospitals - by Provider : 2022-12-01",
+        "description": "The Medicare Inpatient Hospitals by Provider dataset provides information on inpatient discharges for Original Medicare Part A beneficiaries by IPPS hospitals. It includes information on the use, payment, and hospital charges for more than 3,000 U.S. hospitals that received IPPS payments. The data are organized by hospital.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/cc73e77b-7367-48c9-b766-fafefe3f8ffa/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint537": {
+      "get": {
+        "summary": "Medicare Inpatient Hospitals - by Provider : 2021-12-02",
+        "description": "The Medicare Inpatient Hospitals by Provider dataset provides information on inpatient discharges for Original Medicare Part A beneficiaries by IPPS hospitals. It includes information on the use, payment, and hospital charges for more than 3,000 U.S. hospitals that received IPPS payments. The data are organized by hospital.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/c7e1501c-a770-4e2a-beb6-32b3525491a7/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint538": {
+      "get": {
+        "summary": "Medicare Inpatient Hospitals - by Provider : 2020-12-02",
+        "description": "The Medicare Inpatient Hospitals by Provider dataset provides information on inpatient discharges for Original Medicare Part A beneficiaries by IPPS hospitals. It includes information on the use, payment, and hospital charges for more than 3,000 U.S. hospitals that received IPPS payments. The data are organized by hospital.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/d7b2810d-ac10-498f-8794-1c3d9f72ee96/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint539": {
+      "get": {
+        "summary": "Medicare Inpatient Hospitals - by Provider : 2019-12-02",
+        "description": "The Medicare Inpatient Hospitals by Provider dataset provides information on inpatient discharges for Original Medicare Part A beneficiaries by IPPS hospitals. It includes information on the use, payment, and hospital charges for more than 3,000 U.S. hospitals that received IPPS payments. The data are organized by hospital.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/c349419e-3c6a-419e-8c74-0641b64cca12/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint540": {
+      "get": {
+        "summary": "Medicare Inpatient Hospitals - by Provider : 2018-12-02",
+        "description": "The Medicare Inpatient Hospitals by Provider dataset provides information on inpatient discharges for Original Medicare Part A beneficiaries by IPPS hospitals. It includes information on the use, payment, and hospital charges for more than 3,000 U.S. hospitals that received IPPS payments. The data are organized by hospital.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f8f65555-1540-44ef-9808-a64f29b15570/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint541": {
+      "get": {
+        "summary": "Medicare Inpatient Hospitals - by Provider : 2017-12-02",
+        "description": "The Medicare Inpatient Hospitals by Provider dataset provides information on inpatient discharges for Original Medicare Part A beneficiaries by IPPS hospitals. It includes information on the use, payment, and hospital charges for more than 3,000 U.S. hospitals that received IPPS payments. The data are organized by hospital.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/be4e1a28-8afe-40c3-8d8f-6dba7c539b64/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint542": {
+      "get": {
+        "summary": "Medicare Inpatient Hospitals - by Provider : 2016-12-02",
+        "description": "The Medicare Inpatient Hospitals by Provider dataset provides information on inpatient discharges for Original Medicare Part A beneficiaries by IPPS hospitals. It includes information on the use, payment, and hospital charges for more than 3,000 U.S. hospitals that received IPPS payments. The data are organized by hospital.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f0fb93a4-3475-42de-b264-9a1e785f1ea4/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint543": {
+      "get": {
+        "summary": "Medicare Inpatient Hospitals - by Provider : 2015-12-02",
+        "description": "The Medicare Inpatient Hospitals by Provider dataset provides information on inpatient discharges for Original Medicare Part A beneficiaries by IPPS hospitals. It includes information on the use, payment, and hospital charges for more than 3,000 U.S. hospitals that received IPPS payments. The data are organized by hospital.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/5cae9291-4be8-4e3c-94f6-27aaf20c9ded/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint544": {
+      "get": {
+        "summary": "Medicare Inpatient Hospitals - by Provider : 2014-12-02",
+        "description": "The Medicare Inpatient Hospitals by Provider dataset provides information on inpatient discharges for Original Medicare Part A beneficiaries by IPPS hospitals. It includes information on the use, payment, and hospital charges for more than 3,000 U.S. hospitals that received IPPS payments. The data are organized by hospital.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/b685142b-cc56-4ff1-98f1-06bddf2787f1/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint545": {
+      "get": {
+        "summary": "Medicare Inpatient Hospitals - by Provider : 2013-12-02",
+        "description": "The Medicare Inpatient Hospitals by Provider dataset provides information on inpatient discharges for Original Medicare Part A beneficiaries by IPPS hospitals. It includes information on the use, payment, and hospital charges for more than 3,000 U.S. hospitals that received IPPS payments. The data are organized by hospital.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/c5a33eaf-a076-4513-b057-4d10803deca8/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint546": {
+      "get": {
+        "summary": "Medicare Part B Discarded Drug Units : 2022-01-01",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/09fd71b8-eb3e-45af-a01e-f8ab5a190e84/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint547": {
+      "get": {
+        "summary": "Medicare Part B Discarded Drug Units : 2022-01-01",
+        "description": "The Medicare Part B Discarded Drug Units dataset provides spending information on claims for Medicare Part B drugs that were identified as having discarded amounts of a drug. As of January 1, 2017, the Centers for Medicare & Medicaid Services (CMS) requires all physicians, hospitals, and other providers submitting claims for Medicare Part B drugs to report any discarded amount of a single use vial or other single use package drug on its claim for payment. With the passage of the Infrastructure Investment and Jobs Act in November 2021, manufacturers must pay a refund to Medicare for discarded amounts above a specified threshold effective for drugs furnished beginning with January 1, 2023.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/d9278560-5136-4359-b869-a07dd0c34b87/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint548": {
+      "get": {
+        "summary": "Medicare Post-Acute Care and Hospice - by Geography & Provider : 2022-01-02",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/fa8caa65-d5c3-492e-be49-835fe42c9190/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint549": {
+      "get": {
+        "summary": "Medicare Post-Acute Care and Hospice - by Geography & Provider : 2022-01-02",
+        "description": "The Medicare Post-Acute Care and Hospice Provider Utilization and Payment Public Use Files (PAC PUF) contains information on demographic and clinical characteristics of beneficiaries served, professional and paraprofessional service utilization, and payment information at the provider, state, and national levels for each PAC setting (i.e. HHA, hospices, SNF, IRF, and LTCH). There are additional datasets which can be found as a downloadable report under \u2018Resources', which include information specific to the unique variables (e.g., case-mix groups) for HHAs, SNFs and IRFs.\n\nPlease note the data included may not be representative of a physician\u2019s entire practice. The data are also not intended to indicate the quality of care provided and are not risk-adjusted to account for differences in underlying severity of disease of patient populations.\u00a0\n\nMore information can be found below in the resources section.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/29ee817a-da89-4743-a43e-6b8b6f11d7dc/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint550": {
+      "get": {
+        "summary": "Medicare Provider and Supplier Taxonomy Crosswalk : 2025-01-01",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/113eb0bc-0c9a-4d91-9f93-3f6b28c0bf6b/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint551": {
+      "get": {
+        "summary": "Medicare Provider and Supplier Taxonomy Crosswalk : 2025-01-01",
+        "description": "The Medicare Provider and Supplier Taxonomy Crosswalk dataset lists the providers and suppliers eligible to enroll in Medicare programs with the proper healthcare provider taxonomy code. This data includes the Medicare speciality codes, if available, provider/supplier type description, taxonomy code, and the taxonomy description.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/c127e711-47ae-488a-9470-11b9055e3450/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint552": {
+      "get": {
+        "summary": "Medicare Provider and Supplier Taxonomy Crosswalk : 2024-12-01",
+        "description": "The Medicare Provider and Supplier Taxonomy Crosswalk dataset lists the providers and suppliers eligible to enroll in Medicare programs with the proper healthcare provider taxonomy code. This data includes the Medicare speciality codes, if available, provider/supplier type description, taxonomy code, and the taxonomy description.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/117b40ba-e414-4eea-b096-a9ef7f0b9573/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint553": {
+      "get": {
+        "summary": "Medicare Provider and Supplier Taxonomy Crosswalk : 2024-10-01",
+        "description": "The Medicare Provider and Supplier Taxonomy Crosswalk dataset lists the providers and suppliers eligible to enroll in Medicare programs with the proper healthcare provider taxonomy code. This data includes the Medicare speciality codes, if available, provider/supplier type description, taxonomy code, and the taxonomy description.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/2fd3474c-4315-4325-a2f4-99bbc5fb8c6e/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint554": {
+      "get": {
+        "summary": "Medicare Provider and Supplier Taxonomy Crosswalk : 2024-06-27",
+        "description": "The Medicare Provider and Supplier Taxonomy Crosswalk dataset lists the providers and suppliers eligible to enroll in Medicare programs with the proper healthcare provider taxonomy code. This data includes the Medicare speciality codes, if available, provider/supplier type description, taxonomy code, and the taxonomy description.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/142c63b6-47e0-464b-a8bf-b8d8bf5b8eb7/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint555": {
+      "get": {
+        "summary": "Medicare Provider and Supplier Taxonomy Crosswalk : 2023-12-31",
+        "description": "The Medicare Provider and Supplier Taxonomy Crosswalk dataset lists the providers and suppliers eligible to enroll in Medicare programs with the proper healthcare provider taxonomy code. This data includes the Medicare speciality codes, if available, provider/supplier type description, taxonomy code, and the taxonomy description.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/c7a85e56-3226-4673-b582-f6a558932cbf/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint556": {
+      "get": {
+        "summary": "Medicare Provider and Supplier Taxonomy Crosswalk : 2023-09-01",
+        "description": "The Medicare Provider and Supplier Taxonomy Crosswalk dataset lists the providers and suppliers eligible to enroll in Medicare programs with the proper healthcare provider taxonomy code. This data includes the Medicare speciality codes, if available, provider/supplier type description, taxonomy code, and the taxonomy description.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/22f41f23-6653-441f-9c88-2b8fad98c662/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint557": {
+      "get": {
+        "summary": "Medicare Provider and Supplier Taxonomy Crosswalk : 2021-10-29",
+        "description": "The Medicare Provider and Supplier Taxonomy Crosswalk dataset lists the providers and suppliers eligible to enroll in Medicare programs with the proper healthcare provider taxonomy code. This data includes the Medicare speciality codes, if available, provider/supplier type description, taxonomy code, and the taxonomy description.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/88bd5fb4-7b5c-4107-8131-23c485e00ef0/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint558": {
+      "get": {
+        "summary": "Medicare Telehealth Trends : 2024-07-01",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/939226be-b107-476e-8777-f199a840138a/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint559": {
+      "get": {
+        "summary": "Medicare Telehealth Trends : 2024-07-01",
+        "description": "The Medicare Telehealth Trends dataset provides information about people with Medicare who used telehealth services between January 1, 2020 and September 30, 2024. The data were used to generate the Medicare Telehealth Trends Report.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/c64296d2-c881-415a-8858-b283e20e6cd5/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint560": {
+      "get": {
+        "summary": "Minimum Data Set Frequency : 2024-07-01",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/4b50bbe6-a496-4eda-b03b-5f835937f81b/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint561": {
+      "get": {
+        "summary": "Minimum Data Set Frequency : 2024-07-01",
+        "description": "The Minimum Data Set (MDS) Frequency data summarizes health status indicators for active residents currently in nursing homes. The MDS is part of the Federally-mandated process for clinical assessment of all residents in Medicare and Medicaid certified nursing homes. This process provides a comprehensive assessment of each resident's functional capabilities and helps nursing home staff identify health problems. Care Area Assessments (CAAs) are part of this process, and provide the foundation upon which a resident's individual care plan is formulated. MDS assessments are completed for all residents in certified nursing homes, regardless of source of payment for the individual resident. MDS assessments are required for residents on admission to the nursing facility, periodically, and on discharge. All assessments are completed within specific guidelines and time frames. In most cases, participants in the assessment process are licensed health care professionals employed by the nursing home. MDS information is transmitted electronically by nursing homes to the national MDS database at CMS.\n\n\u00a0\n\nWhen reviewing the MDS 3.0 Frequency files, some common software programs e.g., \u2018Microsoft Excel\u2019 might inaccurately strip leading zeros from designated code values (i.e., \"01\" becomes \"1\") or misinterpret code ranges as dates (i.e., O0600 ranges such as 02-04 are misread as 04-Feb). As each piece of software is unique, if you encounter an issue when reading the CSV file of Frequency data, please open the file in a plain text editor such as \u2018Notepad\u2019 or \u2018TextPad\u2019 to review the underlying data, before reaching out to CMS for assistance.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/e8e5a32f-7cd4-453b-85c8-62903a80371a/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint562": {
+      "get": {
+        "summary": "Minimum Data Set Frequency : 2024-04-01",
+        "description": "The Minimum Data Set (MDS) Frequency data summarizes health status indicators for active residents currently in nursing homes. The MDS is part of the Federally-mandated process for clinical assessment of all residents in Medicare and Medicaid certified nursing homes. This process provides a comprehensive assessment of each resident's functional capabilities and helps nursing home staff identify health problems. Care Area Assessments (CAAs) are part of this process, and provide the foundation upon which a resident's individual care plan is formulated. MDS assessments are completed for all residents in certified nursing homes, regardless of source of payment for the individual resident. MDS assessments are required for residents on admission to the nursing facility, periodically, and on discharge. All assessments are completed within specific guidelines and time frames. In most cases, participants in the assessment process are licensed health care professionals employed by the nursing home. MDS information is transmitted electronically by nursing homes to the national MDS database at CMS.\n\n\u00a0\n\nWhen reviewing the MDS 3.0 Frequency files, some common software programs e.g., \u2018Microsoft Excel\u2019 might inaccurately strip leading zeros from designated code values (i.e., \"01\" becomes \"1\") or misinterpret code ranges as dates (i.e., O0600 ranges such as 02-04 are misread as 04-Feb). As each piece of software is unique, if you encounter an issue when reading the CSV file of Frequency data, please open the file in a plain text editor such as \u2018Notepad\u2019 or \u2018TextPad\u2019 to review the underlying data, before reaching out to CMS for assistance.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/0ac9c7e4-0f1d-4ed5-a70b-060c636b21e2/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint563": {
+      "get": {
+        "summary": "Minimum Data Set Frequency : 2024-01-01",
+        "description": "The Minimum Data Set (MDS) Frequency data summarizes health status indicators for active residents currently in nursing homes. The MDS is part of the Federally-mandated process for clinical assessment of all residents in Medicare and Medicaid certified nursing homes. This process provides a comprehensive assessment of each resident's functional capabilities and helps nursing home staff identify health problems. Care Area Assessments (CAAs) are part of this process, and provide the foundation upon which a resident's individual care plan is formulated. MDS assessments are completed for all residents in certified nursing homes, regardless of source of payment for the individual resident. MDS assessments are required for residents on admission to the nursing facility, periodically, and on discharge. All assessments are completed within specific guidelines and time frames. In most cases, participants in the assessment process are licensed health care professionals employed by the nursing home. MDS information is transmitted electronically by nursing homes to the national MDS database at CMS.\n\n\u00a0\n\nWhen reviewing the MDS 3.0 Frequency files, some common software programs e.g., \u2018Microsoft Excel\u2019 might inaccurately strip leading zeros from designated code values (i.e., \"01\" becomes \"1\") or misinterpret code ranges as dates (i.e., O0600 ranges such as 02-04 are misread as 04-Feb). As each piece of software is unique, if you encounter an issue when reading the CSV file of Frequency data, please open the file in a plain text editor such as \u2018Notepad\u2019 or \u2018TextPad\u2019 to review the underlying data, before reaching out to CMS for assistance.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/177fb523-d5a2-4038-946d-88f5fae0e6e0/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint564": {
+      "get": {
+        "summary": "Minimum Data Set Frequency : 2023-12-01",
+        "description": "The Minimum Data Set (MDS) Frequency data summarizes health status indicators for active residents currently in nursing homes. The MDS is part of the Federally-mandated process for clinical assessment of all residents in Medicare and Medicaid certified nursing homes. This process provides a comprehensive assessment of each resident's functional capabilities and helps nursing home staff identify health problems. Care Area Assessments (CAAs) are part of this process, and provide the foundation upon which a resident's individual care plan is formulated. MDS assessments are completed for all residents in certified nursing homes, regardless of source of payment for the individual resident. MDS assessments are required for residents on admission to the nursing facility, periodically, and on discharge. All assessments are completed within specific guidelines and time frames. In most cases, participants in the assessment process are licensed health care professionals employed by the nursing home. MDS information is transmitted electronically by nursing homes to the national MDS database at CMS.\n\n\u00a0\n\nWhen reviewing the MDS 3.0 Frequency files, some common software programs e.g., \u2018Microsoft Excel\u2019 might inaccurately strip leading zeros from designated code values (i.e., \"01\" becomes \"1\") or misinterpret code ranges as dates (i.e., O0600 ranges such as 02-04 are misread as 04-Feb). As each piece of software is unique, if you encounter an issue when reading the CSV file of Frequency data, please open the file in a plain text editor such as \u2018Notepad\u2019 or \u2018TextPad\u2019 to review the underlying data, before reaching out to CMS for assistance.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/931c4e73-37de-435f-ae93-2b23d935a58a/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint565": {
+      "get": {
+        "summary": "Minimum Data Set Frequency : 2023-07-01",
+        "description": "The Minimum Data Set (MDS) Frequency data summarizes health status indicators for active residents currently in nursing homes. The MDS is part of the Federally-mandated process for clinical assessment of all residents in Medicare and Medicaid certified nursing homes. This process provides a comprehensive assessment of each resident's functional capabilities and helps nursing home staff identify health problems. Care Area Assessments (CAAs) are part of this process, and provide the foundation upon which a resident's individual care plan is formulated. MDS assessments are completed for all residents in certified nursing homes, regardless of source of payment for the individual resident. MDS assessments are required for residents on admission to the nursing facility, periodically, and on discharge. All assessments are completed within specific guidelines and time frames. In most cases, participants in the assessment process are licensed health care professionals employed by the nursing home. MDS information is transmitted electronically by nursing homes to the national MDS database at CMS.\n\n\u00a0\n\nWhen reviewing the MDS 3.0 Frequency files, some common software programs e.g., \u2018Microsoft Excel\u2019 might inaccurately strip leading zeros from designated code values (i.e., \"01\" becomes \"1\") or misinterpret code ranges as dates (i.e., O0600 ranges such as 02-04 are misread as 04-Feb). As each piece of software is unique, if you encounter an issue when reading the CSV file of Frequency data, please open the file in a plain text editor such as \u2018Notepad\u2019 or \u2018TextPad\u2019 to review the underlying data, before reaching out to CMS for assistance.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/fc364768-0c69-4ae9-9cfb-6d69ff8617c5/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint566": {
+      "get": {
+        "summary": "Minimum Data Set Frequency : 2023-04-01",
+        "description": "The Minimum Data Set (MDS) Frequency data summarizes health status indicators for active residents currently in nursing homes. The MDS is part of the Federally-mandated process for clinical assessment of all residents in Medicare and Medicaid certified nursing homes. This process provides a comprehensive assessment of each resident's functional capabilities and helps nursing home staff identify health problems. Care Area Assessments (CAAs) are part of this process, and provide the foundation upon which a resident's individual care plan is formulated. MDS assessments are completed for all residents in certified nursing homes, regardless of source of payment for the individual resident. MDS assessments are required for residents on admission to the nursing facility, periodically, and on discharge. All assessments are completed within specific guidelines and time frames. In most cases, participants in the assessment process are licensed health care professionals employed by the nursing home. MDS information is transmitted electronically by nursing homes to the national MDS database at CMS.\n\n\u00a0\n\nWhen reviewing the MDS 3.0 Frequency files, some common software programs e.g., \u2018Microsoft Excel\u2019 might inaccurately strip leading zeros from designated code values (i.e., \"01\" becomes \"1\") or misinterpret code ranges as dates (i.e., O0600 ranges such as 02-04 are misread as 04-Feb). As each piece of software is unique, if you encounter an issue when reading the CSV file of Frequency data, please open the file in a plain text editor such as \u2018Notepad\u2019 or \u2018TextPad\u2019 to review the underlying data, before reaching out to CMS for assistance.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/553a1017-3800-4885-8027-8aef473a77f7/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint567": {
+      "get": {
+        "summary": "Minimum Data Set Frequency : 2023-01-01",
+        "description": "The Minimum Data Set (MDS) Frequency data summarizes health status indicators for active residents currently in nursing homes. The MDS is part of the Federally-mandated process for clinical assessment of all residents in Medicare and Medicaid certified nursing homes. This process provides a comprehensive assessment of each resident's functional capabilities and helps nursing home staff identify health problems. Care Area Assessments (CAAs) are part of this process, and provide the foundation upon which a resident's individual care plan is formulated. MDS assessments are completed for all residents in certified nursing homes, regardless of source of payment for the individual resident. MDS assessments are required for residents on admission to the nursing facility, periodically, and on discharge. All assessments are completed within specific guidelines and time frames. In most cases, participants in the assessment process are licensed health care professionals employed by the nursing home. MDS information is transmitted electronically by nursing homes to the national MDS database at CMS.\n\n\u00a0\n\nWhen reviewing the MDS 3.0 Frequency files, some common software programs e.g., \u2018Microsoft Excel\u2019 might inaccurately strip leading zeros from designated code values (i.e., \"01\" becomes \"1\") or misinterpret code ranges as dates (i.e., O0600 ranges such as 02-04 are misread as 04-Feb). As each piece of software is unique, if you encounter an issue when reading the CSV file of Frequency data, please open the file in a plain text editor such as \u2018Notepad\u2019 or \u2018TextPad\u2019 to review the underlying data, before reaching out to CMS for assistance.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/5f4f5f56-c183-44b7-b166-9fb1b77c074b/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint568": {
+      "get": {
+        "summary": "Minimum Data Set Frequency : 2022-12-01",
+        "description": "The Minimum Data Set (MDS) Frequency data summarizes health status indicators for active residents currently in nursing homes. The MDS is part of the Federally-mandated process for clinical assessment of all residents in Medicare and Medicaid certified nursing homes. This process provides a comprehensive assessment of each resident's functional capabilities and helps nursing home staff identify health problems. Care Area Assessments (CAAs) are part of this process, and provide the foundation upon which a resident's individual care plan is formulated. MDS assessments are completed for all residents in certified nursing homes, regardless of source of payment for the individual resident. MDS assessments are required for residents on admission to the nursing facility, periodically, and on discharge. All assessments are completed within specific guidelines and time frames. In most cases, participants in the assessment process are licensed health care professionals employed by the nursing home. MDS information is transmitted electronically by nursing homes to the national MDS database at CMS.\n\n\u00a0\n\nWhen reviewing the MDS 3.0 Frequency files, some common software programs e.g., \u2018Microsoft Excel\u2019 might inaccurately strip leading zeros from designated code values (i.e., \"01\" becomes \"1\") or misinterpret code ranges as dates (i.e., O0600 ranges such as 02-04 are misread as 04-Feb). As each piece of software is unique, if you encounter an issue when reading the CSV file of Frequency data, please open the file in a plain text editor such as \u2018Notepad\u2019 or \u2018TextPad\u2019 to review the underlying data, before reaching out to CMS for assistance.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/0ea741dd-50dc-4252-94d9-7522177da3d3/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint569": {
+      "get": {
+        "summary": "Minimum Data Set Frequency : 2022-07-01",
+        "description": "The Minimum Data Set (MDS) Frequency data summarizes health status indicators for active residents currently in nursing homes. The MDS is part of the Federally-mandated process for clinical assessment of all residents in Medicare and Medicaid certified nursing homes. This process provides a comprehensive assessment of each resident's functional capabilities and helps nursing home staff identify health problems. Care Area Assessments (CAAs) are part of this process, and provide the foundation upon which a resident's individual care plan is formulated. MDS assessments are completed for all residents in certified nursing homes, regardless of source of payment for the individual resident. MDS assessments are required for residents on admission to the nursing facility, periodically, and on discharge. All assessments are completed within specific guidelines and time frames. In most cases, participants in the assessment process are licensed health care professionals employed by the nursing home. MDS information is transmitted electronically by nursing homes to the national MDS database at CMS.\n\n\u00a0\n\nWhen reviewing the MDS 3.0 Frequency files, some common software programs e.g., \u2018Microsoft Excel\u2019 might inaccurately strip leading zeros from designated code values (i.e., \"01\" becomes \"1\") or misinterpret code ranges as dates (i.e., O0600 ranges such as 02-04 are misread as 04-Feb). As each piece of software is unique, if you encounter an issue when reading the CSV file of Frequency data, please open the file in a plain text editor such as \u2018Notepad\u2019 or \u2018TextPad\u2019 to review the underlying data, before reaching out to CMS for assistance.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/b8d2e949-d589-40d5-a83f-f08a046562d6/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint570": {
+      "get": {
+        "summary": "Minimum Data Set Frequency : 2022-04-01",
+        "description": "The Minimum Data Set (MDS) Frequency data summarizes health status indicators for active residents currently in nursing homes. The MDS is part of the Federally-mandated process for clinical assessment of all residents in Medicare and Medicaid certified nursing homes. This process provides a comprehensive assessment of each resident's functional capabilities and helps nursing home staff identify health problems. Care Area Assessments (CAAs) are part of this process, and provide the foundation upon which a resident's individual care plan is formulated. MDS assessments are completed for all residents in certified nursing homes, regardless of source of payment for the individual resident. MDS assessments are required for residents on admission to the nursing facility, periodically, and on discharge. All assessments are completed within specific guidelines and time frames. In most cases, participants in the assessment process are licensed health care professionals employed by the nursing home. MDS information is transmitted electronically by nursing homes to the national MDS database at CMS.\n\n\u00a0\n\nWhen reviewing the MDS 3.0 Frequency files, some common software programs e.g., \u2018Microsoft Excel\u2019 might inaccurately strip leading zeros from designated code values (i.e., \"01\" becomes \"1\") or misinterpret code ranges as dates (i.e., O0600 ranges such as 02-04 are misread as 04-Feb). As each piece of software is unique, if you encounter an issue when reading the CSV file of Frequency data, please open the file in a plain text editor such as \u2018Notepad\u2019 or \u2018TextPad\u2019 to review the underlying data, before reaching out to CMS for assistance.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/b9007550-969f-4e67-bc78-fcdf2dea23af/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint571": {
+      "get": {
+        "summary": "Minimum Data Set Frequency : 2022-01-01",
+        "description": "The Minimum Data Set (MDS) Frequency data summarizes health status indicators for active residents currently in nursing homes. The MDS is part of the Federally-mandated process for clinical assessment of all residents in Medicare and Medicaid certified nursing homes. This process provides a comprehensive assessment of each resident's functional capabilities and helps nursing home staff identify health problems. Care Area Assessments (CAAs) are part of this process, and provide the foundation upon which a resident's individual care plan is formulated. MDS assessments are completed for all residents in certified nursing homes, regardless of source of payment for the individual resident. MDS assessments are required for residents on admission to the nursing facility, periodically, and on discharge. All assessments are completed within specific guidelines and time frames. In most cases, participants in the assessment process are licensed health care professionals employed by the nursing home. MDS information is transmitted electronically by nursing homes to the national MDS database at CMS.\n\n\u00a0\n\nWhen reviewing the MDS 3.0 Frequency files, some common software programs e.g., \u2018Microsoft Excel\u2019 might inaccurately strip leading zeros from designated code values (i.e., \"01\" becomes \"1\") or misinterpret code ranges as dates (i.e., O0600 ranges such as 02-04 are misread as 04-Feb). As each piece of software is unique, if you encounter an issue when reading the CSV file of Frequency data, please open the file in a plain text editor such as \u2018Notepad\u2019 or \u2018TextPad\u2019 to review the underlying data, before reaching out to CMS for assistance.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/06c5bc57-8c3f-4f73-86cd-9a3b283a9157/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint572": {
+      "get": {
+        "summary": "Minimum Data Set Frequency : 2021-12-01",
+        "description": "The Minimum Data Set (MDS) Frequency data summarizes health status indicators for active residents currently in nursing homes. The MDS is part of the Federally-mandated process for clinical assessment of all residents in Medicare and Medicaid certified nursing homes. This process provides a comprehensive assessment of each resident's functional capabilities and helps nursing home staff identify health problems. Care Area Assessments (CAAs) are part of this process, and provide the foundation upon which a resident's individual care plan is formulated. MDS assessments are completed for all residents in certified nursing homes, regardless of source of payment for the individual resident. MDS assessments are required for residents on admission to the nursing facility, periodically, and on discharge. All assessments are completed within specific guidelines and time frames. In most cases, participants in the assessment process are licensed health care professionals employed by the nursing home. MDS information is transmitted electronically by nursing homes to the national MDS database at CMS.\n\n\u00a0\n\nWhen reviewing the MDS 3.0 Frequency files, some common software programs e.g., \u2018Microsoft Excel\u2019 might inaccurately strip leading zeros from designated code values (i.e., \"01\" becomes \"1\") or misinterpret code ranges as dates (i.e., O0600 ranges such as 02-04 are misread as 04-Feb). As each piece of software is unique, if you encounter an issue when reading the CSV file of Frequency data, please open the file in a plain text editor such as \u2018Notepad\u2019 or \u2018TextPad\u2019 to review the underlying data, before reaching out to CMS for assistance.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/8471ac55-68e8-4fdd-b722-1da5f7d389ee/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint573": {
+      "get": {
+        "summary": "Minimum Data Set Frequency : 2021-07-01",
+        "description": "The Minimum Data Set (MDS) Frequency data summarizes health status indicators for active residents currently in nursing homes. The MDS is part of the Federally-mandated process for clinical assessment of all residents in Medicare and Medicaid certified nursing homes. This process provides a comprehensive assessment of each resident's functional capabilities and helps nursing home staff identify health problems. Care Area Assessments (CAAs) are part of this process, and provide the foundation upon which a resident's individual care plan is formulated. MDS assessments are completed for all residents in certified nursing homes, regardless of source of payment for the individual resident. MDS assessments are required for residents on admission to the nursing facility, periodically, and on discharge. All assessments are completed within specific guidelines and time frames. In most cases, participants in the assessment process are licensed health care professionals employed by the nursing home. MDS information is transmitted electronically by nursing homes to the national MDS database at CMS.\n\n\u00a0\n\nWhen reviewing the MDS 3.0 Frequency files, some common software programs e.g., \u2018Microsoft Excel\u2019 might inaccurately strip leading zeros from designated code values (i.e., \"01\" becomes \"1\") or misinterpret code ranges as dates (i.e., O0600 ranges such as 02-04 are misread as 04-Feb). As each piece of software is unique, if you encounter an issue when reading the CSV file of Frequency data, please open the file in a plain text editor such as \u2018Notepad\u2019 or \u2018TextPad\u2019 to review the underlying data, before reaching out to CMS for assistance.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/943fda65-ec71-4113-bce7-639b745ade46/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint574": {
+      "get": {
+        "summary": "Minimum Data Set Frequency : 2021-04-01",
+        "description": "The Minimum Data Set (MDS) Frequency data summarizes health status indicators for active residents currently in nursing homes. The MDS is part of the Federally-mandated process for clinical assessment of all residents in Medicare and Medicaid certified nursing homes. This process provides a comprehensive assessment of each resident's functional capabilities and helps nursing home staff identify health problems. Care Area Assessments (CAAs) are part of this process, and provide the foundation upon which a resident's individual care plan is formulated. MDS assessments are completed for all residents in certified nursing homes, regardless of source of payment for the individual resident. MDS assessments are required for residents on admission to the nursing facility, periodically, and on discharge. All assessments are completed within specific guidelines and time frames. In most cases, participants in the assessment process are licensed health care professionals employed by the nursing home. MDS information is transmitted electronically by nursing homes to the national MDS database at CMS.\n\n\u00a0\n\nWhen reviewing the MDS 3.0 Frequency files, some common software programs e.g., \u2018Microsoft Excel\u2019 might inaccurately strip leading zeros from designated code values (i.e., \"01\" becomes \"1\") or misinterpret code ranges as dates (i.e., O0600 ranges such as 02-04 are misread as 04-Feb). As each piece of software is unique, if you encounter an issue when reading the CSV file of Frequency data, please open the file in a plain text editor such as \u2018Notepad\u2019 or \u2018TextPad\u2019 to review the underlying data, before reaching out to CMS for assistance.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f00aac86-4559-4bd6-8009-79d453b6f8c1/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint575": {
+      "get": {
+        "summary": "Minimum Data Set Frequency : 2021-01-01",
+        "description": "The Minimum Data Set (MDS) Frequency data summarizes health status indicators for active residents currently in nursing homes. The MDS is part of the Federally-mandated process for clinical assessment of all residents in Medicare and Medicaid certified nursing homes. This process provides a comprehensive assessment of each resident's functional capabilities and helps nursing home staff identify health problems. Care Area Assessments (CAAs) are part of this process, and provide the foundation upon which a resident's individual care plan is formulated. MDS assessments are completed for all residents in certified nursing homes, regardless of source of payment for the individual resident. MDS assessments are required for residents on admission to the nursing facility, periodically, and on discharge. All assessments are completed within specific guidelines and time frames. In most cases, participants in the assessment process are licensed health care professionals employed by the nursing home. MDS information is transmitted electronically by nursing homes to the national MDS database at CMS.\n\n\u00a0\n\nWhen reviewing the MDS 3.0 Frequency files, some common software programs e.g., \u2018Microsoft Excel\u2019 might inaccurately strip leading zeros from designated code values (i.e., \"01\" becomes \"1\") or misinterpret code ranges as dates (i.e., O0600 ranges such as 02-04 are misread as 04-Feb). As each piece of software is unique, if you encounter an issue when reading the CSV file of Frequency data, please open the file in a plain text editor such as \u2018Notepad\u2019 or \u2018TextPad\u2019 to review the underlying data, before reaching out to CMS for assistance.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f6a468d4-99e8-4b03-a854-5b2ef6b27571/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint576": {
+      "get": {
+        "summary": "Minimum Data Set Frequency : 2020-12-01",
+        "description": "The Minimum Data Set (MDS) Frequency data summarizes health status indicators for active residents currently in nursing homes. The MDS is part of the Federally-mandated process for clinical assessment of all residents in Medicare and Medicaid certified nursing homes. This process provides a comprehensive assessment of each resident's functional capabilities and helps nursing home staff identify health problems. Care Area Assessments (CAAs) are part of this process, and provide the foundation upon which a resident's individual care plan is formulated. MDS assessments are completed for all residents in certified nursing homes, regardless of source of payment for the individual resident. MDS assessments are required for residents on admission to the nursing facility, periodically, and on discharge. All assessments are completed within specific guidelines and time frames. In most cases, participants in the assessment process are licensed health care professionals employed by the nursing home. MDS information is transmitted electronically by nursing homes to the national MDS database at CMS.\n\n\u00a0\n\nWhen reviewing the MDS 3.0 Frequency files, some common software programs e.g., \u2018Microsoft Excel\u2019 might inaccurately strip leading zeros from designated code values (i.e., \"01\" becomes \"1\") or misinterpret code ranges as dates (i.e., O0600 ranges such as 02-04 are misread as 04-Feb). As each piece of software is unique, if you encounter an issue when reading the CSV file of Frequency data, please open the file in a plain text editor such as \u2018Notepad\u2019 or \u2018TextPad\u2019 to review the underlying data, before reaching out to CMS for assistance.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/2300b091-0888-448f-b050-dc1a92e7ecf0/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint577": {
+      "get": {
+        "summary": "Minimum Data Set Frequency : 2020-07-01",
+        "description": "The Minimum Data Set (MDS) Frequency data summarizes health status indicators for active residents currently in nursing homes. The MDS is part of the Federally-mandated process for clinical assessment of all residents in Medicare and Medicaid certified nursing homes. This process provides a comprehensive assessment of each resident's functional capabilities and helps nursing home staff identify health problems. Care Area Assessments (CAAs) are part of this process, and provide the foundation upon which a resident's individual care plan is formulated. MDS assessments are completed for all residents in certified nursing homes, regardless of source of payment for the individual resident. MDS assessments are required for residents on admission to the nursing facility, periodically, and on discharge. All assessments are completed within specific guidelines and time frames. In most cases, participants in the assessment process are licensed health care professionals employed by the nursing home. MDS information is transmitted electronically by nursing homes to the national MDS database at CMS.\n\n\u00a0\n\nWhen reviewing the MDS 3.0 Frequency files, some common software programs e.g., \u2018Microsoft Excel\u2019 might inaccurately strip leading zeros from designated code values (i.e., \"01\" becomes \"1\") or misinterpret code ranges as dates (i.e., O0600 ranges such as 02-04 are misread as 04-Feb). As each piece of software is unique, if you encounter an issue when reading the CSV file of Frequency data, please open the file in a plain text editor such as \u2018Notepad\u2019 or \u2018TextPad\u2019 to review the underlying data, before reaching out to CMS for assistance.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/db10caf4-fe43-493d-bc49-8a074fe838bb/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint578": {
+      "get": {
+        "summary": "Minimum Data Set Frequency : 2020-04-01",
+        "description": "The Minimum Data Set (MDS) Frequency data summarizes health status indicators for active residents currently in nursing homes. The MDS is part of the Federally-mandated process for clinical assessment of all residents in Medicare and Medicaid certified nursing homes. This process provides a comprehensive assessment of each resident's functional capabilities and helps nursing home staff identify health problems. Care Area Assessments (CAAs) are part of this process, and provide the foundation upon which a resident's individual care plan is formulated. MDS assessments are completed for all residents in certified nursing homes, regardless of source of payment for the individual resident. MDS assessments are required for residents on admission to the nursing facility, periodically, and on discharge. All assessments are completed within specific guidelines and time frames. In most cases, participants in the assessment process are licensed health care professionals employed by the nursing home. MDS information is transmitted electronically by nursing homes to the national MDS database at CMS.\n\n\u00a0\n\nWhen reviewing the MDS 3.0 Frequency files, some common software programs e.g., \u2018Microsoft Excel\u2019 might inaccurately strip leading zeros from designated code values (i.e., \"01\" becomes \"1\") or misinterpret code ranges as dates (i.e., O0600 ranges such as 02-04 are misread as 04-Feb). As each piece of software is unique, if you encounter an issue when reading the CSV file of Frequency data, please open the file in a plain text editor such as \u2018Notepad\u2019 or \u2018TextPad\u2019 to review the underlying data, before reaching out to CMS for assistance.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/d3b6d01f-1971-4fed-8014-d5f91da07693/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint579": {
+      "get": {
+        "summary": "Minimum Data Set Frequency : 2020-01-01",
+        "description": "The Minimum Data Set (MDS) Frequency data summarizes health status indicators for active residents currently in nursing homes. The MDS is part of the Federally-mandated process for clinical assessment of all residents in Medicare and Medicaid certified nursing homes. This process provides a comprehensive assessment of each resident's functional capabilities and helps nursing home staff identify health problems. Care Area Assessments (CAAs) are part of this process, and provide the foundation upon which a resident's individual care plan is formulated. MDS assessments are completed for all residents in certified nursing homes, regardless of source of payment for the individual resident. MDS assessments are required for residents on admission to the nursing facility, periodically, and on discharge. All assessments are completed within specific guidelines and time frames. In most cases, participants in the assessment process are licensed health care professionals employed by the nursing home. MDS information is transmitted electronically by nursing homes to the national MDS database at CMS.\n\n\u00a0\n\nWhen reviewing the MDS 3.0 Frequency files, some common software programs e.g., \u2018Microsoft Excel\u2019 might inaccurately strip leading zeros from designated code values (i.e., \"01\" becomes \"1\") or misinterpret code ranges as dates (i.e., O0600 ranges such as 02-04 are misread as 04-Feb). As each piece of software is unique, if you encounter an issue when reading the CSV file of Frequency data, please open the file in a plain text editor such as \u2018Notepad\u2019 or \u2018TextPad\u2019 to review the underlying data, before reaching out to CMS for assistance.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/26f552e8-6ef0-4230-9703-29d18ae4d7e9/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint580": {
+      "get": {
+        "summary": "Number of Accountable Care Organization Assigned Beneficiaries by County : 2023-12-31",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/ae8c9418-acc9-4442-b217-33291448f6b8/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint581": {
+      "get": {
+        "summary": "Number of Accountable Care Organization Assigned Beneficiaries by County : 2023-12-31",
+        "description": "The Shared Savings Program Number of Accountable Care Organization Assigned Beneficiaries by County dataset provides aggregate data of total assigned beneficiaries by Shared Savings Program ACO for each county where at least one of their assigned beneficiaries resides. Assigned beneficiary person-year counts are based on certified Shared Savings Program ACO Participant Lists and assignment methodology for that performance year.\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to Shared Savings Program ACO information occur periodically. Each Shared Savings Program ACO has the most up-to-date information about their organization. Consider contacting the Shared Savings Program ACO for the latest information. Contact information is available in the ACO Public Use File (PUF) and the ACO Participants PUF.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/4f64f8d2-f62b-4690-8ce4-85a9cf9adb76/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint582": {
+      "get": {
+        "summary": "Number of Accountable Care Organization Assigned Beneficiaries by County : 2022-02-01",
+        "description": "The Shared Savings Program Number of Accountable Care Organization Assigned Beneficiaries by County dataset provides aggregate data of total assigned beneficiaries by Shared Savings Program ACO for each county where at least one of their assigned beneficiaries resides. Assigned beneficiary person-year counts are based on certified Shared Savings Program ACO Participant Lists and assignment methodology for that performance year.\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to Shared Savings Program ACO information occur periodically. Each Shared Savings Program ACO has the most up-to-date information about their organization. Consider contacting the Shared Savings Program ACO for the latest information. Contact information is available in the ACO Public Use File (PUF) and the ACO Participants PUF.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/7071eb0c-71b6-450d-b3c2-077a3166ed46/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint583": {
+      "get": {
+        "summary": "Number of Accountable Care Organization Assigned Beneficiaries by County : 2021-01-31",
+        "description": "The Shared Savings Program Number of Accountable Care Organization Assigned Beneficiaries by County dataset provides aggregate data of total assigned beneficiaries by Shared Savings Program ACO for each county where at least one of their assigned beneficiaries resides. Assigned beneficiary person-year counts are based on certified Shared Savings Program ACO Participant Lists and assignment methodology for that performance year.\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to Shared Savings Program ACO information occur periodically. Each Shared Savings Program ACO has the most up-to-date information about their organization. Consider contacting the Shared Savings Program ACO for the latest information. Contact information is available in the ACO Public Use File (PUF) and the ACO Participants PUF.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/95490093-9f62-4566-b9bf-693d2a00fe08/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint584": {
+      "get": {
+        "summary": "Number of Accountable Care Organization Assigned Beneficiaries by County : 2020-01-01",
+        "description": "The Shared Savings Program Number of Accountable Care Organization Assigned Beneficiaries by County dataset provides aggregate data of total assigned beneficiaries by Shared Savings Program ACO for each county where at least one of their assigned beneficiaries resides. Assigned beneficiary person-year counts are based on certified Shared Savings Program ACO Participant Lists and assignment methodology for that performance year.\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to Shared Savings Program ACO information occur periodically. Each Shared Savings Program ACO has the most up-to-date information about their organization. Consider contacting the Shared Savings Program ACO for the latest information. Contact information is available in the ACO Public Use File (PUF) and the ACO Participants PUF.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/cff04cbb-6267-47ec-b69d-7a2315b36df3/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint585": {
+      "get": {
+        "summary": "Number of Accountable Care Organization Assigned Beneficiaries by County : 2019-07-01oc1",
+        "description": "The Shared Savings Program Number of Accountable Care Organization Assigned Beneficiaries by County dataset provides aggregate data of total assigned beneficiaries by Shared Savings Program ACO for each county where at least one of their assigned beneficiaries resides. Assigned beneficiary person-year counts are based on certified Shared Savings Program ACO Participant Lists and assignment methodology for that performance year.\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to Shared Savings Program ACO information occur periodically. Each Shared Savings Program ACO has the most up-to-date information about their organization. Consider contacting the Shared Savings Program ACO for the latest information. Contact information is available in the ACO Public Use File (PUF) and the ACO Participants PUF.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/d73a38fb-2e6e-469f-b369-f685fd45f424/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint586": {
+      "get": {
+        "summary": "Number of Accountable Care Organization Assigned Beneficiaries by County : 2019-01-31",
+        "description": "The Shared Savings Program Number of Accountable Care Organization Assigned Beneficiaries by County dataset provides aggregate data of total assigned beneficiaries by Shared Savings Program ACO for each county where at least one of their assigned beneficiaries resides. Assigned beneficiary person-year counts are based on certified Shared Savings Program ACO Participant Lists and assignment methodology for that performance year.\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to Shared Savings Program ACO information occur periodically. Each Shared Savings Program ACO has the most up-to-date information about their organization. Consider contacting the Shared Savings Program ACO for the latest information. Contact information is available in the ACO Public Use File (PUF) and the ACO Participants PUF.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/d076f7f0-536a-4944-aa56-8930ced2a06d/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint587": {
+      "get": {
+        "summary": "Number of Accountable Care Organization Assigned Beneficiaries by County : 2018-01-15",
+        "description": "The Shared Savings Program Number of Accountable Care Organization Assigned Beneficiaries by County dataset provides aggregate data of total assigned beneficiaries by Shared Savings Program ACO for each county where at least one of their assigned beneficiaries resides. Assigned beneficiary person-year counts are based on certified Shared Savings Program ACO Participant Lists and assignment methodology for that performance year.\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to Shared Savings Program ACO information occur periodically. Each Shared Savings Program ACO has the most up-to-date information about their organization. Consider contacting the Shared Savings Program ACO for the latest information. Contact information is available in the ACO Public Use File (PUF) and the ACO Participants PUF.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/ee439bd7-ac96-43aa-99c7-86e5c8ede0bc/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint588": {
+      "get": {
+        "summary": "Number of Accountable Care Organization Assigned Beneficiaries by County : 2017-01-15",
+        "description": "The Shared Savings Program Number of Accountable Care Organization Assigned Beneficiaries by County dataset provides aggregate data of total assigned beneficiaries by Shared Savings Program ACO for each county where at least one of their assigned beneficiaries resides. Assigned beneficiary person-year counts are based on certified Shared Savings Program ACO Participant Lists and assignment methodology for that performance year.\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to Shared Savings Program ACO information occur periodically. Each Shared Savings Program ACO has the most up-to-date information about their organization. Consider contacting the Shared Savings Program ACO for the latest information. Contact information is available in the ACO Public Use File (PUF) and the ACO Participants PUF.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/c2b153f1-8354-4132-b6ac-9817023db82f/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint589": {
+      "get": {
+        "summary": "Number of Accountable Care Organization Assigned Beneficiaries by County : 2016-01-15",
+        "description": "The Shared Savings Program Number of Accountable Care Organization Assigned Beneficiaries by County dataset provides aggregate data of total assigned beneficiaries by Shared Savings Program ACO for each county where at least one of their assigned beneficiaries resides. Assigned beneficiary person-year counts are based on certified Shared Savings Program ACO Participant Lists and assignment methodology for that performance year.\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to Shared Savings Program ACO information occur periodically. Each Shared Savings Program ACO has the most up-to-date information about their organization. Consider contacting the Shared Savings Program ACO for the latest information. Contact information is available in the ACO Public Use File (PUF) and the ACO Participants PUF.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/ff0d442b-8c0d-44ba-b8cd-6e392e30fab0/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint590": {
+      "get": {
+        "summary": "Nursing Home Affiliated Entity Performance Measures : 2024-11-01",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/97ecfad1-d3f1-4d42-b774-d74661d830bc/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint591": {
+      "get": {
+        "summary": "Nursing Home Affiliated Entity Performance Measures : 2024-11-01",
+        "description": "The Nursing Home Affiliated Entity Performance Measures dataset provides select quality and performance measures from Care Compare\u00a0for groups of nursing homes that share common individual or organizational owners, officers, or entities with operational/managerial control. The data include measures such as average health and staffing star ratings, staffing measures, average quality star ratings, select enforcement remedies, claims-based and Minimum Data Set (MDS) measures, average Skilled Nursing Facility Quality Reporting Program (SNF QRP) metrics, and COVID-19 vaccination rates.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/74b855fe-c00b-459e-806e-c5f8a9103daa/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint592": {
+      "get": {
+        "summary": "Nursing Home Affiliated Entity Performance Measures : 2024-10-01",
+        "description": "The Nursing Home Affiliated Entity Performance Measures dataset provides select quality and performance measures from Care Compare\u00a0for groups of nursing homes that share common individual or organizational owners, officers, or entities with operational/managerial control. The data include measures such as average health and staffing star ratings, staffing measures, average quality star ratings, select enforcement remedies, claims-based and Minimum Data Set (MDS) measures, average Skilled Nursing Facility Quality Reporting Program (SNF QRP) metrics, and COVID-19 vaccination rates.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/ef62496c-bac3-4f29-ae20-ff10c6263925/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint593": {
+      "get": {
+        "summary": "Nursing Home Affiliated Entity Performance Measures : 2024-09-01",
+        "description": "The Nursing Home Affiliated Entity Performance Measures dataset provides select quality and performance measures from Care Compare\u00a0for groups of nursing homes that share common individual or organizational owners, officers, or entities with operational/managerial control. The data include measures such as average health and staffing star ratings, staffing measures, average quality star ratings, select enforcement remedies, claims-based and Minimum Data Set (MDS) measures, average Skilled Nursing Facility Quality Reporting Program (SNF QRP) metrics, and COVID-19 vaccination rates.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f2709df3-1c5a-4b8f-a6ae-a0c911282d25/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint594": {
+      "get": {
+        "summary": "Nursing Home Affiliated Entity Performance Measures : 2024-08-01",
+        "description": "The Nursing Home Affiliated Entity Performance Measures dataset provides select quality and performance measures from Care Compare\u00a0for groups of nursing homes that share common individual or organizational owners, officers, or entities with operational/managerial control. The data include measures such as average health and staffing star ratings, staffing measures, average quality star ratings, select enforcement remedies, claims-based and Minimum Data Set (MDS) measures, average Skilled Nursing Facility Quality Reporting Program (SNF QRP) metrics, and COVID-19 vaccination rates.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/4695c632-9710-4964-9c3e-0c13a0c10655/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint595": {
+      "get": {
+        "summary": "Nursing Home Affiliated Entity Performance Measures : 2024-07-01",
+        "description": "The Nursing Home Affiliated Entity Performance Measures dataset provides select quality and performance measures from Care Compare\u00a0for groups of nursing homes that share common individual or organizational owners, officers, or entities with operational/managerial control. The data include measures such as average health and staffing star ratings, staffing measures, average quality star ratings, select enforcement remedies, claims-based and Minimum Data Set (MDS) measures, average Skilled Nursing Facility Quality Reporting Program (SNF QRP) metrics, and COVID-19 vaccination rates.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/0906436c-acd6-48f2-8eb7-ab6186f1e609/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint596": {
+      "get": {
+        "summary": "Nursing Home Affiliated Entity Performance Measures : 2024-06-01",
+        "description": "The Nursing Home Affiliated Entity Performance Measures dataset provides select quality and performance measures from Care Compare\u00a0for groups of nursing homes that share common individual or organizational owners, officers, or entities with operational/managerial control. The data include measures such as average health and staffing star ratings, staffing measures, average quality star ratings, select enforcement remedies, claims-based and Minimum Data Set (MDS) measures, average Skilled Nursing Facility Quality Reporting Program (SNF QRP) metrics, and COVID-19 vaccination rates.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/5a7b3c8c-12c8-4160-b88c-5d3ca0ee0ebc/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint597": {
+      "get": {
+        "summary": "Nursing Home Affiliated Entity Performance Measures : 2024-05-30",
+        "description": "The Nursing Home Affiliated Entity Performance Measures dataset provides select quality and performance measures from Care Compare\u00a0for groups of nursing homes that share common individual or organizational owners, officers, or entities with operational/managerial control. The data include measures such as average health and staffing star ratings, staffing measures, average quality star ratings, select enforcement remedies, claims-based and Minimum Data Set (MDS) measures, average Skilled Nursing Facility Quality Reporting Program (SNF QRP) metrics, and COVID-19 vaccination rates.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/8bea5a13-86b7-4835-8e60-39780cee9c19/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint598": {
+      "get": {
+        "summary": "Nursing Home Affiliated Entity Performance Measures : 2024-04-25",
+        "description": "The Nursing Home Affiliated Entity Performance Measures dataset provides select quality and performance measures from Care Compare\u00a0for groups of nursing homes that share common individual or organizational owners, officers, or entities with operational/managerial control. The data include measures such as average health and staffing star ratings, staffing measures, average quality star ratings, select enforcement remedies, claims-based and Minimum Data Set (MDS) measures, average Skilled Nursing Facility Quality Reporting Program (SNF QRP) metrics, and COVID-19 vaccination rates.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/0f5d9966-11ae-4930-91de-50b2a851f62c/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint599": {
+      "get": {
+        "summary": "Nursing Home Affiliated Entity Performance Measures : 2024-03-22",
+        "description": "The Nursing Home Affiliated Entity Performance Measures dataset provides select quality and performance measures from Care Compare\u00a0for groups of nursing homes that share common individual or organizational owners, officers, or entities with operational/managerial control. The data include measures such as average health and staffing star ratings, staffing measures, average quality star ratings, select enforcement remedies, claims-based and Minimum Data Set (MDS) measures, average Skilled Nursing Facility Quality Reporting Program (SNF QRP) metrics, and COVID-19 vaccination rates.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/51914423-a9cc-4b35-8701-4deebf6ef98a/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint600": {
+      "get": {
+        "summary": "Nursing Home Affiliated Entity Performance Measures : 2024-02-22",
+        "description": "The Nursing Home Affiliated Entity Performance Measures dataset provides select quality and performance measures from Care Compare\u00a0for groups of nursing homes that share common individual or organizational owners, officers, or entities with operational/managerial control. The data include measures such as average health and staffing star ratings, staffing measures, average quality star ratings, select enforcement remedies, claims-based and Minimum Data Set (MDS) measures, average Skilled Nursing Facility Quality Reporting Program (SNF QRP) metrics, and COVID-19 vaccination rates.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/1ec937aa-e2f4-4fa2-aff0-88e1fb0fb4b0/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

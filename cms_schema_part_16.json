@@ -1,0 +1,1915 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "CMS API Subset 16",
+    "version": "1.0.0",
+    "description": "Subset 16 of CMS API endpoints"
+  },
+  "servers": [
+    {
+      "url": "https://data.cms.gov"
+    }
+  ],
+  "paths": {
+    "/proxy/endpoint1501": {
+      "get": {
+        "summary": "Skilled Nursing Facility Cost Report : 2012-12-02",
+        "description": "The Skilled Nursing Facility (SNF) Cost Report dataset is a public use file that provides select measures from the skilled nursing facility\u00a0annual cost report. This data includes provider information such as facility characteristics, utilization data, cost and charges by cost center (in total and for Medicare), Medicare settlement data, and financial statement data organized by CMS Certification Number.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/ad680796-1935-4900-a239-e8811e033b82/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1502": {
+      "get": {
+        "summary": "Skilled Nursing Facility Cost Report : 2011-12-02",
+        "description": "The Skilled Nursing Facility (SNF) Cost Report dataset is a public use file that provides select measures from the skilled nursing facility\u00a0annual cost report. This data includes provider information such as facility characteristics, utilization data, cost and charges by cost center (in total and for Medicare), Medicare settlement data, and financial statement data organized by CMS Certification Number.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f6fce67e-d888-4a56-b01b-28f49b17454e/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1503": {
+      "get": {
+        "summary": "Skilled Nursing Facility Enrollments : 2025-03-01",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/5f2c306f-3b1c-42cd-b037-187b2ce22126/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1504": {
+      "get": {
+        "summary": "Skilled Nursing Facility Enrollments : 2025-03-01",
+        "description": "The Skilled Nursing Facility (SNF) Enrollments dataset provides enrollment information of all SNF 's currently enrolled in Medicare. This data includes information on the SNF's legal business name, doing business as name, organization type and address.\n\n\u00a0\n\nOn November 17, 2023, CMS published in the Federal Register a final rule titled, \u201cMedicare and Medicaid Programs; Disclosures of Ownership and Additional Disclosable Parties Information for Skilled Nursing Facilities and Nursing Facilities; Medicare Providers\u2019 and Suppliers\u2019 Disclosure of Private Equity Companies and Real Estate Investment Trusts\u201d (88 FR 80141). This final rule implements parts of section 1124(c) of the Act which requires SNFs to disclose detailed information about their ownership and management as well as additional data regarding: (1) other parties with which the SNF is associated; and (2) the ownership structures of these other parties.\u00a0 Refer to Medicare Enrollment for Providers & Suppliers for more information on the Skilled Nursing Facility disclosure requirements. \n\nSection 6101(b) of the Affordable Care Act states that no later than 1 year after final regulations promulgated under section 1124(c) of the Act are published in the\u00a0Federal Register, the Secretary shall make the information reported available to the public.\n\n\u00a0On November 21, 2024 CMS updated this dataset to include this reported information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/a8d7e43b-4edd-412d-99ce-e592caac2d4d/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1505": {
+      "get": {
+        "summary": "Skilled Nursing Facility Enrollments : 2025-02-01",
+        "description": "The Skilled Nursing Facility (SNF) Enrollments dataset provides enrollment information of all SNF 's currently enrolled in Medicare. This data includes information on the SNF's legal business name, doing business as name, organization type and address.\n\n\u00a0\n\nOn November 17, 2023, CMS published in the Federal Register a final rule titled, \u201cMedicare and Medicaid Programs; Disclosures of Ownership and Additional Disclosable Parties Information for Skilled Nursing Facilities and Nursing Facilities; Medicare Providers\u2019 and Suppliers\u2019 Disclosure of Private Equity Companies and Real Estate Investment Trusts\u201d (88 FR 80141). This final rule implements parts of section 1124(c) of the Act which requires SNFs to disclose detailed information about their ownership and management as well as additional data regarding: (1) other parties with which the SNF is associated; and (2) the ownership structures of these other parties.\u00a0 Refer to Medicare Enrollment for Providers & Suppliers for more information on the Skilled Nursing Facility disclosure requirements. \n\nSection 6101(b) of the Affordable Care Act states that no later than 1 year after final regulations promulgated under section 1124(c) of the Act are published in the\u00a0Federal Register, the Secretary shall make the information reported available to the public.\n\n\u00a0On November 21, 2024 CMS updated this dataset to include this reported information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/30f5f08a-c686-4c6e-8cad-f6364518110b/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1506": {
+      "get": {
+        "summary": "Skilled Nursing Facility Enrollments : 2025-01-01",
+        "description": "The Skilled Nursing Facility (SNF) Enrollments dataset provides enrollment information of all SNF 's currently enrolled in Medicare. This data includes information on the SNF's legal business name, doing business as name, organization type and address.\n\n\u00a0\n\nOn November 17, 2023, CMS published in the Federal Register a final rule titled, \u201cMedicare and Medicaid Programs; Disclosures of Ownership and Additional Disclosable Parties Information for Skilled Nursing Facilities and Nursing Facilities; Medicare Providers\u2019 and Suppliers\u2019 Disclosure of Private Equity Companies and Real Estate Investment Trusts\u201d (88 FR 80141). This final rule implements parts of section 1124(c) of the Act which requires SNFs to disclose detailed information about their ownership and management as well as additional data regarding: (1) other parties with which the SNF is associated; and (2) the ownership structures of these other parties.\u00a0 Refer to Medicare Enrollment for Providers & Suppliers for more information on the Skilled Nursing Facility disclosure requirements. \n\nSection 6101(b) of the Affordable Care Act states that no later than 1 year after final regulations promulgated under section 1124(c) of the Act are published in the\u00a0Federal Register, the Secretary shall make the information reported available to the public.\n\n\u00a0On November 21, 2024 CMS updated this dataset to include this reported information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f9368b76-cffb-452c-b718-fd091d57abf1/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1507": {
+      "get": {
+        "summary": "Skilled Nursing Facility Enrollments : 2024-12-01",
+        "description": "The Skilled Nursing Facility (SNF) Enrollments dataset provides enrollment information of all SNF 's currently enrolled in Medicare. This data includes information on the SNF's legal business name, doing business as name, organization type and address.\n\n\u00a0\n\nOn November 17, 2023, CMS published in the Federal Register a final rule titled, \u201cMedicare and Medicaid Programs; Disclosures of Ownership and Additional Disclosable Parties Information for Skilled Nursing Facilities and Nursing Facilities; Medicare Providers\u2019 and Suppliers\u2019 Disclosure of Private Equity Companies and Real Estate Investment Trusts\u201d (88 FR 80141). This final rule implements parts of section 1124(c) of the Act which requires SNFs to disclose detailed information about their ownership and management as well as additional data regarding: (1) other parties with which the SNF is associated; and (2) the ownership structures of these other parties.\u00a0 Refer to Medicare Enrollment for Providers & Suppliers for more information on the Skilled Nursing Facility disclosure requirements. \n\nSection 6101(b) of the Affordable Care Act states that no later than 1 year after final regulations promulgated under section 1124(c) of the Act are published in the\u00a0Federal Register, the Secretary shall make the information reported available to the public.\n\n\u00a0On November 21, 2024 CMS updated this dataset to include this reported information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/5b3bf673-11ff-4912-b95b-56f2b39d3835/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1508": {
+      "get": {
+        "summary": "Skilled Nursing Facility Enrollments : 2024-11-01",
+        "description": "The Skilled Nursing Facility (SNF) Enrollments dataset provides enrollment information of all SNF 's currently enrolled in Medicare. This data includes information on the SNF's legal business name, doing business as name, organization type and address.\n\n\u00a0\n\nOn November 17, 2023, CMS published in the Federal Register a final rule titled, \u201cMedicare and Medicaid Programs; Disclosures of Ownership and Additional Disclosable Parties Information for Skilled Nursing Facilities and Nursing Facilities; Medicare Providers\u2019 and Suppliers\u2019 Disclosure of Private Equity Companies and Real Estate Investment Trusts\u201d (88 FR 80141). This final rule implements parts of section 1124(c) of the Act which requires SNFs to disclose detailed information about their ownership and management as well as additional data regarding: (1) other parties with which the SNF is associated; and (2) the ownership structures of these other parties.\u00a0 Refer to Medicare Enrollment for Providers & Suppliers for more information on the Skilled Nursing Facility disclosure requirements. \n\nSection 6101(b) of the Affordable Care Act states that no later than 1 year after final regulations promulgated under section 1124(c) of the Act are published in the\u00a0Federal Register, the Secretary shall make the information reported available to the public.\n\n\u00a0On November 21, 2024 CMS updated this dataset to include this reported information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/8b543110-bbd1-4823-b3ab-dde6abb3b39d/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1509": {
+      "get": {
+        "summary": "Skilled Nursing Facility Enrollments : 2024-10-01",
+        "description": "The Skilled Nursing Facility (SNF) Enrollments dataset provides enrollment information of all SNF 's currently enrolled in Medicare. This data includes information on the SNF's legal business name, doing business as name, organization type and address.\n\n\u00a0\n\nOn November 17, 2023, CMS published in the Federal Register a final rule titled, \u201cMedicare and Medicaid Programs; Disclosures of Ownership and Additional Disclosable Parties Information for Skilled Nursing Facilities and Nursing Facilities; Medicare Providers\u2019 and Suppliers\u2019 Disclosure of Private Equity Companies and Real Estate Investment Trusts\u201d (88 FR 80141). This final rule implements parts of section 1124(c) of the Act which requires SNFs to disclose detailed information about their ownership and management as well as additional data regarding: (1) other parties with which the SNF is associated; and (2) the ownership structures of these other parties.\u00a0 Refer to Medicare Enrollment for Providers & Suppliers for more information on the Skilled Nursing Facility disclosure requirements. \n\nSection 6101(b) of the Affordable Care Act states that no later than 1 year after final regulations promulgated under section 1124(c) of the Act are published in the\u00a0Federal Register, the Secretary shall make the information reported available to the public.\n\n\u00a0On November 21, 2024 CMS updated this dataset to include this reported information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/57f6a81b-c9d5-4168-9788-326a799878e7/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1510": {
+      "get": {
+        "summary": "Skilled Nursing Facility Enrollments : 2024-09-01",
+        "description": "The Skilled Nursing Facility (SNF) Enrollments dataset provides enrollment information of all SNF 's currently enrolled in Medicare. This data includes information on the SNF's legal business name, doing business as name, organization type and address.\n\n\u00a0\n\nOn November 17, 2023, CMS published in the Federal Register a final rule titled, \u201cMedicare and Medicaid Programs; Disclosures of Ownership and Additional Disclosable Parties Information for Skilled Nursing Facilities and Nursing Facilities; Medicare Providers\u2019 and Suppliers\u2019 Disclosure of Private Equity Companies and Real Estate Investment Trusts\u201d (88 FR 80141). This final rule implements parts of section 1124(c) of the Act which requires SNFs to disclose detailed information about their ownership and management as well as additional data regarding: (1) other parties with which the SNF is associated; and (2) the ownership structures of these other parties.\u00a0 Refer to Medicare Enrollment for Providers & Suppliers for more information on the Skilled Nursing Facility disclosure requirements. \n\nSection 6101(b) of the Affordable Care Act states that no later than 1 year after final regulations promulgated under section 1124(c) of the Act are published in the\u00a0Federal Register, the Secretary shall make the information reported available to the public.\n\n\u00a0On November 21, 2024 CMS updated this dataset to include this reported information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/700ea9e5-e45e-49b5-a95a-c8a5ea9ddf74/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1511": {
+      "get": {
+        "summary": "Skilled Nursing Facility Enrollments : 2024-08-01",
+        "description": "The Skilled Nursing Facility (SNF) Enrollments dataset provides enrollment information of all SNF 's currently enrolled in Medicare. This data includes information on the SNF's legal business name, doing business as name, organization type and address.\n\n\u00a0\n\nOn November 17, 2023, CMS published in the Federal Register a final rule titled, \u201cMedicare and Medicaid Programs; Disclosures of Ownership and Additional Disclosable Parties Information for Skilled Nursing Facilities and Nursing Facilities; Medicare Providers\u2019 and Suppliers\u2019 Disclosure of Private Equity Companies and Real Estate Investment Trusts\u201d (88 FR 80141). This final rule implements parts of section 1124(c) of the Act which requires SNFs to disclose detailed information about their ownership and management as well as additional data regarding: (1) other parties with which the SNF is associated; and (2) the ownership structures of these other parties.\u00a0 Refer to Medicare Enrollment for Providers & Suppliers for more information on the Skilled Nursing Facility disclosure requirements. \n\nSection 6101(b) of the Affordable Care Act states that no later than 1 year after final regulations promulgated under section 1124(c) of the Act are published in the\u00a0Federal Register, the Secretary shall make the information reported available to the public.\n\n\u00a0On November 21, 2024 CMS updated this dataset to include this reported information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/5751cc8d-a6f7-469b-9048-44519d0affcf/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1512": {
+      "get": {
+        "summary": "Skilled Nursing Facility Enrollments : 2024-07-01",
+        "description": "The Skilled Nursing Facility (SNF) Enrollments dataset provides enrollment information of all SNF 's currently enrolled in Medicare. This data includes information on the SNF's legal business name, doing business as name, organization type and address.\n\n\u00a0\n\nOn November 17, 2023, CMS published in the Federal Register a final rule titled, \u201cMedicare and Medicaid Programs; Disclosures of Ownership and Additional Disclosable Parties Information for Skilled Nursing Facilities and Nursing Facilities; Medicare Providers\u2019 and Suppliers\u2019 Disclosure of Private Equity Companies and Real Estate Investment Trusts\u201d (88 FR 80141). This final rule implements parts of section 1124(c) of the Act which requires SNFs to disclose detailed information about their ownership and management as well as additional data regarding: (1) other parties with which the SNF is associated; and (2) the ownership structures of these other parties.\u00a0 Refer to Medicare Enrollment for Providers & Suppliers for more information on the Skilled Nursing Facility disclosure requirements. \n\nSection 6101(b) of the Affordable Care Act states that no later than 1 year after final regulations promulgated under section 1124(c) of the Act are published in the\u00a0Federal Register, the Secretary shall make the information reported available to the public.\n\n\u00a0On November 21, 2024 CMS updated this dataset to include this reported information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/1b0b0e22-cfc4-40e3-bb72-a599c002fc8d/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1513": {
+      "get": {
+        "summary": "Skilled Nursing Facility Enrollments : 2024-06-03",
+        "description": "The Skilled Nursing Facility (SNF) Enrollments dataset provides enrollment information of all SNF 's currently enrolled in Medicare. This data includes information on the SNF's legal business name, doing business as name, organization type and address.\n\n\u00a0\n\nOn November 17, 2023, CMS published in the Federal Register a final rule titled, \u201cMedicare and Medicaid Programs; Disclosures of Ownership and Additional Disclosable Parties Information for Skilled Nursing Facilities and Nursing Facilities; Medicare Providers\u2019 and Suppliers\u2019 Disclosure of Private Equity Companies and Real Estate Investment Trusts\u201d (88 FR 80141). This final rule implements parts of section 1124(c) of the Act which requires SNFs to disclose detailed information about their ownership and management as well as additional data regarding: (1) other parties with which the SNF is associated; and (2) the ownership structures of these other parties.\u00a0 Refer to Medicare Enrollment for Providers & Suppliers for more information on the Skilled Nursing Facility disclosure requirements. \n\nSection 6101(b) of the Affordable Care Act states that no later than 1 year after final regulations promulgated under section 1124(c) of the Act are published in the\u00a0Federal Register, the Secretary shall make the information reported available to the public.\n\n\u00a0On November 21, 2024 CMS updated this dataset to include this reported information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f01200e3-3ba4-4307-88c8-8e18f3e6dfd9/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1514": {
+      "get": {
+        "summary": "Skilled Nursing Facility Enrollments : 2024-05-01",
+        "description": "The Skilled Nursing Facility (SNF) Enrollments dataset provides enrollment information of all SNF 's currently enrolled in Medicare. This data includes information on the SNF's legal business name, doing business as name, organization type and address.\n\n\u00a0\n\nOn November 17, 2023, CMS published in the Federal Register a final rule titled, \u201cMedicare and Medicaid Programs; Disclosures of Ownership and Additional Disclosable Parties Information for Skilled Nursing Facilities and Nursing Facilities; Medicare Providers\u2019 and Suppliers\u2019 Disclosure of Private Equity Companies and Real Estate Investment Trusts\u201d (88 FR 80141). This final rule implements parts of section 1124(c) of the Act which requires SNFs to disclose detailed information about their ownership and management as well as additional data regarding: (1) other parties with which the SNF is associated; and (2) the ownership structures of these other parties.\u00a0 Refer to Medicare Enrollment for Providers & Suppliers for more information on the Skilled Nursing Facility disclosure requirements. \n\nSection 6101(b) of the Affordable Care Act states that no later than 1 year after final regulations promulgated under section 1124(c) of the Act are published in the\u00a0Federal Register, the Secretary shall make the information reported available to the public.\n\n\u00a0On November 21, 2024 CMS updated this dataset to include this reported information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/b9b08823-8fab-4560-a817-a5bfe19446ac/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1515": {
+      "get": {
+        "summary": "Skilled Nursing Facility Enrollments : 2024-04-01",
+        "description": "The Skilled Nursing Facility (SNF) Enrollments dataset provides enrollment information of all SNF 's currently enrolled in Medicare. This data includes information on the SNF's legal business name, doing business as name, organization type and address.\n\n\u00a0\n\nOn November 17, 2023, CMS published in the Federal Register a final rule titled, \u201cMedicare and Medicaid Programs; Disclosures of Ownership and Additional Disclosable Parties Information for Skilled Nursing Facilities and Nursing Facilities; Medicare Providers\u2019 and Suppliers\u2019 Disclosure of Private Equity Companies and Real Estate Investment Trusts\u201d (88 FR 80141). This final rule implements parts of section 1124(c) of the Act which requires SNFs to disclose detailed information about their ownership and management as well as additional data regarding: (1) other parties with which the SNF is associated; and (2) the ownership structures of these other parties.\u00a0 Refer to Medicare Enrollment for Providers & Suppliers for more information on the Skilled Nursing Facility disclosure requirements. \n\nSection 6101(b) of the Affordable Care Act states that no later than 1 year after final regulations promulgated under section 1124(c) of the Act are published in the\u00a0Federal Register, the Secretary shall make the information reported available to the public.\n\n\u00a0On November 21, 2024 CMS updated this dataset to include this reported information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f57c7020-e0f6-49ee-9da1-2136254a7d6a/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1516": {
+      "get": {
+        "summary": "Skilled Nursing Facility Enrollments : 2024-03-01",
+        "description": "The Skilled Nursing Facility (SNF) Enrollments dataset provides enrollment information of all SNF 's currently enrolled in Medicare. This data includes information on the SNF's legal business name, doing business as name, organization type and address.\n\n\u00a0\n\nOn November 17, 2023, CMS published in the Federal Register a final rule titled, \u201cMedicare and Medicaid Programs; Disclosures of Ownership and Additional Disclosable Parties Information for Skilled Nursing Facilities and Nursing Facilities; Medicare Providers\u2019 and Suppliers\u2019 Disclosure of Private Equity Companies and Real Estate Investment Trusts\u201d (88 FR 80141). This final rule implements parts of section 1124(c) of the Act which requires SNFs to disclose detailed information about their ownership and management as well as additional data regarding: (1) other parties with which the SNF is associated; and (2) the ownership structures of these other parties.\u00a0 Refer to Medicare Enrollment for Providers & Suppliers for more information on the Skilled Nursing Facility disclosure requirements. \n\nSection 6101(b) of the Affordable Care Act states that no later than 1 year after final regulations promulgated under section 1124(c) of the Act are published in the\u00a0Federal Register, the Secretary shall make the information reported available to the public.\n\n\u00a0On November 21, 2024 CMS updated this dataset to include this reported information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/bfb5dedd-d984-4a83-ac19-f257eafe8b3a/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1517": {
+      "get": {
+        "summary": "Skilled Nursing Facility Enrollments : 2024-02-01",
+        "description": "The Skilled Nursing Facility (SNF) Enrollments dataset provides enrollment information of all SNF 's currently enrolled in Medicare. This data includes information on the SNF's legal business name, doing business as name, organization type and address.\n\n\u00a0\n\nOn November 17, 2023, CMS published in the Federal Register a final rule titled, \u201cMedicare and Medicaid Programs; Disclosures of Ownership and Additional Disclosable Parties Information for Skilled Nursing Facilities and Nursing Facilities; Medicare Providers\u2019 and Suppliers\u2019 Disclosure of Private Equity Companies and Real Estate Investment Trusts\u201d (88 FR 80141). This final rule implements parts of section 1124(c) of the Act which requires SNFs to disclose detailed information about their ownership and management as well as additional data regarding: (1) other parties with which the SNF is associated; and (2) the ownership structures of these other parties.\u00a0 Refer to Medicare Enrollment for Providers & Suppliers for more information on the Skilled Nursing Facility disclosure requirements. \n\nSection 6101(b) of the Affordable Care Act states that no later than 1 year after final regulations promulgated under section 1124(c) of the Act are published in the\u00a0Federal Register, the Secretary shall make the information reported available to the public.\n\n\u00a0On November 21, 2024 CMS updated this dataset to include this reported information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/45ef7e1a-8983-4b1e-aa0c-dfa9b81a0ba7/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1518": {
+      "get": {
+        "summary": "Skilled Nursing Facility Enrollments : 2024-01-05",
+        "description": "The Skilled Nursing Facility (SNF) Enrollments dataset provides enrollment information of all SNF 's currently enrolled in Medicare. This data includes information on the SNF's legal business name, doing business as name, organization type and address.\n\n\u00a0\n\nOn November 17, 2023, CMS published in the Federal Register a final rule titled, \u201cMedicare and Medicaid Programs; Disclosures of Ownership and Additional Disclosable Parties Information for Skilled Nursing Facilities and Nursing Facilities; Medicare Providers\u2019 and Suppliers\u2019 Disclosure of Private Equity Companies and Real Estate Investment Trusts\u201d (88 FR 80141). This final rule implements parts of section 1124(c) of the Act which requires SNFs to disclose detailed information about their ownership and management as well as additional data regarding: (1) other parties with which the SNF is associated; and (2) the ownership structures of these other parties.\u00a0 Refer to Medicare Enrollment for Providers & Suppliers for more information on the Skilled Nursing Facility disclosure requirements. \n\nSection 6101(b) of the Affordable Care Act states that no later than 1 year after final regulations promulgated under section 1124(c) of the Act are published in the\u00a0Federal Register, the Secretary shall make the information reported available to the public.\n\n\u00a0On November 21, 2024 CMS updated this dataset to include this reported information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/9384eb6d-c67c-427b-86db-957ce2ba464f/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1519": {
+      "get": {
+        "summary": "Skilled Nursing Facility Enrollments : 2023-12-01",
+        "description": "The Skilled Nursing Facility (SNF) Enrollments dataset provides enrollment information of all SNF 's currently enrolled in Medicare. This data includes information on the SNF's legal business name, doing business as name, organization type and address.\n\n\u00a0\n\nOn November 17, 2023, CMS published in the Federal Register a final rule titled, \u201cMedicare and Medicaid Programs; Disclosures of Ownership and Additional Disclosable Parties Information for Skilled Nursing Facilities and Nursing Facilities; Medicare Providers\u2019 and Suppliers\u2019 Disclosure of Private Equity Companies and Real Estate Investment Trusts\u201d (88 FR 80141). This final rule implements parts of section 1124(c) of the Act which requires SNFs to disclose detailed information about their ownership and management as well as additional data regarding: (1) other parties with which the SNF is associated; and (2) the ownership structures of these other parties.\u00a0 Refer to Medicare Enrollment for Providers & Suppliers for more information on the Skilled Nursing Facility disclosure requirements. \n\nSection 6101(b) of the Affordable Care Act states that no later than 1 year after final regulations promulgated under section 1124(c) of the Act are published in the\u00a0Federal Register, the Secretary shall make the information reported available to the public.\n\n\u00a0On November 21, 2024 CMS updated this dataset to include this reported information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/27c7c081-cc70-410d-aa17-642130190dfb/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1520": {
+      "get": {
+        "summary": "Skilled Nursing Facility Enrollments : 2023-11-01",
+        "description": "The Skilled Nursing Facility (SNF) Enrollments dataset provides enrollment information of all SNF 's currently enrolled in Medicare. This data includes information on the SNF's legal business name, doing business as name, organization type and address.\n\n\u00a0\n\nOn November 17, 2023, CMS published in the Federal Register a final rule titled, \u201cMedicare and Medicaid Programs; Disclosures of Ownership and Additional Disclosable Parties Information for Skilled Nursing Facilities and Nursing Facilities; Medicare Providers\u2019 and Suppliers\u2019 Disclosure of Private Equity Companies and Real Estate Investment Trusts\u201d (88 FR 80141). This final rule implements parts of section 1124(c) of the Act which requires SNFs to disclose detailed information about their ownership and management as well as additional data regarding: (1) other parties with which the SNF is associated; and (2) the ownership structures of these other parties.\u00a0 Refer to Medicare Enrollment for Providers & Suppliers for more information on the Skilled Nursing Facility disclosure requirements. \n\nSection 6101(b) of the Affordable Care Act states that no later than 1 year after final regulations promulgated under section 1124(c) of the Act are published in the\u00a0Federal Register, the Secretary shall make the information reported available to the public.\n\n\u00a0On November 21, 2024 CMS updated this dataset to include this reported information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/b66f1ec7-445b-4492-a1dc-0b605a6f3965/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1521": {
+      "get": {
+        "summary": "Skilled Nursing Facility Enrollments : 2023-10-02",
+        "description": "The Skilled Nursing Facility (SNF) Enrollments dataset provides enrollment information of all SNF 's currently enrolled in Medicare. This data includes information on the SNF's legal business name, doing business as name, organization type and address.\n\n\u00a0\n\nOn November 17, 2023, CMS published in the Federal Register a final rule titled, \u201cMedicare and Medicaid Programs; Disclosures of Ownership and Additional Disclosable Parties Information for Skilled Nursing Facilities and Nursing Facilities; Medicare Providers\u2019 and Suppliers\u2019 Disclosure of Private Equity Companies and Real Estate Investment Trusts\u201d (88 FR 80141). This final rule implements parts of section 1124(c) of the Act which requires SNFs to disclose detailed information about their ownership and management as well as additional data regarding: (1) other parties with which the SNF is associated; and (2) the ownership structures of these other parties.\u00a0 Refer to Medicare Enrollment for Providers & Suppliers for more information on the Skilled Nursing Facility disclosure requirements. \n\nSection 6101(b) of the Affordable Care Act states that no later than 1 year after final regulations promulgated under section 1124(c) of the Act are published in the\u00a0Federal Register, the Secretary shall make the information reported available to the public.\n\n\u00a0On November 21, 2024 CMS updated this dataset to include this reported information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/cff5276c-9833-422b-a4e6-acccacaf6f96/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1522": {
+      "get": {
+        "summary": "Skilled Nursing Facility Enrollments : 2023-09-15",
+        "description": "The Skilled Nursing Facility (SNF) Enrollments dataset provides enrollment information of all SNF 's currently enrolled in Medicare. This data includes information on the SNF's legal business name, doing business as name, organization type and address.\n\n\u00a0\n\nOn November 17, 2023, CMS published in the Federal Register a final rule titled, \u201cMedicare and Medicaid Programs; Disclosures of Ownership and Additional Disclosable Parties Information for Skilled Nursing Facilities and Nursing Facilities; Medicare Providers\u2019 and Suppliers\u2019 Disclosure of Private Equity Companies and Real Estate Investment Trusts\u201d (88 FR 80141). This final rule implements parts of section 1124(c) of the Act which requires SNFs to disclose detailed information about their ownership and management as well as additional data regarding: (1) other parties with which the SNF is associated; and (2) the ownership structures of these other parties.\u00a0 Refer to Medicare Enrollment for Providers & Suppliers for more information on the Skilled Nursing Facility disclosure requirements. \n\nSection 6101(b) of the Affordable Care Act states that no later than 1 year after final regulations promulgated under section 1124(c) of the Act are published in the\u00a0Federal Register, the Secretary shall make the information reported available to the public.\n\n\u00a0On November 21, 2024 CMS updated this dataset to include this reported information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/15445287-c032-43f2-95cd-3108e8334ef1/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1523": {
+      "get": {
+        "summary": "Skilled Nursing Facility Enrollments : 2023-08-01",
+        "description": "The Skilled Nursing Facility (SNF) Enrollments dataset provides enrollment information of all SNF 's currently enrolled in Medicare. This data includes information on the SNF's legal business name, doing business as name, organization type and address.\n\n\u00a0\n\nOn November 17, 2023, CMS published in the Federal Register a final rule titled, \u201cMedicare and Medicaid Programs; Disclosures of Ownership and Additional Disclosable Parties Information for Skilled Nursing Facilities and Nursing Facilities; Medicare Providers\u2019 and Suppliers\u2019 Disclosure of Private Equity Companies and Real Estate Investment Trusts\u201d (88 FR 80141). This final rule implements parts of section 1124(c) of the Act which requires SNFs to disclose detailed information about their ownership and management as well as additional data regarding: (1) other parties with which the SNF is associated; and (2) the ownership structures of these other parties.\u00a0 Refer to Medicare Enrollment for Providers & Suppliers for more information on the Skilled Nursing Facility disclosure requirements. \n\nSection 6101(b) of the Affordable Care Act states that no later than 1 year after final regulations promulgated under section 1124(c) of the Act are published in the\u00a0Federal Register, the Secretary shall make the information reported available to the public.\n\n\u00a0On November 21, 2024 CMS updated this dataset to include this reported information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/03b7e19c-07c3-4781-aa08-156e6cea8442/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1524": {
+      "get": {
+        "summary": "Skilled Nursing Facility Enrollments : 2023-07-17",
+        "description": "The Skilled Nursing Facility (SNF) Enrollments dataset provides enrollment information of all SNF 's currently enrolled in Medicare. This data includes information on the SNF's legal business name, doing business as name, organization type and address.\n\n\u00a0\n\nOn November 17, 2023, CMS published in the Federal Register a final rule titled, \u201cMedicare and Medicaid Programs; Disclosures of Ownership and Additional Disclosable Parties Information for Skilled Nursing Facilities and Nursing Facilities; Medicare Providers\u2019 and Suppliers\u2019 Disclosure of Private Equity Companies and Real Estate Investment Trusts\u201d (88 FR 80141). This final rule implements parts of section 1124(c) of the Act which requires SNFs to disclose detailed information about their ownership and management as well as additional data regarding: (1) other parties with which the SNF is associated; and (2) the ownership structures of these other parties.\u00a0 Refer to Medicare Enrollment for Providers & Suppliers for more information on the Skilled Nursing Facility disclosure requirements. \n\nSection 6101(b) of the Affordable Care Act states that no later than 1 year after final regulations promulgated under section 1124(c) of the Act are published in the\u00a0Federal Register, the Secretary shall make the information reported available to the public.\n\n\u00a0On November 21, 2024 CMS updated this dataset to include this reported information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/3fc3d236-ca64-45d3-8356-12111c1cfb63/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1525": {
+      "get": {
+        "summary": "Skilled Nursing Facility Enrollments : 2023-06-15",
+        "description": "The Skilled Nursing Facility (SNF) Enrollments dataset provides enrollment information of all SNF 's currently enrolled in Medicare. This data includes information on the SNF's legal business name, doing business as name, organization type and address.\n\n\u00a0\n\nOn November 17, 2023, CMS published in the Federal Register a final rule titled, \u201cMedicare and Medicaid Programs; Disclosures of Ownership and Additional Disclosable Parties Information for Skilled Nursing Facilities and Nursing Facilities; Medicare Providers\u2019 and Suppliers\u2019 Disclosure of Private Equity Companies and Real Estate Investment Trusts\u201d (88 FR 80141). This final rule implements parts of section 1124(c) of the Act which requires SNFs to disclose detailed information about their ownership and management as well as additional data regarding: (1) other parties with which the SNF is associated; and (2) the ownership structures of these other parties.\u00a0 Refer to Medicare Enrollment for Providers & Suppliers for more information on the Skilled Nursing Facility disclosure requirements. \n\nSection 6101(b) of the Affordable Care Act states that no later than 1 year after final regulations promulgated under section 1124(c) of the Act are published in the\u00a0Federal Register, the Secretary shall make the information reported available to the public.\n\n\u00a0On November 21, 2024 CMS updated this dataset to include this reported information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/49b744ed-32f6-4559-bfb3-d3760c8af726/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1526": {
+      "get": {
+        "summary": "Skilled Nursing Facility Enrollments : 2023-05-01",
+        "description": "The Skilled Nursing Facility (SNF) Enrollments dataset provides enrollment information of all SNF 's currently enrolled in Medicare. This data includes information on the SNF's legal business name, doing business as name, organization type and address.\n\n\u00a0\n\nOn November 17, 2023, CMS published in the Federal Register a final rule titled, \u201cMedicare and Medicaid Programs; Disclosures of Ownership and Additional Disclosable Parties Information for Skilled Nursing Facilities and Nursing Facilities; Medicare Providers\u2019 and Suppliers\u2019 Disclosure of Private Equity Companies and Real Estate Investment Trusts\u201d (88 FR 80141). This final rule implements parts of section 1124(c) of the Act which requires SNFs to disclose detailed information about their ownership and management as well as additional data regarding: (1) other parties with which the SNF is associated; and (2) the ownership structures of these other parties.\u00a0 Refer to Medicare Enrollment for Providers & Suppliers for more information on the Skilled Nursing Facility disclosure requirements. \n\nSection 6101(b) of the Affordable Care Act states that no later than 1 year after final regulations promulgated under section 1124(c) of the Act are published in the\u00a0Federal Register, the Secretary shall make the information reported available to the public.\n\n\u00a0On November 21, 2024 CMS updated this dataset to include this reported information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/124978a3-3291-4841-88c4-06abff9aee0c/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1527": {
+      "get": {
+        "summary": "Skilled Nursing Facility Enrollments : 2023-04-14",
+        "description": "The Skilled Nursing Facility (SNF) Enrollments dataset provides enrollment information of all SNF 's currently enrolled in Medicare. This data includes information on the SNF's legal business name, doing business as name, organization type and address.\n\n\u00a0\n\nOn November 17, 2023, CMS published in the Federal Register a final rule titled, \u201cMedicare and Medicaid Programs; Disclosures of Ownership and Additional Disclosable Parties Information for Skilled Nursing Facilities and Nursing Facilities; Medicare Providers\u2019 and Suppliers\u2019 Disclosure of Private Equity Companies and Real Estate Investment Trusts\u201d (88 FR 80141). This final rule implements parts of section 1124(c) of the Act which requires SNFs to disclose detailed information about their ownership and management as well as additional data regarding: (1) other parties with which the SNF is associated; and (2) the ownership structures of these other parties.\u00a0 Refer to Medicare Enrollment for Providers & Suppliers for more information on the Skilled Nursing Facility disclosure requirements. \n\nSection 6101(b) of the Affordable Care Act states that no later than 1 year after final regulations promulgated under section 1124(c) of the Act are published in the\u00a0Federal Register, the Secretary shall make the information reported available to the public.\n\n\u00a0On November 21, 2024 CMS updated this dataset to include this reported information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/cc584953-f08d-4c51-af24-6aba63d08535/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1528": {
+      "get": {
+        "summary": "Skilled Nursing Facility Enrollments : 2023-03-15",
+        "description": "The Skilled Nursing Facility (SNF) Enrollments dataset provides enrollment information of all SNF 's currently enrolled in Medicare. This data includes information on the SNF's legal business name, doing business as name, organization type and address.\n\n\u00a0\n\nOn November 17, 2023, CMS published in the Federal Register a final rule titled, \u201cMedicare and Medicaid Programs; Disclosures of Ownership and Additional Disclosable Parties Information for Skilled Nursing Facilities and Nursing Facilities; Medicare Providers\u2019 and Suppliers\u2019 Disclosure of Private Equity Companies and Real Estate Investment Trusts\u201d (88 FR 80141). This final rule implements parts of section 1124(c) of the Act which requires SNFs to disclose detailed information about their ownership and management as well as additional data regarding: (1) other parties with which the SNF is associated; and (2) the ownership structures of these other parties.\u00a0 Refer to Medicare Enrollment for Providers & Suppliers for more information on the Skilled Nursing Facility disclosure requirements. \n\nSection 6101(b) of the Affordable Care Act states that no later than 1 year after final regulations promulgated under section 1124(c) of the Act are published in the\u00a0Federal Register, the Secretary shall make the information reported available to the public.\n\n\u00a0On November 21, 2024 CMS updated this dataset to include this reported information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/db868f58-8864-4a13-ad29-fc341720ffda/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1529": {
+      "get": {
+        "summary": "Skilled Nursing Facility Enrollments : 2023-02-15",
+        "description": "The Skilled Nursing Facility (SNF) Enrollments dataset provides enrollment information of all SNF 's currently enrolled in Medicare. This data includes information on the SNF's legal business name, doing business as name, organization type and address.\n\n\u00a0\n\nOn November 17, 2023, CMS published in the Federal Register a final rule titled, \u201cMedicare and Medicaid Programs; Disclosures of Ownership and Additional Disclosable Parties Information for Skilled Nursing Facilities and Nursing Facilities; Medicare Providers\u2019 and Suppliers\u2019 Disclosure of Private Equity Companies and Real Estate Investment Trusts\u201d (88 FR 80141). This final rule implements parts of section 1124(c) of the Act which requires SNFs to disclose detailed information about their ownership and management as well as additional data regarding: (1) other parties with which the SNF is associated; and (2) the ownership structures of these other parties.\u00a0 Refer to Medicare Enrollment for Providers & Suppliers for more information on the Skilled Nursing Facility disclosure requirements. \n\nSection 6101(b) of the Affordable Care Act states that no later than 1 year after final regulations promulgated under section 1124(c) of the Act are published in the\u00a0Federal Register, the Secretary shall make the information reported available to the public.\n\n\u00a0On November 21, 2024 CMS updated this dataset to include this reported information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/651f17d7-8acc-4636-b035-16441b17ed7c/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1530": {
+      "get": {
+        "summary": "Skilled Nursing Facility Enrollments : 2023-01-01",
+        "description": "The Skilled Nursing Facility (SNF) Enrollments dataset provides enrollment information of all SNF 's currently enrolled in Medicare. This data includes information on the SNF's legal business name, doing business as name, organization type and address.\n\n\u00a0\n\nOn November 17, 2023, CMS published in the Federal Register a final rule titled, \u201cMedicare and Medicaid Programs; Disclosures of Ownership and Additional Disclosable Parties Information for Skilled Nursing Facilities and Nursing Facilities; Medicare Providers\u2019 and Suppliers\u2019 Disclosure of Private Equity Companies and Real Estate Investment Trusts\u201d (88 FR 80141). This final rule implements parts of section 1124(c) of the Act which requires SNFs to disclose detailed information about their ownership and management as well as additional data regarding: (1) other parties with which the SNF is associated; and (2) the ownership structures of these other parties.\u00a0 Refer to Medicare Enrollment for Providers & Suppliers for more information on the Skilled Nursing Facility disclosure requirements. \n\nSection 6101(b) of the Affordable Care Act states that no later than 1 year after final regulations promulgated under section 1124(c) of the Act are published in the\u00a0Federal Register, the Secretary shall make the information reported available to the public.\n\n\u00a0On November 21, 2024 CMS updated this dataset to include this reported information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/67fcc7b3-aeef-4d37-b761-df0bf2bb65d2/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1531": {
+      "get": {
+        "summary": "Skilled Nursing Facility Enrollments : 2022-11-30",
+        "description": "The Skilled Nursing Facility (SNF) Enrollments dataset provides enrollment information of all SNF 's currently enrolled in Medicare. This data includes information on the SNF's legal business name, doing business as name, organization type and address.\n\n\u00a0\n\nOn November 17, 2023, CMS published in the Federal Register a final rule titled, \u201cMedicare and Medicaid Programs; Disclosures of Ownership and Additional Disclosable Parties Information for Skilled Nursing Facilities and Nursing Facilities; Medicare Providers\u2019 and Suppliers\u2019 Disclosure of Private Equity Companies and Real Estate Investment Trusts\u201d (88 FR 80141). This final rule implements parts of section 1124(c) of the Act which requires SNFs to disclose detailed information about their ownership and management as well as additional data regarding: (1) other parties with which the SNF is associated; and (2) the ownership structures of these other parties.\u00a0 Refer to Medicare Enrollment for Providers & Suppliers for more information on the Skilled Nursing Facility disclosure requirements. \n\nSection 6101(b) of the Affordable Care Act states that no later than 1 year after final regulations promulgated under section 1124(c) of the Act are published in the\u00a0Federal Register, the Secretary shall make the information reported available to the public.\n\n\u00a0On November 21, 2024 CMS updated this dataset to include this reported information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/57238616-3730-4548-a157-11128528eeba/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1532": {
+      "get": {
+        "summary": "Skilled Nursing Facility Enrollments : 2022-10-31",
+        "description": "The Skilled Nursing Facility (SNF) Enrollments dataset provides enrollment information of all SNF 's currently enrolled in Medicare. This data includes information on the SNF's legal business name, doing business as name, organization type and address.\n\n\u00a0\n\nOn November 17, 2023, CMS published in the Federal Register a final rule titled, \u201cMedicare and Medicaid Programs; Disclosures of Ownership and Additional Disclosable Parties Information for Skilled Nursing Facilities and Nursing Facilities; Medicare Providers\u2019 and Suppliers\u2019 Disclosure of Private Equity Companies and Real Estate Investment Trusts\u201d (88 FR 80141). This final rule implements parts of section 1124(c) of the Act which requires SNFs to disclose detailed information about their ownership and management as well as additional data regarding: (1) other parties with which the SNF is associated; and (2) the ownership structures of these other parties.\u00a0 Refer to Medicare Enrollment for Providers & Suppliers for more information on the Skilled Nursing Facility disclosure requirements. \n\nSection 6101(b) of the Affordable Care Act states that no later than 1 year after final regulations promulgated under section 1124(c) of the Act are published in the\u00a0Federal Register, the Secretary shall make the information reported available to the public.\n\n\u00a0On November 21, 2024 CMS updated this dataset to include this reported information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/ee70fa85-7d78-47c3-83b2-e1a5b54cee7c/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1533": {
+      "get": {
+        "summary": "Skilled Nursing Facility Enrollments : 2022-09-20",
+        "description": "The Skilled Nursing Facility (SNF) Enrollments dataset provides enrollment information of all SNF 's currently enrolled in Medicare. This data includes information on the SNF's legal business name, doing business as name, organization type and address.\n\n\u00a0\n\nOn November 17, 2023, CMS published in the Federal Register a final rule titled, \u201cMedicare and Medicaid Programs; Disclosures of Ownership and Additional Disclosable Parties Information for Skilled Nursing Facilities and Nursing Facilities; Medicare Providers\u2019 and Suppliers\u2019 Disclosure of Private Equity Companies and Real Estate Investment Trusts\u201d (88 FR 80141). This final rule implements parts of section 1124(c) of the Act which requires SNFs to disclose detailed information about their ownership and management as well as additional data regarding: (1) other parties with which the SNF is associated; and (2) the ownership structures of these other parties.\u00a0 Refer to Medicare Enrollment for Providers & Suppliers for more information on the Skilled Nursing Facility disclosure requirements. \n\nSection 6101(b) of the Affordable Care Act states that no later than 1 year after final regulations promulgated under section 1124(c) of the Act are published in the\u00a0Federal Register, the Secretary shall make the information reported available to the public.\n\n\u00a0On November 21, 2024 CMS updated this dataset to include this reported information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/b6a79e6e-1257-43c8-ada3-dcd1d115570c/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1534": {
+      "get": {
+        "summary": "Strong Start Awardees : 2017-09-25",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/9d4218d7-bb48-4278-964b-01755f0d8a85/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1535": {
+      "get": {
+        "summary": "Strong Start Awardees : 2017-09-25",
+        "description": "The Strong Start Awardees dataset provides information on the financial awards made to participants in the Strong Start for Mothers and Newborns Initiative. This initiative tested three evidence-based maternity care service approaches with the goal of improving health outcomes of pregnant women and newborns. The data can include the participant name, participant location, locations of practices participating under the participants\u2019 umbrella practice, descriptive text for the type(s) of enhanced prenatal care provided, and the amount of funding awarded to the participant as a result of their participation in year 1 of the initiative.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/647e8a75-2135-49a0-83a8-f3b12f687d18/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1536": {
+      "get": {
+        "summary": "Value Modifier : 2016-12-31",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/c3e8e9c3-5193-47fb-a5bb-d3ddb00e7197/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1537": {
+      "get": {
+        "summary": "Value Modifier : 2016-12-31",
+        "description": "The Medicare Value-Based Payment Modifier (Value Modifier) data contains the performance results of de-identified practices that were subject to the Value Modifier, such as the practices' quality and cost tiers along with any applicable Value Modifier payment adjustment. The Value Modifier provided\u00a0for differential payment under the Medicare Physician Fee Schedule based on the quality of care furnished to Medicare beneficiaries compared to the cost of care during a performance period. Calendar Year 2015 was the first payment adjustment period under the Value Modifier based on performance in 2013. Calendar Year 2018 was the final payment adjustment period under the Value Modifier based on performance in 2016.\u00a0\n\n\u00a0\n\nThe Merit-based Incentive Payment System (MIPS) under the Quality Payment Program has replaced the Value Modifier program. The Centers for Medicare & Medicaid Services (CMS) encourages everyone to learn more about the Quality Payment Program.\u00a0\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/e7ad6745-a67a-47ee-8e8e-4cdb26965868/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1538": {
+      "get": {
+        "summary": "Value Modifier : 2015-12-31",
+        "description": "The Medicare Value-Based Payment Modifier (Value Modifier) data contains the performance results of de-identified practices that were subject to the Value Modifier, such as the practices' quality and cost tiers along with any applicable Value Modifier payment adjustment. The Value Modifier provided\u00a0for differential payment under the Medicare Physician Fee Schedule based on the quality of care furnished to Medicare beneficiaries compared to the cost of care during a performance period. Calendar Year 2015 was the first payment adjustment period under the Value Modifier based on performance in 2013. Calendar Year 2018 was the final payment adjustment period under the Value Modifier based on performance in 2016.\u00a0\n\n\u00a0\n\nThe Merit-based Incentive Payment System (MIPS) under the Quality Payment Program has replaced the Value Modifier program. The Centers for Medicare & Medicaid Services (CMS) encourages everyone to learn more about the Quality Payment Program.\u00a0\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/45a5e2fd-2846-480b-a5e3-de22e2fd2320/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1539": {
+      "get": {
+        "summary": "Value Modifier : 2014-12-31",
+        "description": "The Medicare Value-Based Payment Modifier (Value Modifier) data contains the performance results of de-identified practices that were subject to the Value Modifier, such as the practices' quality and cost tiers along with any applicable Value Modifier payment adjustment. The Value Modifier provided\u00a0for differential payment under the Medicare Physician Fee Schedule based on the quality of care furnished to Medicare beneficiaries compared to the cost of care during a performance period. Calendar Year 2015 was the first payment adjustment period under the Value Modifier based on performance in 2013. Calendar Year 2018 was the final payment adjustment period under the Value Modifier based on performance in 2016.\u00a0\n\n\u00a0\n\nThe Merit-based Incentive Payment System (MIPS) under the Quality Payment Program has replaced the Value Modifier program. The Centers for Medicare & Medicaid Services (CMS) encourages everyone to learn more about the Quality Payment Program.\u00a0\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/52d91cf6-19ec-4721-b03e-d031b5af54ed/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1540": {
+      "get": {
+        "summary": "Value Modifier : 2013-12-31",
+        "description": "The Medicare Value-Based Payment Modifier (Value Modifier) data contains the performance results of de-identified practices that were subject to the Value Modifier, such as the practices' quality and cost tiers along with any applicable Value Modifier payment adjustment. The Value Modifier provided\u00a0for differential payment under the Medicare Physician Fee Schedule based on the quality of care furnished to Medicare beneficiaries compared to the cost of care during a performance period. Calendar Year 2015 was the first payment adjustment period under the Value Modifier based on performance in 2013. Calendar Year 2018 was the final payment adjustment period under the Value Modifier based on performance in 2016.\u00a0\n\n\u00a0\n\nThe Merit-based Incentive Payment System (MIPS) under the Quality Payment Program has replaced the Value Modifier program. The Centers for Medicare & Medicaid Services (CMS) encourages everyone to learn more about the Quality Payment Program.\u00a0\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/6abfab7c-deb8-4de0-bc99-f895f71bad57/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1541": {
+      "get": {
+        "summary": "Opt Out Affidavits : 2025-02-01",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/9887a515-7552-4693-bf58-735c77af46d7/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1542": {
+      "get": {
+        "summary": "Opt Out Affidavits : 2025-02-01",
+        "description": "ATTENTION USERS\n\n\nSome Providers' Opt-Out Status may end early due to COVID 19 waivers. Please contact your respective MAC for further information.\n\n\u00a0\n\nFor more information on the opt-out process, see Manage Your Enrollment\u00a0or view the FAQ section below.\n\n\u00a0\n\nThe Opt Out Affidavits dataset provides information on providers who have decided not to participate in Medicare. It contains provider's NPI, specialty, address, and effective dates.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/572816d4-ae54-4dca-a2dd-e18abd681fe5/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1543": {
+      "get": {
+        "summary": "Opt Out Affidavits : 2025-01-31",
+        "description": "ATTENTION USERS\n\n\nSome Providers' Opt-Out Status may end early due to COVID 19 waivers. Please contact your respective MAC for further information.\n\n\u00a0\n\nFor more information on the opt-out process, see Manage Your Enrollment\u00a0or view the FAQ section below.\n\n\u00a0\n\nThe Opt Out Affidavits dataset provides information on providers who have decided not to participate in Medicare. It contains provider's NPI, specialty, address, and effective dates.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/b25ba6e8-9f64-40f7-9e6b-0d0795bf0d8c/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1544": {
+      "get": {
+        "summary": "Opt Out Affidavits : 2024-12-01",
+        "description": "ATTENTION USERS\n\n\nSome Providers' Opt-Out Status may end early due to COVID 19 waivers. Please contact your respective MAC for further information.\n\n\u00a0\n\nFor more information on the opt-out process, see Manage Your Enrollment\u00a0or view the FAQ section below.\n\n\u00a0\n\nThe Opt Out Affidavits dataset provides information on providers who have decided not to participate in Medicare. It contains provider's NPI, specialty, address, and effective dates.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/89adeb27-fd52-4e32-b1e8-d59d60695f92/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1545": {
+      "get": {
+        "summary": "Opt Out Affidavits : 2024-11-01",
+        "description": "ATTENTION USERS\n\n\nSome Providers' Opt-Out Status may end early due to COVID 19 waivers. Please contact your respective MAC for further information.\n\n\u00a0\n\nFor more information on the opt-out process, see Manage Your Enrollment\u00a0or view the FAQ section below.\n\n\u00a0\n\nThe Opt Out Affidavits dataset provides information on providers who have decided not to participate in Medicare. It contains provider's NPI, specialty, address, and effective dates.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/d096e8a1-6a47-4dc9-9abb-dbe07d49f0e2/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1546": {
+      "get": {
+        "summary": "Opt Out Affidavits : 2024-10-31",
+        "description": "ATTENTION USERS\n\n\nSome Providers' Opt-Out Status may end early due to COVID 19 waivers. Please contact your respective MAC for further information.\n\n\u00a0\n\nFor more information on the opt-out process, see Manage Your Enrollment\u00a0or view the FAQ section below.\n\n\u00a0\n\nThe Opt Out Affidavits dataset provides information on providers who have decided not to participate in Medicare. It contains provider's NPI, specialty, address, and effective dates.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/7f9f306c-5644-4459-9154-3f08aa3ef7a1/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1547": {
+      "get": {
+        "summary": "Opt Out Affidavits : 2024-09-01",
+        "description": "ATTENTION USERS\n\n\nSome Providers' Opt-Out Status may end early due to COVID 19 waivers. Please contact your respective MAC for further information.\n\n\u00a0\n\nFor more information on the opt-out process, see Manage Your Enrollment\u00a0or view the FAQ section below.\n\n\u00a0\n\nThe Opt Out Affidavits dataset provides information on providers who have decided not to participate in Medicare. It contains provider's NPI, specialty, address, and effective dates.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/0a52437c-589e-4938-bdb6-29cea99b219e/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1548": {
+      "get": {
+        "summary": "Opt Out Affidavits : 2024-08-01",
+        "description": "ATTENTION USERS\n\n\nSome Providers' Opt-Out Status may end early due to COVID 19 waivers. Please contact your respective MAC for further information.\n\n\u00a0\n\nFor more information on the opt-out process, see Manage Your Enrollment\u00a0or view the FAQ section below.\n\n\u00a0\n\nThe Opt Out Affidavits dataset provides information on providers who have decided not to participate in Medicare. It contains provider's NPI, specialty, address, and effective dates.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/dfb9eb68-03df-4b03-9b11-195dd4e9e2da/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1549": {
+      "get": {
+        "summary": "Opt Out Affidavits : 2024-07-01",
+        "description": "ATTENTION USERS\n\n\nSome Providers' Opt-Out Status may end early due to COVID 19 waivers. Please contact your respective MAC for further information.\n\n\u00a0\n\nFor more information on the opt-out process, see Manage Your Enrollment\u00a0or view the FAQ section below.\n\n\u00a0\n\nThe Opt Out Affidavits dataset provides information on providers who have decided not to participate in Medicare. It contains provider's NPI, specialty, address, and effective dates.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/26aa22d2-089b-4e3a-95df-dcaa4c41ea6a/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1550": {
+      "get": {
+        "summary": "Opt Out Affidavits : 2024-06-01",
+        "description": "ATTENTION USERS\n\n\nSome Providers' Opt-Out Status may end early due to COVID 19 waivers. Please contact your respective MAC for further information.\n\n\u00a0\n\nFor more information on the opt-out process, see Manage Your Enrollment\u00a0or view the FAQ section below.\n\n\u00a0\n\nThe Opt Out Affidavits dataset provides information on providers who have decided not to participate in Medicare. It contains provider's NPI, specialty, address, and effective dates.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/8de501b8-2871-448d-967c-3ed1919a69c3/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1551": {
+      "get": {
+        "summary": "Opt Out Affidavits : 2024-05-01",
+        "description": "ATTENTION USERS\n\n\nSome Providers' Opt-Out Status may end early due to COVID 19 waivers. Please contact your respective MAC for further information.\n\n\u00a0\n\nFor more information on the opt-out process, see Manage Your Enrollment\u00a0or view the FAQ section below.\n\n\u00a0\n\nThe Opt Out Affidavits dataset provides information on providers who have decided not to participate in Medicare. It contains provider's NPI, specialty, address, and effective dates.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/39afb7ba-0051-4d2f-9cb6-6afd7dace142/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1552": {
+      "get": {
+        "summary": "Opt Out Affidavits : 2024-04-01",
+        "description": "ATTENTION USERS\n\n\nSome Providers' Opt-Out Status may end early due to COVID 19 waivers. Please contact your respective MAC for further information.\n\n\u00a0\n\nFor more information on the opt-out process, see Manage Your Enrollment\u00a0or view the FAQ section below.\n\n\u00a0\n\nThe Opt Out Affidavits dataset provides information on providers who have decided not to participate in Medicare. It contains provider's NPI, specialty, address, and effective dates.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/d30cd363-6c20-43f2-bb01-fe7dd6fc3cca/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1553": {
+      "get": {
+        "summary": "Opt Out Affidavits : 2024-03-01",
+        "description": "ATTENTION USERS\n\n\nSome Providers' Opt-Out Status may end early due to COVID 19 waivers. Please contact your respective MAC for further information.\n\n\u00a0\n\nFor more information on the opt-out process, see Manage Your Enrollment\u00a0or view the FAQ section below.\n\n\u00a0\n\nThe Opt Out Affidavits dataset provides information on providers who have decided not to participate in Medicare. It contains provider's NPI, specialty, address, and effective dates.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f556100f-1738-4417-aa30-eeb98aaa18e9/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1554": {
+      "get": {
+        "summary": "Opt Out Affidavits : 2024-02-01",
+        "description": "ATTENTION USERS\n\n\nSome Providers' Opt-Out Status may end early due to COVID 19 waivers. Please contact your respective MAC for further information.\n\n\u00a0\n\nFor more information on the opt-out process, see Manage Your Enrollment\u00a0or view the FAQ section below.\n\n\u00a0\n\nThe Opt Out Affidavits dataset provides information on providers who have decided not to participate in Medicare. It contains provider's NPI, specialty, address, and effective dates.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/7f00fc30-e8da-4b71-b5cc-fec80ac09446/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1555": {
+      "get": {
+        "summary": "Opt Out Affidavits : 2024-01-01",
+        "description": "ATTENTION USERS\n\n\nSome Providers' Opt-Out Status may end early due to COVID 19 waivers. Please contact your respective MAC for further information.\n\n\u00a0\n\nFor more information on the opt-out process, see Manage Your Enrollment\u00a0or view the FAQ section below.\n\n\u00a0\n\nThe Opt Out Affidavits dataset provides information on providers who have decided not to participate in Medicare. It contains provider's NPI, specialty, address, and effective dates.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/e515a683-993c-4309-8894-1b8f0d9074fa/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1556": {
+      "get": {
+        "summary": "Opt Out Affidavits : 2023-12-31",
+        "description": "ATTENTION USERS\n\n\nSome Providers' Opt-Out Status may end early due to COVID 19 waivers. Please contact your respective MAC for further information.\n\n\u00a0\n\nFor more information on the opt-out process, see Manage Your Enrollment\u00a0or view the FAQ section below.\n\n\u00a0\n\nThe Opt Out Affidavits dataset provides information on providers who have decided not to participate in Medicare. It contains provider's NPI, specialty, address, and effective dates.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/d78085f1-0b10-400f-9a3f-9500f9f1a126/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1557": {
+      "get": {
+        "summary": "Opt Out Affidavits : 2023-11-01",
+        "description": "ATTENTION USERS\n\n\nSome Providers' Opt-Out Status may end early due to COVID 19 waivers. Please contact your respective MAC for further information.\n\n\u00a0\n\nFor more information on the opt-out process, see Manage Your Enrollment\u00a0or view the FAQ section below.\n\n\u00a0\n\nThe Opt Out Affidavits dataset provides information on providers who have decided not to participate in Medicare. It contains provider's NPI, specialty, address, and effective dates.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/a0f3ecf2-3ed1-46b4-81b4-99e24155b502/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1558": {
+      "get": {
+        "summary": "Opt Out Affidavits : 2023-10-01",
+        "description": "ATTENTION USERS\n\n\nSome Providers' Opt-Out Status may end early due to COVID 19 waivers. Please contact your respective MAC for further information.\n\n\u00a0\n\nFor more information on the opt-out process, see Manage Your Enrollment\u00a0or view the FAQ section below.\n\n\u00a0\n\nThe Opt Out Affidavits dataset provides information on providers who have decided not to participate in Medicare. It contains provider's NPI, specialty, address, and effective dates.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/12160436-acac-47f8-9e10-d51ffb0b179c/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1559": {
+      "get": {
+        "summary": "Opt Out Affidavits : 2023-09-01",
+        "description": "ATTENTION USERS\n\n\nSome Providers' Opt-Out Status may end early due to COVID 19 waivers. Please contact your respective MAC for further information.\n\n\u00a0\n\nFor more information on the opt-out process, see Manage Your Enrollment\u00a0or view the FAQ section below.\n\n\u00a0\n\nThe Opt Out Affidavits dataset provides information on providers who have decided not to participate in Medicare. It contains provider's NPI, specialty, address, and effective dates.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/a2652bb9-8b17-49e7-9d24-d6244c6a0519/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1560": {
+      "get": {
+        "summary": "Opt Out Affidavits : 2023-08-01",
+        "description": "ATTENTION USERS\n\n\nSome Providers' Opt-Out Status may end early due to COVID 19 waivers. Please contact your respective MAC for further information.\n\n\u00a0\n\nFor more information on the opt-out process, see Manage Your Enrollment\u00a0or view the FAQ section below.\n\n\u00a0\n\nThe Opt Out Affidavits dataset provides information on providers who have decided not to participate in Medicare. It contains provider's NPI, specialty, address, and effective dates.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/36a27662-2883-4827-8b6d-10118e86d17c/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1561": {
+      "get": {
+        "summary": "Opt Out Affidavits : 2023-07-01",
+        "description": "ATTENTION USERS\n\n\nSome Providers' Opt-Out Status may end early due to COVID 19 waivers. Please contact your respective MAC for further information.\n\n\u00a0\n\nFor more information on the opt-out process, see Manage Your Enrollment\u00a0or view the FAQ section below.\n\n\u00a0\n\nThe Opt Out Affidavits dataset provides information on providers who have decided not to participate in Medicare. It contains provider's NPI, specialty, address, and effective dates.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/77d83a62-415d-467d-80c3-98d4049c03fe/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1562": {
+      "get": {
+        "summary": "Opt Out Affidavits : 2023-06-30",
+        "description": "ATTENTION USERS\n\n\nSome Providers' Opt-Out Status may end early due to COVID 19 waivers. Please contact your respective MAC for further information.\n\n\u00a0\n\nFor more information on the opt-out process, see Manage Your Enrollment\u00a0or view the FAQ section below.\n\n\u00a0\n\nThe Opt Out Affidavits dataset provides information on providers who have decided not to participate in Medicare. It contains provider's NPI, specialty, address, and effective dates.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/0c629692-cbc3-4cc8-aefe-544ccf3ad7e7/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1563": {
+      "get": {
+        "summary": "Opt Out Affidavits : 2023-05-01",
+        "description": "ATTENTION USERS\n\n\nSome Providers' Opt-Out Status may end early due to COVID 19 waivers. Please contact your respective MAC for further information.\n\n\u00a0\n\nFor more information on the opt-out process, see Manage Your Enrollment\u00a0or view the FAQ section below.\n\n\u00a0\n\nThe Opt Out Affidavits dataset provides information on providers who have decided not to participate in Medicare. It contains provider's NPI, specialty, address, and effective dates.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/a175b7c2-ab4c-43a7-a2cb-1614d35be1df/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1564": {
+      "get": {
+        "summary": "Opt Out Affidavits : 2023-04-30",
+        "description": "ATTENTION USERS\n\n\nSome Providers' Opt-Out Status may end early due to COVID 19 waivers. Please contact your respective MAC for further information.\n\n\u00a0\n\nFor more information on the opt-out process, see Manage Your Enrollment\u00a0or view the FAQ section below.\n\n\u00a0\n\nThe Opt Out Affidavits dataset provides information on providers who have decided not to participate in Medicare. It contains provider's NPI, specialty, address, and effective dates.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/010003d2-acf5-4399-9e8b-7f603fab3b34/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1565": {
+      "get": {
+        "summary": "Payroll Based Journal Daily Nurse Staffing : 2024-04-01",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/7e0d53ba-8f02-4c66-98a5-14a1c997c50d/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1566": {
+      "get": {
+        "summary": "Payroll Based Journal Daily Nurse Staffing : 2024-04-01",
+        "description": "The Payroll Based Journal (PBJ) Nurse Staffing and Non-Nurse Staffing datasets provide information submitted by nursing homes including rehabilitation services on a quarterly basis. The View Data link above includes the hours staff are paid to work each day, for each facility, aggregated by staff reporting category. \u00a0Examples of reporting categories include Director of Nursing, Administrative Registered Nurses, Registered Nursing, Administrative Licensed Practice Nurses, Licensed Practice Nurses, Certified Nurse Aides, Certified Medication Aides, and Nurse Aides in Training. There are also other non-nurse staff categories provided in the data such as Respiratory Therapist, Occupational Therapist, and Social Worker. The datasets also include a facility\u2019s daily census calculated using the Minimum Data Set (MDS) submission.\n\nThe Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing datasets and technical information have been moved to a new location.\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/dcc467d8-5792-4e5d-95be-04bf9fc930a1/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1567": {
+      "get": {
+        "summary": "Payroll Based Journal Daily Nurse Staffing : 2024-01-01",
+        "description": "The Payroll Based Journal (PBJ) Nurse Staffing and Non-Nurse Staffing datasets provide information submitted by nursing homes including rehabilitation services on a quarterly basis. The View Data link above includes the hours staff are paid to work each day, for each facility, aggregated by staff reporting category. \u00a0Examples of reporting categories include Director of Nursing, Administrative Registered Nurses, Registered Nursing, Administrative Licensed Practice Nurses, Licensed Practice Nurses, Certified Nurse Aides, Certified Medication Aides, and Nurse Aides in Training. There are also other non-nurse staff categories provided in the data such as Respiratory Therapist, Occupational Therapist, and Social Worker. The datasets also include a facility\u2019s daily census calculated using the Minimum Data Set (MDS) submission.\n\nThe Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing datasets and technical information have been moved to a new location.\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/5b84bdf2-b246-4b3c-be1b-cf7c2bcb3391/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1568": {
+      "get": {
+        "summary": "Payroll Based Journal Daily Nurse Staffing : 2023-12-01",
+        "description": "The Payroll Based Journal (PBJ) Nurse Staffing and Non-Nurse Staffing datasets provide information submitted by nursing homes including rehabilitation services on a quarterly basis. The View Data link above includes the hours staff are paid to work each day, for each facility, aggregated by staff reporting category. \u00a0Examples of reporting categories include Director of Nursing, Administrative Registered Nurses, Registered Nursing, Administrative Licensed Practice Nurses, Licensed Practice Nurses, Certified Nurse Aides, Certified Medication Aides, and Nurse Aides in Training. There are also other non-nurse staff categories provided in the data such as Respiratory Therapist, Occupational Therapist, and Social Worker. The datasets also include a facility\u2019s daily census calculated using the Minimum Data Set (MDS) submission.\n\nThe Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing datasets and technical information have been moved to a new location.\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/ef20ab44-833c-4611-9600-2862e460072c/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1569": {
+      "get": {
+        "summary": "Payroll Based Journal Daily Nurse Staffing : 2023-09-01",
+        "description": "The Payroll Based Journal (PBJ) Nurse Staffing and Non-Nurse Staffing datasets provide information submitted by nursing homes including rehabilitation services on a quarterly basis. The View Data link above includes the hours staff are paid to work each day, for each facility, aggregated by staff reporting category. \u00a0Examples of reporting categories include Director of Nursing, Administrative Registered Nurses, Registered Nursing, Administrative Licensed Practice Nurses, Licensed Practice Nurses, Certified Nurse Aides, Certified Medication Aides, and Nurse Aides in Training. There are also other non-nurse staff categories provided in the data such as Respiratory Therapist, Occupational Therapist, and Social Worker. The datasets also include a facility\u2019s daily census calculated using the Minimum Data Set (MDS) submission.\n\nThe Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing datasets and technical information have been moved to a new location.\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/4fa21c39-1d12-4ed9-8d6b-b99d629217b2/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1570": {
+      "get": {
+        "summary": "Payroll Based Journal Daily Nurse Staffing : 2023-06-01",
+        "description": "The Payroll Based Journal (PBJ) Nurse Staffing and Non-Nurse Staffing datasets provide information submitted by nursing homes including rehabilitation services on a quarterly basis. The View Data link above includes the hours staff are paid to work each day, for each facility, aggregated by staff reporting category. \u00a0Examples of reporting categories include Director of Nursing, Administrative Registered Nurses, Registered Nursing, Administrative Licensed Practice Nurses, Licensed Practice Nurses, Certified Nurse Aides, Certified Medication Aides, and Nurse Aides in Training. There are also other non-nurse staff categories provided in the data such as Respiratory Therapist, Occupational Therapist, and Social Worker. The datasets also include a facility\u2019s daily census calculated using the Minimum Data Set (MDS) submission.\n\nThe Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing datasets and technical information have been moved to a new location.\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/73f63730-8230-41f8-a33f-b740c7e79dde/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1571": {
+      "get": {
+        "summary": "Payroll Based Journal Daily Nurse Staffing : 2023-01-01",
+        "description": "The Payroll Based Journal (PBJ) Nurse Staffing and Non-Nurse Staffing datasets provide information submitted by nursing homes including rehabilitation services on a quarterly basis. The View Data link above includes the hours staff are paid to work each day, for each facility, aggregated by staff reporting category. \u00a0Examples of reporting categories include Director of Nursing, Administrative Registered Nurses, Registered Nursing, Administrative Licensed Practice Nurses, Licensed Practice Nurses, Certified Nurse Aides, Certified Medication Aides, and Nurse Aides in Training. There are also other non-nurse staff categories provided in the data such as Respiratory Therapist, Occupational Therapist, and Social Worker. The datasets also include a facility\u2019s daily census calculated using the Minimum Data Set (MDS) submission.\n\nThe Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing datasets and technical information have been moved to a new location.\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/54712e78-5f6f-4b5f-a815-7f2cf24b6db6/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1572": {
+      "get": {
+        "summary": "Payroll Based Journal Daily Nurse Staffing : 2022-12-31",
+        "description": "The Payroll Based Journal (PBJ) Nurse Staffing and Non-Nurse Staffing datasets provide information submitted by nursing homes including rehabilitation services on a quarterly basis. The View Data link above includes the hours staff are paid to work each day, for each facility, aggregated by staff reporting category. \u00a0Examples of reporting categories include Director of Nursing, Administrative Registered Nurses, Registered Nursing, Administrative Licensed Practice Nurses, Licensed Practice Nurses, Certified Nurse Aides, Certified Medication Aides, and Nurse Aides in Training. There are also other non-nurse staff categories provided in the data such as Respiratory Therapist, Occupational Therapist, and Social Worker. The datasets also include a facility\u2019s daily census calculated using the Minimum Data Set (MDS) submission.\n\nThe Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing datasets and technical information have been moved to a new location.\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/7a678e92-0418-44e0-9d72-043fd23f3959/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1573": {
+      "get": {
+        "summary": "Payroll Based Journal Daily Nurse Staffing : 2022-09-30",
+        "description": "The Payroll Based Journal (PBJ) Nurse Staffing and Non-Nurse Staffing datasets provide information submitted by nursing homes including rehabilitation services on a quarterly basis. The View Data link above includes the hours staff are paid to work each day, for each facility, aggregated by staff reporting category. \u00a0Examples of reporting categories include Director of Nursing, Administrative Registered Nurses, Registered Nursing, Administrative Licensed Practice Nurses, Licensed Practice Nurses, Certified Nurse Aides, Certified Medication Aides, and Nurse Aides in Training. There are also other non-nurse staff categories provided in the data such as Respiratory Therapist, Occupational Therapist, and Social Worker. The datasets also include a facility\u2019s daily census calculated using the Minimum Data Set (MDS) submission.\n\nThe Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing datasets and technical information have been moved to a new location.\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/d6d70d6c-776c-43e6-82e3-e84637adf6e8/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1574": {
+      "get": {
+        "summary": "Payroll Based Journal Daily Nurse Staffing : 2022-06-30",
+        "description": "The Payroll Based Journal (PBJ) Nurse Staffing and Non-Nurse Staffing datasets provide information submitted by nursing homes including rehabilitation services on a quarterly basis. The View Data link above includes the hours staff are paid to work each day, for each facility, aggregated by staff reporting category. \u00a0Examples of reporting categories include Director of Nursing, Administrative Registered Nurses, Registered Nursing, Administrative Licensed Practice Nurses, Licensed Practice Nurses, Certified Nurse Aides, Certified Medication Aides, and Nurse Aides in Training. There are also other non-nurse staff categories provided in the data such as Respiratory Therapist, Occupational Therapist, and Social Worker. The datasets also include a facility\u2019s daily census calculated using the Minimum Data Set (MDS) submission.\n\nThe Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing datasets and technical information have been moved to a new location.\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/dd928f23-3bd4-46ec-99e2-7463db232b47/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1575": {
+      "get": {
+        "summary": "Payroll Based Journal Daily Nurse Staffing : 2022-01-01",
+        "description": "The Payroll Based Journal (PBJ) Nurse Staffing and Non-Nurse Staffing datasets provide information submitted by nursing homes including rehabilitation services on a quarterly basis. The View Data link above includes the hours staff are paid to work each day, for each facility, aggregated by staff reporting category. \u00a0Examples of reporting categories include Director of Nursing, Administrative Registered Nurses, Registered Nursing, Administrative Licensed Practice Nurses, Licensed Practice Nurses, Certified Nurse Aides, Certified Medication Aides, and Nurse Aides in Training. There are also other non-nurse staff categories provided in the data such as Respiratory Therapist, Occupational Therapist, and Social Worker. The datasets also include a facility\u2019s daily census calculated using the Minimum Data Set (MDS) submission.\n\nThe Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing datasets and technical information have been moved to a new location.\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/1fcb1016-612d-4605-8296-6b220d20e851/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1576": {
+      "get": {
+        "summary": "Payroll Based Journal Daily Nurse Staffing : 2021-12-31",
+        "description": "The Payroll Based Journal (PBJ) Nurse Staffing and Non-Nurse Staffing datasets provide information submitted by nursing homes including rehabilitation services on a quarterly basis. The View Data link above includes the hours staff are paid to work each day, for each facility, aggregated by staff reporting category. \u00a0Examples of reporting categories include Director of Nursing, Administrative Registered Nurses, Registered Nursing, Administrative Licensed Practice Nurses, Licensed Practice Nurses, Certified Nurse Aides, Certified Medication Aides, and Nurse Aides in Training. There are also other non-nurse staff categories provided in the data such as Respiratory Therapist, Occupational Therapist, and Social Worker. The datasets also include a facility\u2019s daily census calculated using the Minimum Data Set (MDS) submission.\n\nThe Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing datasets and technical information have been moved to a new location.\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/93881636-0cde-4118-a110-ba2fd8cc890a/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1577": {
+      "get": {
+        "summary": "Payroll Based Journal Daily Nurse Staffing : 2021-09-30",
+        "description": "The Payroll Based Journal (PBJ) Nurse Staffing and Non-Nurse Staffing datasets provide information submitted by nursing homes including rehabilitation services on a quarterly basis. The View Data link above includes the hours staff are paid to work each day, for each facility, aggregated by staff reporting category. \u00a0Examples of reporting categories include Director of Nursing, Administrative Registered Nurses, Registered Nursing, Administrative Licensed Practice Nurses, Licensed Practice Nurses, Certified Nurse Aides, Certified Medication Aides, and Nurse Aides in Training. There are also other non-nurse staff categories provided in the data such as Respiratory Therapist, Occupational Therapist, and Social Worker. The datasets also include a facility\u2019s daily census calculated using the Minimum Data Set (MDS) submission.\n\nThe Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing datasets and technical information have been moved to a new location.\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/050ddc4f-9214-42d3-8c32-3446a746e8cd/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1578": {
+      "get": {
+        "summary": "Payroll Based Journal Daily Nurse Staffing : 2021-06-30",
+        "description": "The Payroll Based Journal (PBJ) Nurse Staffing and Non-Nurse Staffing datasets provide information submitted by nursing homes including rehabilitation services on a quarterly basis. The View Data link above includes the hours staff are paid to work each day, for each facility, aggregated by staff reporting category. \u00a0Examples of reporting categories include Director of Nursing, Administrative Registered Nurses, Registered Nursing, Administrative Licensed Practice Nurses, Licensed Practice Nurses, Certified Nurse Aides, Certified Medication Aides, and Nurse Aides in Training. There are also other non-nurse staff categories provided in the data such as Respiratory Therapist, Occupational Therapist, and Social Worker. The datasets also include a facility\u2019s daily census calculated using the Minimum Data Set (MDS) submission.\n\nThe Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing datasets and technical information have been moved to a new location.\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/d10d792e-ea6e-4145-8512-34efbc1be04b/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1579": {
+      "get": {
+        "summary": "Payroll Based Journal Daily Nurse Staffing : 2021-03-31",
+        "description": "The Payroll Based Journal (PBJ) Nurse Staffing and Non-Nurse Staffing datasets provide information submitted by nursing homes including rehabilitation services on a quarterly basis. The View Data link above includes the hours staff are paid to work each day, for each facility, aggregated by staff reporting category. \u00a0Examples of reporting categories include Director of Nursing, Administrative Registered Nurses, Registered Nursing, Administrative Licensed Practice Nurses, Licensed Practice Nurses, Certified Nurse Aides, Certified Medication Aides, and Nurse Aides in Training. There are also other non-nurse staff categories provided in the data such as Respiratory Therapist, Occupational Therapist, and Social Worker. The datasets also include a facility\u2019s daily census calculated using the Minimum Data Set (MDS) submission.\n\nThe Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing datasets and technical information have been moved to a new location.\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/0a33dac8-73b2-4223-83e7-d709645c3549/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1580": {
+      "get": {
+        "summary": "Payroll Based Journal Daily Nurse Staffing : 2020-12-31",
+        "description": "The Payroll Based Journal (PBJ) Nurse Staffing and Non-Nurse Staffing datasets provide information submitted by nursing homes including rehabilitation services on a quarterly basis. The View Data link above includes the hours staff are paid to work each day, for each facility, aggregated by staff reporting category. \u00a0Examples of reporting categories include Director of Nursing, Administrative Registered Nurses, Registered Nursing, Administrative Licensed Practice Nurses, Licensed Practice Nurses, Certified Nurse Aides, Certified Medication Aides, and Nurse Aides in Training. There are also other non-nurse staff categories provided in the data such as Respiratory Therapist, Occupational Therapist, and Social Worker. The datasets also include a facility\u2019s daily census calculated using the Minimum Data Set (MDS) submission.\n\nThe Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing datasets and technical information have been moved to a new location.\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/864a622a-733a-4199-a994-bc10ae071cb0/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1581": {
+      "get": {
+        "summary": "Payroll Based Journal Daily Nurse Staffing : 2020-09-30",
+        "description": "The Payroll Based Journal (PBJ) Nurse Staffing and Non-Nurse Staffing datasets provide information submitted by nursing homes including rehabilitation services on a quarterly basis. The View Data link above includes the hours staff are paid to work each day, for each facility, aggregated by staff reporting category. \u00a0Examples of reporting categories include Director of Nursing, Administrative Registered Nurses, Registered Nursing, Administrative Licensed Practice Nurses, Licensed Practice Nurses, Certified Nurse Aides, Certified Medication Aides, and Nurse Aides in Training. There are also other non-nurse staff categories provided in the data such as Respiratory Therapist, Occupational Therapist, and Social Worker. The datasets also include a facility\u2019s daily census calculated using the Minimum Data Set (MDS) submission.\n\nThe Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing datasets and technical information have been moved to a new location.\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/30ffaf4e-a749-4bdb-bb3e-6c0b28fe649b/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1582": {
+      "get": {
+        "summary": "Payroll Based Journal Daily Nurse Staffing : 2020-06-30",
+        "description": "The Payroll Based Journal (PBJ) Nurse Staffing and Non-Nurse Staffing datasets provide information submitted by nursing homes including rehabilitation services on a quarterly basis. The View Data link above includes the hours staff are paid to work each day, for each facility, aggregated by staff reporting category. \u00a0Examples of reporting categories include Director of Nursing, Administrative Registered Nurses, Registered Nursing, Administrative Licensed Practice Nurses, Licensed Practice Nurses, Certified Nurse Aides, Certified Medication Aides, and Nurse Aides in Training. There are also other non-nurse staff categories provided in the data such as Respiratory Therapist, Occupational Therapist, and Social Worker. The datasets also include a facility\u2019s daily census calculated using the Minimum Data Set (MDS) submission.\n\nThe Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing datasets and technical information have been moved to a new location.\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/1f6bc389-d388-4746-9b1a-f642803863e1/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1583": {
+      "get": {
+        "summary": "Payroll Based Journal Daily Nurse Staffing : 2020-03-31",
+        "description": "The Payroll Based Journal (PBJ) Nurse Staffing and Non-Nurse Staffing datasets provide information submitted by nursing homes including rehabilitation services on a quarterly basis. The View Data link above includes the hours staff are paid to work each day, for each facility, aggregated by staff reporting category. \u00a0Examples of reporting categories include Director of Nursing, Administrative Registered Nurses, Registered Nursing, Administrative Licensed Practice Nurses, Licensed Practice Nurses, Certified Nurse Aides, Certified Medication Aides, and Nurse Aides in Training. There are also other non-nurse staff categories provided in the data such as Respiratory Therapist, Occupational Therapist, and Social Worker. The datasets also include a facility\u2019s daily census calculated using the Minimum Data Set (MDS) submission.\n\nThe Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing datasets and technical information have been moved to a new location.\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/c58e3bc9-a27c-4540-aec7-24153fc5b115/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1584": {
+      "get": {
+        "summary": "Payroll Based Journal Daily Nurse Staffing : 2019-12-31",
+        "description": "The Payroll Based Journal (PBJ) Nurse Staffing and Non-Nurse Staffing datasets provide information submitted by nursing homes including rehabilitation services on a quarterly basis. The View Data link above includes the hours staff are paid to work each day, for each facility, aggregated by staff reporting category. \u00a0Examples of reporting categories include Director of Nursing, Administrative Registered Nurses, Registered Nursing, Administrative Licensed Practice Nurses, Licensed Practice Nurses, Certified Nurse Aides, Certified Medication Aides, and Nurse Aides in Training. There are also other non-nurse staff categories provided in the data such as Respiratory Therapist, Occupational Therapist, and Social Worker. The datasets also include a facility\u2019s daily census calculated using the Minimum Data Set (MDS) submission.\n\nThe Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing datasets and technical information have been moved to a new location.\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/c90dd8a4-8f97-4b56-b756-4ec09c9bb034/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1585": {
+      "get": {
+        "summary": "Payroll Based Journal Daily Nurse Staffing : 2019-09-30",
+        "description": "The Payroll Based Journal (PBJ) Nurse Staffing and Non-Nurse Staffing datasets provide information submitted by nursing homes including rehabilitation services on a quarterly basis. The View Data link above includes the hours staff are paid to work each day, for each facility, aggregated by staff reporting category. \u00a0Examples of reporting categories include Director of Nursing, Administrative Registered Nurses, Registered Nursing, Administrative Licensed Practice Nurses, Licensed Practice Nurses, Certified Nurse Aides, Certified Medication Aides, and Nurse Aides in Training. There are also other non-nurse staff categories provided in the data such as Respiratory Therapist, Occupational Therapist, and Social Worker. The datasets also include a facility\u2019s daily census calculated using the Minimum Data Set (MDS) submission.\n\nThe Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing datasets and technical information have been moved to a new location.\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/d8e71c8a-19f2-484e-951b-deba329e7197/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1586": {
+      "get": {
+        "summary": "Payroll Based Journal Daily Nurse Staffing : 2019-06-30",
+        "description": "The Payroll Based Journal (PBJ) Nurse Staffing and Non-Nurse Staffing datasets provide information submitted by nursing homes including rehabilitation services on a quarterly basis. The View Data link above includes the hours staff are paid to work each day, for each facility, aggregated by staff reporting category. \u00a0Examples of reporting categories include Director of Nursing, Administrative Registered Nurses, Registered Nursing, Administrative Licensed Practice Nurses, Licensed Practice Nurses, Certified Nurse Aides, Certified Medication Aides, and Nurse Aides in Training. There are also other non-nurse staff categories provided in the data such as Respiratory Therapist, Occupational Therapist, and Social Worker. The datasets also include a facility\u2019s daily census calculated using the Minimum Data Set (MDS) submission.\n\nThe Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing datasets and technical information have been moved to a new location.\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f92c9237-d7d7-4747-b1c8-e8070d044bcc/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1587": {
+      "get": {
+        "summary": "Payroll Based Journal Daily Nurse Staffing : 2019-03-13",
+        "description": "The Payroll Based Journal (PBJ) Nurse Staffing and Non-Nurse Staffing datasets provide information submitted by nursing homes including rehabilitation services on a quarterly basis. The View Data link above includes the hours staff are paid to work each day, for each facility, aggregated by staff reporting category. \u00a0Examples of reporting categories include Director of Nursing, Administrative Registered Nurses, Registered Nursing, Administrative Licensed Practice Nurses, Licensed Practice Nurses, Certified Nurse Aides, Certified Medication Aides, and Nurse Aides in Training. There are also other non-nurse staff categories provided in the data such as Respiratory Therapist, Occupational Therapist, and Social Worker. The datasets also include a facility\u2019s daily census calculated using the Minimum Data Set (MDS) submission.\n\nThe Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing datasets and technical information have been moved to a new location.\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/a1ab6217-d261-4f3c-b1c7-d5ac29d2628f/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1588": {
+      "get": {
+        "summary": "Payroll Based Journal Daily Nurse Staffing : 2018-12-13",
+        "description": "The Payroll Based Journal (PBJ) Nurse Staffing and Non-Nurse Staffing datasets provide information submitted by nursing homes including rehabilitation services on a quarterly basis. The View Data link above includes the hours staff are paid to work each day, for each facility, aggregated by staff reporting category. \u00a0Examples of reporting categories include Director of Nursing, Administrative Registered Nurses, Registered Nursing, Administrative Licensed Practice Nurses, Licensed Practice Nurses, Certified Nurse Aides, Certified Medication Aides, and Nurse Aides in Training. There are also other non-nurse staff categories provided in the data such as Respiratory Therapist, Occupational Therapist, and Social Worker. The datasets also include a facility\u2019s daily census calculated using the Minimum Data Set (MDS) submission.\n\nThe Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing datasets and technical information have been moved to a new location.\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/b63f6abb-dc58-48ca-98a1-7081c485b39e/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1589": {
+      "get": {
+        "summary": "Payroll Based Journal Daily Nurse Staffing : 2018-09-30",
+        "description": "The Payroll Based Journal (PBJ) Nurse Staffing and Non-Nurse Staffing datasets provide information submitted by nursing homes including rehabilitation services on a quarterly basis. The View Data link above includes the hours staff are paid to work each day, for each facility, aggregated by staff reporting category. \u00a0Examples of reporting categories include Director of Nursing, Administrative Registered Nurses, Registered Nursing, Administrative Licensed Practice Nurses, Licensed Practice Nurses, Certified Nurse Aides, Certified Medication Aides, and Nurse Aides in Training. There are also other non-nurse staff categories provided in the data such as Respiratory Therapist, Occupational Therapist, and Social Worker. The datasets also include a facility\u2019s daily census calculated using the Minimum Data Set (MDS) submission.\n\nThe Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing datasets and technical information have been moved to a new location.\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/ef50b53a-6f1a-4d0e-9322-ed05fd48adc4/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1590": {
+      "get": {
+        "summary": "Payroll Based Journal Daily Nurse Staffing : 2018-06-30",
+        "description": "The Payroll Based Journal (PBJ) Nurse Staffing and Non-Nurse Staffing datasets provide information submitted by nursing homes including rehabilitation services on a quarterly basis. The View Data link above includes the hours staff are paid to work each day, for each facility, aggregated by staff reporting category. \u00a0Examples of reporting categories include Director of Nursing, Administrative Registered Nurses, Registered Nursing, Administrative Licensed Practice Nurses, Licensed Practice Nurses, Certified Nurse Aides, Certified Medication Aides, and Nurse Aides in Training. There are also other non-nurse staff categories provided in the data such as Respiratory Therapist, Occupational Therapist, and Social Worker. The datasets also include a facility\u2019s daily census calculated using the Minimum Data Set (MDS) submission.\n\nThe Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing datasets and technical information have been moved to a new location.\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/77a7052f-e0b0-4735-bc38-912b79c67c5f/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1591": {
+      "get": {
+        "summary": "Payroll Based Journal Daily Nurse Staffing : 2018-03-31",
+        "description": "The Payroll Based Journal (PBJ) Nurse Staffing and Non-Nurse Staffing datasets provide information submitted by nursing homes including rehabilitation services on a quarterly basis. The View Data link above includes the hours staff are paid to work each day, for each facility, aggregated by staff reporting category. \u00a0Examples of reporting categories include Director of Nursing, Administrative Registered Nurses, Registered Nursing, Administrative Licensed Practice Nurses, Licensed Practice Nurses, Certified Nurse Aides, Certified Medication Aides, and Nurse Aides in Training. There are also other non-nurse staff categories provided in the data such as Respiratory Therapist, Occupational Therapist, and Social Worker. The datasets also include a facility\u2019s daily census calculated using the Minimum Data Set (MDS) submission.\n\nThe Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing datasets and technical information have been moved to a new location.\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/e07ea294-06eb-4a9b-9d01-a6631cd1d630/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1592": {
+      "get": {
+        "summary": "Payroll Based Journal Daily Nurse Staffing : 2017-12-31",
+        "description": "The Payroll Based Journal (PBJ) Nurse Staffing and Non-Nurse Staffing datasets provide information submitted by nursing homes including rehabilitation services on a quarterly basis. The View Data link above includes the hours staff are paid to work each day, for each facility, aggregated by staff reporting category. \u00a0Examples of reporting categories include Director of Nursing, Administrative Registered Nurses, Registered Nursing, Administrative Licensed Practice Nurses, Licensed Practice Nurses, Certified Nurse Aides, Certified Medication Aides, and Nurse Aides in Training. There are also other non-nurse staff categories provided in the data such as Respiratory Therapist, Occupational Therapist, and Social Worker. The datasets also include a facility\u2019s daily census calculated using the Minimum Data Set (MDS) submission.\n\nThe Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing datasets and technical information have been moved to a new location.\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/88f0d985-21b8-4c07-899d-f0c7600d6aaa/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1593": {
+      "get": {
+        "summary": "Payroll Based Journal Daily Nurse Staffing : 2017-09-30",
+        "description": "The Payroll Based Journal (PBJ) Nurse Staffing and Non-Nurse Staffing datasets provide information submitted by nursing homes including rehabilitation services on a quarterly basis. The View Data link above includes the hours staff are paid to work each day, for each facility, aggregated by staff reporting category. \u00a0Examples of reporting categories include Director of Nursing, Administrative Registered Nurses, Registered Nursing, Administrative Licensed Practice Nurses, Licensed Practice Nurses, Certified Nurse Aides, Certified Medication Aides, and Nurse Aides in Training. There are also other non-nurse staff categories provided in the data such as Respiratory Therapist, Occupational Therapist, and Social Worker. The datasets also include a facility\u2019s daily census calculated using the Minimum Data Set (MDS) submission.\n\nThe Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing datasets and technical information have been moved to a new location.\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/ef33699d-8891-4943-89e7-7db02b43613e/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1594": {
+      "get": {
+        "summary": "Payroll Based Journal Daily Nurse Staffing : 2017-06-30",
+        "description": "The Payroll Based Journal (PBJ) Nurse Staffing and Non-Nurse Staffing datasets provide information submitted by nursing homes including rehabilitation services on a quarterly basis. The View Data link above includes the hours staff are paid to work each day, for each facility, aggregated by staff reporting category. \u00a0Examples of reporting categories include Director of Nursing, Administrative Registered Nurses, Registered Nursing, Administrative Licensed Practice Nurses, Licensed Practice Nurses, Certified Nurse Aides, Certified Medication Aides, and Nurse Aides in Training. There are also other non-nurse staff categories provided in the data such as Respiratory Therapist, Occupational Therapist, and Social Worker. The datasets also include a facility\u2019s daily census calculated using the Minimum Data Set (MDS) submission.\n\nThe Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing datasets and technical information have been moved to a new location.\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/2d40353c-3ea1-4200-9e88-630b9a703a05/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1595": {
+      "get": {
+        "summary": "Payroll Based Journal Daily Nurse Staffing : 2017-03-31",
+        "description": "The Payroll Based Journal (PBJ) Nurse Staffing and Non-Nurse Staffing datasets provide information submitted by nursing homes including rehabilitation services on a quarterly basis. The View Data link above includes the hours staff are paid to work each day, for each facility, aggregated by staff reporting category. \u00a0Examples of reporting categories include Director of Nursing, Administrative Registered Nurses, Registered Nursing, Administrative Licensed Practice Nurses, Licensed Practice Nurses, Certified Nurse Aides, Certified Medication Aides, and Nurse Aides in Training. There are also other non-nurse staff categories provided in the data such as Respiratory Therapist, Occupational Therapist, and Social Worker. The datasets also include a facility\u2019s daily census calculated using the Minimum Data Set (MDS) submission.\n\nThe Payroll Based Journal (PBJ) Employee Detail Nursing Home Staffing datasets and technical information have been moved to a new location.\n\nNote: This full dataset contains more records than most spreadsheet programs can handle, which will result in an incomplete load of data. Use of a database or statistical software is required.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/9e445238-71ea-4101-a560-56b4b7871f8a/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1596": {
+      "get": {
+        "summary": "Accountable Care Organizations : 2025-01-15",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/69ec2609-5ce5-4ce1-b14c-1f8809fda2c2/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1597": {
+      "get": {
+        "summary": "Accountable Care Organizations : 2025-01-15",
+        "description": "The\u00a0Accountable Care Organizations data\u00a0provides information on ACOs participating in the Medicare Shared Savings Program (Shared Savings Program), including their name, track status, number of years in the program, and contact information for key personnel.\u00a0\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to ACO information occur periodically. Each ACO has the most up-to-date information about their organization. Consider contacting the ACO for the latest information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/0a87ee7e-e70b-446d-bf64-4a851b30ab0e/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1598": {
+      "get": {
+        "summary": "Accountable Care Organizations : 2024-01-24",
+        "description": "The\u00a0Accountable Care Organizations data\u00a0provides information on ACOs participating in the Medicare Shared Savings Program (Shared Savings Program), including their name, track status, number of years in the program, and contact information for key personnel.\u00a0\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to ACO information occur periodically. Each ACO has the most up-to-date information about their organization. Consider contacting the ACO for the latest information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/20091eb2-c18b-4f38-8758-c00e300124db/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1599": {
+      "get": {
+        "summary": "Accountable Care Organizations : 2023-01-13",
+        "description": "The\u00a0Accountable Care Organizations data\u00a0provides information on ACOs participating in the Medicare Shared Savings Program (Shared Savings Program), including their name, track status, number of years in the program, and contact information for key personnel.\u00a0\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to ACO information occur periodically. Each ACO has the most up-to-date information about their organization. Consider contacting the ACO for the latest information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/ea96c3ef-0dcb-4549-9866-03f087e81a5d/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1600": {
+      "get": {
+        "summary": "Accountable Care Organizations : 2022-01-01",
+        "description": "The\u00a0Accountable Care Organizations data\u00a0provides information on ACOs participating in the Medicare Shared Savings Program (Shared Savings Program), including their name, track status, number of years in the program, and contact information for key personnel.\u00a0\n\n\u00a0\n\nDISCLAIMER: This information is current as of the last update. Changes to ACO information occur periodically. Each ACO has the most up-to-date information about their organization. Consider contacting the ACO for the latest information.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/b9d03601-1187-4c25-aca6-5754e88ba0cf/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

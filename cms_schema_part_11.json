@@ -1,0 +1,1915 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "CMS API Subset 11",
+    "version": "1.0.0",
+    "description": "Subset 11 of CMS API endpoints"
+  },
+  "servers": [
+    {
+      "url": "https://data.cms.gov"
+    }
+  ],
+  "paths": {
+    "/proxy/endpoint1001": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-05-28",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/378c2979-d200-4c64-afea-810285840588/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1002": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-05-21",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/361824a7-55d6-414b-97ad-5b2b68e48cb6/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1003": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-05-17",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/85a484e2-5c8d-436e-a23a-0ce791f71fa2/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1004": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-05-14",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/2eb41cf5-bbc3-435d-aaff-9829b0817e5b/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1005": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-05-10",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/27f78296-a80e-46b5-aa25-3ab35b54ef57/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1006": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-05-07",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/bc325b20-5c26-470a-b175-90f742ac6872/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1007": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-05-03",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f2bb0fa3-f395-454d-b84b-ec65bcdb3e0f/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1008": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-04-30",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/3c75977d-7104-4dc3-8fcd-6e3c6265c43b/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1009": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-04-26",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/50977d04-c6bb-4ace-abf7-891a208019d5/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1010": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-04-23",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/92891bb4-94a8-4475-a398-4485134720bc/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1011": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-04-19",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/6370a774-ad4e-461c-9e4e-bf434391665a/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1012": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-04-16",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/5f567c09-bec5-4af9-b456-17068602be6d/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1013": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-04-12",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f0a0573a-9b4d-480b-9e4a-1ceb170234a5/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1014": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-04-09",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/dce573b7-107b-468c-811c-2c06fb8b7e2b/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1015": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-04-05",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/96fd91a3-9049-42a2-8a4c-8163b3d1ab7f/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1016": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-04-02",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/4a220f53-3398-4ba6-96aa-f306aca8e34e/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1017": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-03-29",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/a6784b1b-f657-4b91-9a17-8bf846ddd320/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1018": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-03-26",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/a669d45e-6f5a-4245-96c5-ee02a8c0bc02/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1019": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-03-22",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/38805b7b-0bf7-4a47-b921-a8d81329bad7/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1020": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-03-19",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/3a005233-4f7d-4550-bdb9-3eb6761bf573/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1021": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-03-15",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/188c6756-c991-4904-9f38-047134f8cc14/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1022": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-03-12",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/1bc1fa35-cd11-42a4-90f3-21faeb5683a6/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1023": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-03-08",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/b5645d1c-0c49-4d06-ae21-fb162febff42/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1024": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-03-05",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/3ae4caaf-164e-4c1f-b92a-6a4d54429be7/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1025": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-03-01",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/baf6ad79-47df-4c4b-b8e8-5f3d3787b0ba/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1026": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-02-27",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/c699f608-bd52-49c4-ab7d-f03fd95206f8/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1027": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-02-23",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/5a165171-50b1-4819-9267-7bb35b7067a8/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1028": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-02-21",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/c6e06c0b-5d82-4092-80e5-100c999822b3/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1029": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-02-16",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/4588a343-76fb-4549-aa23-76bf65d1426b/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1030": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-02-13",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f6d6af78-0be2-4755-96bd-4a14b75fb5db/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1031": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-02-09",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/91ad6362-131b-47f4-ac30-125fc2ec5422/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1032": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-02-06",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f6877c86-bfcd-4715-97cd-f05e35dfd5bc/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1033": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-02-02",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f4c9cc1a-db3d-4223-b286-c0ed306feb0d/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1034": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-01-30",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/3acd8ea4-282d-4310-8578-595b54fb4263/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1035": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-01-26",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/a3f4d771-07d0-4bc3-b74c-754c3ea27f06/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1036": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-01-23",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/475ad515-420b-4077-88a5-f9dcfb98234a/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1037": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-01-19",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/bf4881ee-87a2-46cd-84ff-fe094e5ab872/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1038": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-01-16",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/a72615ba-be82-4681-8a9b-36ff2756d154/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1039": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-01-12",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/aa804798-e0df-489d-b7aa-d8f3092e8386/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1040": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-01-09",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/9a04a308-cd83-45f7-9001-32024411b30f/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1041": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-01-05",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/9796cd13-90cf-4106-a25d-7f0f7b173b87/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1042": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2024-01-03",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/b46a8445-d5c8-4893-a0d8-9e94f0267e98/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1043": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2023-12-29",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/325b42ad-1c72-456d-88a5-3e36047a9c7c/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1044": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2023-12-27",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f15edcd9-9e57-42c9-9f7e-8517085c22e1/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1045": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2023-12-22",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/4c1e51bf-2e23-4e19-ab47-2c1d0abe1949/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1046": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2023-12-19",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/75f51304-ee11-4f76-8d17-11eb6c71d453/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1047": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2023-12-15",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/26036317-67e9-4afa-a2ac-516411ee2f37/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1048": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2023-12-11",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/5d6924f5-5265-4ece-bf49-8a184e0467d1/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1049": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2023-12-08",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/206e8c90-3430-4ccc-bde1-6cf6beccfcd4/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1050": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2023-12-05",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/da0753ed-5c70-4403-8823-e9e9a5262c43/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1051": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2023-12-01",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/22ae1be5-e3f7-4c45-8eed-0630a8d89afd/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1052": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2023-11-28",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/1a53ba27-8268-443b-bd39-7ff6f25f30f5/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1053": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2023-11-24",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/158a6cf7-ecdc-425e-ae7a-1b1a43b528fc/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1054": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2023-11-21",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/4c56a3d2-942f-4b52-bb79-14c2bd3832c4/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1055": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2023-11-16",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/3b8acd60-0511-47cd-aa55-92ff47f7f409/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1056": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2023-11-14",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/8e906c62-32b4-4c22-9620-1e3e38867419/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1057": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2023-11-09",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/388f6655-9c83-40cb-bf37-25225cbcc122/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1058": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2023-11-07",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/f0ad4304-7587-4507-bc5f-cbb4c3130dd9/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1059": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2023-11-03",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/b5af2d82-d317-4798-8d43-64aef5e537bb/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1060": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2023-10-31",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/7157a215-642e-470d-91db-39aa1d242261/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1061": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2023-10-27",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/60c735f2-54b3-4433-9a0d-a9375d3a9145/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1062": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2023-10-24",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/65d71590-c5d0-4c1b-be91-c93f1b6b96e8/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1063": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2023-10-19",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/60657fee-6623-4c77-b8d9-f5d2cb48ca6a/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1064": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2023-10-17",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/dac311b4-e084-42cf-a218-8376d016a0d8/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1065": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2023-10-13",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/0d3ff143-5648-40c7-964a-2bf676d92126/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1066": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2023-10-11",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/1295a265-8eb9-4a6e-8cc6-1070584a6f29/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1067": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2023-10-05",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/c9b87e56-e496-4e09-a9c4-83695960cde6/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1068": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2023-10-03",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/c97641ba-7027-414b-aff7-6fc988642fa4/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1069": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2023-09-28",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/305a8760-e1aa-429b-bef7-ecc6dbb45cea/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1070": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2023-09-26",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/a9e908b7-c9a3-4386-9e2d-1a8e0e64ac89/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1071": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2023-09-22",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/13bba408-e2bd-446c-9278-382c5dac6a50/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1072": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2023-09-18",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/01395056-a14f-47eb-b6bd-a5ab5a0da380/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1073": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2023-09-14",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/0ea04cc1-416a-4e3a-a3f6-914b4fae2af5/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1074": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2023-09-11",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/548ab2bb-bc19-43df-987c-22d141b8384c/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1075": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2023-09-07",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/ec6893b2-b7d5-407c-a904-85b64d48294f/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1076": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2023-09-06",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/980ac8db-70d6-4b0d-90ea-41ce8c66234d/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1077": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2023-08-31",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/e72dc1ad-20b9-43df-88b9-3a5b50a3e79f/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1078": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2023-08-29",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/64e24b8a-5074-4650-844e-d343ffd84834/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1079": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2023-08-24",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/ccd1a0b4-220f-435a-9101-995f62491d59/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1080": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2023-08-22",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/eaa77e49-b404-45d1-8482-2b388865317c/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1081": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2023-08-17",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/505ffbaa-5521-478d-b2d1-1c1591b0b728/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1082": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2023-08-15",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/6b2dd1c7-4d26-4e5f-91d2-de604aaeeff4/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1083": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2023-08-10",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/6af2349d-2604-40ca-9e46-d27bcb5cc08e/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1084": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2023-08-08",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/e58dde20-c6bd-4e06-a90c-29ce35514845/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1085": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2023-08-03",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/cd77c754-9d48-4afc-acf0-5718eb931578/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1086": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2023-08-01",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/b372ab92-8d37-45bc-acca-456d6c3c9bfd/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1087": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2023-07-27",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/bd642471-63ab-4ea4-9090-9fc5785cbafc/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1088": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2023-07-25",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/e47da5c9-1807-498f-bc69-571fdbd4417b/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1089": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2023-07-21",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/fe4fd33c-47f7-426e-895d-7d71784d005b/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1090": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2023-07-19",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/b53ff4ed-f024-4253-9388-890f7e1c7e38/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1091": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2023-07-14",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/d62d6d5b-86b9-495e-85c5-b8e5e2f8ee30/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1092": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2023-07-11",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/dd77f0c5-df51-4735-a538-31ae67b82544/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1093": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2023-07-07",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/215885ed-b38c-4d4b-b50d-5a8cc9af9045/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1094": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2023-07-05",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/082a4be6-03b1-467e-af3f-cd05681067ff/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1095": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2023-07-03",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/a168a1bf-1e49-4d37-8587-95a0ed50f963/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1096": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2023-06-27",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/0a711534-b595-431e-8523-4a734fdb39fe/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1097": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2023-06-23",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/9985bf77-66bf-4e16-ac06-f0069f127944/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1098": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2023-06-20",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/6c849b5c-1267-4fae-a74f-6fe53f9cc48a/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1099": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2023-06-15",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/8660478a-45bf-41b7-9bf4-ab382af2610a/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1100": {
+      "get": {
+        "summary": "Pending Initial Logging and Tracking Non Physicians : 2023-06-13",
+        "description": "The Pending Initial Logging and Tracking\u00a0(L & T) Non Physicians dataset provides a list of pending applications that have not been processed by CMS contractors for Non Physicians.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/878ad760-e73b-4a8b-97aa-4b1fcd747098/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

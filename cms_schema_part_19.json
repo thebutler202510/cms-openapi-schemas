@@ -1,0 +1,775 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "CMS API Subset 19",
+    "version": "1.0.0",
+    "description": "Subset 19 of CMS API endpoints"
+  },
+  "servers": [
+    {
+      "url": "https://data.cms.gov"
+    }
+  ],
+  "paths": {
+    "/proxy/endpoint1801": {
+      "get": {
+        "summary": "Provider of Services File - Hospital & Non-Hospital Facilities : 2023-03-31",
+        "description": "Please be advised that as of Q4 2023 there is a new Provider of Service file (POS) that contains the provider and certification details for Home Health Agencies (HHAs), Hospices, and Ambulatory Surgical Centers (ASCs). Data contained in this file are extracted from the Internet Quality Improvement and Evaluation System (iQIES) environment and will be updated quarterly along with the other two POS files.\n\n\u00a0\n\nThe Provider of Services File - Hospital & Non-Hospital Facilities data\u00a0provide critical resources for other federal regulator requirements as well as supports the ongoing quality & research efforts sponsored by CMS. In this file you will find provider certification, termination, accreditation, ownership, name, location and other characteristics organized by CMS Certification Number.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/204074e1-725e-477b-985a-e3191f4fa1a7/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1802": {
+      "get": {
+        "summary": "Provider of Services File - Hospital & Non-Hospital Facilities : 2022-12-31",
+        "description": "Please be advised that as of Q4 2023 there is a new Provider of Service file (POS) that contains the provider and certification details for Home Health Agencies (HHAs), Hospices, and Ambulatory Surgical Centers (ASCs). Data contained in this file are extracted from the Internet Quality Improvement and Evaluation System (iQIES) environment and will be updated quarterly along with the other two POS files.\n\n\u00a0\n\nThe Provider of Services File - Hospital & Non-Hospital Facilities data\u00a0provide critical resources for other federal regulator requirements as well as supports the ongoing quality & research efforts sponsored by CMS. In this file you will find provider certification, termination, accreditation, ownership, name, location and other characteristics organized by CMS Certification Number.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/93a4e63f-23b0-4b1b-ab58-df813a0da582/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1803": {
+      "get": {
+        "summary": "Provider of Services File - Hospital & Non-Hospital Facilities : 2022-09-30",
+        "description": "Please be advised that as of Q4 2023 there is a new Provider of Service file (POS) that contains the provider and certification details for Home Health Agencies (HHAs), Hospices, and Ambulatory Surgical Centers (ASCs). Data contained in this file are extracted from the Internet Quality Improvement and Evaluation System (iQIES) environment and will be updated quarterly along with the other two POS files.\n\n\u00a0\n\nThe Provider of Services File - Hospital & Non-Hospital Facilities data\u00a0provide critical resources for other federal regulator requirements as well as supports the ongoing quality & research efforts sponsored by CMS. In this file you will find provider certification, termination, accreditation, ownership, name, location and other characteristics organized by CMS Certification Number.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/48283c7d-337c-4f96-8099-59d364b73338/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1804": {
+      "get": {
+        "summary": "Provider of Services File - Hospital & Non-Hospital Facilities : 2022-06-30",
+        "description": "Please be advised that as of Q4 2023 there is a new Provider of Service file (POS) that contains the provider and certification details for Home Health Agencies (HHAs), Hospices, and Ambulatory Surgical Centers (ASCs). Data contained in this file are extracted from the Internet Quality Improvement and Evaluation System (iQIES) environment and will be updated quarterly along with the other two POS files.\n\n\u00a0\n\nThe Provider of Services File - Hospital & Non-Hospital Facilities data\u00a0provide critical resources for other federal regulator requirements as well as supports the ongoing quality & research efforts sponsored by CMS. In this file you will find provider certification, termination, accreditation, ownership, name, location and other characteristics organized by CMS Certification Number.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/0cfbb461-c2b0-488c-9c3f-44ff05c7e842/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1805": {
+      "get": {
+        "summary": "Provider of Services File - Hospital & Non-Hospital Facilities : 2022-03-31",
+        "description": "Please be advised that as of Q4 2023 there is a new Provider of Service file (POS) that contains the provider and certification details for Home Health Agencies (HHAs), Hospices, and Ambulatory Surgical Centers (ASCs). Data contained in this file are extracted from the Internet Quality Improvement and Evaluation System (iQIES) environment and will be updated quarterly along with the other two POS files.\n\n\u00a0\n\nThe Provider of Services File - Hospital & Non-Hospital Facilities data\u00a0provide critical resources for other federal regulator requirements as well as supports the ongoing quality & research efforts sponsored by CMS. In this file you will find provider certification, termination, accreditation, ownership, name, location and other characteristics organized by CMS Certification Number.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/729dc3af-2a2e-499d-aae7-52b52d426a9f/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1806": {
+      "get": {
+        "summary": "Provider of Services File - Hospital & Non-Hospital Facilities : 2021-12-31",
+        "description": "Please be advised that as of Q4 2023 there is a new Provider of Service file (POS) that contains the provider and certification details for Home Health Agencies (HHAs), Hospices, and Ambulatory Surgical Centers (ASCs). Data contained in this file are extracted from the Internet Quality Improvement and Evaluation System (iQIES) environment and will be updated quarterly along with the other two POS files.\n\n\u00a0\n\nThe Provider of Services File - Hospital & Non-Hospital Facilities data\u00a0provide critical resources for other federal regulator requirements as well as supports the ongoing quality & research efforts sponsored by CMS. In this file you will find provider certification, termination, accreditation, ownership, name, location and other characteristics organized by CMS Certification Number.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/3cc6ad89-5cc0-4071-91e1-2a91aff79975/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1807": {
+      "get": {
+        "summary": "Provider of Services File - Hospital & Non-Hospital Facilities : 2021-09-30",
+        "description": "Please be advised that as of Q4 2023 there is a new Provider of Service file (POS) that contains the provider and certification details for Home Health Agencies (HHAs), Hospices, and Ambulatory Surgical Centers (ASCs). Data contained in this file are extracted from the Internet Quality Improvement and Evaluation System (iQIES) environment and will be updated quarterly along with the other two POS files.\n\n\u00a0\n\nThe Provider of Services File - Hospital & Non-Hospital Facilities data\u00a0provide critical resources for other federal regulator requirements as well as supports the ongoing quality & research efforts sponsored by CMS. In this file you will find provider certification, termination, accreditation, ownership, name, location and other characteristics organized by CMS Certification Number.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/4cc3f12e-128a-45ed-b308-1629f5973ffe/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1808": {
+      "get": {
+        "summary": "Provider of Services File - Hospital & Non-Hospital Facilities : 2021-06-30",
+        "description": "Please be advised that as of Q4 2023 there is a new Provider of Service file (POS) that contains the provider and certification details for Home Health Agencies (HHAs), Hospices, and Ambulatory Surgical Centers (ASCs). Data contained in this file are extracted from the Internet Quality Improvement and Evaluation System (iQIES) environment and will be updated quarterly along with the other two POS files.\n\n\u00a0\n\nThe Provider of Services File - Hospital & Non-Hospital Facilities data\u00a0provide critical resources for other federal regulator requirements as well as supports the ongoing quality & research efforts sponsored by CMS. In this file you will find provider certification, termination, accreditation, ownership, name, location and other characteristics organized by CMS Certification Number.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/7744bb2f-5377-4bfe-9a6c-2ffd05f53038/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1809": {
+      "get": {
+        "summary": "Provider of Services File - Hospital & Non-Hospital Facilities : 2021-03-31",
+        "description": "Please be advised that as of Q4 2023 there is a new Provider of Service file (POS) that contains the provider and certification details for Home Health Agencies (HHAs), Hospices, and Ambulatory Surgical Centers (ASCs). Data contained in this file are extracted from the Internet Quality Improvement and Evaluation System (iQIES) environment and will be updated quarterly along with the other two POS files.\n\n\u00a0\n\nThe Provider of Services File - Hospital & Non-Hospital Facilities data\u00a0provide critical resources for other federal regulator requirements as well as supports the ongoing quality & research efforts sponsored by CMS. In this file you will find provider certification, termination, accreditation, ownership, name, location and other characteristics organized by CMS Certification Number.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/50edc478-87ab-4741-ac65-b8f8720afa04/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1810": {
+      "get": {
+        "summary": "Provider of Services File - Hospital & Non-Hospital Facilities : 2020-12-30",
+        "description": "Please be advised that as of Q4 2023 there is a new Provider of Service file (POS) that contains the provider and certification details for Home Health Agencies (HHAs), Hospices, and Ambulatory Surgical Centers (ASCs). Data contained in this file are extracted from the Internet Quality Improvement and Evaluation System (iQIES) environment and will be updated quarterly along with the other two POS files.\n\n\u00a0\n\nThe Provider of Services File - Hospital & Non-Hospital Facilities data\u00a0provide critical resources for other federal regulator requirements as well as supports the ongoing quality & research efforts sponsored by CMS. In this file you will find provider certification, termination, accreditation, ownership, name, location and other characteristics organized by CMS Certification Number.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/8a22778e-880b-484a-89fa-d24e1f2ab95e/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1811": {
+      "get": {
+        "summary": "Provider of Services File - Hospital & Non-Hospital Facilities : 2020-09-30",
+        "description": "Please be advised that as of Q4 2023 there is a new Provider of Service file (POS) that contains the provider and certification details for Home Health Agencies (HHAs), Hospices, and Ambulatory Surgical Centers (ASCs). Data contained in this file are extracted from the Internet Quality Improvement and Evaluation System (iQIES) environment and will be updated quarterly along with the other two POS files.\n\n\u00a0\n\nThe Provider of Services File - Hospital & Non-Hospital Facilities data\u00a0provide critical resources for other federal regulator requirements as well as supports the ongoing quality & research efforts sponsored by CMS. In this file you will find provider certification, termination, accreditation, ownership, name, location and other characteristics organized by CMS Certification Number.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/a68c674f-1edf-48e4-8aa0-94804b2766c2/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1812": {
+      "get": {
+        "summary": "Provider of Services File - Hospital & Non-Hospital Facilities : 2020-06-30",
+        "description": "Please be advised that as of Q4 2023 there is a new Provider of Service file (POS) that contains the provider and certification details for Home Health Agencies (HHAs), Hospices, and Ambulatory Surgical Centers (ASCs). Data contained in this file are extracted from the Internet Quality Improvement and Evaluation System (iQIES) environment and will be updated quarterly along with the other two POS files.\n\n\u00a0\n\nThe Provider of Services File - Hospital & Non-Hospital Facilities data\u00a0provide critical resources for other federal regulator requirements as well as supports the ongoing quality & research efforts sponsored by CMS. In this file you will find provider certification, termination, accreditation, ownership, name, location and other characteristics organized by CMS Certification Number.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/2b838529-336f-4204-99d0-49372db0b6b3/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1813": {
+      "get": {
+        "summary": "Provider of Services File - Hospital & Non-Hospital Facilities : 2020-03-31",
+        "description": "Please be advised that as of Q4 2023 there is a new Provider of Service file (POS) that contains the provider and certification details for Home Health Agencies (HHAs), Hospices, and Ambulatory Surgical Centers (ASCs). Data contained in this file are extracted from the Internet Quality Improvement and Evaluation System (iQIES) environment and will be updated quarterly along with the other two POS files.\n\n\u00a0\n\nThe Provider of Services File - Hospital & Non-Hospital Facilities data\u00a0provide critical resources for other federal regulator requirements as well as supports the ongoing quality & research efforts sponsored by CMS. In this file you will find provider certification, termination, accreditation, ownership, name, location and other characteristics organized by CMS Certification Number.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/8f6da2b1-f719-40c2-8f73-2b7ecb7fb42a/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1814": {
+      "get": {
+        "summary": "Provider of Services File - Hospital & Non-Hospital Facilities : 2019-12-31",
+        "description": "Please be advised that as of Q4 2023 there is a new Provider of Service file (POS) that contains the provider and certification details for Home Health Agencies (HHAs), Hospices, and Ambulatory Surgical Centers (ASCs). Data contained in this file are extracted from the Internet Quality Improvement and Evaluation System (iQIES) environment and will be updated quarterly along with the other two POS files.\n\n\u00a0\n\nThe Provider of Services File - Hospital & Non-Hospital Facilities data\u00a0provide critical resources for other federal regulator requirements as well as supports the ongoing quality & research efforts sponsored by CMS. In this file you will find provider certification, termination, accreditation, ownership, name, location and other characteristics organized by CMS Certification Number.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/03cca0cc-13a0-4b8d-82c4-57185b6bbfbd/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1815": {
+      "get": {
+        "summary": "Provider of Services File - Hospital & Non-Hospital Facilities : 2019-09-30",
+        "description": "Please be advised that as of Q4 2023 there is a new Provider of Service file (POS) that contains the provider and certification details for Home Health Agencies (HHAs), Hospices, and Ambulatory Surgical Centers (ASCs). Data contained in this file are extracted from the Internet Quality Improvement and Evaluation System (iQIES) environment and will be updated quarterly along with the other two POS files.\n\n\u00a0\n\nThe Provider of Services File - Hospital & Non-Hospital Facilities data\u00a0provide critical resources for other federal regulator requirements as well as supports the ongoing quality & research efforts sponsored by CMS. In this file you will find provider certification, termination, accreditation, ownership, name, location and other characteristics organized by CMS Certification Number.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/4dac6d25-b481-4227-9c20-5fea5844d56e/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1816": {
+      "get": {
+        "summary": "Provider of Services File - Hospital & Non-Hospital Facilities : 2019-06-30",
+        "description": "Please be advised that as of Q4 2023 there is a new Provider of Service file (POS) that contains the provider and certification details for Home Health Agencies (HHAs), Hospices, and Ambulatory Surgical Centers (ASCs). Data contained in this file are extracted from the Internet Quality Improvement and Evaluation System (iQIES) environment and will be updated quarterly along with the other two POS files.\n\n\u00a0\n\nThe Provider of Services File - Hospital & Non-Hospital Facilities data\u00a0provide critical resources for other federal regulator requirements as well as supports the ongoing quality & research efforts sponsored by CMS. In this file you will find provider certification, termination, accreditation, ownership, name, location and other characteristics organized by CMS Certification Number.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/ed516084-cabf-4acf-98c0-8cac98c606c0/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1817": {
+      "get": {
+        "summary": "Provider of Services File - Hospital & Non-Hospital Facilities : 2019-03-31",
+        "description": "Please be advised that as of Q4 2023 there is a new Provider of Service file (POS) that contains the provider and certification details for Home Health Agencies (HHAs), Hospices, and Ambulatory Surgical Centers (ASCs). Data contained in this file are extracted from the Internet Quality Improvement and Evaluation System (iQIES) environment and will be updated quarterly along with the other two POS files.\n\n\u00a0\n\nThe Provider of Services File - Hospital & Non-Hospital Facilities data\u00a0provide critical resources for other federal regulator requirements as well as supports the ongoing quality & research efforts sponsored by CMS. In this file you will find provider certification, termination, accreditation, ownership, name, location and other characteristics organized by CMS Certification Number.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/41fe7455-62c9-4af6-b97d-9641b42be80b/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1818": {
+      "get": {
+        "summary": "Provider of Services File - Hospital & Non-Hospital Facilities : 2018-12-31",
+        "description": "Please be advised that as of Q4 2023 there is a new Provider of Service file (POS) that contains the provider and certification details for Home Health Agencies (HHAs), Hospices, and Ambulatory Surgical Centers (ASCs). Data contained in this file are extracted from the Internet Quality Improvement and Evaluation System (iQIES) environment and will be updated quarterly along with the other two POS files.\n\n\u00a0\n\nThe Provider of Services File - Hospital & Non-Hospital Facilities data\u00a0provide critical resources for other federal regulator requirements as well as supports the ongoing quality & research efforts sponsored by CMS. In this file you will find provider certification, termination, accreditation, ownership, name, location and other characteristics organized by CMS Certification Number.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/4ff7fcfb-2a40-4f76-875d-a4ac2aec268e/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1819": {
+      "get": {
+        "summary": "Provider of Services File - Hospital & Non-Hospital Facilities : 2017-12-31",
+        "description": "Please be advised that as of Q4 2023 there is a new Provider of Service file (POS) that contains the provider and certification details for Home Health Agencies (HHAs), Hospices, and Ambulatory Surgical Centers (ASCs). Data contained in this file are extracted from the Internet Quality Improvement and Evaluation System (iQIES) environment and will be updated quarterly along with the other two POS files.\n\n\u00a0\n\nThe Provider of Services File - Hospital & Non-Hospital Facilities data\u00a0provide critical resources for other federal regulator requirements as well as supports the ongoing quality & research efforts sponsored by CMS. In this file you will find provider certification, termination, accreditation, ownership, name, location and other characteristics organized by CMS Certification Number.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/d338dc0d-641c-486a-b586-88a662f36963/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1820": {
+      "get": {
+        "summary": "Provider of Services File - Hospital & Non-Hospital Facilities : 2016-12-31",
+        "description": "Please be advised that as of Q4 2023 there is a new Provider of Service file (POS) that contains the provider and certification details for Home Health Agencies (HHAs), Hospices, and Ambulatory Surgical Centers (ASCs). Data contained in this file are extracted from the Internet Quality Improvement and Evaluation System (iQIES) environment and will be updated quarterly along with the other two POS files.\n\n\u00a0\n\nThe Provider of Services File - Hospital & Non-Hospital Facilities data\u00a0provide critical resources for other federal regulator requirements as well as supports the ongoing quality & research efforts sponsored by CMS. In this file you will find provider certification, termination, accreditation, ownership, name, location and other characteristics organized by CMS Certification Number.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/96ba2257-2080-49c1-9e5b-7726f9f83cad/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1821": {
+      "get": {
+        "summary": "Provider of Services File - Hospital & Non-Hospital Facilities : 2015-12-31",
+        "description": "Please be advised that as of Q4 2023 there is a new Provider of Service file (POS) that contains the provider and certification details for Home Health Agencies (HHAs), Hospices, and Ambulatory Surgical Centers (ASCs). Data contained in this file are extracted from the Internet Quality Improvement and Evaluation System (iQIES) environment and will be updated quarterly along with the other two POS files.\n\n\u00a0\n\nThe Provider of Services File - Hospital & Non-Hospital Facilities data\u00a0provide critical resources for other federal regulator requirements as well as supports the ongoing quality & research efforts sponsored by CMS. In this file you will find provider certification, termination, accreditation, ownership, name, location and other characteristics organized by CMS Certification Number.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/8ccf4b97-58df-4a17-ba8b-4cc558eda6ef/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1822": {
+      "get": {
+        "summary": "Provider of Services File - Hospital & Non-Hospital Facilities : 2014-12-31",
+        "description": "Please be advised that as of Q4 2023 there is a new Provider of Service file (POS) that contains the provider and certification details for Home Health Agencies (HHAs), Hospices, and Ambulatory Surgical Centers (ASCs). Data contained in this file are extracted from the Internet Quality Improvement and Evaluation System (iQIES) environment and will be updated quarterly along with the other two POS files.\n\n\u00a0\n\nThe Provider of Services File - Hospital & Non-Hospital Facilities data\u00a0provide critical resources for other federal regulator requirements as well as supports the ongoing quality & research efforts sponsored by CMS. In this file you will find provider certification, termination, accreditation, ownership, name, location and other characteristics organized by CMS Certification Number.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/a091d8eb-ebed-4cfc-acad-bcd58a46a28a/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1823": {
+      "get": {
+        "summary": "Provider of Services File - Hospital & Non-Hospital Facilities : 2013-12-31",
+        "description": "Please be advised that as of Q4 2023 there is a new Provider of Service file (POS) that contains the provider and certification details for Home Health Agencies (HHAs), Hospices, and Ambulatory Surgical Centers (ASCs). Data contained in this file are extracted from the Internet Quality Improvement and Evaluation System (iQIES) environment and will be updated quarterly along with the other two POS files.\n\n\u00a0\n\nThe Provider of Services File - Hospital & Non-Hospital Facilities data\u00a0provide critical resources for other federal regulator requirements as well as supports the ongoing quality & research efforts sponsored by CMS. In this file you will find provider certification, termination, accreditation, ownership, name, location and other characteristics organized by CMS Certification Number.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/2bb03207-515d-48c3-96f9-edc377b21c76/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1824": {
+      "get": {
+        "summary": "Provider of Services File - Hospital & Non-Hospital Facilities : 2012-12-31",
+        "description": "Please be advised that as of Q4 2023 there is a new Provider of Service file (POS) that contains the provider and certification details for Home Health Agencies (HHAs), Hospices, and Ambulatory Surgical Centers (ASCs). Data contained in this file are extracted from the Internet Quality Improvement and Evaluation System (iQIES) environment and will be updated quarterly along with the other two POS files.\n\n\u00a0\n\nThe Provider of Services File - Hospital & Non-Hospital Facilities data\u00a0provide critical resources for other federal regulator requirements as well as supports the ongoing quality & research efforts sponsored by CMS. In this file you will find provider certification, termination, accreditation, ownership, name, location and other characteristics organized by CMS Certification Number.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/38b5dd08-4077-4adf-ba10-7af7c4eaab7c/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1825": {
+      "get": {
+        "summary": "Provider of Services File - Hospital & Non-Hospital Facilities : 2011-12-31",
+        "description": "Please be advised that as of Q4 2023 there is a new Provider of Service file (POS) that contains the provider and certification details for Home Health Agencies (HHAs), Hospices, and Ambulatory Surgical Centers (ASCs). Data contained in this file are extracted from the Internet Quality Improvement and Evaluation System (iQIES) environment and will be updated quarterly along with the other two POS files.\n\n\u00a0\n\nThe Provider of Services File - Hospital & Non-Hospital Facilities data\u00a0provide critical resources for other federal regulator requirements as well as supports the ongoing quality & research efforts sponsored by CMS. In this file you will find provider certification, termination, accreditation, ownership, name, location and other characteristics organized by CMS Certification Number.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/6a1c6074-4ecf-4a6d-bef7-2314b07573ab/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1826": {
+      "get": {
+        "summary": "Hospital Provider Cost Report : 2022-12-01",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/44060663-47d8-4ced-a115-b53b4c270acb/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1827": {
+      "get": {
+        "summary": "Hospital Provider Cost Report : 2022-12-01",
+        "description": "The Hospital Provider Cost Report\u00a0dataset provides select measures from the hospital annual cost report. This data\u00a0includes provider information such as facility characteristics, utilization data, cost and charges by cost center (in total and for Medicare), Medicare settlement data, and financial statement data organized by CMS Certification Number.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/8015f175-35cc-4cab-a664-b7c87d91a027/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1828": {
+      "get": {
+        "summary": "Hospital Provider Cost Report : 2021-12-02",
+        "description": "The Hospital Provider Cost Report\u00a0dataset provides select measures from the hospital annual cost report. This data\u00a0includes provider information such as facility characteristics, utilization data, cost and charges by cost center (in total and for Medicare), Medicare settlement data, and financial statement data organized by CMS Certification Number.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/16b3c471-e983-47fb-8593-56759131b098/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1829": {
+      "get": {
+        "summary": "Hospital Provider Cost Report : 2020-12-02",
+        "description": "The Hospital Provider Cost Report\u00a0dataset provides select measures from the hospital annual cost report. This data\u00a0includes provider information such as facility characteristics, utilization data, cost and charges by cost center (in total and for Medicare), Medicare settlement data, and financial statement data organized by CMS Certification Number.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/485570bb-b706-44ab-8ded-27800b8264ea/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1830": {
+      "get": {
+        "summary": "Hospital Provider Cost Report : 2019-12-02",
+        "description": "The Hospital Provider Cost Report\u00a0dataset provides select measures from the hospital annual cost report. This data\u00a0includes provider information such as facility characteristics, utilization data, cost and charges by cost center (in total and for Medicare), Medicare settlement data, and financial statement data organized by CMS Certification Number.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/1f467342-5894-40fb-b02e-186d78196c2c/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1831": {
+      "get": {
+        "summary": "Hospital Provider Cost Report : 2018-12-02",
+        "description": "The Hospital Provider Cost Report\u00a0dataset provides select measures from the hospital annual cost report. This data\u00a0includes provider information such as facility characteristics, utilization data, cost and charges by cost center (in total and for Medicare), Medicare settlement data, and financial statement data organized by CMS Certification Number.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/8726fe1f-0857-41d8-a63c-ccc69edd3f63/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1832": {
+      "get": {
+        "summary": "Hospital Provider Cost Report : 2017-12-02",
+        "description": "The Hospital Provider Cost Report\u00a0dataset provides select measures from the hospital annual cost report. This data\u00a0includes provider information such as facility characteristics, utilization data, cost and charges by cost center (in total and for Medicare), Medicare settlement data, and financial statement data organized by CMS Certification Number.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/9560fa2c-96b5-4da1-a9ec-b2752251edef/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1833": {
+      "get": {
+        "summary": "Hospital Provider Cost Report : 2016-12-02",
+        "description": "The Hospital Provider Cost Report\u00a0dataset provides select measures from the hospital annual cost report. This data\u00a0includes provider information such as facility characteristics, utilization data, cost and charges by cost center (in total and for Medicare), Medicare settlement data, and financial statement data organized by CMS Certification Number.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/d67ea70e-ab34-4d51-afac-429d8dfd6b03/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1834": {
+      "get": {
+        "summary": "Hospital Provider Cost Report : 2015-12-02",
+        "description": "The Hospital Provider Cost Report\u00a0dataset provides select measures from the hospital annual cost report. This data\u00a0includes provider information such as facility characteristics, utilization data, cost and charges by cost center (in total and for Medicare), Medicare settlement data, and financial statement data organized by CMS Certification Number.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/3ea92c2a-8672-4b7d-a83f-4746591b6435/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1835": {
+      "get": {
+        "summary": "Hospital Provider Cost Report : 2014-12-02",
+        "description": "The Hospital Provider Cost Report\u00a0dataset provides select measures from the hospital annual cost report. This data\u00a0includes provider information such as facility characteristics, utilization data, cost and charges by cost center (in total and for Medicare), Medicare settlement data, and financial statement data organized by CMS Certification Number.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/09ecb1c2-6dc6-4084-8db0-4c7924f7937d/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1836": {
+      "get": {
+        "summary": "Hospital Provider Cost Report : 2013-12-02",
+        "description": "The Hospital Provider Cost Report\u00a0dataset provides select measures from the hospital annual cost report. This data\u00a0includes provider information such as facility characteristics, utilization data, cost and charges by cost center (in total and for Medicare), Medicare settlement data, and financial statement data organized by CMS Certification Number.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/8552797f-39e8-4fcd-b613-5a8eff6254bf/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1837": {
+      "get": {
+        "summary": "Hospital Provider Cost Report : 2012-12-02",
+        "description": "The Hospital Provider Cost Report\u00a0dataset provides select measures from the hospital annual cost report. This data\u00a0includes provider information such as facility characteristics, utilization data, cost and charges by cost center (in total and for Medicare), Medicare settlement data, and financial statement data organized by CMS Certification Number.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/fce0b8f6-88f6-4628-a871-1b367ff6960b/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1838": {
+      "get": {
+        "summary": "Hospital Provider Cost Report : 2011-12-02",
+        "description": "The Hospital Provider Cost Report\u00a0dataset provides select measures from the hospital annual cost report. This data\u00a0includes provider information such as facility characteristics, utilization data, cost and charges by cost center (in total and for Medicare), Medicare settlement data, and financial statement data organized by CMS Certification Number.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/9bda9754-66ae-4e24-bac6-ad5ccffa4bec/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1839": {
+      "get": {
+        "summary": "Medicare Monthly Enrollment : 2024-12-01",
+        "description": "latest\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/d7fabe1e-d19b-4333-9eff-e80e0643f2fd/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/proxy/endpoint1840": {
+      "get": {
+        "summary": "Medicare Monthly Enrollment : 2024-12-01",
+        "description": "The Medicare Monthly Enrollment data\u00a0provides current monthly information on the number of Medicare beneficiaries with hospital/medical coverage and prescription drug coverage, available for several geographic areas including national, state/territory, and county. The hospital/medical coverage data can be broken down further by health care delivery (Original Medicare versus Medicare Advantage and Other Health Plans) and the prescription drug coverage data can be examined by those enrolled in stand-alone Prescription Drug Plans and those enrolled in Medicare Advantage Prescription Drug plans. The dataset provides monthly and yearly enrollee trends.\n\nRaw Source: https://data.cms.gov/data-api/v1/dataset/925496a7-0f77-426f-82b8-cdc5fc311b4d/data",
+        "parameters": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
